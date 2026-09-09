@@ -196,31 +196,38 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 Se diseñaron dos guías de entrevista, una por cada segmento objetivo identificado: (1) Gerentes de operaciones/propietarios de cadenas de cine pequeñas y medianas, y (2) Personal operativo/técnico de las salas de cine. Ambas guías buscan recolectar información demográfica y de arquetipo (género, edad, distrito de residencia, estado civil, familia, ocupación), así como características adicionales (personalidad, habilidades, marcas e influencias, dispositivos de preferencia, canales digitales de interacción, objetivos, frustraciones y background), necesarias para la posterior construcción de los User Persona.
 
+Se diseñaron dos guías de entrevista, una por cada segmento objetivo identificado: (1) Gerentes de operaciones/propietarios de cadenas de cine pequeñas y medianas, y (2) Personal operativo/técnico de las salas de cine. Ambas guías buscan recolectar información demográfica y de arquetipo (género, edad, distrito de residencia, estado civil, familia, ocupación), así como características adicionales (personalidad, habilidades, marcas e influencias, dispositivos de preferencia, canales digitales de interacción, objetivos, frustraciones y background), necesarias para la posterior construcción de los User Persona.
+
+### Guía de entrevista — Segmento: Gerentes/Propietarios de cadenas de cine pequeñas y medianas
+
+**Objetivo de la entrevista:** comprender los retos, procesos de decisión de inversión y percepción de la competencia frente a la posibilidad de ofrecer experiencias de entretenimiento inmersivo en sus salas.
+
+**Preguntas de perfil/introducción**
+1. ¿Cuál es su nombre, cargo y hace cuánto tiempo trabaja en la cadena de cine?
+2. ¿Cuántas salas/complejos administra actualmente la cadena?
+3. ¿En qué distrito o ciudad se ubica la sede principal de la cadena?
+
+**Preguntas principales**
+4. ¿Qué opina sobre las experiencias de cine inmersivo (butacas con movimiento, efectos sincronizados) que ofrecen las grandes cadenas?
+5. ¿Ha considerado alguna vez incorporar este tipo de tecnología en sus salas? ¿Qué lo detuvo o qué lo motivaría a hacerlo?
+6. ¿Cómo describiría el proceso actual mediante el cual su cadena decide invertir en nueva tecnología o equipamiento?
+7. ¿Cuáles son sus principales preocupaciones frente a adoptar una tecnología de este tipo (costo, mantenimiento, personal técnico, otro)?
+8. ¿Qué tan importante considera diferenciarse de las cadenas más grandes en términos de experiencia de usuario?
+9. ¿Qué canales digitales utiliza habitualmente para informarse sobre nuevos proveedores o tecnología para su negocio (redes sociales, ferias del sector, referidos, buscadores web)?
+10. ¿Qué dispositivos utiliza principalmente para gestionar temas del negocio (laptop, smartphone, tablet)?
+
+**Preguntas complementarias / de profundización**
+11. Si tuviera que priorizar entre bajo costo de inversión, facilidad de mantenimiento y facilidad de uso del software de gestión, ¿cuál sería más importante para usted y por qué?
+12. ¿Qué objetivos de negocio le gustaría lograr en los próximos 12 meses en relación con la experiencia que ofrece a sus clientes?
+13. ¿Qué le frustra actualmente de trabajar con proveedores de tecnología o equipamiento para sus salas?
+
+**Cierre**
+14. ¿Hay algo adicional que considere relevante y que no le hayamos preguntado?
+
+
 #### 2.2.2 Registro de entrevistas
 
 > _Bloqueado — depende de realizar las entrevistas reales a ambos segmentos objetivo._
-
-Guía de entrevista — Segmento: Gerentes/Propietarios de cadenas de cine pequeñas y medianas
-Objetivo de la entrevista: comprender los retos, procesos de decisión de inversión y percepción de la competencia frente a la posibilidad de ofrecer experiencias de entretenimiento inmersivo en sus salas.
-Preguntas de perfil/introducción
-¿Cuál es su nombre, cargo y hace cuánto tiempo trabaja en la cadena de cine?
-¿Cuántas salas/complejos administra actualmente la cadena?
-¿En qué distrito o ciudad se ubica la sede principal de la cadena?
-Preguntas principales
-¿Qué opina sobre las experiencias de cine inmersivo (butacas con movimiento, efectos sincronizados) que ofrecen las grandes cadenas?
-¿Ha considerado alguna vez incorporar este tipo de tecnología en sus salas? ¿Qué lo detuvo o qué lo motivaría a hacerlo?
-¿Cómo describiría el proceso actual mediante el cual su cadena decide invertir en nueva tecnología o equipamiento?
-¿Cuáles son sus principales preocupaciones frente a adoptar una tecnología de este tipo (costo, mantenimiento, personal técnico, otro)?
-¿Qué tan importante considera diferenciarse de las cadenas más grandes en términos de experiencia de usuario?
-¿Qué canales digitales utiliza habitualmente para informarse sobre nuevos proveedores o tecnología para su negocio (redes sociales, ferias del sector, referidos, buscadores web)?
-¿Qué dispositivos utiliza principalmente para gestionar temas del negocio (laptop, smartphone, tablet)?
-Preguntas complementarias / de profundización
-Si tuviera que priorizar entre bajo costo de inversión, facilidad de mantenimiento y facilidad de uso del software de gestión, ¿cuál sería más importante para usted y por qué?
-¿Qué objetivos de negocio le gustaría lograr en los próximos 12 meses en relación con la experiencia que ofrece a sus clientes?
-¿Qué le frustra actualmente de trabajar con proveedores de tecnología o equipamiento para sus salas?
-Cierre
-¿Hay algo adicional que considere relevante y que no le hayamos preguntado?
-
 
 #### 2.2.3 Análisis de entrevistas
 
