@@ -453,7 +453,11 @@ El mercado de exhibición cinematográfica en Perú está altamente concentrado:
 
 ## Bibliografía
 
-> _Pendiente — agregar referencias en formato APA conforme se citen fuentes en cada sección._
+- López, A. (2018, 6 de noviembre). *¿Cuáles son los cines con mayor participación en el país?* Mercado Negro. https://www.mercadonegro.pe/marketing/cuales-son-los-cines-con-mayor-participacion-en-el-pais/
+
+- UVK Multicines. (s. f.). Nuestros cines. Recuperado el 8 de septiembre de 2026, de https://uvk.pe/cines
+
+- Wikipedia contributors. (s. f.). UVK Multicines. En Wikipedia, la enciclopedia libre. Recuperado el 8 de septiembre de 2026, de https://es.wikipedia.org/wiki/UVK_Multicines
 
 ## Anexos
 
