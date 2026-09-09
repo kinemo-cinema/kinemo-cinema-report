@@ -176,7 +176,37 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.3 Segmentos objetivo
 
-> _Pendiente — completar en `feature/target-segments`._
+
+El mercado de exhibición cinematográfica en Perú está altamente concentrado: dos cadenas líderes —Cineplanet y Cinemark— capturan en conjunto más de dos tercios de la cuota de mercado, mientras que un grupo de cadenas más pequeñas (UVK Multicines, Cinerama, Cine Star, Movie Time, entre otras) se reparten el resto. Kinemo se enfoca en este segundo grupo, que compite en un mercado dominado por actores de mayor escala sin contar con presupuesto propio para adoptar tecnología inmersiva por su cuenta.
+
+**Segmento 1: Gerentes de Operaciones / Propietarios de cadenas de cine pequeñas y medianas**
+
+**Perfil firmográfico**
+- Cadenas peruanas independientes o familiares con entre 1 y 10 complejos a nivel nacional (ejemplo de referencia: UVK Multicines, con 5 complejos a nivel nacional).
+- Cuota de mercado individual minoritaria frente a los líderes del sector, generalmente concentradas en Lima con posible presencia en provincias.
+- Sin tecnología de entretenimiento inmersivo instalada actualmente en ninguno de sus complejos.
+
+**Perfil demográfico del tomador de decisión**
+- Edad aproximada: 35–55 años.
+- Rol: Gerente General, Gerente de Operaciones o Propietario/Socio de la cadena.
+- Nivel educativo: superior universitario, frecuentemente con formación en administración o gestión de negocios.
+- Ubicación: principalmente Lima Metropolitana, con posibilidad de gerencias regionales en otras ciudades.
+
+> Las motivaciones y frustraciones de este segmento se plantean como Assumptions en la sección 1.2.2.2 y se validarán con datos reales al construir el User Persona correspondiente en la sección 2.3.1, una vez realizadas las entrevistas.
+
+**Segmento 2: Personal Operativo / Técnico de las salas de cine**
+
+**Perfil demográfico**
+- Edad aproximada: 20–40 años.
+- Rol: Jefe de sala, coordinador de operaciones, técnico de mantenimiento o proyeccionista.
+- Nivel educativo: variable, desde educación técnica hasta universitaria; no necesariamente con formación en tecnología.
+- Ubicación: en el mismo complejo de cine donde trabaja, dentro del área de influencia de la cadena.
+
+
+
+**Segmento 2: Personal Operativo / Técnico de las salas de cine**
+
+
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
