@@ -224,6 +224,32 @@ Se diseñaron dos guías de entrevista, una por cada segmento objetivo identific
 **Cierre**
 14. ¿Hay algo adicional que considere relevante y que no le hayamos preguntado?
 
+### Guía de entrevista — Segmento: Personal operativo/técnico de las salas de cine
+
+**Objetivo de la entrevista:** comprender las tareas diarias de programación de funciones y mantenimiento de sala, así como el nivel de conocimiento técnico disponible para operar tecnología de entretenimiento inmersivo.
+
+**Preguntas de perfil/introducción**
+1. ¿Cuál es su nombre, cargo y hace cuánto tiempo desempeña este rol?
+2. ¿Qué edad tiene y en qué distrito reside?
+3. ¿Cuál es su formación o experiencia técnica previa (si la tiene)?
+
+**Preguntas principales**
+4. Describa un día típico de trabajo en la sala de cine: ¿qué tareas realiza para programar una función?
+5. ¿Qué herramientas o sistemas utiliza actualmente para programar funciones y gestionar la sala?
+6. ¿Cómo maneja actualmente el mantenimiento del equipamiento de las salas (butacas, proyección, sonido)? ¿Qué proceso sigue cuando algo falla?
+7. ¿Qué tan cómodo/a se siente aprendiendo a usar nuevo software o tecnología en su trabajo?
+8. ¿Qué dispositivos utiliza en su jornada laboral (computadora de escritorio, laptop, smartphone)?
+9. ¿A través de qué canales se comunica con sus supervisores o con otros proveedores para reportar incidencias (correo, llamada, aplicación de mensajería, sistema de tickets)?
+
+**Preguntas complementarias / de profundización**
+10. ¿Cuáles son las tareas que más tiempo le consumen en su día a día?
+11. ¿Qué le frustra más de los sistemas o procesos que usa actualmente para su trabajo?
+12. Si pudiera automatizar o simplificar una sola tarea de su trabajo diario, ¿cuál sería y por qué?
+13. ¿Qué objetivo profesional o personal tiene en relación con su desarrollo dentro de la cadena de cine?
+
+**Cierre**
+14. ¿Hay algo adicional que considere relevante y que no le hayamos preguntado?
+
 
 #### 2.2.2 Registro de entrevistas
 
