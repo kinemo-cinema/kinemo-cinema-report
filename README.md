@@ -18,12 +18,13 @@
 
 **Integrantes**
 
-| Código     | Apellidos y Nombres        |
-|------------|----------------------------|
-| u202319398 | Llamozas Diaz, Edson Diego |
-| `[Código]` | `[Apellidos, Nombres]`     |
-| `[Código]` | `[Apellidos, Nombres]`     |
-| `[Código]` | `[Apellidos, Nombres]`     |
+| Código      | Apellidos y Nombres                  |
+|-------------|--------------------------------------|
+| u202319398  | Llamozas Diaz, Edson Diego           |
+| u202212327  | Flores Chavez, Fabricio              |
+| u20241b932  | Huamanchumo Chicchon, Felipe Marcelo |
+| u202318865  | Trigoso Garrido, Cristian Joseph     |
+| u202412041  | Correa Rodriguez, Andrea Khristina   |
 
 ## Registro de Versiones del Informe
 
@@ -144,7 +145,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 #### 1.1.1 Descripción de la Startup
 
-> _Pendiente — completar en `feature/startup-profile`._
+Kinemo es una startup de tecnología para entretenimiento cinematográfico que provee a cadenas de cine pequeñas y medianas una solución integral de experiencias inmersivas: butacas con movimiento y efectos físicos sincronizados (viento, vibración, entre otros), servicio de mantenimiento especializado y un software propio de gestión operativa.
+
+Kinemo nace para cerrar la brecha entre las grandes cadenas de cine —que ya cuentan con tecnología inmersiva propietaria como 4DX o D-BOX— y las cadenas pequeñas y medianas, que hoy no pueden competir en experiencia de usuario debido al alto costo de inversión y a la falta de conocimiento técnico especializado para operar y mantener este tipo de tecnología por cuenta propia.
+
+Tagline: "Cine que se siente."
+
+Misión: Democratizar el acceso a experiencias cinematográficas inmersivas, permitiendo que cadenas de cine de cualquier tamaño ofrezcan a sus espectadores sensaciones físicas sincronizadas con el contenido, a través de una solución accesible de hardware, mantenimiento y software de gestión.
 
 #### 1.1.2 Perfiles de integrantes del equipo
 
