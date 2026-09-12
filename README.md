@@ -24,6 +24,7 @@
 | u202212327  | Flores Chavez, Fabricio              |
 | u20241b932  | Huamanchumo Chicchon, Felipe Marcelo |
 | u202318865  | Trigoso Garrido, Cristian Joseph     |
+| u202412041  | Correa Rodriguez, Andrea Khristina   |
 
 ## Registro de Versiones del Informe
 
