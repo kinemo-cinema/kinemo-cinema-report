@@ -18,12 +18,12 @@
 
 **Integrantes**
 
-| Código      | Apellidos y Nombres       |
-|-------------|---------------------------|
-| u202319398  | Llamozas Diaz, Edson Diego |
-| u202212327  | Flores Chavez, Fabricio   |
-| u20241b932  | Huamanchumo Chicchon, Felipe Marcelo    |
-| u202318865  | Trigoso Garrido, Cristian Joseph    |
+| Código      | Apellidos y Nombres                  |
+|-------------|--------------------------------------|
+| u202319398  | Llamozas Diaz, Edson Diego           |
+| u202212327  | Flores Chavez, Fabricio              |
+| u20241b932  | Huamanchumo Chicchon, Felipe Marcelo |
+| u202318865  | Trigoso Garrido, Cristian Joseph     |
 
 ## Registro de Versiones del Informe
 
