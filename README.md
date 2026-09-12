@@ -123,8 +123,6 @@ Repositorio del Project Report: `https://github.com/kinemo-cinema/kinemo-cinema-
 - [Anexos](#anexos)
     - [Anexo A. Videos de Exposiciones](#anexo-a-videos-de-exposiciones)
 
-> Nota: estos enlaces se generaron manualmente siguiendo la convención de anchors de GitHub. Verifícalos una vez renderizado el archivo (clic en el ícono de enlace de cada título) y corrígelos si alguno no coincide, tal como pide el enunciado antes de cada entrega.
-
 ## Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
