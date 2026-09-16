@@ -387,7 +387,7 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 2.2.3 Análisis de entrevistas
 
-> _Bloqueado — depende de 2.2.2._
+El entrevistado muestra interés en implementar experiencias de cine inmersivo para diferenciar sus salas y aumentar el valor de las entradas, pero considera que el principal obstáculo es el alto costo de inversión. Además, destaca que el mantenimiento, la confiabilidad y el soporte técnico local son aspectos fundamentales para evitar interrupciones en las funciones. Para informarse utiliza principalmente Google, YouTube, Facebook, Instagram y WhatsApp, y emplea la laptop para tareas administrativas y el celular para monitorear operaciones y atender situaciones urgentes. En general, busca una solución accesible, fácil de mantener y con soporte técnico rápido.
 
 ### 2.3 Needfinding
 
