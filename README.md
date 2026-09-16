@@ -401,7 +401,19 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 2.3.3 User Journey Mapping
 
-> _Pendiente — completar en `feature/journey-maps`._
+**Segmento objetivo #1: Gerentes/Propietarios de cadenas de cine pequeñas y medianas**  
+Este user persona presenta el recorrido actual de Pepe Castillo. El mapa ilustra su experiencia completa desde que identifica la necesidad de modernizar sus salas para competir contra las grandes cadenas de cine, pasando por la búsqueda de opciones en el mercado y la evaluación de costos, hasta la toma de decisión y el seguimiento del impacto comercial en su negocio.
+
+<img src="assets/img/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
+
+**Segmento objetivo #2: Personal operativo/técnico de las salas de cine**  
+Este User Journey Map representa el recorrido actual de Carlos Torres. El mapa ilustra su experiencia completa desde que recibe la programación diaria de funciones y realiza la inspección de las salas, pasando por el intento de configurar y sincronizar equipos o atender incidencias mecánicas/técnicas a mano, hasta el reporte de fallas y el cierre de jornada.
+
+<img src="assets/img/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
+
+Link del User Journey Mapping - Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
+Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
+
 
 #### 2.3.4 Empathy Mapping
 
