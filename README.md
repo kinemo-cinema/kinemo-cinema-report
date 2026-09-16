@@ -391,21 +391,56 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 ### 2.3 Needfinding
 
+Al recopilar la información de los segmentos objetivo a través de las entrevistas, se procedió a sintetizar y analizar los hallazgos mediante la construcción de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
+
 #### 2.3.1 User Personas
 
-> _Pendiente — completar en `feature/user-personas`._
+**User Persona 1: Carlos Torres**  
+La imagen ilustra el perfil de Carlos Torres, enfocado en el mantenimiento técnico y la operación de las salas. Destaca sus metas de mantener el 100% de operatividad en horas de alta afluencia y sus frustraciones ligadas a la ausencia de un sistema centralizado para dar seguimiento a fallas mecánicas e interfaces complejas.
+
+<img src="assets/img/Carlos%20Torres.png" alt="Carlos Torres">
+
+**User Persona 2: Pepe Castillo**  
+La imagen sintetiza el perfil del tomador de decisiones comerciales. Refleja sus objetivos de diferenciar la oferta de sus cines e incrementar la venta de entradas premium, equilibrado con su temor a realizar inversiones en tecnología propietaria costosa sin soporte local asegurado.
+
+<img src="assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
+
+Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 
 #### 2.3.2 User Task Matrix
 
-> _Pendiente — completar en `feature/user-task-matrix`._
+La imagen presenta la matriz de tareas construida a partir de las necesidades de nuestros dos User Personas. En ella se relacionan las actividades principales diferenciando la frecuencia de ejecución y el nivel de importancia/prioridad para el Gerente de Operaciones y el Técnico de Mantenimiento.
+
+<img src="assets/img/User%20Task%20Matrix.png" alt="Task Matrix">
+
+Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
 
 #### 2.3.3 User Journey Mapping
 
-> _Pendiente — completar en `feature/journey-maps`._
+**Segmento objetivo #1: Gerentes/Propietarios de cadenas de cine pequeñas y medianas**  
+Este user persona presenta el recorrido actual de Pepe Castillo. El mapa ilustra su experiencia completa desde que identifica la necesidad de modernizar sus salas para competir contra las grandes cadenas de cine, pasando por la búsqueda de opciones en el mercado y la evaluación de costos, hasta la toma de decisión y el seguimiento del impacto comercial en su negocio.
+
+<img src="assets/img/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
+
+**Segmento objetivo #2: Personal operativo/técnico de las salas de cine**  
+Este User Journey Map representa el recorrido actual de Carlos Torres. El mapa ilustra su experiencia completa desde que recibe la programación diaria de funciones y realiza la inspección de las salas, pasando por el intento de configurar y sincronizar equipos o atender incidencias mecánicas/técnicas a mano, hasta el reporte de fallas y el cierre de jornada.
+
+<img src="assets/img/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
+
+Link del User Journey Mapping - Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
+Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
 
 #### 2.3.4 Empathy Mapping
 
-> _Pendiente — completar en `feature/empathy-maps`._
+**Pepe Castillo:**  
+La imagen resume los hallazgos sobre lo que piensa, siente, ve, escucha, dice y hace el Gerente de Operaciones. Refleja su preocupación por la pérdida de competitividad frente a grandes cadenas y su deseo de adoptar un modelo de software y tecnología accesible con ROI predecible.
+
+<img src="assets/img/Empathy%20map-Pepe%20Castillo.png" alt="Empathy Map - Pepe Castillo">
+
+**Carlos Torres:**  
+La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión por resolver fallas repentinas antes de las funciones y la oportunidad de contar con un sistema automatizado e intuitivo para reportes y calibración de equipos.
+
+<img src="assets/img/Empathy%20map-Carlos%20Torres.png" alt="Empathy Map - Carlos Torres">
 
 ### 2.4 Big Picture EventStorming
 
