@@ -405,7 +405,15 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 2.3.4 Empathy Mapping
 
-> _Pendiente — completar en `feature/empathy-maps`._
+**Pepe Castillo:**  
+La imagen resume los hallazgos sobre lo que piensa, siente, ve, escucha, dice y hace el Gerente de Operaciones. Refleja su preocupación por la pérdida de competitividad frente a grandes cadenas y su deseo de adoptar un modelo de software y tecnología accesible con ROI predecible.
+
+<img src="assets/img/Empathy%20map-Pepe%20Castillo.png" alt="Empathy Map - Pepe Castillo">
+
+**Carlos Torres:**  
+La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión por resolver fallas repentinas antes de las funciones y la oportunidad de contar con un sistema automatizado e intuitivo para reportes y calibración de equipos.
+
+<img src="assets/img/Empathy%20map-Carlos%20Torres.png" alt="Empathy Map - Carlos Torres">
 
 ### 2.4 Big Picture EventStorming
 
