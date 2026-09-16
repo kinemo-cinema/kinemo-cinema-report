@@ -397,7 +397,11 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 2.3.2 User Task Matrix
 
-> _Pendiente — completar en `feature/user-task-matrix`._
+La imagen presenta la matriz de tareas construida a partir de las necesidades de nuestros dos User Personas. En ella se relacionan las actividades principales diferenciando la frecuencia de ejecución y el nivel de importancia/prioridad para el Gerente de Operaciones y el Técnico de Mantenimiento.
+
+<img src="assets/img/User%20Task%20Matrix.png" alt="Task Matrix">
+
+Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
 
 #### 2.3.3 User Journey Mapping
 
