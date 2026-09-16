@@ -408,9 +408,32 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 > _Pendiente — completar en `feature/empathy-maps`._
 
 ### 2.4 Big Picture EventStorming
+### 2.4 Big Picture EventStorming
 
-> _Pendiente — completar en `feature/event-storming-big-picture`._
+El Big Picture EventStorming se realizó a través de una sesión colaborativa con el objetivo de explorar y comprender el dominio de negocio de Kinemo en su totalidad. Mediante esta técnica visual de alto nivel, logramos mapear los procesos clave, identificar los eventos más significativos del sistema y descubrir cómo interactúan los diferentes módulos operativos, desde la gestión de la cartelera 4D hasta el mantenimiento preventivo de la infraestructura sensorial.
 
+El proceso se dividió en dos etapas principales:
+
+#### Step 1: Collect Domain Events (Recolección de Eventos)
+En esta primera fase, nos enfocamos en una lluvia de ideas estructurada. Cada miembro del equipo identificó hechos relevantes que ocurren dentro del dominio y los plasmó en notas de color naranja (Domain Events), redactados estrictamente en tiempo pasado para indicar acciones consumadas.
+
+*   El objetivo principal fue capturar la mayor cantidad de eventos de negocio sin establecer filtros estrictos ni preocuparnos por el orden cronológico.
+*   Logramos exteriorizar todo el conocimiento del negocio, detectando eventos cruciales de interacción del hardware, como `Incidencia de Hardware Reportada` y `Canal de Efectos Probado`.
+*   Identificamos acciones críticas de la gestión de proyecciones, incluyendo `Función 4D Programada`, `Archivo de Efectos 4D Vinculado` y `Secuencia de Efectos 4D Iniciada`.
+*   Se mapearon interacciones comerciales y analíticas, destacando eventos como `Solicitud de Demostración Registrada` y `Reporte de Consumo de Insumos Generado`.
+
+![Step 1: Collect Domain Events](assets/img/big-picture-eventstorming-step-1.jpg)
+
+#### Step 2: Refine Domain Events (Refinamiento y Secuenciación)
+Una vez recolectados los eventos, pasamos a organizar el tablero para establecer el flujo real del negocio. En esta etapa, el equipo resolvió discrepancias, eliminó duplicados y ordenó los eventos en una línea de tiempo horizontal.
+
+*   Construimos una narrativa coherente que refleja el ciclo de vida de la operación, evidenciando las dependencias temporales entre los procesos y exponiendo oportunidades de automatización.
+*   **Catálogo, Programación y Ejecución:** Definimos la secuencia lógica que inicia con una `Película 4D Registrada`, pasa por una `Función 4D Programada` y culmina con la `Secuencia de Efectos 4D Reanudada` o `Función 4D Concluida`.
+*   **Gestión de Salas y Calibración:** Estructuramos el flujo físico de la sala, conectando eventos como `Butaca Habilitada para la Función` con los procesos técnicos de `Inyectores de Agua Probados` y `Butacas Niveladas`.
+*   **Mantenimiento y Análisis:** Visualizamos el cuello de botella temporal de una `Sala Bloqueada por Mantenimiento` y cómo este flujo se resuelve a través de un `Equipo Restablecido a Estado Operativo`, finalizando en el cálculo de `Insumos de Jornada Calculados`.
+*   **Solicitudes B2B:** Separamos el flujo comercial independiente, ordenando las captaciones mediante la `Solicitud de Cotización Registrada`.
+
+![Step 2: Refine Domain Events](assets/img/big-picture-eventstorming-step-2.jpg)
 ### 2.5 Ubiquitous Language
 
 > _Pendiente — completar en `feature/ubiquitous-language`._
