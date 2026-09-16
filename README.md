@@ -423,7 +423,11 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 ### 3.2 Impact Mapping
 
-> _Pendiente — completar en `feature/impact-mapping`._
+Para alinear los objetivos estratégicos de la startup Kinemo con la entrega de valor del software. Esta técnica permite trazar una línea clara entre las metas cuantitativas de negocio y las características técnicas que implementaremos en la plataforma.
+
+<img src="assets/img/Impact%20map.png" alt="Impact Mapping">
+
+Link de UXpressia: https://uxpressia.com/w/v8FzI/i/dBBww?tagId=9BZKW
 
 ### 3.3 Product Backlog
 
