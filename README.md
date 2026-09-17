@@ -550,7 +550,21 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 #### 5.2.1 Sprint 1 (AV1)
 
 ##### 5.2.1.1 Sprint Planning 1
-> _Pendiente._
+
+| Sprint # | Sprint 1 |
+|---|---|
+| **Date** | `[PENDIENTE]` |
+| **Time** | `[PENDIENTE]` |
+| **Location** | `[PENDIENTE]` |
+| **Prepared By** | `[PENDIENTE]` |
+| **Attendees** | Llamozas Diaz, Edson Diego / Flores Chavez, Fabricio / Huamanchumo Chicchon, Felipe Marcelo / Trigoso Garrido, Cristian Joseph / Correa Rodriguez, Andrea Khristina |
+| **Sprint n−1 Review Summary** | `[PENDIENTE]` |
+| **Sprint n−1 Retrospective Summary** | `[PENDIENTE]` |
+| **Sprint 1 Goal** | Nuestro objetivo es lanzar la página de destino B2B de Kinemo. Creemos que ofrece a los posibles gestores de cadenas de cines una forma clara y autónoma de conocer la oferta e iniciar una conversación comercial. Esto quedará confirmado cuando los visitantes puedan consultar la propuesta de valor y los precios, y enviar una solicitud de demostración o de presupuesto en menos de tres pasos. |
+| **Sprint 1 Velocity** | `[PENDIENTE]` |
+| **Sum of Story Points** | `[PENDIENTE]`  |
+
+
 ##### 5.2.1.2 Aspect Leaders and Collaborators
 > _Pendiente._
 ##### 5.2.1.3 Sprint Backlog 1
