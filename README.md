@@ -1346,22 +1346,6 @@ La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión
 
 ### 4.3 Landing Page UI Design
 
-#### 4.3.1 Landing Page Wireframe
-
-> _Pendiente — completar en `feature/landing-page-ui`._
-
-#### 4.3.2 Landing Page Mock-up
-
-> _Pendiente — completar en `feature/landing-page-ui`._
-
-### 4.4 Web Applications UX/UI Design
-
-#### 4.4.1 Web Applications Wireframes
-
-> _Pendiente — completar en `feature/web-app-ux`._
-
-#### 4.4.2 Web Applications Wireflow Diagrams
-
 ##### 4.3.1. Landing Page Wireframe
 
 [Click here for Figma](https://www.figma.com/design/h8gZ1ryldnIq3f485Vx13T/Landing-Page?node-id=0-1&t=MqyMHgKjflZ9zmfu-1)
@@ -1631,6 +1615,16 @@ Las principales consideraciones son:
 ### Identidad Visual
 
 La propuesta visual busca mantener una apariencia tecnológica y consistente con el concepto de **entretenimiento inmersivo 4D**. El uso de fondos oscuros, tarjetas diferenciadas, efectos de iluminación morada y componentes de monitoreo permite representar una plataforma orientada a la gestión y supervisión de tecnología cinematográfica.
+
+### 4.4 Web Applications UX/UI Design
+
+#### 4.4.1 Web Applications Wireframes
+
+> _Pendiente — completar en `feature/web-app-ux`._
+
+#### 4.4.2 Web Applications Wireflow Diagrams
+
+
 
 #### 4.4.4 Web Applications User Flow Diagrams
 
