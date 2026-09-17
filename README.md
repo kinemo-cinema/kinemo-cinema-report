@@ -559,7 +559,6 @@ El proyecto Kinemo gestiona su código fuente mediante **GitHub**, bajo la organ
 | Frontend Web Application | `[PENDIENTE]` |
 | Project Report | `https://github.com/kinemo-cinema/kinemo-cinema-report` |
 
-#### 5.1.3 Source Code Style Guide & Coding Conventions
 
 **Workflow: GitFlow**
 
@@ -574,6 +573,9 @@ El equipo aplica GitFlow como modelo de ramificación, compuesto por:
 **Semantic Versioning**: los Releases siguen el formato `MAJOR.MINOR.PATCH` (ej. `1.0.0` para el primer release del Landing Page en AV1), incrementando MAJOR ante cambios incompatibles, MINOR ante nuevas funcionalidades compatibles, y PATCH ante correcciones.
 
 **Conventional Commits**: todos los mensajes de commit siguen el formato `<tipo>(<alcance opcional>): <descripción>`, usando tipos como `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. Ejemplo: `feat(landing): add hero section with two-column layout`.
+
+
+#### 5.1.3 Source Code Style Guide & Coding Conventions
 
 
 #### 5.1.4 Software Deployment Configuration
