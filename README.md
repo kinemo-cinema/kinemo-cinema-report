@@ -573,6 +573,12 @@ El **Maintenance Controller** expone los endpoints de registro de incidencias y 
 
 ![Component Diagram - Maintenance & Incident Management BC](assets/img/Component-10.jpg)
 
+#### Operational Analytics & Reporting BC
+
+El **Analytics Controller** expone los endpoints de consulta de métricas y generación de reportes. La **AnalyticsCommandService** gestiona la consolidación de datos de consumo e incidencias mediante el **AnalyticsRepository**, y la **AnalyticsQueryService** resuelve las consultas de dashboard. Como inboundservices, un **RoomReadinessContextFacade**, un **MaintenanceContextFacade** y un **ExecutionContextFacade** reciben los datos operativos que alimentan los reportes.
+
+![Component Diagram - Operational Analytics & Reporting BC](assets/img/Component-11.jpg)
+
 
 
 
