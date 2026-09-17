@@ -536,7 +536,13 @@ El **Scheduling Controller** expone los endpoints de programación y reprogramac
 El **RoomReadiness Controller** expone los endpoints de cálculo de insumos y verificación de preparación de sala. La **RoomReadinessCommandService** gestiona el cálculo de requerimientos de agua/aire y el bloqueo de sala por mantenimiento mediante el **RoomReadinessRepository**, y la **RoomReadinessQueryService** resuelve las consultas de estado de sala. Como inboundservice, un **SchedulingContextFacade** y un **MaintenanceContextFacade** reciben, respectivamente, la notificación de función programada y de revisión técnica solicitada.
 
 ![Component Diagram - Room & Resource Readiness BC](assets/img/Component-4.jpg)
-    
+
+#### Ticketing Integration BC
+
+El **Ticketing Controller** expone los endpoints de sincronización de boletería. La **TicketingCommandService** gestiona la reconexión ante pérdida de enlace mediante el **TicketingRepository**, y la **TicketingQueryService** resuelve las consultas de estado de integración. Como outboundservice, un **SistemaBoleteriaExternalService** encapsula la comunicación con el sistema de boletería externo.
+
+![Component Diagram - Ticketing Integration BC](assets/img/Component-5.jpg)
+
 
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
