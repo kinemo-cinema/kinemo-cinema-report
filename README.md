@@ -578,7 +578,21 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 > `[PENDIENTE]`: Marcar L (Leader) / C (Collaborator) en cada columna según quién lidera cada aspecto.
 
 ##### 5.2.1.3 Sprint Backlog 1
-> _Pendiente._
+
+| Story ID | Story Title | Task ID | Task Title | Task Description | Est. (h) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US41 | Conocer la propuesta de valor | T01 | Maquetar Hero Section | Implementar layout de 2 columnas con badge, titular, subtítulo y CTAs, según mock-up de Figma. | `[ ]` | `[ ]` | To-do |
+| US41 | Conocer la propuesta de valor | T02 | Integrar copy y panel de telemetría del Hero | Añadir el panel "Central Telemetry" con métricas simuladas (uptime, sync latency). | `[ ]` | `[ ]` | To-do |
+| US42 | Conocer las características | T03 | Maquetar sección Platform | Implementar acordeón de 4 características con estado expandido/colapsado. | `[ ]` | `[ ]` | To-do |
+| US43 | Conocer los servicios | T04 | Redactar e integrar contenido de servicios | Incorporar textos descriptivos de hardware, mantenimiento y software dentro de Platform. | `[ ]` | `[ ]` | To-do |
+| US44 / US45 | Solicitar demo / cotización | T05 | Maquetar formulario de contacto | Implementar formulario con campos: nombre, cadena, correo, teléfono, número de pantallas. | `[ ]` | `[ ]` | To-do |
+| US44 / US45 | Solicitar demo / cotización | T06 | Implementar validación de campos | Validación client-side de campos obligatorios y formato de correo/teléfono. | `[ ]` | `[ ]` | To-do |
+| — | Constraint general | T07 | Maquetar sección Pricing | Implementar grilla de 3 planes (Starter, Growth, Enterprise) con toggle. | `[ ]` | `[ ]` | To-do |
+| — | Constraint general | T08 | Maquetar sección Team | Implementar tarjetas de los 5 integrantes del equipo. | `[ ]` | `[ ]` | To-do |
+| — | Constraint general | T09 | Configurar repositorio y estructura del proyecto | Inicializar repo, estructura de carpetas, README y configuración de GitFlow. | `[ ]` | `[ ]` | Done *(si ya se creó el repo)* |
+| — | Constraint general | T10 | Configurar despliegue del Landing Page | Configurar GitHub Pages / plataforma elegida y pipeline de deploy. | `[ ]` | `[ ]` | To-do |
+
+
 ##### 5.2.1.4 Development Evidence for Sprint Review
 > _Pendiente._
 ##### 5.2.1.5 Execution Evidence for Sprint Review
