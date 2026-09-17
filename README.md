@@ -550,7 +550,14 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 5.1.2 Source Code Management
 
-> _Pendiente — agregar URLs de los 4 repositorios, explicación de GitFlow, convenciones de branches y Conventional Commits. Completar en `feature/software-configuration-management` (urgente para AV1)._
+El proyecto Kinemo gestiona su código fuente mediante **GitHub**, bajo la organización pública `kinemo-cinema`, con un repositorio independiente por producto:
+
+| Producto | Repositorio |
+|---|---|
+| Landing Page | `https://github.com/kinemo-cinema/landing-page-Kinemo.git` |
+| RESTful API (Web Services) | `[PENDIENTE]` |
+| Frontend Web Application | `[PENDIENTE]` |
+| Project Report | `https://github.com/kinemo-cinema/kinemo-cinema-report` |
 
 #### 5.1.3 Source Code Style Guide & Coding Conventions
 
