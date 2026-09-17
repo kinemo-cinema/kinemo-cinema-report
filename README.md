@@ -620,6 +620,51 @@ El agregado utiliza tres Value Objects fundamentales para controlar las polític
 
 ---
 
+![Diagrama de 4D Execution & Synchronization](assets/img/BC07-4D Execution and Synchronization.png) 
+
+## 7. 4D Execution & Synchronization
+
+La base de datos del módulo **4D Execution & Synchronization** se estructura alrededor del agregado principal `show_executions`, el cual encapsula el ciclo de vida en tiempo real de una función proyectada. A través del Value Object `execution_status`, este agregado gestiona de manera centralizada los flujos de *Inicio de Función*, *Pausa y Reanudación*, y *Finalización de Función*, transitando por estados como *Iniciada*, *Pausada* o *Concluida*. Además, el atributo `hardware_error_detected` permite manejar el flujo de bloqueo crítico de efectos de forma segura.
+
+A partir de este agregado raíz, el modelo implementa tres entidades especializadas para soportar el nivel técnico de la proyección:
+
+*   **Entidad `sensory_sequence_executions`:** Representa el estado activo del *Inicio de Secuencia Sensorial*. A través del campo `playback_status`, determina si los efectos están en curso o si se ha ordenado Detener ejecución sensorial.
+*   **Entidad `synchronization_events`:** Soporta exclusivamente la compleja lógica de *Sincronización de Efectos*. Esta entidad funciona como una bitácora temporal (log) que almacena los pulsos recibidos (`last_sync_pulse_at`) y clasifica los eventos en su atributo `event_type` (ej. *Sync Pulse Recibido*, *Desfase Detectado*, *Sincronización Reajustada*). Incluye el campo `drift_milliseconds` para cuantificar de manera exacta el desfase detectado entre la película y el track 4D.
+*   **Entidad `hardware_execution_logs`:** Se encarga de auditar las órdenes directas enviadas a las butacas y salas. Refleja acciones del EventStorming como "Activar butacas vendidas" y "Restablecer butacas a Posición Neutra", garantizando un historial exacto de las intervenciones del Personal Operativo.
+
+> Las relaciones entre estas entidades se gestionan a través de claves foráneas (`show_id`, `operator_id`, `sensory_track_id`), las cuales actúan como enlaces referenciales, asegurando la consistencia de los datos y evitando un acoplamiento directo con los Bounded Contexts de Scheduling o Sensory Content Management.
+
+---
+
+![Diagrama de Emergency Management](assets/img/BC08-Emergency Management.png) 
+
+## 8. Emergency Management
+
+La base de datos del módulo **Emergency Management** se encuentra estructurada alrededor del agregado principal `emergency_events`, el cual encapsula todo el ciclo de vida de un incidente crítico en la sala. Esta entidad utiliza el Value Object `emergency_status` para gestionar la transición de estados del flujo de Activación de Emergencia, clasificando el evento como *Activado*, *Confirmado*, *No Confirmado* o *Atendido*.
+
+A partir de este agregado raíz, el modelo implementa dos entidades especializadas para garantizar la auditoría operativa y la seguridad del hardware:
+
+*   **Entidad `execution_blocks`:** Soporta el flujo de Bloqueo de Ejecución. Almacena el impacto directo sobre la maquinaria mediante el atributo `hardware_state`, el cual dicta si los efectos están *Detenidos* o si las butacas permanecen *Inmovilizadas*. Esto asegura que la ejecución 4D permanezca bloqueada mientras la emergencia siga activa.
+*   **Entidad `restoration_logs`:** Gestiona de forma estricta el flujo de Restablecimiento. Actúa como un registro de auditoría que documenta qué miembro del personal autorizó la reanudación del servicio (`authorized_by_operator_id`), validando si la confirmación manual fue válida o fallida a través del campo `confirmation_status`.
+
+> Las relaciones establecidas mediante claves foráneas, como `show_execution_id`, permiten que este contexto se vincule de forma referencial con el módulo de 4D Execution & Synchronization, manteniendo la independencia de los datos y asegurando la integridad del esquema relacional global del sistema.
+
+---
+
+![Diagrama de Testing & Calibration](assets/img/BC09-Testing and Calibration.png) 
+
+## 9. Testing & Calibration
+
+La base de datos del módulo **Testing & Calibration** se estructura alrededor del agregado raíz `calibration_sessions`, el cual agrupa todas las rutinas de mantenimiento preventivo ejecutadas por un técnico antes de liberar una sala para operación. Este agregado actúa como contenedor transaccional para tres entidades especializadas que gestionan el hardware:
+
+*   **Entidad `hardware_channel_tests`:** Consolida los flujos de *Prueba de Canal*, *Prueba de Agua* y *Prueba de Viento*. Utiliza el campo `channel_type` para identificar el sistema evaluado y un Value Object `test_result` para definir estados como *Prueba Aprobada*, *Presión Baja* o *Falla Registrada*. El atributo `marked_for_review` permite aislar componentes defectuosos sin detener la operación de la sala completa.
+*   **Entidad `intensity_calibrations`:** Soporta el flujo de *Ajuste de Intensidad*. Registra el nivel objetivo (`target_intensity_level`) y si la configuración fue validada o atenuada mediante el campo `adjustment_status`.
+*   **Entidad `seat_alignments`:** Gestiona de forma granular el flujo de Nivelación de Butacas. Conecta la sesión de calibración directamente con la butaca física (`seat_id`). A través del atributo `alignment_status` registra si los sensores confirman la posición cero o si existe una desalineación. Incorpora el campo `retries_count` para documentar la cantidad de reintentos necesarios hasta confirmar la calibración.
+
+> La integridad del esquema se garantiza mediante el uso de claves foráneas (`technician_id`, `room_id`, `seat_id`), permitiendo que las auditorías de calibración interactúen de forma segura con los Bounded Contexts de infraestructura (como Room & Resources Readiness y Seat Allocation) sin generar un acoplamiento estricto de base de datos.
+
+---
+
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1 Software Configuration Management
