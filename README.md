@@ -507,7 +507,22 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.3 Software Architecture Container Diagrams
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+El Container Diagram detalla los elementos de alto nivel que conforman la arquitectura de software de Kinemo y las decisiones de tecnología adoptadas para cada uno, así como la manera en que estos containers se comunican entre sí. Cada container representa una unidad de despliegue independiente.
+
+La solución está compuesta por:
+
+- **Landing Page B2B**: sitio de marketing con la propuesta de valor y la comparación de planes de suscripción, punto de entrada para el Visitante B2B.
+- **Panel Web de Administración**: Single-Page Application utilizada por el Administrador y el Personal Operativo para la gestión del catálogo, programación, mantenimiento y reportes.
+- **App Técnica de Sala**: aplicación móvil utilizada en sala por el Personal Operativo y el Personal Técnico durante la operación y el mantenimiento.
+- **Api Gateway**: punto único de entrada para las solicitudes de los distintos clientes, encargado además de validar el estado de la suscripción para autorizar el acceso a los endpoints protegidos.
+- **12 Bounded Contexts** como microservicios independientes (Movie Catalog Management, Sensory Content Management, Scheduling & Calendar, Room & Resource Readiness, Ticketing Integration, Seat Allocation & Control, 4D Execution & Synchronization, Emergency Control, Testing & Calibration, Maintenance & Incident Management, Operational Analytics & Reporting y Subscription & Service Management), cada uno con su propia base de datos (patrón database-per-service), siguiendo el principio de independencia de despliegue y autonomía de datos por Bounded Context.
+- **Sistemas externos**: sistema de boletería del cine, hardware IoT de butacas 4D, pasarelas de pago, SUNAT (facturación electrónica), servicios de notificación (correo/SMS) y almacenamiento de archivos, con los cuales interactúan los Bounded Contexts correspondientes.
+
+![Container Diagram de Kinemo](assets/img/diagram-container.jpg)
+
+La comunicación entre el Panel Web, la App Técnica y el Landing Page hacia el back-end se centraliza a través del Api Gateway, el cual enruta las solicitudes hacia el Bounded Context correspondiente según el dominio funcional. A nivel de comunicación entre Bounded Contexts, se representan las relaciones identificadas en el Design-Level EventStorming (por ejemplo, Scheduling & Calendar informa a Room & Resource Readiness para el cálculo de insumos, o Emergency Control se comunica con 4D Execution & Synchronization y Seat Allocation & Control para bloquear la ejecución y mantener las butacas inmovilizadas ante una emergencia). Cada Bounded Context persiste su información en una base de datos propia, reforzando el aislamiento entre contextos y evitando el acoplamiento a nivel de datos.
+
+---
 
 #### 4.6.4 Software Architecture Component Diagrams
 
