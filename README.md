@@ -519,6 +519,13 @@ El componente **Movie Catalog Management Controller** expone los endpoints para 
 
 ![Component Diagram - Movie Catalog Management BC](assets/img/Component-1.jpg)
 
+#### Sensory Content Management BC
+
+El **Sensory Content Controller** expone los endpoints para la carga y vinculación de archivos de efectos 4D. La **SensoryContentCommandService** gestiona la creación, validación y habilitación de pistas sensoriales mediante el **SensoryContentRepository**, y la **SensoryContentQueryService** resuelve las consultas de configuración de efectos. Como inboundservice, un **CatalogContextFacade** recibe la notificación de películas registradas desde Movie Catalog Management; como outboundservice, un **AmazonS3ExternalService** gestiona la subida y descarga de archivos de efectos.
+
+![Component Diagram - Sensory Content Management BC](assets/img/Component-2.jpg)
+
+
 
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
