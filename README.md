@@ -503,7 +503,22 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.2 Software Architecture Context Diagram
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+El Context Diagram representa a Kinemo como una única caja central, mostrando los actores que interactúan con la plataforma y los sistemas externos de los que depende. Este diagrama se elaboró en Structurizr aplicando la notación C4 Model, a partir de los actores identificados en el proceso de Requirements Elicitation & Analysis y del alcance definido en las User Stories.
+
+Los actores identificados son:
+
+- **Administrador**: gerente de operaciones o propietario de la cadena de cines, encargado de gestionar el catálogo, la programación, los reportes y la suscripción.
+- **Personal Operativo**: encargado de operar la sala durante las funciones (butacas, efectos 4D y parada de emergencia).
+- **Personal Técnico**: encargado de las pruebas, calibración y mantenimiento de los equipos 4D.
+- **Visitante B2B**: prospecto que visita el Landing Page para conocer la propuesta de valor y comparar planes.
+- **Developer externo**: integrador externo que consume la API RESTful de Kinemo.
+
+![Context Diagram de Kinemo](assets/img/Diagram-context.jpg)
+
+Como se observa en el diagrama, todos los actores interactúan directamente con el sistema Kinemo, sin necesidad de mostrar aún el detalle interno de la solución. Esta vista de alto nivel permite comunicar el alcance del sistema y su relación con el entorno, dejando en evidencia que Kinemo centraliza la operación de la sala 4D (programación, ejecución, mantenimiento y reportes) así como la relación comercial con la cadena de cines (suscripción) y la posibilidad de integración vía API para terceros desarrolladores.
+
+---
+
 
 #### 4.6.3 Software Architecture Container Diagrams
 
