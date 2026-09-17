@@ -543,6 +543,12 @@ El **Ticketing Controller** expone los endpoints de sincronización de boleterí
 
 ![Component Diagram - Ticketing Integration BC](assets/img/Component-5.jpg)
 
+#### Seat Allocation & Control BC
+
+El **SeatAllocation Controller** expone los endpoints de activación/desactivación y mapa de butacas. La **SeatAllocationCommandService** gestiona la actualización de asignación y el estado de las butacas mediante el **SeatAllocationRepository**, y la **SeatAllocationQueryService** resuelve las consultas del mapa de sala. Como inboundservices, un **TicketingContextFacade** y un **EmergencyContextFacade** reciben notificaciones de ocupación y de parada de emergencia, respectivamente; como outboundservice, un **Hardware4DExternalService** envía los comandos de activación a los controladores IoT de las butacas.
+
+![Component Diagram - Seat Allocation & Control BC](assets/img/Component-6.jpg)
+
 
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
