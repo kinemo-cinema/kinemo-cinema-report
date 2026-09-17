@@ -515,7 +515,81 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 ### 4.7 Software Object-Oriented Design
 
+Esta sección presenta el diseño orientado a objetos del sistema Kinemo 4D mediante diagramas de clases UML. Cada diagrama representa la estructura de un Bounded Context, identificando sus principales clases, atributos, métodos y relaciones, con el propósito de definir las responsabilidades de los componentes y facilitar la implementación del sistema.
+
 #### 4.7.1 Class Diagrams
+
+**BC01 – Movie Catalog Management**
+
+Descripción: El diagrama de clases representa la gestión del catálogo de películas mediante las entidades Movie y Genre. Permite registrar, actualizar y consultar películas, clasificarlas por género y establecer relaciones entre contenidos originales y duplicados.
+
+<img src="assets/img/diagrama%20de%20clase%201.png" alt="BC01 – Movie Catalog Management" width="100%">
+
+**BC02 – Sensory Content & Experience Management**
+
+Descripción: El diagrama modela la administración del contenido sensorial 4D mediante las clases SensoryFile, SensoryTrack y ConfigurationHistory. Contempla la carga y validación de archivos, la configuración de intensidad de los efectos y la restauración de configuraciones predeterminadas.
+
+<img src="assets/img/diagrama%20de%20clase%202.png" alt="BC02 – Sensory Content & Experience Management" width="100%">
+
+**BC03 – Scheduling & Calendar**
+
+Descripción: El diagrama representa la programación de funciones 4D mediante las clases Show, Room y MaintenanceBlock. Permite gestionar horarios, verificar la disponibilidad de las salas, detectar conflictos, reprogramar funciones y administrar cancelaciones y bloqueos por mantenimiento.
+
+<img src="assets/img/diagrama%20de%20clase%20%203.png" alt="BC03 – Scheduling & Calendar" width="100%">
+
+**BC04 – Room & Resources Readiness**
+
+Descripción: El diagrama modela la preparación operativa de las salas mediante las clases Room, RoomInspection, ResourceCalculation y MaintenanceLog. Permite verificar el estado de los equipos, calcular los requerimientos de agua y aire, registrar inspecciones y gestionar la disponibilidad de las salas.
+
+<img src="assets/img/diagrama%20de%20clase%204.png" alt="BC04 – Room & Resources Readiness" width="100%">
+
+**BC05 – Ticketing Integration**
+
+Descripción: El diagrama representa la integración con el sistema externo de boletería mediante las clases TicketingConnection, SyncLog y ShowOccupancy. Permite verificar la conexión, sincronizar los datos de ventas, actualizar la ocupación de las funciones y registrar los resultados de cada sincronización.
+
+<img src="assets/img/diagrama%20de%20clase%205.png" alt="BC05 – Ticketing Integration" width="100%">
+
+**BC06 – Seat Allocation & Control**
+
+Descripción: El diagrama modela el control de las butacas mediante las clases Seat, ShowSeat y ManualIntervention. Permite gestionar la asignación de asientos por función, habilitar únicamente las butacas vendidas y registrar las intervenciones manuales realizadas por el personal operativo.
+
+<img src="assets/img/diagrama%20de%20clase%206.png" alt="BC06 – Seat Allocation & Control" width="100%">
+
+**BC07 – 4D Execution & Synchronization**
+
+Descripción: El diagrama representa la ejecución y sincronización de las experiencias 4D mediante las clases ShowExecution, SensorySequenceExecution, SynchronizationEvent y HardwareExecutionLog. Permite controlar el inicio, pausa y finalización de funciones, ejecutar efectos sensoriales y registrar eventos de sincronización y errores de hardware.
+
+<img src="assets/img/diagrama%20de%20clase%20%207.png" alt="BC07 – 4D Execution & Synchronization" width="100%">
+
+**BC08 – Emergency Management**
+
+Descripción: El diagrama modela la gestión de emergencias mediante las clases EmergencyEvent, ExecutionBlock y RestorationLog. Permite registrar situaciones de emergencia, bloquear la ejecución de los efectos y movimientos de butacas, y controlar el restablecimiento del servicio mediante una confirmación autorizada.
+
+<img src="assets/img/diagrama%20de%20clase%20%208.png" alt="BC08 – Emergency Management" width="100%">
+
+**BC09 – Testing & Calibration**
+
+Descripción: El diagrama representa las pruebas y calibraciones de los equipos 4D mediante las clases CalibrationSession, HardwareChannelTest, IntensityCalibration y SeatAlignment. Permite verificar el funcionamiento de los canales de efectos, ajustar los niveles de intensidad y comprobar la alineación de las butacas antes de su utilización.
+
+<img src="assets/img/diagrama%20de%20clase%209.png" alt="BC09 – Testing & Calibration" width="100%">
+
+**BC010 – Maintenance & Incident Management**
+
+Descripción: El diagrama modela la gestión del mantenimiento mediante las clases HardwareComponent, IncidentReport y MaintenanceOrder. Permite registrar los componentes instalados, reportar y clasificar incidencias, generar órdenes de mantenimiento preventivo o correctivo y controlar la vida útil de los equipos.
+
+<img src="assets/img/diagrama%20de%20clase%2010.png" alt="BC010 – Maintenance & Incident Management" width="100%">
+
+**BC011 – Operational Analytics & Reporting**
+
+Descripción: El diagrama representa el análisis operativo mediante las clases CalculatedMetric, OperationalReport y DashboardExport. Permite calcular métricas de uso, consolidar información de consumo e incidencias, generar reportes operativos y exportar los resultados en formatos PDF y CSV.
+
+<img src="assets/img/diagrama%20de%20clase%2011.png" alt="BC011 – Operational Analytics & Reporting" width="100%">
+
+**BC012 – Operational Analytics & Reporting**
+
+Descripción: El diagrama modela la administración comercial del servicio 4D mediante las clases SubscriptionPlan, Subscription, PaymentTransaction y SubscriptionUpgrade. Permite gestionar la contratación de planes, procesar pagos, activar suscripciones, consultar sus límites, realizar renovaciones y registrar cambios a planes superiores.
+
+<img src="assets/img/diagrama%20de%20clase%2012.png" alt="BC012 – Operational Analytics & Reporting" width="100%">
 
 > _Pendiente — completar en `feature/class-diagrams`._
 
