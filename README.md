@@ -1,4 +1,4 @@
-# Informe de Trabajo Final — Kinemo
+_# Informe de Trabajo Final — Kinemo
 
 ## Carátula
 
@@ -548,6 +548,13 @@ El **Ticketing Controller** expone los endpoints de sincronización de boleterí
 El **SeatAllocation Controller** expone los endpoints de activación/desactivación y mapa de butacas. La **SeatAllocationCommandService** gestiona la actualización de asignación y el estado de las butacas mediante el **SeatAllocationRepository**, y la **SeatAllocationQueryService** resuelve las consultas del mapa de sala. Como inboundservices, un **TicketingContextFacade** y un **EmergencyContextFacade** reciben notificaciones de ocupación y de parada de emergencia, respectivamente; como outboundservice, un **Hardware4DExternalService** envía los comandos de activación a los controladores IoT de las butacas.
 
 ![Component Diagram - Seat Allocation & Control BC](assets/img/Component-6.jpg)
+
+#### 4D Execution & Synchronization BC
+
+El **Execution Controller** expone los endpoints de inicio, pausa y sincronización de la secuencia de efectos. La **ExecutionCommandService** gestiona la sincronización y el reajuste de efectos mediante el **ExecutionRepository**, y la **ExecutionQueryService** resuelve las consultas de estado de ejecución. Como inboundservices, un **RoomReadinessContextFacade**, un **SeatAllocationContextFacade** y un **SensoryContentContextFacade** validan las condiciones de inicio de función; como outboundservice, un **Hardware4DExternalService** envía la secuencia de efectos físicos.
+
+![Component Diagram - 4D Execution & Synchronization BC](assets/img/Component-7.jpg)
+
 
 
 
