@@ -525,6 +525,12 @@ El **Sensory Content Controller** expone los endpoints para la carga y vinculaci
 
 ![Component Diagram - Sensory Content Management BC](assets/img/Component-2.jpg)
 
+#### Scheduling & Calendar BC
+
+El **Scheduling Controller** expone los endpoints de programación y reprogramación de funciones. La **SchedulingCommandService** gestiona la detección/resolución de conflictos de horario y el bloqueo/liberación de disponibilidad mediante el **SchedulingRepository**, y la **SchedulingQueryService** resuelve las consultas de disponibilidad.
+
+![Component Diagram - Scheduling & Calendar BC](assets/img/Component-3.jpg)
+
 
 
 
