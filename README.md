@@ -531,7 +531,12 @@ El **Scheduling Controller** expone los endpoints de programación y reprogramac
 
 ![Component Diagram - Scheduling & Calendar BC](assets/img/Component-3.jpg)
 
+#### Room & Resource Readiness BC
 
+El **RoomReadiness Controller** expone los endpoints de cálculo de insumos y verificación de preparación de sala. La **RoomReadinessCommandService** gestiona el cálculo de requerimientos de agua/aire y el bloqueo de sala por mantenimiento mediante el **RoomReadinessRepository**, y la **RoomReadinessQueryService** resuelve las consultas de estado de sala. Como inboundservice, un **SchedulingContextFacade** y un **MaintenanceContextFacade** reciben, respectivamente, la notificación de función programada y de revisión técnica solicitada.
+
+![Component Diagram - Room & Resource Readiness BC](assets/img/Component-4.jpg)
+    
 
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
@@ -581,20 +586,6 @@ A partir de este agregado raíz, el modelo se expande en entidades especializada
 
 ![Diagrama de Scheduling & Calendar](assets/img/BC03-Scheduling and Calendar.png) 
 
-## 3. Scheduling & Calendar
-
-La base de datos del módulo **Scheduling & Calendar** se estructura alrededor del agregado principal `shows`, el cual centraliza la programación y el ciclo de vida de las funciones 4D.
-
-Esta entidad incorpora atributos fundamentales como `start_time` y `end_time`, los cuales permiten ejecutar consultas precisas para detectar conflictos y dar soporte directo a los flujos de *Creación de Función* y *Reprogramación de Función*. A través del Value Object `status`, el sistema gestiona la transición de estados operativos de la proyección (*Programada*, *Reprogramada*, *Cancelada* o *Bloqueada*). Asimismo, los campos `assigned_professional_id` y `cancellation_reason` respaldan la auditoría del flujo de *Cancelación de Función*, permitiendo documentar motivos operativos específicos, como la falta de personal y su reasignación a emergencias.
-
-Para dar soporte a la logística de los espacios y la operatividad técnica, el modelo se expande mediante dos entidades complementarias:
-
-*   **Entidad `rooms`:** Representa la infraestructura física del cine. Identificar unívocamente el espacio donde ocurre la función o el bloqueo es un componente crítico para evaluar correctamente las reglas del flujo de *Gestión de Disponibilidad*.
-*   **Entidad `maintenance_blocks`:** Funciona como una tabla especializada para dar soporte exclusivo al flujo de *Bloqueo por Mantenimiento*. Al separar las restricciones técnicas de las proyecciones regulares, se mantiene un historial limpio y normalizado. Esta estructura permite bloquear una sala por periodos prolongados sin la necesidad de registrar funciones ficticias; el cálculo de disponibilidad se resuelve verificando que el intervalo solicitado no intersecte con registros activos en `shows` ni en `maintenance_blocks`.
-
-> Finalmente, las relaciones establecidas a través de las claves foráneas (`room_id`, `movie_id`, `assigned_professional_id`) garantizan la estricta integridad referencial del esquema. De manera particular, el atributo `movie_id` actúa como el enlace lógico principal que vincula este contexto con el Bounded Context de *Movie Catalog Management*, asegurando el desacoplamiento estructural del sistema.
-
----
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
