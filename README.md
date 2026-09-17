@@ -567,6 +567,12 @@ El **Testing Controller** expone los endpoints de prueba de canales y ajuste de 
 
 ![Component Diagram - Testing & Calibration BC](assets/img/Component-9.jpg)
 
+#### Maintenance & Incident Management BC
+
+El **Maintenance Controller** expone los endpoints de registro de incidencias y órdenes de mantenimiento. La **MaintenanceCommandService** gestiona la clasificación, priorización y cierre de órdenes mediante el **MaintenanceRepository**, y la **MaintenanceQueryService** resuelve las consultas de historial de mantenimiento. Como outboundservices, un **RoomReadinessExternalService** solicita el bloqueo de sala y un **Hardware4DExternalService** recibe telemetría de desgaste.
+
+![Component Diagram - Maintenance & Incident Management BC](assets/img/Component-10.jpg)
+
 
 
 
