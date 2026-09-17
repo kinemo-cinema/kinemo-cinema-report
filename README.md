@@ -559,7 +559,13 @@ El **Execution Controller** expone los endpoints de inicio, pausa y sincronizaci
 
 El **Emergency Controller** expone el endpoint de parada de emergencia. La **EmergencyCommandService** gestiona el bloqueo de ejecución y el restablecimiento del servicio mediante el **EmergencyRepository**, y la **EmergencyQueryService** resuelve las consultas de estado de emergencia. Como outboundservices, un **ExecutionExternalService**, un **SeatAllocationExternalService** y un **Hardware4DExternalService** propagan el bloqueo hacia la ejecución 4D, las butacas y el hardware.
 
-![Component Diagram - Emergency Control BC](assets/img/Component-7.jpg)
+![Component Diagram - Emergency Control BC](assets/img/Component-8.jpg)
+
+#### Testing & Calibration BC
+
+El **Testing Controller** expone los endpoints de prueba de canales y ajuste de intensidad. La **TestingCommandService** gestiona el marcado de canales para revisión y la calibración de butacas mediante el **TestingRepository**, y la **TestingQueryService** resuelve las consultas de resultados de prueba. Como outboundservice, un **Hardware4DExternalService** ejecuta las pruebas sobre los canales de efectos.
+
+![Component Diagram - Testing & Calibration BC](assets/img/Component-9.jpg)
 
 
 
