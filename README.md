@@ -579,7 +579,11 @@ El **Analytics Controller** expone los endpoints de consulta de métricas y gene
 
 ![Component Diagram - Operational Analytics & Reporting BC](assets/img/Component-11.jpg)
 
+#### Subscription & Service Management BC
 
+El **Subscription Controller** expone los endpoints de contratación, pago, renovación y upgrade de planes, además de validar el estado de la suscripción para el Api Gateway. La **SubscriptionCommandService** gestiona la activación y renovación de suscripciones mediante el **SubscriptionRepository**, y la **SubscriptionQueryService** resuelve las consultas de estado del plan. Como outboundservices, un **CulqiExternalService** y un **PaypalExternalService** procesan los pagos, un **SunatExternalService** genera el comprobante electrónico y un **GmailExternalService** envía confirmaciones y recordatorios de renovación.
+
+![Component Diagram - Subscription & Service Management BC](assets/img/Component-12.jpg)
 
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
