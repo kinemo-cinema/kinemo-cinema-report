@@ -566,7 +566,17 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 
 ##### 5.2.1.2 Aspect Leaders and Collaborators
-> _Pendiente._
+
+| Team Member | GitHub Username | Hero Section | Platform Section | Pricing Section | Team Section | Contact Form | Repo & Deployment |
+|---|---|---|---|---|---|---|---|
+| Llamozas Diaz, Edson Diego | DiegoLlamozas | | | | | | |
+| Flores Chavez, Fabricio | FabriFloresXA | | | | | | |
+| Huamanchumo Chicchon, Felipe Marcelo | Felipe Huamanchumo | | | | | | |
+| Trigoso Garrido, Cristian Joseph | Crzzz30 | | | | | | |
+| Correa Rodriguez, Andrea Khristina | Andrea C. | | | | | | |
+
+> `[PENDIENTE]`: Marcar L (Leader) / C (Collaborator) en cada columna según quién lidera cada aspecto.
+
 ##### 5.2.1.3 Sprint Backlog 1
 > _Pendiente._
 ##### 5.2.1.4 Development Evidence for Sprint Review
