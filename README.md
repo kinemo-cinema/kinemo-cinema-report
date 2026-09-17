@@ -573,6 +573,53 @@ Para dar soporte a la logística de los espacios y la operatividad técnica, el 
 
 ---
 
+![Diagrama de Room & Resources Readiness](assets/img/BC04-Room and Resources Readiness.png) 
+
+## 4. Room & Resources Readiness
+
+La base de datos del módulo **Room & Resources Readiness** se encuentra estructurada alrededor del agregado principal `rooms`, el cual representa la infraestructura física de las salas 4D desde una perspectiva estrictamente operativa. Esta entidad almacena atributos clave como el `operational_status`, el cual actúa como un Value Object para definir si la sala está *Preparada*, *Bloqueada* o *Requiere Revisión Técnica*.
+
+A partir de este agregado, el modelo se integra con tres entidades especializadas que soportan los flujos identificados en el EventStorming:
+
+*   **Entidad `room_inspections`:** Representa el flujo de *Preparación de Sala*. Almacena el resultado de las verificaciones realizadas por el Personal Operativo. Incluye atributos como `technical_review_required` (booleano) para desencadenar el evento de "Solicitar revisión técnica" si los equipos no están operativos.
+*   **Entidad `resource_calculations`:** Refleja el flujo de *Cálculo de Insumos*. Esta entidad asocia una función específica (`show_id`) con los requerimientos físicos de efectos especiales, calculando y registrando campos exactos como `water_required_liters` y `air_required_units`. Su atributo `calculation_status` permite gestionar estados como *Insumos Calculados* o *Necesidad de Carga Adicional No Requerida*.
+*   **Entidad `maintenance_logs`:** Soporta los flujos de *Bloqueo y Liberación de Sala* ejecutados por el Maintenance Technician. A diferencia de la reserva lógica en el calendario, esta tabla registra la ejecución real del mantenimiento, controlando el ciclo de vida a través de `maintenance_status` (ej. *Mantenimiento Programado*, *Sala Bloqueada por Mantenimiento*, *Mantenimiento Finalizado*).
+
+> En cuanto a las relaciones, las claves foráneas (`room_id`, `show_id`, `operator_id`, `technician_id`) encapsulan los identificadores que conectan este contexto con otros dominios (como Scheduling o Identity & Access), garantizando la integridad referencial y manteniendo la separación de responsabilidades exigida por la arquitectura.
+
+---
+
+![Diagrama de Ticketing Integration](assets/img/BC05-Ticketing Integration.png) 
+
+## 5. Ticketing Integration
+
+La base de datos del módulo **Ticketing Integration** se estructura alrededor del agregado principal `ticketing_connections`, el cual encapsula la configuración y el estado de comunicación con el sistema externo de boletería. Esta entidad utiliza el Value Object `connection_status` para gestionar los estados de disponibilidad (*Conexión Disponible*, *Integración No Disponible*), dando soporte directo a los flujos de *Pérdida de Conexión* y *Reconexión* identificados en el EventStorming.
+
+A partir de este agregado raíz, el modelo se expande en dos entidades complementarias:
+
+*   **Entidad `sync_logs`:** Responsable de registrar la trazabilidad del flujo de Boletería. Almacena cada evento de "Sincronizar datos", incluyendo los reintentos ejecutados por el Personal Operativo. Su atributo `sync_status` permite controlar si la transacción fue *Exitosa*, *Incompleta* o *Fallida*, mientras que `error_details` guarda el motivo en caso de fallos de red.
+*   **Entidad `show_occupancies`:** Actúa como la proyección interna de los datos externos. Esta entidad recibe el impacto del evento "Ocupación de Sala Actualizada", almacenando la cantidad de asientos ocupados (`occupied_seats`) y vinculando esta métrica directamente con las funciones programadas mediante la clave foránea `show_id`.
+
+> Las relaciones mediante foreign keys (`connection_id`, `show_id`, `operator_id`) aseguran la integridad referencial del modelo, permitiendo que este Bounded Context se comunique de forma segura con el contexto de Scheduling sin acoplar fuertemente sus bases de datos.
+
+---
+
+![Diagrama de Seat Allocation & Control](assets/img/BC06-Seat Allocation and Control.png) 
+
+## 6. Seat Allocation & Control
+
+La base de datos del módulo **Seat Allocation & Control** se encuentra estructurada alrededor del agregado principal `show_seats`, el cual representa la intersección lógica entre una función programada y una butaca física específica. Este modelo garantiza que el control del hardware 4D sea independiente por cada proyección.
+
+El agregado utiliza tres Value Objects fundamentales para controlar las políticas definidas en el EventStorming:
+
+*   `allocation_status`: Gestiona el flujo de Actualización de Asignación, permitiendo clasificar la butaca como *Habilitada/Vendida*, *Vacía* o *Excluida* en base a la sincronización de ocupación.
+*   `motion_signal_status`: Controla el flujo de Activación Automática, dictando el comportamiento del hardware mediante los estados *Incluida en Señal*, *Mantenida Inmóvil* (si está vacía) o *Excluida de la Señal* (si está fuera de servicio).
+*   `activation_mode`: Define si el hardware fue activado mediante el flujo automático del sistema o si fue forzado mediante *Activación Manual*.
+
+> Adicionalmente, el modelo incorpora la entidad `manual_interventions`. Esta tabla da soporte directo al flujo de *Activación Manual*, funcionando como un historial de auditoría que registra qué miembro del Personal Operativo forzó la habilitación o desactivación de una butaca (por ejemplo, al finalizar un mantenimiento) y la fecha exacta del evento (`executed_at`).
+
+---
+
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1 Software Configuration Management
