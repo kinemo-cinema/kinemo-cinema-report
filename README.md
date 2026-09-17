@@ -665,6 +665,56 @@ La base de datos del módulo **Testing & Calibration** se estructura alrededor d
 
 ---
 
+
+![Diagrama de Maintenance & Incident Management](assets/img/BC10-Maintenance and Incident Management.png) 
+
+## 10. Maintenance & Incident Management
+
+La base de datos del módulo **Maintenance & Incident Management** se estructura alrededor del agregado principal `hardware_components`, el cual representa los activos físicos instalados en las salas 4D. Esta entidad no solo gestiona la ubicación del equipo, sino que incorpora atributos críticos para el flujo de Vida Útil del Equipo, tales como `current_usage_cycles` y `max_lifecycle_cycles`. El Value Object `lifecycle_status` permite evaluar si el equipo está dentro de su límite o si debe generar una Alerta de Reemplazo.
+
+A partir de este agregado raíz, el modelo se expande en dos entidades transaccionales que gestionan la operatividad del cine:
+
+*   **Entidad `incident_reports`:** Soporta los flujos de *Reporte de Incidencia* y *Clasificación de Incidencia*. A través de los atributos `severity_level` (Normal/Crítica) y `priority_level`, el sistema permite al personal jerarquizar la urgencia del problema. El campo `incident_status` gestiona el ciclo de vida del reporte, desde *Incidencia Reportada* hasta su derivación técnica.
+*   **Entidad `maintenance_orders`:** Centraliza la ejecución técnica mediante el atributo `order_type`, el cual diferencia entre Mantenimiento Correctivo (asociado a un `incident_report_id`) y Mantenimiento Preventivo (programado de forma independiente mediante el campo `scheduled_for`). El atributo `execution_status` controla el flujo hasta la *Orden Cerrada*, exigiendo que el técnico complete la `technical_description` para que el cierre sea válido, tal como especifica el EventStorming.
+
+> Las relaciones foráneas (`room_id`, `reporter_id`, `technician_id`) garantizan la integridad referencial, vinculando los mantenimientos con los responsables y las salas afectadas sin acoplar de forma estricta este contexto con los módulos de infraestructura.
+
+---
+
+![Diagrama de Operational Analytics & Reporting](assets/img/BC11-Operational Analytics and Reporting.png) 
+
+## 11. Operational Analytics & Reporting
+
+La base de datos del módulo **Operational Analytics & Reporting** se estructura bajo un enfoque optimizado para el procesamiento analítico. El agregado principal es `operational_reports`, el cual implementa una estrategia de diseño unificada (Single Table) para consolidar tanto el flujo de *Reporte de Consumo* como el de *Reporte de Incidencias*. Mediante el atributo discriminador `report_type` (con valores como `CONSUMPTION` o `INCIDENT`), el sistema diferencia la naturaleza del reporte sin necesidad de duplicar tablas.
+
+El agregado `operational_reports` emplea Value Objects fundamentales para satisfacer las lógicas condicionales identificadas en el EventStorming:
+
+*   `report_status`: Gestiona los estados del reporte, permitiendo identificar si el documento ha sido *Generado*, si requiere *Consolidación*, o si debe emitirse un *Reporte Vacío* (en caso de no existir incidencias registradas).
+*   `has_complete_data`: Un campo booleano que soporta el flujo de validación. Si los datos están incompletos, el sistema detiene la generación y levanta la solicitud de "Actualización de datos".
+
+De forma complementaria, el modelo incluye dos entidades independientes:
+
+*   **Entidad `calculated_metrics`:** Soporta el flujo de *Cálculo de Métricas*. Almacena los "Datos de uso acumulados" ya procesados (`metric_value`) y categorizados, sirviendo como la fuente de verdad estática que alimenta el Dashboard Operativo del Cinema Manager en tiempo real.
+*   **Entidad `dashboard_exports`:** Soporta el flujo de Exportación de Dashboard. Funciona como una bitácora que audita la generación de archivos, controlando mediante el atributo `export_format` si la salida fue solicitada en PDF o CSV.
+
+> Las relaciones mediante claves foráneas (`manager_id`) aseguran que la auditoría del sistema identifique exactamente qué usuario generó o exportó la información, manteniendo la seguridad y trazabilidad en la toma de decisiones.
+
+---
+
+![Diagrama de Subscription & Service Management](assets/img/BC12-Subscription and Service Management.png)
+
+## 12. Subscription & Service Management
+
+La base de datos del módulo **Subscription & Service Management** se organiza en torno al agregado principal `subscriptions`, el cual materializa el contrato comercial entre el Cinema Manager y la plataforma. Este agregado gestiona el ciclo de vida del servicio mediante el Value Object `subscription_status` (transitando por estados como *Pendiente de Pago*, *Activada* o *Vencida*) e incluye el atributo `end_date`, el cual es evaluado mediante tareas programadas (cron jobs) para disparar el flujo de Alerta y Renovación de Plan 15 días antes del cierre de ciclo.
+
+El modelo se complementa con tres entidades de soporte para satisfacer los criterios de aceptación de las User Stories:
+
+*   **Entidad `subscription_plans`:** Funciona como el catálogo central. Almacena las configuraciones maestras como el `screen_limit` (límites de pantallas permitidas), dando soporte a la *Consulta de Estado y Límites (US53)* y validando la disponibilidad temporal del plan a través del campo `is_available` (US51).
+*   **Entidad `payment_transactions`:** Registra la trazabilidad del flujo de *Pago y Activación de Suscripción (US52)*. Su atributo `transaction_status` audita si el cobro fue *Procesado Correctamente* o *Rechazado* por la pasarela, aislando la lógica financiera del estado general de la suscripción.
+*   **Entidad `subscription_upgrades`:** Soporta exclusivamente el flujo de *Cambio de Plan (Upgrade) (US54)*. Permite auditar el proceso desde que la *Solicitud de Upgrade es Registrada* hasta que el cambio a una categoría superior es aplicado formalmente, manteniendo la trazabilidad histórica de los cambios de facturación.
+
+> Las claves foráneas (`plan_id`, `target_plan_id`, `manager_id`) aseguran la consistencia de los datos y conectan este contexto comercial con el sistema de identidad y control de acceso (IAM) del cliente.
+
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1 Software Configuration Management
