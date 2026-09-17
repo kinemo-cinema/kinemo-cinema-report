@@ -531,7 +531,22 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 5.1.1 Software Development Environment Configuration
 
-> _Pendiente — completar en `feature/software-configuration-management` (urgente para AV1)._
+| Producto                                  | Propósito | Tipo de actividad | Ruta de referencia |
+|-------------------------------------------|---|---|---|
+| UXPressia                                 | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps | Requirements Management | `https://uxpressia.com/w/v8FzI/i/dBBww?tagId=9BZKW` |
+| Figma                                     | Wireframes, Mock-ups y Prototipos de Landing Page y Web App | Product UX/UI Design | `https://www.figma.com/design/h8gZ1ryldnIq3f485Vx13T/Landing-Page` |
+| Miro                                      | Big Picture / Design-Level EventStorming | Requirements Management | `https://miro.com/app/board/uXjVHm-vows=` |
+| Structurizr                               | Diagramas C4 Model (Context, Container, Component) | Software Documentation | `[PENDIENTE — crear workspace]` |
+| LucidChart                                | Diagramas UML de clases y Database Diagrams | Software Documentation | `[PENDIENTE]` |
+| `[PENDIENTE: Trello]`                     | Control de Product Backlog y Sprint Backlog | Project Management | `[PENDIENTE]` |
+| GitHub                                    | Control de versiones bajo GitFlow, Conventional Commits y Semantic Versioning | Software Development | `https://github.com/kinemo-cinema` |
+| HTML5 / CSS3 / JavaScript                 | Desarrollo del Landing Page | Software Development | Local (VS Code) |
+| Vue + PrimeVue                            | Desarrollo de la Frontend Web Application | Software Development | Local (VS Code / Node.js) |
+| ASP.NET Core + Entity Framework Core (C#) | Desarrollo del RESTful API | Software Development | Local (Visual Studio / Rider) |
+| `[PENDIENTE: MySQL Server]`               | Persistencia relacional | Software Development | Local / Cloud |
+| Swagger (OpenAPI)                         | Documentación de endpoints del RESTful API | Software Documentation | Generado desde el proyecto ASP.NET Core |
+| `[PENDIENTE:Github Pages]`                | Hosting del Landing Page | Software Deployment | `[PENDIENTE]` |
+
 
 #### 5.1.2 Source Code Management
 
