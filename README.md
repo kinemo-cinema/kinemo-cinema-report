@@ -523,7 +523,55 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.8.1 Database Diagrams
 
-> _Pendiente — completar en `feature/database-design`._
+![Diagrama de Movie Catalog Management](assets/img/BC01-Movie Catalog Managment.png)
+
+## 1. Movie Catalog Management
+
+La base de datos del módulo **Movie Catalog Management** se encuentra estructurada alrededor del agregado principal `movies`, el cual representa y centraliza la información base de las películas 4D registradas en el sistema.
+
+Este agregado almacena atributos fundamentales como `title` y `duration_minutes`, y utiliza el Value Object `status` para gestionar la transición de estados del flujo de *Desactivación de Contenido*, permitiendo clasificar la disponibilidad del recurso en estados como *Activo*, *Inactivo* o *Bloqueado para Programación*.
+
+Para dar soporte a la operativa estructurada del catálogo, el modelo incorpora características y entidades complementarias:
+
+*   **Trazabilidad Autorreferencial:** El agregado `movies` implementa una relación recursiva mediante el atributo `original_movie_id`. Esta estructura da soporte directo al flujo de *Duplicación de Configuración*, permitiendo registrar y modificar copias de una cinta manteniendo intacta la trazabilidad histórica hacia la película de origen.
+*   **Entidad `genres`:** Funciona como una entidad de soporte que normaliza la clasificación del contenido. Al separar los géneros en su propia estructura relacional, se elimina la redundancia de datos y se agiliza significativamente la ejecución del flujo de *Búsqueda de Película* mediante filtros estructurados.
+
+> Las relaciones establecidas a través de las claves foráneas (`genre_id`, `original_movie_id`) garantizan la integridad referencial del esquema, asegurando que este Bounded Context administre su propia fuente de verdad de manera normalizada y desacoplada del resto de los módulos del sistema.
+
+
+![Diagrama de Sensory Content & Experience Management](assets/img/BC02-Sensory Content and Experience Managment.png)
+
+## 2. Sensory Content & Experience Management
+
+La base de datos del módulo **Sensory Content & Experience Management** se encuentra estructurada alrededor del agregado principal `sensory_files`, el cual gestiona de manera centralizada la subida y administración del "Archivo de Efectos 4D".
+
+Esta entidad utiliza el Value Object `validation_status` para administrar la transición de estados correspondiente al flujo de *Carga de Archivo de Efectos*, controlando etapas críticas como *Cargado*, *Rechazado* o *Vinculado*. Asimismo, integra el atributo `movie_id`, el cual actúa como clave foránea para establecer una conexión referencial con el catálogo de películas.
+
+A partir de este agregado raíz, el modelo se expande en entidades especializadas para soportar el nivel granular de la experiencia sensorial:
+
+*   **Entidad `sensory_tracks`:** Representa la "Pista Sensorial" individual, permitiendo que un mismo archivo agrupe múltiples pistas (ej. viento, movimiento, agua). Esta entidad emplea el atributo `track_status` para dirigir el ciclo de vida en el flujo de *Validación de Pista Sensorial* (*Validada*, *Rechazada*, *Habilitada para Ejecución*). Por su parte, el campo `intensity_level` da soporte directo al flujo de *Asignación de Intensidad*, almacenando el parámetro operativo validado por el técnico.
+*   **Entidad `configuration_history`:** Funciona como una tabla de soporte y auditoría para el flujo de *Restablecimiento de Configuración*. Al almacenar un registro histórico de los cambios aplicados en los niveles de intensidad (`previous_intensity_level`), esta entidad provee al sistema la capacidad de emitir recomendaciones basadas en el uso y permite al técnico de mantenimiento revertir o restablecer la configuración a un estado anterior validado.
+
+> Finalmente, las relaciones establecidas mediante las claves foráneas (`movie_id`, `sensory_file_id`, `sensory_track_id`) garantizan la estricta integridad referencial del modelo, asegurando un diseño normalizado que mantiene el desacoplamiento estructural frente a otros Bounded Contexts del sistema.
+
+---
+
+![Diagrama de Scheduling & Calendar](assets/img/BC03-Scheduling and Calendar.png) 
+
+## 3. Scheduling & Calendar
+
+La base de datos del módulo **Scheduling & Calendar** se estructura alrededor del agregado principal `shows`, el cual centraliza la programación y el ciclo de vida de las funciones 4D.
+
+Esta entidad incorpora atributos fundamentales como `start_time` y `end_time`, los cuales permiten ejecutar consultas precisas para detectar conflictos y dar soporte directo a los flujos de *Creación de Función* y *Reprogramación de Función*. A través del Value Object `status`, el sistema gestiona la transición de estados operativos de la proyección (*Programada*, *Reprogramada*, *Cancelada* o *Bloqueada*). Asimismo, los campos `assigned_professional_id` y `cancellation_reason` respaldan la auditoría del flujo de *Cancelación de Función*, permitiendo documentar motivos operativos específicos, como la falta de personal y su reasignación a emergencias.
+
+Para dar soporte a la logística de los espacios y la operatividad técnica, el modelo se expande mediante dos entidades complementarias:
+
+*   **Entidad `rooms`:** Representa la infraestructura física del cine. Identificar unívocamente el espacio donde ocurre la función o el bloqueo es un componente crítico para evaluar correctamente las reglas del flujo de *Gestión de Disponibilidad*.
+*   **Entidad `maintenance_blocks`:** Funciona como una tabla especializada para dar soporte exclusivo al flujo de *Bloqueo por Mantenimiento*. Al separar las restricciones técnicas de las proyecciones regulares, se mantiene un historial limpio y normalizado. Esta estructura permite bloquear una sala por periodos prolongados sin la necesidad de registrar funciones ficticias; el cálculo de disponibilidad se resuelve verificando que el intervalo solicitado no intersecte con registros activos en `shows` ni en `maintenance_blocks`.
+
+> Finalmente, las relaciones establecidas a través de las claves foráneas (`room_id`, `movie_id`, `assigned_professional_id`) garantizan la estricta integridad referencial del esquema. De manera particular, el atributo `movie_id` actúa como el enlace lógico principal que vincula este contexto con el Bounded Context de *Movie Catalog Management*, asegurando el desacoplamiento estructural del sistema.
+
+---
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
@@ -531,67 +579,15 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 5.1.1 Software Development Environment Configuration
 
-| Producto                                  | Propósito | Tipo de actividad | Ruta de referencia |
-|-------------------------------------------|---|---|---|
-| UXPressia                                 | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps | Requirements Management | `https://uxpressia.com/w/v8FzI/i/dBBww?tagId=9BZKW` |
-| Figma                                     | Wireframes, Mock-ups y Prototipos de Landing Page y Web App | Product UX/UI Design | `https://www.figma.com/design/h8gZ1ryldnIq3f485Vx13T/Landing-Page` |
-| Miro                                      | Big Picture / Design-Level EventStorming | Requirements Management | `https://miro.com/app/board/uXjVHm-vows=` |
-| Structurizr                               | Diagramas C4 Model (Context, Container, Component) | Software Documentation | `[PENDIENTE — crear workspace]` |
-| LucidChart                                | Diagramas UML de clases y Database Diagrams | Software Documentation | `[PENDIENTE]` |
-| `[PENDIENTE: Trello]`                     | Control de Product Backlog y Sprint Backlog | Project Management | `[PENDIENTE]` |
-| GitHub                                    | Control de versiones bajo GitFlow, Conventional Commits y Semantic Versioning | Software Development | `https://github.com/kinemo-cinema` |
-| HTML5 / CSS3 / JavaScript                 | Desarrollo del Landing Page | Software Development | Local (VS Code) |
-| Vue + PrimeVue                            | Desarrollo de la Frontend Web Application | Software Development | Local (VS Code / Node.js) |
-| ASP.NET Core + Entity Framework Core (C#) | Desarrollo del RESTful API | Software Development | Local (Visual Studio / Rider) |
-| `[PENDIENTE: MySQL Server]`               | Persistencia relacional | Software Development | Local / Cloud |
-| Swagger (OpenAPI)                         | Documentación de endpoints del RESTful API | Software Documentation | Generado desde el proyecto ASP.NET Core |
-| `[PENDIENTE:Github Pages]`                | Hosting del Landing Page | Software Deployment | `[PENDIENTE]` |
-
+> _Pendiente — completar en `feature/software-configuration-management` (urgente para AV1)._
 
 #### 5.1.2 Source Code Management
 
-El proyecto Kinemo gestiona su código fuente mediante **GitHub**, bajo la organización pública `kinemo-cinema`, con un repositorio independiente por producto:
-
-| Producto | Repositorio |
-|---|---|
-| Landing Page | `https://github.com/kinemo-cinema/landing-page-Kinemo.git` |
-| RESTful API (Web Services) | `[PENDIENTE]` |
-| Frontend Web Application | `[PENDIENTE]` |
-| Project Report | `https://github.com/kinemo-cinema/kinemo-cinema-report` |
-
-
-**Workflow: GitFlow**
-
-El equipo aplica GitFlow como modelo de ramificación, compuesto por:
-- **`main`**: rama principal, contiene únicamente versiones estables y desplegadas (release-ready).
-- **`develop`**: rama de integración continua, base para el desarrollo activo de features.
-- **`feature/<nombre-descriptivo>`**: una rama por cada funcionalidad, creada a partir de `develop` y fusionada de vuelta a `develop` al completarse. Ejemplo: `feature/landing-hero-section`, `feature/landing-contact-form`.
-- **`hotfix/<nombre-descriptivo>`**: para correcciones urgentes sobre `main`. Ejemplo: `hotfix/broken-cta-link`.
-
-**Convención de nombres de feature branches**: `feature/<kebab-case-descriptivo-de-la-tarea>`, alineado con el título de la Task correspondiente en el Sprint Backlog (ej. la Task T01 "Maquetar Hero Section" → `feature/landing-hero-section`).
-
-**Semantic Versioning**: los Releases siguen el formato `MAJOR.MINOR.PATCH` (ej. `1.0.0` para el primer release del Landing Page en AV1), incrementando MAJOR ante cambios incompatibles, MINOR ante nuevas funcionalidades compatibles, y PATCH ante correcciones.
-
-**Conventional Commits**: todos los mensajes de commit siguen el formato `<tipo>(<alcance opcional>): <descripción>`, usando tipos como `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. Ejemplo: `feat(landing): add hero section with two-column layout`.
-
+> _Pendiente — agregar URLs de los 4 repositorios, explicación de GitFlow, convenciones de branches y Conventional Commits. Completar en `feature/software-configuration-management` (urgente para AV1)._
 
 #### 5.1.3 Source Code Style Guide & Coding Conventions
 
-
-El equipo adopta nomenclatura en inglés para todos los elementos de código, en los siguientes lenguajes y bajo las siguientes referencias:
-
-- **HTML/CSS**: Google HTML/CSS Style Guide.
-- **JavaScript**: Google JavaScript Style Guide y MDN JavaScript Guidelines.
-- **Vue**: Vue Style Guide (oficial).
-- **C# / ASP.NET Core**: Microsoft C# Coding Conventions y ASP.NET Core Engineering Guidelines.
-- **Gherkin** (usado en los Acceptance Criteria del Capítulo III): Gherkin Conventions for Readable Specifications.
-
-Convenciones específicas del equipo:
-- Componentes Vue en PascalCase (`HeroSection.vue`, `ContactForm.vue`).
-- Variables y funciones en camelCase; constantes en UPPER_SNAKE_CASE.
-- Clases C# en PascalCase; parámetros y variables locales en camelCase, siguiendo las convenciones de Microsoft.
-- No se permiten mutaciones de términos técnicos en español (ej. no usar "deployar", "testear"; usar "deploy", "test" en su forma original en inglés).
-
+> _Pendiente — completar en `feature/software-configuration-management`._
 
 #### 5.1.4 Software Deployment Configuration
 
@@ -602,49 +598,11 @@ Convenciones específicas del equipo:
 #### 5.2.1 Sprint 1 (AV1)
 
 ##### 5.2.1.1 Sprint Planning 1
-
-| Sprint # | Sprint 1 |
-|---|---|
-| **Date** | `[PENDIENTE]` |
-| **Time** | `[PENDIENTE]` |
-| **Location** | `[PENDIENTE]` |
-| **Prepared By** | `[PENDIENTE]` |
-| **Attendees** | Llamozas Diaz, Edson Diego / Flores Chavez, Fabricio / Huamanchumo Chicchon, Felipe Marcelo / Trigoso Garrido, Cristian Joseph / Correa Rodriguez, Andrea Khristina |
-| **Sprint n−1 Review Summary** | `[PENDIENTE]` |
-| **Sprint n−1 Retrospective Summary** | `[PENDIENTE]` |
-| **Sprint 1 Goal** | Nuestro objetivo es lanzar la página de destino B2B de Kinemo. Creemos que ofrece a los posibles gestores de cadenas de cines una forma clara y autónoma de conocer la oferta e iniciar una conversación comercial. Esto quedará confirmado cuando los visitantes puedan consultar la propuesta de valor y los precios, y enviar una solicitud de demostración o de presupuesto en menos de tres pasos. |
-| **Sprint 1 Velocity** | `[PENDIENTE]` |
-| **Sum of Story Points** | `[PENDIENTE]`  |
-
-
+> _Pendiente._
 ##### 5.2.1.2 Aspect Leaders and Collaborators
-
-| Team Member | GitHub Username | Hero Section | Platform Section | Pricing Section | Team Section | Contact Form | Repo & Deployment |
-|---|---|---|---|---|---|---|---|
-| Llamozas Diaz, Edson Diego | DiegoLlamozas | | | | | | |
-| Flores Chavez, Fabricio | FabriFloresXA | | | | | | |
-| Huamanchumo Chicchon, Felipe Marcelo | Felipe Huamanchumo | | | | | | |
-| Trigoso Garrido, Cristian Joseph | Crzzz30 | | | | | | |
-| Correa Rodriguez, Andrea Khristina | Andrea C. | | | | | | |
-
-> `[PENDIENTE]`: Marcar L (Leader) / C (Collaborator) en cada columna según quién lidera cada aspecto.
-
+> _Pendiente._
 ##### 5.2.1.3 Sprint Backlog 1
-
-| Story ID | Story Title | Task ID | Task Title | Task Description | Est. (h) | Assigned To | Status |
-|---|---|---|---|---|---|---|---|
-| US41 | Conocer la propuesta de valor | T01 | Maquetar Hero Section | Implementar layout de 2 columnas con badge, titular, subtítulo y CTAs, según mock-up de Figma. | `[ ]` | `[ ]` | To-do |
-| US41 | Conocer la propuesta de valor | T02 | Integrar copy y panel de telemetría del Hero | Añadir el panel "Central Telemetry" con métricas simuladas (uptime, sync latency). | `[ ]` | `[ ]` | To-do |
-| US42 | Conocer las características | T03 | Maquetar sección Platform | Implementar acordeón de 4 características con estado expandido/colapsado. | `[ ]` | `[ ]` | To-do |
-| US43 | Conocer los servicios | T04 | Redactar e integrar contenido de servicios | Incorporar textos descriptivos de hardware, mantenimiento y software dentro de Platform. | `[ ]` | `[ ]` | To-do |
-| US44 / US45 | Solicitar demo / cotización | T05 | Maquetar formulario de contacto | Implementar formulario con campos: nombre, cadena, correo, teléfono, número de pantallas. | `[ ]` | `[ ]` | To-do |
-| US44 / US45 | Solicitar demo / cotización | T06 | Implementar validación de campos | Validación client-side de campos obligatorios y formato de correo/teléfono. | `[ ]` | `[ ]` | To-do |
-| — | Constraint general | T07 | Maquetar sección Pricing | Implementar grilla de 3 planes (Starter, Growth, Enterprise) con toggle. | `[ ]` | `[ ]` | To-do |
-| — | Constraint general | T08 | Maquetar sección Team | Implementar tarjetas de los 5 integrantes del equipo. | `[ ]` | `[ ]` | To-do |
-| — | Constraint general | T09 | Configurar repositorio y estructura del proyecto | Inicializar repo, estructura de carpetas, README y configuración de GitFlow. | `[ ]` | `[ ]` | Done *(si ya se creó el repo)* |
-| — | Constraint general | T10 | Configurar despliegue del Landing Page | Configurar GitHub Pages / plataforma elegida y pipeline de deploy. | `[ ]` | `[ ]` | To-do |
-
-
+> _Pendiente._
 ##### 5.2.1.4 Development Evidence for Sprint Review
 > _Pendiente._
 ##### 5.2.1.5 Execution Evidence for Sprint Review
