@@ -499,7 +499,25 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.1 Design-Level EventStorming
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+A partir de los hallazgos obtenidos en el Big Picture EventStorming, el equipo llevó a cabo una sesión de Design-Level EventStorming con una duración aproximada de 2 horas, con el objetivo de profundizar en el modelado del dominio de Kinemo. Durante la sesión se identificaron los Domain Events, Commands, Policies y los datos/estado inicial que participan en cada flujo del negocio, siguiendo la notación de colores: 🟢 datos/estado inicial, 🟡 actor, 🔵 command, 🟣 policy/condición y 🟠 domain event.
+
+A partir de este modelado se identificaron y refinaron 12 Bounded Contexts, agrupando los eventos y comandos según su cohesión funcional y su relación con los sub-dominios propios de una plataforma SaaS orientada a servicios:
+
+- **Movie Catalog Management** y **Sensory Content Management**: gestión del catálogo de películas 4D y de los archivos de efectos sensoriales asociados (core domain).
+- **Scheduling & Calendar** y **Room & Resource Readiness**: corresponden al sub-dominio de Service Design and Planning y Resource and Asset Management, cubriendo la programación de funciones y la preparación de insumos de sala.
+- **Ticketing Integration** y **Seat Allocation & Control**: integración con el sistema externo de boletería y el control del mapa de butacas motorizadas.
+- **4D Execution & Synchronization** y **Emergency Control**: corresponden al sub-dominio de Service Execution and Monitoring, cubriendo la ejecución sincronizada de efectos físicos y el manejo de paradas de emergencia.
+- **Testing & Calibration** y **Maintenance & Incident Management**: aseguran la calidad del servicio mediante pruebas de canales y gestión de incidencias/mantenimiento del hardware.
+- **Operational Analytics & Reporting**: corresponde al sub-dominio de Dashboard and Analytics, consolidando métricas operativas.
+- **Subscription & Service Management**: corresponde al sub-dominio de Subscriptions and Payment Management, cubriendo la contratación, pago, renovación y upgrade de planes.
+
+Adicionalmente, en la sesión se identificaron las conexiones entre subgrupos (Fase 3), es decir los eventos de un Bounded Context que disparan comandos en otro, lo cual permitió validar la consistencia de las fronteras identificadas y sirvió de base para las relaciones representadas posteriormente en el Container Diagram.
+
+![Design-Level EventStorming de Kinemo](assets/img/design-level-eventstorming.jpg)
+
+Como se aprecia en la captura, cada Bounded Context concentra su propio flujo de eventos y comandos (por ejemplo, en Movie Catalog Management el evento *Película 4D Registrada* habilita los comandos *Buscar película por nombre*, *Duplicar configuración de película* y *Desactivar película 4D*), mientras que las conexiones entre subgrupos —marcadas de forma diferenciada— evidencian la colaboración entre contextos, como el caso de *Función 4D Programada* (Scheduling & Calendar) que dispara el comando *Calcular insumos de jornada* en Room & Resource Readiness, o *Datos de Boletería Sincronizados* (Ticketing Integration) que dispara *Actualizar asignación de butacas* en Seat Allocation & Control. Este nivel de detalle permitió pasar de una visión general del negocio a una identificación clara de los límites de cada Bounded Context y de sus relaciones, insumo necesario para la elaboración de los diagramas C4 Model.
+
+---
 
 #### 4.6.2 Software Architecture Context Diagram
 
