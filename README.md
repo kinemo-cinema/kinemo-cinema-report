@@ -578,6 +578,21 @@ El equipo aplica GitFlow como modelo de ramificación, compuesto por:
 #### 5.1.3 Source Code Style Guide & Coding Conventions
 
 
+El equipo adopta nomenclatura en inglés para todos los elementos de código, en los siguientes lenguajes y bajo las siguientes referencias:
+
+- **HTML/CSS**: Google HTML/CSS Style Guide.
+- **JavaScript**: Google JavaScript Style Guide y MDN JavaScript Guidelines.
+- **Vue**: Vue Style Guide (oficial).
+- **C# / ASP.NET Core**: Microsoft C# Coding Conventions y ASP.NET Core Engineering Guidelines.
+- **Gherkin** (usado en los Acceptance Criteria del Capítulo III): Gherkin Conventions for Readable Specifications.
+
+Convenciones específicas del equipo:
+- Componentes Vue en PascalCase (`HeroSection.vue`, `ContactForm.vue`).
+- Variables y funciones en camelCase; constantes en UPPER_SNAKE_CASE.
+- Clases C# en PascalCase; parámetros y variables locales en camelCase, siguiendo las convenciones de Microsoft.
+- No se permiten mutaciones de términos técnicos en español (ej. no usar "deployar", "testear"; usar "deploy", "test" en su forma original en inglés).
+
+
 #### 5.1.4 Software Deployment Configuration
 
 > _Pendiente — completar en `feature/software-configuration-management`._
