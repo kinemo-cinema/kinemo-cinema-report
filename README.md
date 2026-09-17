@@ -509,7 +509,17 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
 
-#### 4.6.4 Software Architecture Component Diagrams
+Para cada uno de los 12 Bounded Contexts identificados como containers, se elaboró el Component Diagram correspondiente, aplicando un patrón de descomposición interna consistente en todos los casos: un **Controller** que expone la API RESTful del Bounded Context, un grupo de **inboundservices** conformado por Context Facades que reciben solicitudes de otros Bounded Contexts, un grupo interno con las clases del propio dominio (**Repository**, **Query**, **Command**, **CommandService** y **QueryService**) que concentran la lógica de negocio y el acceso a datos, y un grupo de **outboundservices** conformado por External Services que encapsulan la comunicación hacia sistemas externos u otros Bounded Contexts.
+
+A continuación se presenta el detalle para cada Bounded Context.
+
+#### Movie Catalog Management BC
+
+El componente **Movie Catalog Management Controller** expone los endpoints para el registro, búsqueda, edición y desactivación de películas 4D. La **CatalogCommandService** gestiona las operaciones de creación/actualización mediante el **CatalogRepository**, mientras que la **CatalogQueryService** atiende las consultas de búsqueda y filtrado del catálogo. Como outboundservice, un **AmazonS3ExternalService** gestiona el almacenamiento del contenido audiovisual de las películas.
+
+![Component Diagram - Movie Catalog Management BC](assets/img/Component-1.jpg)
+
+
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
 
