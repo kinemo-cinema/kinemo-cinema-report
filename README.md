@@ -536,7 +536,89 @@ El footer de la página incluye a la izquierda el logotipo "Kinemo" acompañado 
 
 #### 4.4.3 Web Applications Mock-ups
 
-> _Pendiente — completar en `feature/web-app-ux`._
+##### 4.3.2. Landing Page Mock-up
+
+[Link de Landing Page Mock-up](https://www.figma.com/design/2kl9zH6WgBNDCJAPYMhC0v/Landing-Page-Mock-up?node-id=0-1&t=01NT4lXX92lQUrnf-1)
+
+Los mockups de alta fidelidad de la Landing Page de Kinemo aplican el sistema de diseño establecido en las guías de estilo, incorporando la paleta de colores institucional oscura, tipografías modernas, iconografía coherente y componentes visuales consistentes con la identidad de marca orientada al entretenimiento inmersivo 4D.
+
+**1. Home (Hero Section)**
+
+El mockup de la sección Home presenta una estética moderna, oscura y tecnológica que transmite innovación en la tecnología de cines 4D.
+
+**Header:**
+- Fondo oscuro con barra de navegación superior fija
+- Logotipo Kinemo (símbolo "И" morado con texto blanco) alineado a la izquierda
+- Navegación principal con enlaces a "Platform", "About Us", "Pricing" y "Contact"
+- Selector de idioma ("EN" / "ES"), enlace de "Sign in" y botón principal de llamada a la acción "Subscribe" con fondo morado destacado
+
+**Hero Section:**
+- Fondo visual inmersivo mostrando la parte posterior de asientos de cine 4D con reposacabezas
+- Etiqueta superior pequeña "4D CINEMA TECHNOLOGY"
+- Titular principal: "Bring the 4D experience to your cinema screens without high costs." en tipografía grande y negrita, con la última línea resaltada en tono morado
+- Subtítulo descriptivo: "Centralize motion seat control, synchronized environmental effects, and real-time analytics without replacing your existing infrastructure."
+- Dos botones de acción (CTA): un botón primario "Get Started" con fondo morado y texto blanco, y un botón secundario "Learn More" con borde sutil
+
+![Landing Mock-up - Home](../assets/img/Mock-up/moc-home.png)
+
+---
+
+**2. Plataforma (Platform Section)**
+
+La sección de plataforma presenta el título superior "PLATFORM" y el encabezado principal "Everything you need to manage your immersive theater".
+
+El layout se divide en dos columnas principales:
+- **Columna izquierda:** Tarjetas contenedoradas con esquinas redondeadas y bordes sutiles que detallan las capacidades del sistema:
+    - **Effects Synchronization:** Protocolo propietario con latencia sub-10ms que coordina asientos de movimiento, viento, aroma y vibración cuadro a cuadro.
+    - **Simplified Management Software:** Panel unificado e intuitivo para operar todas las salas de cine desde una sola pantalla.
+    - **Maintenance Incident Control:** Detección proactiva de fallos mecánicos e hidráulicos antes de que interrumpan una función.
+    - **Performance Analytics:** Estadísticas detalladas de ocupación, consumo energético y seguimiento de ROI por auditorio en tiempo real.
+- **Columna derecha:** Módulos interactivos del sistema que muestran:
+    - **Live Synchronization:** Estado de las pantallas (Screen 1 a Screen 4) con indicadores de estado ("OK", "Alert") y gráficos de rendimiento en tiempo real.
+    - **Recent Incidents:** Listado de incidencias recientes de hardware y canales con etiquetas de estado diferenciadas ("Resolved", "In progress", "Pending").
+
+![Landing Mock-up - Platform](../assets/img/Mock-up/moc-plataform.png)
+
+---
+
+**3. Nosotros / Equipo (About Us Section)**
+
+La sección "Nosotros" incluye la etiqueta superior "NOSOTROS" y el título principal "Conoce al Equipo", acompañado del texto institucional que destaca la misión enfocada en transformar al espectador en un participante activo de cada historia mediante el entretenimiento inmersivo.
+
+Muestra una cuadrícula con cuatro tarjetas de los integrantes del equipo que incluyen su fotografía circular, nombre completo y código de estudiante:
+- Huamanchumo Chicchon, Felipe Marcelo (u20241b932)
+- Correa Rodriguez, Andrea Khristina (u20231c234)
+- Trigoso Garrido, Cristian Joseph (u20231a456)
+- Flores Chavez, Fabricio (u20231d789)
+
+Adicionalmente, incluye un contenedor inferior con bordes punteados que anuncia próximamente un video de presentación del equipo.
+
+![Landing Mock-up - About Us](../assets/img/Mock-up/moc-about.png)
+
+---
+
+**4. Planes (Pricing Section)**
+
+La sección de "Pricing" adopta un layout centrado con la etiqueta superior "Pricing" y el título principal "Simple, transparent pricing". Incluye un banner informativo superior que indica: *"All plans include hardware leasing options with up to 20% savings"*.
+
+Se presenta una grilla de tres planes organizados en tarjetas:
+- **Starter ($490/mo):** Diseñado para 1 a 3 pantallas que se adentran en experiencias 4D, incluyendo hasta 3 pantallas conectadas, sincronización básica y soporte por correo.
+- **Growth ($490/mo - Most Popular):** Etiquetado como el más popular, orientado a operadores en expansión que necesitan hasta 12 pantallas conectadas, sincronización avanzada de fotogramas, gestión de incidencias y API completa.
+- **Enterprise (Custom):** Solución personalizada para grandes cadenas de cines con ubicaciones nacionales múltiples, pantallas ilimitadas, SLA garantizado del 99.9% y soporte dedicado.
+
+![Landing Mock-up - Pricing](../assets/img/Mock-up/moc-pricing.png)
+
+---
+
+**5. Contacto / Sección Final (Call to Action y Footer)**
+
+La sección final de contacto presenta la etiqueta "GET STARTED" y el título principal "¿Ready to transform your cinema experience?", respaldado por el texto descriptivo de despliegue rápido y estabilidad empresarial.
+
+Integra un bloque contenedor central destacado titulado "Start Your Subscription" con la descripción de escalabilidad instantánea y el botón principal de acción "Subscribe Now", seguido de los enlaces de términos y política de privacidad y opciones para empresas.
+
+El footer inferior muestra a la izquierda el logotipo de Kinemo junto al texto de derechos de autor "© 2026 Kinemo - All rights reserved", y hacia la derecha los enlaces institucionales "Privacy", "Terms" y "Contact".
+
+![Landing Mock-up - Contact](../assets/img/Mock-up/moc-contact.png)
 
 #### 4.4.4 Web Applications User Flow Diagrams
 
