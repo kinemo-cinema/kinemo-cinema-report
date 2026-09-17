@@ -561,7 +561,20 @@ El proyecto Kinemo gestiona su código fuente mediante **GitHub**, bajo la organ
 
 #### 5.1.3 Source Code Style Guide & Coding Conventions
 
-> _Pendiente — completar en `feature/software-configuration-management`._
+**Workflow: GitFlow**
+
+El equipo aplica GitFlow como modelo de ramificación, compuesto por:
+- **`main`**: rama principal, contiene únicamente versiones estables y desplegadas (release-ready).
+- **`develop`**: rama de integración continua, base para el desarrollo activo de features.
+- **`feature/<nombre-descriptivo>`**: una rama por cada funcionalidad, creada a partir de `develop` y fusionada de vuelta a `develop` al completarse. Ejemplo: `feature/landing-hero-section`, `feature/landing-contact-form`.
+- **`hotfix/<nombre-descriptivo>`**: para correcciones urgentes sobre `main`. Ejemplo: `hotfix/broken-cta-link`.
+
+**Convención de nombres de feature branches**: `feature/<kebab-case-descriptivo-de-la-tarea>`, alineado con el título de la Task correspondiente en el Sprint Backlog (ej. la Task T01 "Maquetar Hero Section" → `feature/landing-hero-section`).
+
+**Semantic Versioning**: los Releases siguen el formato `MAJOR.MINOR.PATCH` (ej. `1.0.0` para el primer release del Landing Page en AV1), incrementando MAJOR ante cambios incompatibles, MINOR ante nuevas funcionalidades compatibles, y PATCH ante correcciones.
+
+**Conventional Commits**: todos los mensajes de commit siguen el formato `<tipo>(<alcance opcional>): <descripción>`, usando tipos como `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`. Ejemplo: `feat(landing): add hero section with two-column layout`.
+
 
 #### 5.1.4 Software Deployment Configuration
 
