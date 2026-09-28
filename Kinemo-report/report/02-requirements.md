@@ -1,7 +1,3 @@
-**Segmento 2: Personal Operativo / Técnico de las salas de cine**
-
-
-
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1 Competidores
