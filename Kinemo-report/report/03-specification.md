@@ -852,7 +852,7 @@
 
 ### 3.2 Impact Mapping
 
-> _Pendiente — completar en `feature/impact-mapping`._
+![Impact-Mapping](../assets/img/impact_mapping.png)
 
 ### 3.3 Product Backlog
 
