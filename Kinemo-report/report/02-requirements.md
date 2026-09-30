@@ -66,9 +66,67 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 ### 2.2 Entrevistas
 
-#### 2.2.1 Diseño de entrevistas
+## 2.2.1. Diseño de entrevistas
+Se diseñaron dos guías de entrevista, una por cada segmento objetivo identificado: (1) Gerentes de operaciones/propietarios de cadenas de cine pequeñas y medianas, y (2) Personal operativo/técnico de las salas de cine. Ambas guías buscan recolectar información demográfica y de arquetipo (género, edad, distrito de residencia, estado civil, familia, ocupación), así como características adicionales (personalidad, habilidades, marcas e influencias, dispositivos de preferencia, canales digitales de interacción, objetivos, frustraciones y background), necesarias para la posterior construcción de los User Persona.
 
-> _Pendiente — completar en `feature/interview-design`._
+### Guía de entrevista — Segmento: Gerentes/Propietarios de cadenas de cine pequeñas y medianas
+
+**Objetivo de la entrevista:** comprender el perfil, contexto laboral, necesidades y comportamiento de los gerentes o propietarios, así como sus procesos de decisión frente a nuevas tecnologías y experiencias de entretenimiento.
+
+#### Preguntas de perfil/introducción
+
+1. ¿Cuál es su nombre, edad, cargo y cuánto tiempo lleva trabajando en el sector cinematográfico?
+2. ¿En qué distrito reside y cuál es su estado civil y situación familiar?
+3. ¿Cuál es su formación profesional y cómo fue su trayectoria hasta llegar a su puesto actual?
+
+#### Preguntas principales
+
+4. ¿Cómo describiría su forma de tomar decisiones cuando debe realizar cambios o inversiones importantes en el negocio?
+5. ¿Qué habilidades considera más importantes para desempeñar su cargo y cuáles ha desarrollado durante su experiencia laboral?
+6. ¿Qué marcas, empresas, personas o medios influyen en sus decisiones cuando busca nuevas tecnologías o soluciones para su negocio?
+7. ¿Qué dispositivos y canales digitales utiliza con mayor frecuencia para trabajar, informarse y comunicarse con otras personas?
+8. ¿Cuáles son sus principales objetivos profesionales y de negocio actualmente?
+9. ¿Qué situaciones o aspectos de su trabajo le generan mayor frustración?
+
+#### Preguntas sobre el contexto del proyecto
+
+10. ¿Qué experiencias de entretenimiento inmersivo conoce y qué factores tendría en cuenta antes de implementar una tecnología de este tipo en sus salas?
+11. ¿Qué dificultades encuentra actualmente al incorporar nuevas tecnologías o equipamiento en el cine?
+
+#### Cierre
+
+12. ¿Hay algún aspecto de su experiencia, necesidades o forma de trabajar que considere relevante y que no le hayamos preguntado?
+
+---
+
+### Guía de entrevista — Segmento: Personal operativo/técnico de las salas de cine
+
+**Objetivo de la entrevista:** comprender el perfil, experiencia, habilidades, hábitos tecnológicos, necesidades y frustraciones del personal operativo/técnico encargado de las salas de cine.
+
+#### Preguntas de perfil/introducción
+
+1. ¿Cuál es su nombre, edad, cargo y cuánto tiempo lleva desempeñando este rol?
+2. ¿En qué distrito reside, cuál es su estado civil y cómo describiría brevemente su situación familiar?
+3. ¿Cuál es su formación y qué experiencia laboral o técnica tenía antes de trabajar en el cine?
+
+#### Preguntas principales
+
+4. ¿Cómo describiría su forma de trabajar cuando debe realizar varias tareas o resolver un problema inesperado?
+5. ¿Qué habilidades considera que son las más importantes para realizar correctamente su trabajo?
+6. ¿Qué dispositivos, aplicaciones o herramientas digitales utiliza con mayor frecuencia durante su trabajo y fuera de él?
+7. ¿Qué canales utiliza habitualmente para comunicarse con compañeros, supervisores o proveedores?
+8. ¿Hay alguna marca, aplicación o tecnología que prefiera utilizar o que considere especialmente útil? ¿Por qué?
+9. ¿Cuáles son sus principales objetivos profesionales y qué le gustaría mejorar en su trabajo?
+10. ¿Qué tareas o situaciones le generan mayor frustración durante su jornada laboral?
+
+#### Preguntas sobre el contexto del proyecto
+
+11. ¿Qué experiencia tiene con tecnologías de entretenimiento inmersivo y qué necesitaría para sentirse cómodo/a utilizando o manteniendo una tecnología de este tipo?
+12. ¿Qué características considera importantes para que una nueva herramienta tecnológica sea fácil de aprender y utilizar?
+
+#### Cierre
+
+13. ¿Hay algún aspecto de su experiencia, necesidades o forma de trabajar que considere relevante y que no le hayamos preguntado?
 
 #### 2.2.2 Registro de entrevistas
 
@@ -137,4 +195,35 @@ La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión
 
 ### 2.5 Ubiquitous Language
 
-> _Pendiente — completar en `feature/ubiquitous-language`._
+**Usuarios del sistema:**
+
+- **Cinema Manager (Administrador de Cine):** Responsable de la cadena o sala de cine encargado de afiliar el establecimiento, programar funciones y monitorear el rendimiento comercial.
+- **Maintenance Technician (Técnico de Mantenimiento):** Especialista asignado a la calibración física, diagnóstico de actuadores y resolución de incidencias en las butacas sensoriales.
+- **Moviegoer (Espectador / Espectador de Cine):** Cliente final que adquiere entradas, experimenta las sensaciones físicas durante la película y califica el nivel de inmersión sensorial.
+- **Content Synchronizer (Sincronizador de Contenido):** Ingeniero o diseñador multimedia responsable de mapear y marcar los efectos en la línea de tiempo de la película.
+
+**Infraestructura y hardware sensorial:**
+
+- **Haptic Actuator (Actuador Háptico):** Dispositivo electromecánico embebido en la butaca que convierte datos digitales en vibraciones, inclinaciones e impactos físicos.
+- **Kinemo Controller (Controlador Kinemo):** Módulo de hardware local en sala que recibe la señal del proyector (DCP) y comanda en milisegundos a la red de asientos sensoriales.
+- **Sensory Room (Sala Sensorial):** Sala de exhibición comercial equipada y homologada con la infraestructura de hardware y red Kinemo.
+- **Telemetry Data (Datos de Telemetría):** Flujo de métricas periódicas (temperatura, voltaje, latencia de respuesta) transmitidas por los sensores de cada butaca al panel de control.
+
+**Procesamiento y sincronización multimedia:**
+
+- **Sensory Track (Pista Sensorial):** Archivo digital estructurado con metadatos que contiene los eventos de vibración, viento y movimiento alineados al código de tiempo (timecode) de la película.
+- **Cue Event (Disparo Sensorial):** Marcador individual en la línea de tiempo que activa un efecto físico determinado con duración e intensidad específicas.
+- **Sync Drift (Desfase de Sincronización):** Desviación temporal en milisegundos entre la proyección audiovisual principal y la ejecución mecánica en la butaca.
+- **Sync Pulse (Pulso de Sincronización):** Señal de sincronía periódica emitida por el proyector de cine que mantiene alineados los actuadores con el audio y video.
+
+**Gestión comercial y reservas:**
+
+- **Sensory Screening (Función Sensorial):** Proyección pública programada que cuenta con la pista háptica activa habilitada para los asistentes.
+- **Seat Allocation (Asignación de Butacas):** Proceso de reservación y bloqueo de asientos motorizados operativos en el mapa de la sala.
+- **Showtime Schedule (Cartelera / Programación):** Calendario de horarios y películas disponibles con experiencia inmersiva habilitada.
+
+**Mantenimiento e incidencias:**
+
+- **Hardware Incident (Incidente de Hardware):** Falla electromecánica o pérdida de enlace en una butaca durante o fuera de una función.
+- **Calibration Profile (Perfil de Calibración):** Parámetros predefinidos de intensidad y sensibilidad del asiento adaptados al tipo de sala o público.
+- **Preventive Maintenance Order (Orden de Mantenimiento Preventivo):** Solicitud generada automáticamente cuando la telemetría reporta desgaste o ciclos de uso elevados en los actuadores.
