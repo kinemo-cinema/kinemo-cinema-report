@@ -421,11 +421,11 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 > _Pendiente — completar en `feature/user-stories`._
 
-### 3.2 Impact Mapping
+### 3.2. Impact Mapping
 
-Para alinear los objetivos estratégicos de la startup Kinemo con la entrega de valor del software. Esta técnica permite trazar una línea clara entre las metas cuantitativas de negocio y las características técnicas que implementaremos en la plataforma.
+El Impact Mapping de Kinemo se elaboró con el propósito de alinear los objetivos estratégicos de la startup con la entrega de valor del software. Esta técnica permite establecer la relación entre los Business Goals, los User Personas, los impactos esperados en su comportamiento, los Deliverables necesarios y las User Stories que permitirán materializarlos.
 
-<img src="assets/img/Impact%20map.png" alt="Impact Mapping">
+<img src="assets/img/Impact%20mapPING.png" alt="Impact Mapping">
 
 Link de UXpressia: https://uxpressia.com/w/v8FzI/i/dBBww?tagId=9BZKW
 
