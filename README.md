@@ -507,87 +507,75 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.3 Software Architecture Container Diagrams
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+Para cada uno de los **9 Bounded Contexts** identificados como containers, se elaboró el **Component Diagram** correspondiente. Cada diagrama muestra la descomposición interna del Bounded Context en componentes responsables de exponer las operaciones, ejecutar la lógica de aplicación, aplicar las reglas del dominio y gestionar la persistencia de información.
 
-Para cada uno de los 12 Bounded Contexts identificados como containers, se elaboró el Component Diagram correspondiente, aplicando un patrón de descomposición interna consistente en todos los casos: un **Controller** que expone la API RESTful del Bounded Context, un grupo de **inboundservices** conformado por Context Facades que reciben solicitudes de otros Bounded Contexts, un grupo interno con las clases del propio dominio (**Repository**, **Query**, **Command**, **CommandService** y **QueryService**) que concentran la lógica de negocio y el acceso a datos, y un grupo de **outboundservices** conformado por External Services que encapsulan la comunicación hacia sistemas externos u otros Bounded Contexts.
+De acuerdo con las responsabilidades de cada contexto, se identificaron componentes como **Controllers**, **Application Services**, **Domain Services**, **Repositories** y **External Services**, según las necesidades de interacción con otros Bounded Contexts o sistemas externos.
 
-A continuación se presenta el detalle para cada Bounded Context.
+A continuación se presenta el detalle de los componentes definidos para cada Bounded Context.
 
-#### Movie Catalog Management BC
+#### BC01 — Movie & Sensory Content Management
 
-El componente **Movie Catalog Management Controller** expone los endpoints para el registro, búsqueda, edición y desactivación de películas 4D. La **CatalogCommandService** gestiona las operaciones de creación/actualización mediante el **CatalogRepository**, mientras que la **CatalogQueryService** atiende las consultas de búsqueda y filtrado del catálogo. Como outboundservice, un **AmazonS3ExternalService** gestiona el almacenamiento del contenido audiovisual de las películas.
+El **MovieSensoryController** expone las operaciones relacionadas con la gestión de películas y contenido sensorial. El **MovieCommandService** gestiona las operaciones de registro, actualización y desactivación de películas, mientras que el **MovieQueryService** permite realizar consultas y búsquedas sobre el catálogo. El **SensoryContentService** gestiona la carga, vinculación, validación y habilitación del contenido sensorial. El **MovieSensoryDomainService** aplica las reglas de negocio relacionadas con las películas y el contenido sensorial, y el **MovieSensoryRepository** gestiona la persistencia y recuperación de la información.
 
-![Component Diagram - Movie Catalog Management BC](assets/img/Component-1.jpg)
+![Component Diagram - BC01 Movie & Sensory Content Management](assets/img/Component_1.png)
 
-#### Sensory Content Management BC
+#### BC02 — Scheduling & Calendar
 
-El **Sensory Content Controller** expone los endpoints para la carga y vinculación de archivos de efectos 4D. La **SensoryContentCommandService** gestiona la creación, validación y habilitación de pistas sensoriales mediante el **SensoryContentRepository**, y la **SensoryContentQueryService** resuelve las consultas de configuración de efectos. Como inboundservice, un **CatalogContextFacade** recibe la notificación de películas registradas desde Movie Catalog Management; como outboundservice, un **AmazonS3ExternalService** gestiona la subida y descarga de archivos de efectos.
+El **SchedulingController** expone las operaciones relacionadas con la programación de funciones 4D. El **SchedulingCommandService** gestiona las operaciones de programación, reprogramación y cancelación de funciones, mientras que el **AvailabilityService** permite consultar la disponibilidad necesaria para la programación. El **SchedulingDomainService** aplica las reglas de negocio relacionadas con horarios y disponibilidad, y el **SchedulingRepository** gestiona la persistencia de las funciones programadas.
 
-![Component Diagram - Sensory Content Management BC](assets/img/Component-2.jpg)
+![Component Diagram - BC02 Scheduling & Calendar](assets/img/Component_2.png)
 
-#### Scheduling & Calendar BC
+#### BC03 — Room & Resource Readiness
 
-El **Scheduling Controller** expone los endpoints de programación y reprogramación de funciones. La **SchedulingCommandService** gestiona la detección/resolución de conflictos de horario y el bloqueo/liberación de disponibilidad mediante el **SchedulingRepository**, y la **SchedulingQueryService** resuelve las consultas de disponibilidad.
+El **RoomReadinessController** expone las operaciones relacionadas con la preparación y disponibilidad de las salas. El **RoomPreparationService** gestiona las actividades necesarias para verificar la preparación de una sala, mientras que el **RoomBlockingService** permite bloquear una sala cuando no se encuentra disponible. El **RoomReleaseService** gestiona la liberación de las salas una vez finalizadas las restricciones correspondientes. El **RoomReadinessRepository** gestiona la persistencia de la información relacionada con el estado y preparación de las salas.
 
-![Component Diagram - Scheduling & Calendar BC](assets/img/Component-3.jpg)
+![Component Diagram - BC03 Room & Resource Readiness](assets/img/Component_3.png)
 
-#### Room & Resource Readiness BC
+#### BC04 — Ticketing Integration
 
-El **RoomReadiness Controller** expone los endpoints de cálculo de insumos y verificación de preparación de sala. La **RoomReadinessCommandService** gestiona el cálculo de requerimientos de agua/aire y el bloqueo de sala por mantenimiento mediante el **RoomReadinessRepository**, y la **RoomReadinessQueryService** resuelve las consultas de estado de sala. Como inboundservice, un **SchedulingContextFacade** y un **MaintenanceContextFacade** reciben, respectivamente, la notificación de función programada y de revisión técnica solicitada.
+El **TicketingController** expone las operaciones relacionadas con la integración con el sistema externo de boletería. El **TicketingSyncService** gestiona la sincronización de la información proveniente del sistema de boletería, mientras que el **TicketingConnectionMonitor** permite supervisar el estado de la conexión con dicho sistema. El **OccupancyService** procesa la información relacionada con la ocupación de las salas y el **TicketingRepository** gestiona la persistencia de la información de integración.
 
-![Component Diagram - Room & Resource Readiness BC](assets/img/Component-4.jpg)
+Como dependencia externa, el **Sistema Externo de Boletería** proporciona la información necesaria para mantener actualizada la ocupación de las funciones.
 
-#### Ticketing Integration BC
+![Component Diagram - BC04 Ticketing Integration](assets/img/Component_4.png)
 
-El **Ticketing Controller** expone los endpoints de sincronización de boletería. La **TicketingCommandService** gestiona la reconexión ante pérdida de enlace mediante el **TicketingRepository**, y la **TicketingQueryService** resuelve las consultas de estado de integración. Como outboundservice, un **SistemaBoleteriaExternalService** encapsula la comunicación con el sistema de boletería externo.
+#### BC05 — Seat Allocation & Control
 
-![Component Diagram - Ticketing Integration BC](assets/img/Component-5.jpg)
+El **SeatController** expone las operaciones relacionadas con la asignación y control de las butacas. El **SeatAllocationService** gestiona la asignación de butacas para las funciones, mientras que el **SeatActivationService** permite activar las butacas que corresponden a los boletos vendidos. El **SeatControlService** gestiona el estado operativo de las butacas y el **SeatRepository** administra la persistencia de la información relacionada con su asignación y estado.
 
-#### Seat Allocation & Control BC
+![Component Diagram - BC05 Seat Allocation & Control](assets/img/Component_5.png)
 
-El **SeatAllocation Controller** expone los endpoints de activación/desactivación y mapa de butacas. La **SeatAllocationCommandService** gestiona la actualización de asignación y el estado de las butacas mediante el **SeatAllocationRepository**, y la **SeatAllocationQueryService** resuelve las consultas del mapa de sala. Como inboundservices, un **TicketingContextFacade** y un **EmergencyContextFacade** reciben notificaciones de ocupación y de parada de emergencia, respectivamente; como outboundservice, un **Hardware4DExternalService** envía los comandos de activación a los controladores IoT de las butacas.
+#### BC06 — 4D Execution & Synchronization
 
-![Component Diagram - Seat Allocation & Control BC](assets/img/Component-6.jpg)
+El **ExecutionController** expone las operaciones relacionadas con la ejecución de las funciones 4D. El **ExecutionService** gestiona el inicio, pausa, reanudación y finalización de la ejecución, mientras que el **SynchronizationService** controla la sincronización entre la película y los efectos sensoriales. El **EmergencyExecutionService** gestiona las situaciones de emergencia que pueden interrumpir la ejecución. El **Hardware4DGateway** encapsula la comunicación con el hardware encargado de ejecutar los efectos físicos y el **ExecutionRepository** gestiona la persistencia de la información relacionada con la ejecución.
 
-#### 4D Execution & Synchronization BC
+Como sistema externo, el **Hardware 4D** recibe las instrucciones necesarias para ejecutar los efectos sensoriales durante una función.
 
-El **Execution Controller** expone los endpoints de inicio, pausa y sincronización de la secuencia de efectos. La **ExecutionCommandService** gestiona la sincronización y el reajuste de efectos mediante el **ExecutionRepository**, y la **ExecutionQueryService** resuelve las consultas de estado de ejecución. Como inboundservices, un **RoomReadinessContextFacade**, un **SeatAllocationContextFacade** y un **SensoryContentContextFacade** validan las condiciones de inicio de función; como outboundservice, un **Hardware4DExternalService** envía la secuencia de efectos físicos.
+![Component Diagram - BC06 4D Execution & Synchronization](assets/img/Component_6.png)
 
-![Component Diagram - 4D Execution & Synchronization BC](assets/img/Component-7.jpg)
+#### BC07 — Resource Testing & Maintenance
 
-#### Emergency Control BC
+El **MaintenanceController** expone las operaciones relacionadas con las pruebas, mantenimiento e incidencias de los recursos 4D. El **ChannelTestingService** gestiona las pruebas de los canales y componentes del sistema, mientras que el **IncidentService** permite registrar y gestionar las incidencias identificadas. El **MaintenanceService** gestiona las actividades de mantenimiento y el **EquipmentService** administra la información relacionada con los equipos. El **HardwareMaintenanceGateway** encapsula la comunicación con los recursos de hardware y el **MaintenanceRepository** gestiona la persistencia de las pruebas, incidencias y actividades de mantenimiento.
 
-El **Emergency Controller** expone el endpoint de parada de emergencia. La **EmergencyCommandService** gestiona el bloqueo de ejecución y el restablecimiento del servicio mediante el **EmergencyRepository**, y la **EmergencyQueryService** resuelve las consultas de estado de emergencia. Como outboundservices, un **ExecutionExternalService**, un **SeatAllocationExternalService** y un **Hardware4DExternalService** propagan el bloqueo hacia la ejecución 4D, las butacas y el hardware.
+Como dependencia externa, el **Hardware 4D** permite realizar las pruebas y actividades técnicas necesarias sobre los recursos físicos.
 
-![Component Diagram - Emergency Control BC](assets/img/Component-8.jpg)
+![Component Diagram - BC07 Resource Testing & Maintenance](assets/img/Component_7.png)
 
-#### Testing & Calibration BC
+#### BC08 — Operational Analytics & Reporting
 
-El **Testing Controller** expone los endpoints de prueba de canales y ajuste de intensidad. La **TestingCommandService** gestiona el marcado de canales para revisión y la calibración de butacas mediante el **TestingRepository**, y la **TestingQueryService** resuelve las consultas de resultados de prueba. Como outboundservice, un **Hardware4DExternalService** ejecuta las pruebas sobre los canales de efectos.
+El **AnalyticsController** expone las operaciones relacionadas con la consulta de información operativa y generación de reportes. El **OperationalMetricsService** gestiona el cálculo y consolidación de métricas relacionadas con la operación de las funciones y el mantenimiento. El **DashboardService** permite obtener la información necesaria para los dashboards, mientras que el **IncidentReportService** gestiona la información relacionada con las incidencias. El **DashboardExportService** permite generar y exportar reportes operativos y el **AnalyticsRepository** gestiona la persistencia y consulta de la información utilizada para los análisis.
 
-![Component Diagram - Testing & Calibration BC](assets/img/Component-9.jpg)
+![Component Diagram - BC08 Operational Analytics & Reporting](assets/img/Component_8.png)
 
-#### Maintenance & Incident Management BC
+#### BC09 — Subscription & Service Management
 
-El **Maintenance Controller** expone los endpoints de registro de incidencias y órdenes de mantenimiento. La **MaintenanceCommandService** gestiona la clasificación, priorización y cierre de órdenes mediante el **MaintenanceRepository**, y la **MaintenanceQueryService** resuelve las consultas de historial de mantenimiento. Como outboundservices, un **RoomReadinessExternalService** solicita el bloqueo de sala y un **Hardware4DExternalService** recibe telemetría de desgaste.
+El **SubscriptionController** expone las operaciones relacionadas con la gestión de las suscripciones del servicio. El **SubscriptionPlanService** gestiona la información de los planes disponibles, mientras que el **SubscriptionService** administra la contratación, activación, renovación y cambio de plan. El **SubscriptionPaymentService** gestiona el procesamiento de los pagos asociados a las suscripciones. El **SubscriptionDomainService** aplica las reglas de negocio relacionadas con el ciclo de vida de las suscripciones y el **SubscriptionRepository** gestiona su persistencia.
 
-![Component Diagram - Maintenance & Incident Management BC](assets/img/Component-10.jpg)
+Como dependencias externas, el **Payment Gateway Adapter** encapsula la comunicación con la **Pasarela de Pagos**, permitiendo procesar los pagos de las suscripciones. Asimismo, el contexto puede interactuar con el **Servicio de Facturación Electrónica** para gestionar los comprobantes correspondientes.
 
-#### Operational Analytics & Reporting BC
+![Component Diagram - BC09 Subscription & Service Management](assets/img/Component_9.png)
 
-El **Analytics Controller** expone los endpoints de consulta de métricas y generación de reportes. La **AnalyticsCommandService** gestiona la consolidación de datos de consumo e incidencias mediante el **AnalyticsRepository**, y la **AnalyticsQueryService** resuelve las consultas de dashboard. Como inboundservices, un **RoomReadinessContextFacade**, un **MaintenanceContextFacade** y un **ExecutionContextFacade** reciben los datos operativos que alimentan los reportes.
-
-![Component Diagram - Operational Analytics & Reporting BC](assets/img/Component-11.jpg)
-
-#### Subscription & Service Management BC
-
-El **Subscription Controller** expone los endpoints de contratación, pago, renovación y upgrade de planes, además de validar el estado de la suscripción para el Api Gateway. La **SubscriptionCommandService** gestiona la activación y renovación de suscripciones mediante el **SubscriptionRepository**, y la **SubscriptionQueryService** resuelve las consultas de estado del plan. Como outboundservices, un **CulqiExternalService** y un **PaypalExternalService** procesan los pagos, un **SunatExternalService** genera el comprobante electrónico y un **GmailExternalService** envía confirmaciones y recordatorios de renovación.
-
-![Component Diagram - Subscription & Service Management BC](assets/img/Component-12.jpg)
-
-
-> _Pendiente — completar en `feature/domain-driven-architecture`._
-
+En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Context se descompone internamente en componentes con responsabilidades específicas, manteniendo una separación clara entre la exposición de operaciones, la lógica de aplicación, las reglas del dominio, la persistencia y las integraciones externas. Esta descomposición contribuye a mantener la autonomía de cada contexto y facilita su evolución y despliegue independiente.
 ### 4.7 Software Object-Oriented Design
 
 #### 4.7.1 Class Diagrams
