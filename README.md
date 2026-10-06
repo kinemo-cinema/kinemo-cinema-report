@@ -507,23 +507,38 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.3 Software Architecture Container Diagrams
 
-El Container Diagram detalla los elementos de alto nivel que conforman la arquitectura de software de Kinemo y las decisiones de tecnología adoptadas para cada uno, así como la manera en que estos containers se comunican entre sí. Cada container representa una unidad de despliegue independiente.
+El **Container Diagram** detalla los elementos de alto nivel que conforman la arquitectura de software de Kinemo 4D, las principales responsabilidades de cada container, las decisiones tecnológicas adoptadas y la manera en que estos containers se comunican entre sí. Cada container representa una unidad de despliegue independiente dentro de la solución.
 
 La solución está compuesta por:
 
-- **Landing Page B2B**: sitio de marketing con la propuesta de valor y la comparación de planes de suscripción, punto de entrada para el Visitante B2B.
-- **Panel Web de Administración**: Single-Page Application utilizada por el Administrador y el Personal Operativo para la gestión del catálogo, programación, mantenimiento y reportes.
-- **App Técnica de Sala**: aplicación móvil utilizada en sala por el Personal Operativo y el Personal Técnico durante la operación y el mantenimiento.
-- **Api Gateway**: punto único de entrada para las solicitudes de los distintos clientes, encargado además de validar el estado de la suscripción para autorizar el acceso a los endpoints protegidos.
-- **12 Bounded Contexts** como microservicios independientes (Movie Catalog Management, Sensory Content Management, Scheduling & Calendar, Room & Resource Readiness, Ticketing Integration, Seat Allocation & Control, 4D Execution & Synchronization, Emergency Control, Testing & Calibration, Maintenance & Incident Management, Operational Analytics & Reporting y Subscription & Service Management), cada uno con su propia base de datos (patrón database-per-service), siguiendo el principio de independencia de despliegue y autonomía de datos por Bounded Context.
-- **Sistemas externos**: sistema de boletería del cine, hardware IoT de butacas 4D, pasarelas de pago, SUNAT (facturación electrónica), servicios de notificación (correo/SMS) y almacenamiento de archivos, con los cuales interactúan los Bounded Contexts correspondientes.
+- **Landing Page B2B**: sitio de presentación de Kinemo 4D que comunica la propuesta de valor del servicio y permite consultar los planes de suscripción disponibles. Constituye el punto de entrada para el Gerente y el Técnico.
 
-![Container Diagram de Kinemo](assets/img/diagram-container.jpg)
+- **Web Application**: aplicación web utilizada por el Gerente y el Técnico para acceder a las funcionalidades de gestión y operación de Kinemo 4D, según las responsabilidades de cada actor.
 
-La comunicación entre el Panel Web, la App Técnica y el Landing Page hacia el back-end se centraliza a través del Api Gateway, el cual enruta las solicitudes hacia el Bounded Context correspondiente según el dominio funcional. A nivel de comunicación entre Bounded Contexts, se representan las relaciones identificadas en el Design-Level EventStorming (por ejemplo, Scheduling & Calendar informa a Room & Resource Readiness para el cálculo de insumos, o Emergency Control se comunica con 4D Execution & Synchronization y Seat Allocation & Control para bloquear la ejecución y mantener las butacas inmovilizadas ante una emergencia). Cada Bounded Context persiste su información en una base de datos propia, reforzando el aislamiento entre contextos y evitando el acoplamiento a nivel de datos.
+- **RESTful API**: punto de entrada para las solicitudes provenientes de la aplicación web. Centraliza el acceso a las funcionalidades del sistema y dirige las solicitudes hacia el Bounded Context correspondiente.
+
+- **9 Bounded Contexts** como containers independientes, cada uno encargado de un área específica del dominio de Kinemo 4D:
+  **BC01 — Movie & Sensory Content Management**, **BC02 — Scheduling & Calendar**, **BC03 — Room & Resource Readiness**, **BC04 — Ticketing Integration**, **BC05 — Seat Allocation & Control**, **BC06 — 4D Execution & Synchronization**, **BC07 — Resource Testing & Maintenance**, **BC08 — Operational Analytics & Reporting** y **BC09 — Subscription & Service Management**.
+
+  Cada Bounded Context mantiene su propia base de datos, siguiendo el patrón **Database per Service**, con el objetivo de mantener la autonomía de datos y reducir el acoplamiento entre los diferentes contextos del dominio.
+
+- **Sistemas externos**: Kinemo 4D se integra con el **Sistema Externo de Boletería**, **Hardware 4D**, **Pasarela de Pagos**, **Servicio de Facturación Electrónica**, **Almacenamiento de Archivos** y **Servicio de Notificaciones**, según las necesidades de cada Bounded Context.
+
+![Container Diagram de Kinemo 4D](assets/img/diagram-container.png)
+
+La comunicación entre los actores y la solución se inicia desde el **Landing Page B2B**, desde donde el **Gerente** y el **Técnico** acceden a la plataforma. El Landing Page se comunica con la **Web Application**, y esta utiliza la **RESTful API** como punto de entrada hacia los diferentes Bounded Contexts.
+
+A nivel interno, cada Bounded Context encapsula las responsabilidades de un área específica del dominio y mantiene su propia persistencia. Las relaciones entre los contextos se basan en las interacciones identificadas durante el **Design-Level EventStorming**, permitiendo que los eventos producidos en un contexto puedan desencadenar acciones en otro cuando existe una dependencia funcional.
+
+Por ejemplo, el **BC01 — Movie & Sensory Content Management** permite registrar una película 4D y su contenido sensorial, lo que permite al **BC02 — Scheduling & Calendar** iniciar la programación de una función. Asimismo, una función programada permite al **BC03 — Room & Resource Readiness** verificar la preparación de la sala.
+
+De manera similar, el **BC04 — Ticketing Integration** proporciona información de ocupación que permite al **BC05 — Seat Allocation & Control** gestionar el estado de las butacas vendidas. Durante la ejecución, el **BC06 — 4D Execution & Synchronization** interactúa con el **BC07 — Resource Testing & Maintenance** cuando se presentan incidencias relacionadas con los recursos 4D. Finalmente, los resultados de la ejecución y del mantenimiento pueden ser utilizados por el **BC08 — Operational Analytics & Reporting** para generar métricas y reportes operativos.
+
+El **BC09 — Subscription & Service Management** gestiona la suscripción del servicio y se relaciona con los demás contextos para habilitar las funcionalidades correspondientes según el estado de la suscripción.
+
+De esta manera, el Container Diagram permite visualizar la distribución de responsabilidades, las principales decisiones tecnológicas, las relaciones entre los Bounded Contexts y las dependencias con los sistemas externos que forman parte del ecosistema de Kinemo 4D.
 
 ---
-
 #### 4.6.4 Software Architecture Component Diagrams
 
 > _Pendiente — completar en `feature/domain-driven-architecture`._
@@ -539,7 +554,7 @@ La comunicación entre el Panel Web, la App Técnica y el Landing Page hacia el 
 #### 4.8.1 Database Diagrams
 
 ![Diagrama de Movie Catalog Management](assets/img/BC01-Movie Catalog Managment.png)
-
+S
 ## 1. Movie Catalog Management
 
 La base de datos del módulo **Movie Catalog Management** se encuentra estructurada alrededor del agregado principal `movies`, el cual representa y centraliza la información base de las películas 4D registradas en el sistema.
