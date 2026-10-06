@@ -389,19 +389,17 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 > _Bloqueado — depende de 2.2.2._
 
-### 2.3 Needfinding
+## 2.3. Needfinding
 
-Al recopilar la información de los segmentos objetivo a través de las entrevistas, se procedió a sintetizar y analizar los hallazgos mediante la construcción de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
+A partir de la información recopilada de los segmentos objetivo y de los resultados obtenidos en las entrevistas, se realizó el proceso de Needfinding mediante la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps. Estos artefactos permiten representar las características, actividades, objetivos, necesidades y dificultades identificadas en cada segmento y sirven como base para la definición de los requisitos de Kinemo.
 
-#### 2.3.1 User Personas
+### 2.3.1. User Personas
 
-**User Persona 1: Carlos Torres**  
-La imagen ilustra el perfil de Carlos Torres, enfocado en el mantenimiento técnico y la operación de las salas. Destaca sus metas de mantener el 100% de operatividad en horas de alta afluencia y sus frustraciones ligadas a la ausencia de un sistema centralizado para dar seguimiento a fallas mecánicas e interfaces complejas.
+**User persona 1 (Personal operativo/técnico de las salas de cine ):** La ficha de Carlos Torres representa al personal encargado de las actividades técnicas y operativas de las salas de cine. El arquetipo refleja un perfil orientado a la resolución de problemas, mantenimiento preventivo y atención de incidencias. Sus principales objetivos son mantener los equipos operativos, detectar fallas con rapidez y mejorar el seguimiento del mantenimiento. Entre sus principales dificultades se encuentran las fallas durante las funciones, la demora del soporte técnico, la falta de repuestos y la necesidad de contar con mejores herramientas de diagnóstico y registro.
 
 <img src="assets/img/Carlos%20Torres.png" alt="Carlos Torres">
 
-**User Persona 2: Pepe Castillo**  
-La imagen sintetiza el perfil del tomador de decisiones comerciales. Refleja sus objetivos de diferenciar la oferta de sus cines e incrementar la venta de entradas premium, equilibrado con su temor a realizar inversiones en tecnología propietaria costosa sin soporte local asegurado.
+**User persona 2 (Gerentes/Propietarios de cadenas de cine pequeñas y medianas):** La ficha de Pepe Castillo representa al responsable de la toma de decisiones dentro de una cadena de cine pequeña o mediana. El arquetipo refleja un perfil organizado y analítico, orientado a evaluar inversiones, comparar proveedores y modernizar las salas sin asumir riesgos económicos excesivos. Entre sus principales objetivos se encuentran mejorar la experiencia del cliente, atraer mayor público y diferenciar la oferta de sus salas. Sus principales frustraciones están relacionadas con los altos costos de implementación, el mantenimiento, la disponibilidad de soporte técnico y la incertidumbre sobre el retorno de inversión.
 
 <img src="assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
 
