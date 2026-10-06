@@ -1638,7 +1638,50 @@ La propuesta visual busca mantener una apariencia tecnológica y consistente con
 
 #### 4.6.1 Design-Level EventStorming
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+### 4.6.1. Design-Level EventStorming
+
+El Design-Level EventStorming permitió al equipo refinar el modelo de dominio identificado durante el modelado inicial de Kinemo 4D. La sesión se enfocó en revisar las funcionalidades del dominio, agruparlas según sus responsabilidades y establecer límites claros entre las diferentes áreas del negocio.
+
+Durante esta actividad se analizaron los eventos, comandos, consultas y responsabilidades asociadas a las principales funcionalidades de la solución. A partir de este refinamiento se identificaron y delimitaron los Bounded Contexts que representan las diferentes áreas del dominio de Kinemo 4D.
+
+Como resultado del proceso de refinamiento, se identificaron los siguientes nueve Bounded Contexts:
+
+1. **BC01 — Movie & Sensory Content Management**  
+   Gestiona el registro y administración de las películas 4D y su contenido sensorial asociado, incluyendo la configuración de efectos, intensidades y archivos necesarios para su reproducción.
+
+2. **BC02 — Scheduling & Calendar**  
+   Gestiona la programación de las funciones 4D, considerando horarios, disponibilidad, conflictos de programación, reprogramación y cancelación de funciones.
+
+3. **BC03 — Room & Resource Readiness**  
+   Gestiona la preparación y disponibilidad de las salas para las funciones 4D, incluyendo el bloqueo de salas por mantenimiento y su posterior liberación.
+
+4. **BC04 — Ticketing Integration**  
+   Gestiona la integración con el sistema externo de boletería para sincronizar la información necesaria de las funciones y la ocupación de las salas.
+
+5. **BC05 — Seat Allocation & Control**  
+   Gestiona la asignación y control de las butacas asociadas a las funciones 4D, incluyendo la actualización de sus estados y la activación de las butacas vendidas.
+
+6. **BC06 — 4D Execution & Synchronization**  
+   Gestiona la ejecución de las funciones 4D y la sincronización de los efectos sensoriales con la película. También contempla la pausa, reanudación, desviaciones de sincronización y situaciones de emergencia durante la ejecución.
+
+7. **BC07 — Resource Testing & Maintenance**  
+   Gestiona las pruebas de los canales y componentes del sistema 4D, el registro de incidencias y las actividades de mantenimiento correctivo y preventivo de los recursos.
+
+8. **BC08 — Operational Analytics & Reporting**  
+   Gestiona la recopilación de métricas operativas y la generación de dashboards y reportes relacionados con la operación de las funciones y el mantenimiento.
+
+9. **BC09 — Subscription & Service Management**  
+   Gestiona los planes de suscripción del servicio, incluyendo la selección del plan, contratación, procesamiento del pago, activación, renovación y cambio de plan.
+
+El refinamiento también permitió establecer las principales relaciones entre los Bounded Contexts mediante los eventos y comandos identificados durante la sesión. De esta manera, los cambios producidos en un contexto pueden desencadenar acciones en otro contexto cuando existe una dependencia dentro del dominio.
+
+Por ejemplo, el evento **“Película 4D Registrada”** en el BC01 permite iniciar la programación de una función 4D en el BC02. Asimismo, el evento **“Función 4D Programada”** permite solicitar la verificación de la preparación de la sala en el BC03. De manera similar, la actualización de la ocupación proveniente del BC04 permite gestionar la activación de las butacas vendidas en el BC05.
+
+En la ejecución de una función, el BC06 puede generar eventos relacionados con incidencias de hardware que son gestionados por el BC07. Posteriormente, los resultados de la ejecución y del mantenimiento pueden ser utilizados por el BC08 para generar métricas y reportes operativos. Finalmente, el BC09 permite gestionar la suscripción que habilita el acceso a los servicios de Kinemo 4D.
+
+La siguiente imagen evidencia el resultado del Design-Level EventStorming realizado por el equipo:
+
+![Design-Level EventStorming](assets/img/eventstorming.jpg)
 
 #### 4.6.2 Software Architecture Context Diagram
 
