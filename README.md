@@ -503,19 +503,25 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.2 Software Architecture Context Diagram
 
-El Context Diagram representa a Kinemo como una única caja central, mostrando los actores que interactúan con la plataforma y los sistemas externos de los que depende. Este diagrama se elaboró en Structurizr aplicando la notación C4 Model, a partir de los actores identificados en el proceso de Requirements Elicitation & Analysis y del alcance definido en las User Stories.
+#### 4.6.2. Software Architecture Context Diagram
+
+El **Context Diagram** representa a **Kinemo 4D** como un único sistema central, mostrando los actores que interactúan con la solución y los sistemas externos con los que se integra. Este diagrama se elaboró aplicando la notación **C4 Model**, permitiendo visualizar el alcance de Kinemo 4D y sus principales relaciones con el entorno, sin mostrar todavía la estructura interna de la solución.
 
 Los actores identificados son:
 
-- **Administrador**: gerente de operaciones o propietario de la cadena de cines, encargado de gestionar el catálogo, la programación, los reportes y la suscripción.
-- **Personal Operativo**: encargado de operar la sala durante las funciones (butacas, efectos 4D y parada de emergencia).
-- **Personal Técnico**: encargado de las pruebas, calibración y mantenimiento de los equipos 4D.
-- **Visitante B2B**: prospecto que visita el Landing Page para conocer la propuesta de valor y comparar planes.
-- **Developer externo**: integrador externo que consume la API RESTful de Kinemo.
+- **Gerente**: responsable de administrar la operación de Kinemo 4D, incluyendo la gestión de películas y contenido sensorial, programación de funciones, consulta de información operativa y gestión del servicio.
+- **Técnico**: responsable de las actividades técnicas relacionadas con la preparación, pruebas, mantenimiento y atención de incidencias de los recursos 4D.
 
-![Context Diagram de Kinemo](assets/img/Diagram-context.jpg)
+Asimismo, Kinemo 4D mantiene integración con los siguientes sistemas externos:
 
-Como se observa en el diagrama, todos los actores interactúan directamente con el sistema Kinemo, sin necesidad de mostrar aún el detalle interno de la solución. Esta vista de alto nivel permite comunicar el alcance del sistema y su relación con el entorno, dejando en evidencia que Kinemo centraliza la operación de la sala 4D (programación, ejecución, mantenimiento y reportes) así como la relación comercial con la cadena de cines (suscripción) y la posibilidad de integración vía API para terceros desarrolladores.
+- **Sistema Externo de Boletería**: proporciona información relacionada con las funciones, ventas y ocupación de las salas.
+- **Hardware 4D**: ejecuta los efectos sensoriales y las acciones físicas asociadas a las funciones 4D.
+- **Pasarela de Pagos**: procesa los pagos asociados a las suscripciones del servicio.
+- **Servicio de Facturación Electrónica**: permite gestionar la emisión de comprobantes relacionados con las suscripciones.
+- **Almacenamiento de Archivos**: permite almacenar los archivos multimedia y contenido sensorial utilizados por las películas 4D.
+- **Servicio de Notificaciones**: permite enviar alertas y notificaciones relacionadas con la operación, mantenimiento y suscripciones.
+
+![Context Diagram de Kinemo 4D](assets/img/diagram-context.png)
 
 ---
 
