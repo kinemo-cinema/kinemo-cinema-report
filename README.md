@@ -425,69 +425,58 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 > _Pendiente — completar en `feature/impact-mapping`._
 
-### 3.3 Product Backlog
 ### 3.3. Product Backlog
 
-El Product Backlog del proyecto Kinemo organiza las historias de usuario según el valor entregado al negocio y a los segmentos objetivo. Se consideran desde el primer Sprint las historias relacionadas con la Landing Page para la captación B2B, seguidas de las funcionalidades operativas, la API RESTful y la gestión de suscripciones.
+El Product Backlog de Kinemo organiza y prioriza las User Stories identificadas según el valor que aportan al negocio y a los segmentos objetivo. La priorización considera primero las historias relacionadas con la propuesta de valor, contratación y suscripción del servicio; posteriormente, las funcionalidades principales de operación, mantenimiento y supervisión; y finalmente, las Technical Stories necesarias para soportar la integración mediante el RESTful API. Cada User Story ha sido estimada utilizando Story Points de 1, 2, 3, 5 y 8.
 
 | # Orden | User Story ID | Título | Descripción | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
-| **1** | US41 | Conocer beneficios de la solución | Como visitante, deseo conocer los beneficios de la solución para entender el valor comercial que aporta la tecnología 4D a mi cine. | 3 |
-| **2** | US44 | Seleccionar plan de suscripción | Como visitante, deseo comparar y seleccionar un plan de suscripción B2B para elegir el servicio que se adapte a las necesidades de mi cadena de cines. | 2 |
-| **3** | US42 | Conocer las características | Como visitante, deseo conocer las características de la solución para entender las especificaciones técnicas del hardware y software. | 2 |
-| **4** | US43 | Conocer los servicios | Como visitante, deseo conocer los servicios ofrecidos para identificar qué nivel de soporte e instalación técnica se incluye. | 2 |
-| **5** | US01 | Registrar película 4D | Como administrador, quiero registrar una película en la plataforma para ponerla a disposición de las salas inmersivas. | 3 |
-| **6** | US02 | Asociar archivo de efectos | Como personal técnico, quiero cargar el archivo de efectos 4D a una película para vincular el contenido con el hardware. | 5 |
-| **7** | US03 | Consultar catálogo | Como administrador, quiero consultar las películas 4D disponibles para seleccionar cuáles programar en cartelera. | 2 |
-| **8** | US21 | Buscar película por nombre | Como administrador, quiero buscar películas por título o género para localizarlas rápidamente. | 2 |
-| **9** | US22 | Asignar etiquetas de efectos | Como personal técnico, quiero clasificar las películas según la intensidad de sus efectos para alertar a la sala. | 2 |
-| **10** | US23 | Duplicar configuración de película | Como administrador, quiero clonar los datos y archivos de un contenido para agilizar el registro de entregas similares. | 3 |
-| **11** | US04 | Desactivar contenido | Como administrador, quiero cambiar el estado de una película a inactiva para evitar su programación. | 1 |
-| **12** | US05 | Programar función | Como administrador, quiero programar una función 4D para organizar el calendario de la sala. | 5 |
-| **13** | US06 | Editar/Cancelar función | Como personal operativo, quiero ajustar o cancelar una función para adaptar la programación ante eventualidades. | 3 |
-| **14** | US24 | Visualizar resumen diario de funciones | Como personal de sala, quiero ver una vista resumida de las funciones del día para coordinar los turnos. | 2 |
-| **15** | US26 | Alerta de coincidencia de horarios | Como administrador, quiero alertas de traslape para evitar programar dos funciones a la misma hora en la misma sala. | 3 |
-| **16** | US07 | Consultar insumos del día | Como personal de sala, quiero ver los insumos requeridos por la programación para preparar el agua y aire. | 2 |
-| **17** | US08 | Visualizar mapa de sala | Como personal operativo, quiero ver la ocupación de la sala en tiempo real para identificar las butacas a utilizar. | 5 |
-| **18** | US09 | Activar asientos ocupados | Como personal operativo, quiero activar solo las butacas vendidas para evitar el desgaste de asientos vacíos. | 5 |
-| **19** | US10 | Habilitación manual de butaca | Como personal operativo, quiero activar manualmente una butaca para reubicar a un asistente. | 2 |
-| **20** | US27 | Bloquear butaca individual | Como personal operativo, quiero inhabilitar una butaca averiada para evitar que sea asignada a un espectador. | 2 |
-| **21** | US28 | Consultar resumen de ocupación | Como administrador, quiero ver el porcentaje de ocupación por función para medir el rendimiento de la sala. | 3 |
-| **22** | US29 | Consultar estado de integración | Como personal técnico, quiero consultar el estado de integración con la boletería para confirmar la recepción de datos. | 3 |
-| **23** | US11 | Iniciar secuencia de efectos | Como personal operativo, quiero dar inicio a la función 4D para sincronizar el contenido con los efectos físicos. | 8 |
-| **24** | US12 | Parada de emergencia | Como personal operativo, quiero presionar un botón de detención rápida para frenar los movimientos ante cualquier contingencia en la sala. | 3 |
-| **25** | US13 | Concluir función | Como sistema, quiero finalizar automáticamente la ejecución de efectos al terminar la película. | 3 |
-| **26** | US30 | Pausar y reanudar secuencia | Como personal operativo, quiero pausar los efectos en vivo para resolver un inconveniente menor sin reiniciar el sistema. | 3 |
-| **27** | US31 | Simular rutina de inicio de sala | Como personal operativo, quiero ejecutar una secuencia rápida de bienvenida para mover suavemente las butacas al ingresar el público. | 2 |
-| **28** | US14 | Probar canal de efectos | Como personal técnico, quiero realizar una prueba de efectos individual para verificar el funcionamiento de viento, agua o movimiento. | 5 |
-| **29** | US15 | Ajustar nivel de intensidad | Como personal operativo, quiero regular la potencia de los efectos para adaptarla a funciones infantiles o de menor impacto. | 3 |
-| **30** | US16 | Nivelar butacas | Como personal técnico, quiero recalibrar la posición base de los asientos para asegurar su alineación. | 3 |
-| **31** | US32 | Probar inyectores de agua | Como personal técnico, quiero probar el circuito de agua de la sala para asegurar que las boquillas no estén obstruidas. | 3 |
-| **32** | US33 | Probar ventiladores de viento | Como personal técnico, quiero probar la potencia de las turbinas para verificar la respuesta del sistema de viento. | 3 |
-| **33** | US34 | Restablecer configuración de fábrica | Como personal técnico, quiero resetear los parámetros de sincronización para corregir desajustes tras ediciones fallidas. | 2 |
-| **34** | US17 | Registrar componentes de sala | Como personal técnico, quiero dar de alta los equipos instalados en la sala para mantener un registro estructurado. | 3 |
-| **35** | US18 | Registrar falla de equipo | Como personal operativo, quiero reportar una avería en un componente específico para solicitar su reparación. | 3 |
-| **36** | US19 | Registrar mantenimiento | Como personal técnico, quiero guardar el reporte de mantenimiento realizado para actualizar el historial de la sala. | 3 |
-| **37** | US25 | Bloquear función por mantenimiento | Como personal técnico, quiero inhabilitar la programación de una sala para evitar asignaciones mientras está en reparación. | 3 |
-| **38** | US35 | Consultar hoja de vida del equipo | Como personal técnico, quiero ver el historial completo de un componente para tomar decisiones de sustitución. | 3 |
-| **39** | US36 | Programar mantenimiento preventivo | Como personal técnico, quiero agendar fechas de revisión periódica para recibir un recordatorio del sistema. | 3 |
-| **40** | US37 | Filtrar incidencias por severidad | Como personal técnico, quiero filtrar los reportes de falla por gravedad para priorizar reparaciones urgentes. | 2 |
-| **41** | US20 | Visualizar dashboard operativo | Como administrador, quiero consultar gráficos de uso de salas y fallas frecuentes para evaluar el rendimiento. | 5 |
-| **42** | US38 | Generar reporte de insumos consumidos | Como administrador, quiero exportar el consumo de agua y aire por sala para calcular los costos operativos. | 3 |
-| **43** | US39 | Comparar rentabilidad de salas | Como administrador, quiero comparar el uso entre salas inmersivas para identificar las de mayor rendimiento. | 5 |
-| **44** | US40 | Consultar registro de bitácora del personal | Como administrador, quiero leer las observaciones del turno anterior para dar seguimiento a la operación diaria. | 2 |
-| **45** | US45 | Consultar películas mediante API | Como Developer, quiero consultar las películas disponibles mediante el RESTful API, para utilizar la información del catálogo en la aplicación. | 3 |
-| **46** | US46 | Registrar una película mediante API | Como Developer, quiero registrar una película mediante el RESTful API, para almacenar nuevos contenidos en el catálogo. | 3 |
-| **47** | US47 | Consultar funciones mediante API | Como Developer, quiero consultar las funciones programadas mediante el RESTful API, para obtener información sobre la programación de las salas. | 3 |
-| **48** | US48 | Registrar una incidencia mediante API | Como Developer, quiero registrar una incidencia de mantenimiento mediante el RESTful API, para almacenar los problemas reportados en una sala. | 3 |
-| **49** | US49 | Consultar estado de una sala mediante API | Como Developer, quiero consultar el estado de una sala mediante el RESTful API, para conocer si se encuentra disponible, en funcionamiento o en mantenimiento. | 2 |
-| **50** | US50 | Consultar estado de suscripción mediante API | Como Developer, deseo consultar el estado de la suscripción mediante el RESTful API para habilitar o bloquear dinámicamente funcionalidades en las aplicaciones web. | 3 |
-| **51** | US51 | Contratar servicio 4D | Como administrador de cine, deseo contratar un plan de servicio 4D para obtener acceso a la solución y comenzar a utilizar el servicio en mis salas. | 5 |
-| **52** | US52 | Realizar pago de suscripción | Como administrador de cine, deseo realizar el pago de mi suscripción para activar el servicio contratado y enlazar mis salas. | 8 |
-| **53** | US53 | Consultar estado y límites de suscripción | Como administrador de cine, deseo consultar el estado y los límites de mi suscripción para conocer los recursos y cantidad de pantallas que tengo disponibles. | 3 |
-| **54** | US54 | Renovar o cambiar plan de suscripción | Como administrador de cine, deseo renovar o cambiar mi plan de suscripción para mantener o ampliar el servicio según el crecimiento de mi cadena. | 5 |
-> 
+| **1** | US28 | Conocer beneficios de la solución | Como visitante de una cadena de cine, quiero conocer los beneficios de Kinemo para comprender cómo la solución puede apoyar la incorporación y gestión de experiencias inmersivas. | 2 |
+| **2** | US29 | Conocer características de la solución | Como visitante, quiero conocer las principales características de Kinemo para comprender cómo funciona la solución de entretenimiento inmersivo. | 3 |
+| **3** | US30 | Conocer los servicios | Como visitante, deseo conocer los servicios ofrecidos para identificar qué nivel de soporte e instalación técnica se incluye. | 2 |
+| **4** | US31 | Comparar planes disponibles | Como visitante, quiero comparar los planes disponibles de Kinemo para identificar cuál se ajusta mejor a las necesidades de mi organización. | 3 |
+| **5** | US32 | Acceder a la Web Application | Como visitante, quiero acceder a la Web Application desde el Landing Page para continuar con las funcionalidades correspondientes a mi rol. | 2 |
+| **6** | US39 | Contratar servicio 4D | Como administrador de cine, quiero contratar un plan de servicio de Kinemo para habilitar el uso de la solución en mi organización. | 5 |
+| **7** | US40 | Realizar pago de suscripción | Como administrador de cine, deseo realizar el pago de mi suscripción para activar el servicio contratado y enlazar mis salas. | 8 |
+| **8** | US41 | Consultar estado de suscripción | Como administrador de cine, quiero consultar el estado de mi suscripción para conocer la vigencia y condiciones del servicio contratado. | 3 |
+| **9** | US42 | Renovar o cambiar suscripción | Como administrador de cine, quiero renovar o cambiar mi plan para mantener o adaptar el servicio contratado a las necesidades de mi organización. | 5 |
+| **10** | US01 | Registrar película 4D | Como administrador, quiero registrar una película en la plataforma para ponerla a disposición de las salas inmersivas. | 3 |
+| **11** | US02 | Asociar archivo de efectos | Como personal técnico, quiero asociar un archivo de efectos 4D a una película para disponer de la configuración necesaria durante sus funciones inmersivas. | 5 |
+| **12** | US06 | Configurar perfil de efectos | Como personal técnico, quiero configurar el perfil de efectos asociado a una película para definir las características de su experiencia inmersiva. | 5 |
+| **13** | US03 | Consultar catálogo | Como administrador, quiero consultar las películas 4D disponibles para seleccionar cuáles programar en cartelera. | 2 |
+| **14** | US07 | Programar función | Como administrador, quiero programar una función 4D para organizar el calendario de la sala. | 5 |
+| **15** | US09 | Visualizar resumen diario de funciones | Como personal de sala, quiero ver una vista resumida de las funciones del día para coordinar los turnos. | 2 |
+| **16** | US08 | Editar/Cancelar función | Como personal operativo, quiero ajustar o cancelar una función para adaptar la programación ante eventualidades. | 3 |
+| **17** | US13 | Iniciar secuencia de efectos | Como personal operativo, quiero iniciar la función 4D para sincronizar el contenido audiovisual con los efectos físicos. | 8 |
+| **18** | US17 | Probar canal de efectos | Como personal técnico, quiero probar individualmente un efecto configurado en la sala para verificar su funcionamiento antes de una función. | 5 |
+| **19** | US18 | Ajustar intensidad de efectos | Como personal técnico, quiero ajustar el nivel de intensidad de los efectos para adaptar la configuración de una experiencia inmersiva. | 3 |
+| **20** | US10 | Consultar estado de butacas | Como personal operativo, quiero consultar el estado de las butacas de una sala para identificar cuáles se encuentran disponibles, habilitadas o fuera de servicio. | 3 |
+| **21** | US11 | Habilitar butaca manualmente | Como personal operativo, quiero habilitar o deshabilitar manualmente una butaca para controlar su participación en una función inmersiva. | 3 |
+| **22** | US12 | Marcar butaca fuera de servicio | Como personal operativo, quiero marcar una butaca averiada como fuera de servicio para impedir su utilización durante las funciones inmersivas. | 2 |
+| **23** | US14 | Parada de emergencia | Como personal operativo, quiero detener rápidamente los efectos de una función para proteger a los asistentes y al equipamiento ante una contingencia. | 3 |
+| **24** | US16 | Pausar y reanudar secuencia | Como personal operativo, quiero pausar temporalmente los efectos de una función para resolver un inconveniente sin reiniciar toda la secuencia. | 3 |
+| **25** | US15 | Finalizar secuencia de efectos | Como personal operativo, quiero que la ejecución de los efectos finalice automáticamente cuando termine la función para asegurar el cierre correcto de la operación. | 3 |
+| **26** | US19 | Registrar componentes de sala | Como personal técnico, quiero dar de alta los equipos instalados en la sala para mantener un registro estructurado. | 3 |
+| **27** | US20 | Registrar falla de equipo | Como personal operativo, quiero reportar una avería en un componente específico para solicitar su reparación. | 3 |
+| **28** | US21 | Registrar mantenimiento | Como personal técnico, quiero registrar el mantenimiento realizado a un componente para mantener actualizado su historial técnico. | 3 |
+| **29** | US22 | Consultar historial de mantenimiento del componente | Como personal técnico, quiero consultar el historial de fallas y mantenimientos de un componente para evaluar su estado operativo. | 3 |
+| **30** | US24 | Filtrar incidencias por severidad | Como personal técnico, quiero filtrar los reportes de falla por gravedad para priorizar reparaciones urgentes. | 2 |
+| **31** | US23 | Programar mantenimiento preventivo | Como personal técnico, quiero agendar fechas de revisión periódica para recibir un recordatorio del sistema. | 3 |
+| **32** | US25 | Bloquear sala por mantenimiento | Como personal técnico, quiero bloquear temporalmente una sala por mantenimiento para evitar que se programen funciones durante el periodo de indisponibilidad. | 3 |
+| **33** | US26 | Visualizar dashboard operativo | Como administrador, quiero consultar métricas de uso de salas y fallas frecuentes para evaluar su rendimiento. | 5 |
+| **34** | US27 | Comparar indicadores operativos entre salas | Como administrador, quiero comparar los indicadores de uso y funcionamiento entre las salas para identificar diferencias en su desempeño operativo. | 5 |
+| **35** | US05 | Buscar películas | Como administrador, quiero buscar películas por título o género para localizar rápidamente el contenido que necesito gestionar. | 2 |
+| **36** | US04 | Desactivar contenido | Como administrador, quiero cambiar el estado de una película a inactiva para evitar su programación. | 1 |
+| **37** | US33 | Consultar películas mediante API | Como Developer, quiero consultar las películas disponibles mediante el RESTful API, para utilizar la información del catálogo en la aplicación. | 3 |
+| **38** | US34 | Registrar una película mediante API | Como Developer, quiero registrar una película mediante el RESTful API, para almacenar nuevos contenidos en el catálogo. | 3 |
+| **39** | US35 | Consultar funciones mediante API | Como Developer, quiero consultar las funciones programadas mediante el RESTful API, para obtener información sobre la programación de las salas. | 3 |
+| **40** | US36 | Registrar una incidencia mediante API | Como Developer, quiero registrar una incidencia de mantenimiento mediante el RESTful API, para almacenar los problemas reportados en una sala. | 3 |
+| **41** | US37 | Consultar estado de una sala mediante API | Como Developer, quiero consultar el estado de una sala mediante el RESTful API, para conocer si se encuentra disponible, en funcionamiento o en mantenimiento. | 2 |
+| **42** | US38 | Consultar estado de suscripción mediante API | Como Developer, deseo consultar el estado de la suscripción mediante el RESTful API para habilitar o bloquear dinámicamente funcionalidades en las aplicaciones web. | 3 |
 
+<img src="assets/img/product.png" alt="Product Backlog">
+
+Link de Trello: https://trello.com/invite/b/6ac2a2ced29ee515d72506f0/ATTIe716a1812addf4f49367eec67a7e7640A7DDBD9C/kinemo-product-backlog
 
 
 ## Capítulo IV: Product Design
