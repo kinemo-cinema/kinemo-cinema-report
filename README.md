@@ -517,81 +517,67 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 Esta sección presenta el diseño orientado a objetos del sistema Kinemo 4D mediante diagramas de clases UML. Cada diagrama representa la estructura de un Bounded Context, identificando sus principales clases, atributos, métodos y relaciones, con el propósito de definir las responsabilidades de los componentes y facilitar la implementación del sistema.
 
-#### 4.7.1 Class Diagrams
+#### 4.7.1. Class Diagrams
 
-**BC01 – Movie Catalog Management**
+**BC01 – Movie & Sensory Content Management**
 
-Descripción: El diagrama de clases representa la gestión del catálogo de películas mediante las entidades Movie y Genre. Permite registrar, actualizar y consultar películas, clasificarlas por género y establecer relaciones entre contenidos originales y duplicados.
+Descripción: Gestiona las películas disponibles en Kinemo y el contenido sensorial asociado a cada una. Permite registrar, modificar, activar o desactivar películas, clasificarlas por género, asociar contenido sensorial y administrar las pistas de efectos utilizadas durante las experiencias 4D.  
+Su responsabilidad reúne lo que anteriormente se encontraba separado en Movie Catalog Management y Sensory Content & Experience Management. En el proyecto original ambos procesos contemplaban películas, archivos sensoriales, pistas y configuraciones de efectos.
 
-<img src="assets/img/diagrama%20de%20clase%201.png" alt="BC01 – Movie Catalog Management" width="100%">
+<img src="assets/img/diagrama%20de%20clase%201.png" alt="BC01 – Movie & Sensory Content Management" width="100%">
 
-**BC02 – Sensory Content & Experience Management**
+**BC02 – Scheduling & Calendar**
 
-Descripción: El diagrama modela la administración del contenido sensorial 4D mediante las clases SensoryFile, SensoryTrack y ConfigurationHistory. Contempla la carga y validación de archivos, la configuración de intensidad de los efectos y la restauración de configuraciones predeterminadas.
+Descripción: Administra la programación de las funciones 4D. Permite crear, modificar, reprogramar y cancelar funciones, así como comprobar conflictos de horarios y la disponibilidad necesaria para ejecutar cada función.  
+El agregado principal es Show, ya que representa la función 4D y controla su ciclo de vida.
 
-<img src="assets/img/diagrama%20de%20clase%202.png" alt="BC02 – Sensory Content & Experience Management" width="100%">
+<img src="assets/img/diagrama%20de%20clase%202.png" alt="BC02 – Scheduling & Calendar" width="100%">
 
-**BC03 – Scheduling & Calendar**
+**BC03 – Room & Resource Readiness**
 
-Descripción: El diagrama representa la programación de funciones 4D mediante las clases Show, Room y MaintenanceBlock. Permite gestionar horarios, verificar la disponibilidad de las salas, detectar conflictos, reprogramar funciones y administrar cancelaciones y bloqueos por mantenimiento.
+Descripción: Administra el estado operativo de las salas utilizadas para experiencias 4D. Permite inspeccionar una sala, determinar si se encuentra disponible, bloquearla temporalmente, liberarla después de una intervención y gestionar los recursos necesarios para una función. El agregado principal es Room.
 
-<img src="assets/img/diagrama%20de%20clase%20%203.png" alt="BC03 – Scheduling & Calendar" width="100%">
+<img src="assets/img/diagrama%20de%20clase%203.png" alt="BC03 – Room & Resource Readiness" width="100%">
 
-**BC04 – Room & Resources Readiness**
+**BC04 – Ticketing Integration**
 
-Descripción: El diagrama modela la preparación operativa de las salas mediante las clases Room, RoomInspection, ResourceCalculation y MaintenanceLog. Permite verificar el estado de los equipos, calcular los requerimientos de agua y aire, registrar inspecciones y gestionar la disponibilidad de las salas.
+Descripción: Administra la comunicación entre Kinemo y el sistema externo de boletería. Se encarga de establecer y supervisar la conexión, sincronizar información de ventas y ocupación, registrar fallas y reintentos de sincronización y mantener una representación interna de la ocupación de cada función.  
+En el diseño previo del proyecto, ticketing connections ya se encontraba definido como el agregado principal de este contexto.
 
-<img src="assets/img/diagrama%20de%20clase%204.png" alt="BC04 – Room & Resources Readiness" width="100%">
+<img src="assets/img/diagrama%20de%20clase%204.png" alt="BC04 – Ticketing Integration" width="100%">
 
-**BC05 – Ticketing Integration**
+**BC05 – Seat Allocation & Control**
 
-Descripción: El diagrama representa la integración con el sistema externo de boletería mediante las clases TicketingConnection, SyncLog y ShowOccupancy. Permite verificar la conexión, sincronizar los datos de ventas, actualizar la ocupación de las funciones y registrar los resultados de cada sincronización.
+Descripción: Administra las butacas que participarán en una función 4D. Utiliza los datos de ocupación provenientes de la boletería para determinar cuáles butacas fueron vendidas y deben habilitarse, cuáles deben permanecer inactivas y qué intervenciones manuales realiza el personal operativo. El agregado principal es SeatAllocation.
 
-<img src="assets/img/diagrama%20de%20clase%205.png" alt="BC05 – Ticketing Integration" width="100%">
+<img src="assets/img/diagrama%20de%20clase%205.png" alt="BC05 – Seat Allocation & Control" width="100%">
 
-**BC06 – Seat Allocation & Control**
+**BC06 – 4D Execution & Synchronization**
 
-Descripción: El diagrama modela el control de las butacas mediante las clases Seat, ShowSeat y ManualIntervention. Permite gestionar la asignación de asientos por función, habilitar únicamente las butacas vendidas y registrar las intervenciones manuales realizadas por el personal operativo.
+Descripción: Administra la ejecución de una experiencia 4D durante una función. Controla el inicio, pausa, reanudación y finalización de la ejecución, así como la sincronización entre la película y los efectos sensoriales.  
+También incorpora la parada de emergencia, por lo que Emergency Management deja de existir como contexto separado y pasa a formar parte del ciclo de ejecución. El agregado principal es ShowExecution.
 
-<img src="assets/img/diagrama%20de%20clase%206.png" alt="BC06 – Seat Allocation & Control" width="100%">
+<img src="assets/img/diagrama%20de%20clase%206.png" alt="BC06 – 4D Execution & Synchronization" width="100%">
 
-**BC07 – 4D Execution & Synchronization**
+**BC07 – Resource Testing & Maintenance**
 
-Descripción: El diagrama representa la ejecución y sincronización de las experiencias 4D mediante las clases ShowExecution, SensorySequenceExecution, SynchronizationEvent y HardwareExecutionLog. Permite controlar el inicio, pausa y finalización de funciones, ejecutar efectos sensoriales y registrar eventos de sincronización y errores de hardware.
+Descripción: Gestiona el ciclo técnico de los equipos que intervienen en las experiencias 4D. Permite registrar equipos, probar canales de efectos, reportar incidencias, controlar su vida útil y gestionar órdenes de mantenimiento preventivo y correctivo. Aquí se consolidan los antiguos contextos Testing & Calibration y Maintenance & Incident Management.
 
-<img src="assets/img/diagrama%20de%20clase%20%207.png" alt="BC07 – 4D Execution & Synchronization" width="100%">
+<img src="assets/img/diagrama%20de%20clase%207.png" alt="BC07 – Resource Testing & Maintenance" width="100%">
 
-**BC08 – Emergency Management**
+**BC08 – Operational Analytics & Reporting**
 
-Descripción: El diagrama modela la gestión de emergencias mediante las clases EmergencyEvent, ExecutionBlock y RestorationLog. Permite registrar situaciones de emergencia, bloquear la ejecución de los efectos y movimientos de butacas, y controlar el restablecimiento del servicio mediante una confirmación autorizada.
+Descripción: Concentra información proveniente de diferentes procesos operativos para proporcionar métricas, dashboard y reportes que ayuden al administrador a supervisar el funcionamiento de Kinemo.  
+Este contexto está principalmente orientado a Queries y Read Models, por lo que no es necesario inventar un Aggregate Root únicamente para cumplir una estructura. En el informe anterior ya estaba orientado a métricas, reportes y exportación.
 
-<img src="assets/img/diagrama%20de%20clase%20%208.png" alt="BC08 – Emergency Management" width="100%">
+<img src="assets/img/diagrama%20de%20clase%208.png" alt="BC08 – Operational Analytics & Reporting" width="100%">
 
-**BC09 – Testing & Calibration**
+**BC09 – Subscription & Service Management**
 
-Descripción: El diagrama representa las pruebas y calibraciones de los equipos 4D mediante las clases CalibrationSession, HardwareChannelTest, IntensityCalibration y SeatAlignment. Permite verificar el funcionamiento de los canales de efectos, ajustar los niveles de intensidad y comprobar la alineación de las butacas antes de su utilización.
+Descripción: Administra la relación comercial entre Kinemo y las cadenas de cine. Gestiona planes disponibles, contratación, pagos, activación, estado y límites de una suscripción, además de renovación y cambio a planes superiores. El agregado principal es Subscription.  
+El Statement menciona explícitamente Subscriptions and Payment Management como uno de los subdominios habituales en soluciones SaaS.
 
-<img src="assets/img/diagrama%20de%20clase%209.png" alt="BC09 – Testing & Calibration" width="100%">
-
-**BC010 – Maintenance & Incident Management**
-
-Descripción: El diagrama modela la gestión del mantenimiento mediante las clases HardwareComponent, IncidentReport y MaintenanceOrder. Permite registrar los componentes instalados, reportar y clasificar incidencias, generar órdenes de mantenimiento preventivo o correctivo y controlar la vida útil de los equipos.
-
-<img src="assets/img/diagrama%20de%20clase%2010.png" alt="BC010 – Maintenance & Incident Management" width="100%">
-
-**BC011 – Operational Analytics & Reporting**
-
-Descripción: El diagrama representa el análisis operativo mediante las clases CalculatedMetric, OperationalReport y DashboardExport. Permite calcular métricas de uso, consolidar información de consumo e incidencias, generar reportes operativos y exportar los resultados en formatos PDF y CSV.
-
-<img src="assets/img/diagrama%20de%20clase%2011.png" alt="BC011 – Operational Analytics & Reporting" width="100%">
-
-**BC012 – Operational Analytics & Reporting**
-
-Descripción: El diagrama modela la administración comercial del servicio 4D mediante las clases SubscriptionPlan, Subscription, PaymentTransaction y SubscriptionUpgrade. Permite gestionar la contratación de planes, procesar pagos, activar suscripciones, consultar sus límites, realizar renovaciones y registrar cambios a planes superiores.
-
-<img src="assets/img/diagrama%20de%20clase%2012.png" alt="BC012 – Operational Analytics & Reporting" width="100%">
-
-> _Pendiente — completar en `feature/class-diagrams`._
+<img src="assets/img/diagrama%20de%20clase%209.png" alt="BC09 – Subscription & Service Management" width="100%">
 
 ### 4.8 Database Design
 
