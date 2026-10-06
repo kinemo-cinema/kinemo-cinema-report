@@ -1685,7 +1685,28 @@ La siguiente imagen evidencia el resultado del Design-Level EventStorming realiz
 
 #### 4.6.2 Software Architecture Context Diagram
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+#### 4.6.2. Software Architecture Context Diagram
+
+El **Context Diagram** representa a **Kinemo 4D** como un único sistema central, mostrando los actores que interactúan con la solución y los sistemas externos con los que se integra. Este diagrama se elaboró aplicando la notación **C4 Model**, permitiendo visualizar el alcance de Kinemo 4D y sus principales relaciones con el entorno, sin mostrar todavía la estructura interna de la solución.
+
+Los actores identificados son:
+
+- **Gerente**: responsable de administrar la operación de Kinemo 4D, incluyendo la gestión de películas y contenido sensorial, programación de funciones, consulta de información operativa y gestión del servicio.
+- **Técnico**: responsable de las actividades técnicas relacionadas con la preparación, pruebas, mantenimiento y atención de incidencias de los recursos 4D.
+
+Asimismo, Kinemo 4D mantiene integración con los siguientes sistemas externos:
+
+- **Sistema Externo de Boletería**: proporciona información relacionada con las funciones, ventas y ocupación de las salas.
+- **Hardware 4D**: ejecuta los efectos sensoriales y las acciones físicas asociadas a las funciones 4D.
+- **Pasarela de Pagos**: procesa los pagos asociados a las suscripciones del servicio.
+- **Servicio de Facturación Electrónica**: permite gestionar la emisión de comprobantes relacionados con las suscripciones.
+- **Almacenamiento de Archivos**: permite almacenar los archivos multimedia y contenido sensorial utilizados por las películas 4D.
+- **Servicio de Notificaciones**: permite enviar alertas y notificaciones relacionadas con la operación, mantenimiento y suscripciones.
+
+![Context Diagram de Kinemo 4D](assets/img/diagram-context.png)
+
+---
+
 
 #### 4.6.3 Software Architecture Container Diagrams
 
