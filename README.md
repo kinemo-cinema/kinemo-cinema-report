@@ -397,7 +397,7 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 2.3.2 User Task Matrix
 
-La imagen presenta la matriz de tareas construida a partir de las necesidades de nuestros dos User Personas. En ella se relacionan las actividades principales diferenciando la frecuencia de ejecución y el nivel de importancia/prioridad para el Gerente de Operaciones y el Técnico de Mantenimiento.
+La siguiente User Task Matrix presenta las principales tareas realizadas por los dos User Personas identificados: Pepe Castillo, representante del segmento de Gerentes/Propietarios de cadenas de cine pequeñas y medianas, y Carlos Torres, representante del Personal operativo/técnico de las salas de cine. Las tareas se definieron a partir de los hallazgos obtenidos en las entrevistas y representan actividades que actualmente realizan los usuarios para cumplir sus objetivos, independientemente de la existencia de Kinemo. Cada tarea se evalúa según su frecuencia de realización y su nivel de importancia para cada User Persona.
 
 <img src="assets/img/User%20Task%20Matrix.png" alt="Task Matrix">
 
