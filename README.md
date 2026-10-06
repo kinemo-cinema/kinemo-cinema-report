@@ -499,25 +499,50 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 #### 4.6.1 Design-Level EventStorming
 
-A partir de los hallazgos obtenidos en el Big Picture EventStorming, el equipo llevó a cabo una sesión de Design-Level EventStorming con una duración aproximada de 2 horas, con el objetivo de profundizar en el modelado del dominio de Kinemo. Durante la sesión se identificaron los Domain Events, Commands, Policies y los datos/estado inicial que participan en cada flujo del negocio, siguiendo la notación de colores: 🟢 datos/estado inicial, 🟡 actor, 🔵 command, 🟣 policy/condición y 🟠 domain event.
+### 4.6.1. Design-Level EventStorming
 
-A partir de este modelado se identificaron y refinaron 12 Bounded Contexts, agrupando los eventos y comandos según su cohesión funcional y su relación con los sub-dominios propios de una plataforma SaaS orientada a servicios:
+El Design-Level EventStorming permitió al equipo refinar el modelo de dominio identificado durante el modelado inicial de Kinemo 4D. La sesión se enfocó en revisar las funcionalidades del dominio, agruparlas según sus responsabilidades y establecer límites claros entre las diferentes áreas del negocio.
 
-- **Movie Catalog Management** y **Sensory Content Management**: gestión del catálogo de películas 4D y de los archivos de efectos sensoriales asociados (core domain).
-- **Scheduling & Calendar** y **Room & Resource Readiness**: corresponden al sub-dominio de Service Design and Planning y Resource and Asset Management, cubriendo la programación de funciones y la preparación de insumos de sala.
-- **Ticketing Integration** y **Seat Allocation & Control**: integración con el sistema externo de boletería y el control del mapa de butacas motorizadas.
-- **4D Execution & Synchronization** y **Emergency Control**: corresponden al sub-dominio de Service Execution and Monitoring, cubriendo la ejecución sincronizada de efectos físicos y el manejo de paradas de emergencia.
-- **Testing & Calibration** y **Maintenance & Incident Management**: aseguran la calidad del servicio mediante pruebas de canales y gestión de incidencias/mantenimiento del hardware.
-- **Operational Analytics & Reporting**: corresponde al sub-dominio de Dashboard and Analytics, consolidando métricas operativas.
-- **Subscription & Service Management**: corresponde al sub-dominio de Subscriptions and Payment Management, cubriendo la contratación, pago, renovación y upgrade de planes.
+Durante esta actividad se analizaron los eventos, comandos, consultas y responsabilidades asociadas a las principales funcionalidades de la solución. A partir de este refinamiento se identificaron y delimitaron los Bounded Contexts que representan las diferentes áreas del dominio de Kinemo 4D.
 
-Adicionalmente, en la sesión se identificaron las conexiones entre subgrupos (Fase 3), es decir los eventos de un Bounded Context que disparan comandos en otro, lo cual permitió validar la consistencia de las fronteras identificadas y sirvió de base para las relaciones representadas posteriormente en el Container Diagram.
+Como resultado del proceso de refinamiento, se identificaron los siguientes nueve Bounded Contexts:
 
-![Design-Level EventStorming de Kinemo](assets/img/design-level-eventstorming.jpg)
+1. **BC01 — Movie & Sensory Content Management**  
+   Gestiona el registro y administración de las películas 4D y su contenido sensorial asociado, incluyendo la configuración de efectos, intensidades y archivos necesarios para su reproducción.
 
-Como se aprecia en la captura, cada Bounded Context concentra su propio flujo de eventos y comandos (por ejemplo, en Movie Catalog Management el evento *Película 4D Registrada* habilita los comandos *Buscar película por nombre*, *Duplicar configuración de película* y *Desactivar película 4D*), mientras que las conexiones entre subgrupos —marcadas de forma diferenciada— evidencian la colaboración entre contextos, como el caso de *Función 4D Programada* (Scheduling & Calendar) que dispara el comando *Calcular insumos de jornada* en Room & Resource Readiness, o *Datos de Boletería Sincronizados* (Ticketing Integration) que dispara *Actualizar asignación de butacas* en Seat Allocation & Control. Este nivel de detalle permitió pasar de una visión general del negocio a una identificación clara de los límites de cada Bounded Context y de sus relaciones, insumo necesario para la elaboración de los diagramas C4 Model.
+2. **BC02 — Scheduling & Calendar**  
+   Gestiona la programación de las funciones 4D, considerando horarios, disponibilidad, conflictos de programación, reprogramación y cancelación de funciones.
 
----
+3. **BC03 — Room & Resource Readiness**  
+   Gestiona la preparación y disponibilidad de las salas para las funciones 4D, incluyendo el bloqueo de salas por mantenimiento y su posterior liberación.
+
+4. **BC04 — Ticketing Integration**  
+   Gestiona la integración con el sistema externo de boletería para sincronizar la información necesaria de las funciones y la ocupación de las salas.
+
+5. **BC05 — Seat Allocation & Control**  
+   Gestiona la asignación y control de las butacas asociadas a las funciones 4D, incluyendo la actualización de sus estados y la activación de las butacas vendidas.
+
+6. **BC06 — 4D Execution & Synchronization**  
+   Gestiona la ejecución de las funciones 4D y la sincronización de los efectos sensoriales con la película. También contempla la pausa, reanudación, desviaciones de sincronización y situaciones de emergencia durante la ejecución.
+
+7. **BC07 — Resource Testing & Maintenance**  
+   Gestiona las pruebas de los canales y componentes del sistema 4D, el registro de incidencias y las actividades de mantenimiento correctivo y preventivo de los recursos.
+
+8. **BC08 — Operational Analytics & Reporting**  
+   Gestiona la recopilación de métricas operativas y la generación de dashboards y reportes relacionados con la operación de las funciones y el mantenimiento.
+
+9. **BC09 — Subscription & Service Management**  
+   Gestiona los planes de suscripción del servicio, incluyendo la selección del plan, contratación, procesamiento del pago, activación, renovación y cambio de plan.
+
+El refinamiento también permitió establecer las principales relaciones entre los Bounded Contexts mediante los eventos y comandos identificados durante la sesión. De esta manera, los cambios producidos en un contexto pueden desencadenar acciones en otro contexto cuando existe una dependencia dentro del dominio.
+
+Por ejemplo, el evento **“Película 4D Registrada”** en el BC01 permite iniciar la programación de una función 4D en el BC02. Asimismo, el evento **“Función 4D Programada”** permite solicitar la verificación de la preparación de la sala en el BC03. De manera similar, la actualización de la ocupación proveniente del BC04 permite gestionar la activación de las butacas vendidas en el BC05.
+
+En la ejecución de una función, el BC06 puede generar eventos relacionados con incidencias de hardware que son gestionados por el BC07. Posteriormente, los resultados de la ejecución y del mantenimiento pueden ser utilizados por el BC08 para generar métricas y reportes operativos. Finalmente, el BC09 permite gestionar la suscripción que habilita el acceso a los servicios de Kinemo 4D.
+
+La siguiente imagen evidencia el resultado del Design-Level EventStorming realizado por el equipo:
+
+![Design-Level EventStorming](assets/img/eventstorming.jpg)
 
 #### 4.6.2 Software Architecture Context Diagram
 
