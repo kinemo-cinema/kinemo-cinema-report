@@ -399,20 +399,24 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 > _Pendiente — completar en `feature/user-task-matrix`._
 
-#### 2.3.3 User Journey Mapping
+#### 2.3.3. User Journey Mapping
 
-**Segmento objetivo #1: Gerentes/Propietarios de cadenas de cine pequeñas y medianas**  
-Este user persona presenta el recorrido actual de Pepe Castillo. El mapa ilustra su experiencia completa desde que identifica la necesidad de modernizar sus salas para competir contra las grandes cadenas de cine, pasando por la búsqueda de opciones en el mercado y la evaluación de costos, hasta la toma de decisión y el seguimiento del impacto comercial en su negocio.
+En esta sección se presentan los User Journey Maps correspondientes a los dos User Personas identificados. Cada mapa representa el recorrido actual As-Is de los usuarios, mostrando las actividades que realizan para alcanzar sus objetivos antes de la implementación de Kinemo. Los recorridos permiten identificar los principales puntos de contacto, dificultades, decisiones y oportunidades de mejora observadas durante las entrevistas.
+
+**Segmento objetivo 1: Gerentes/Propietarios de cadenas de cine pequeñas y medianas:**
+
+El User Journey Map de Pepe Castillo representa el proceso actual de evaluación y adopción de nuevas tecnologías por parte de un gerente o propietario de una cadena de cine pequeña o mediana. El recorrido abarca desde la identificación de una necesidad de modernización hasta el seguimiento posterior de la inversión.
 
 <img src="assets/img/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
 
-**Segmento objetivo #2: Personal operativo/técnico de las salas de cine**  
-Este User Journey Map representa el recorrido actual de Carlos Torres. El mapa ilustra su experiencia completa desde que recibe la programación diaria de funciones y realiza la inspección de las salas, pasando por el intento de configurar y sincronizar equipos o atender incidencias mecánicas/técnicas a mano, hasta el reporte de fallas y el cierre de jornada.
+**Segmento objetivo 2: Personal operativo/técnico de las salas de cine:**
+
+El User Journey Map de Carlos Torres representa el recorrido cotidiano del personal técnico, desde la preparación de la jornada y revisión preventiva de los equipos hasta la atención, resolución y registro de incidencias técnicas.
 
 <img src="assets/img/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
 
-Link del User Journey Mapping - Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
-Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
+Link del User Journey Mapping- Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
+Link del User Journey Mapping- Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
 
 
 #### 2.3.4 Empathy Mapping
