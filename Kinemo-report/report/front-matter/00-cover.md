@@ -1,55 +1,23 @@
-<p align="center">
- <img src="./assets/cover/logo-upc.png" alt="Logo UPC" width="180">
-</p>
+![Logo UPC](../../assets/cover/logo-upc.png)
 
-<h1 align="center">UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS</h1>
+| Campo | Valor |
+|---|---|
+| Universidad | Universidad Peruana de Ciencias Aplicadas (UPC) |
+| Carrera | Ingeniería de Software |
+| Ciclo | 2026-20 |
+| Código y Nombre del Curso | 1ASI0730 – Aplicaciones Web |
+| NRC | 8155 |
+| Profesor | Angel Augusto Velasquez Nuñez |
+| Nombre del Startup | VonNeuman New Men |
+| Nombre del Producto | Kinemo |
+| Año | 2026 |
 
-<h2 align="center">FACULTAD DE INGENIERÍA</h2>
+**Integrantes**
 
-<h2 align="center">INGENIERÍA DE SOFTWARE</h2>
-
-<br>
-
-<p align="center">
-  <strong>Ciclo:</strong> 5
-</p>
-
-<p align="center">
-  <strong>CURSO:</strong> Aplicaciones Web 1ASI0730-202620
-</p>
-
-<p align="center">
-  <strong>NRC:</strong> 8155
-</p>
-
-<p align="center">
-  <strong>PROFESOR:</strong> Angel Augusto Velasquez Nuñez
-</p>
-
-<h2 align="center">AV1</h2>
-
-<br>
-
-<p align="center">
-  <strong>StartUp:</strong> VonNeuman New Men
-</p>
-
-<p align="center">
-  <strong>Nombre del producto:</strong> Kinemo
-</p>
-
-<br>
-
-<h2 align="center">INTEGRANTES:</h2>
-
-<p align="center">
-  Huamanchumo Chicchon, Felipe Marcelo - u20241b932<br>
-  Correa Rodriguez, Andrea Khristina - u202412041<br>
-  Trigoso Garrido, Cristian Joseph - u202318865<br>
-  Flores Chavez, Fabricio - u202212327<br>
-  Edson Diego Llamozas Diaz - u202319398
-</p>
-
-<br><br>
-
-<h3 align="center">Agosto 2026</h3>
+| Código | Apellidos y Nombres |
+|---|---|
+| u202319398 | Llamozas Diaz, Edson Diego |
+| u202212327 | Flores Chavez, Fabricio |
+| u20241b932 | Huamanchumo Chicchon, Felipe Marcelo |
+| u202318865 | Trigoso Garrido, Cristian Joseph |
+| u202412041 | Correa Rodriguez, Andrea Khristina |

@@ -1,30 +1,28 @@
 _# Informe de Trabajo Final — Kinemo
 
-## Carátula
+![Logo UPC](Kinemo-report/assets/cover/logo-upc.png)
 
-![Logo UPC](assets/img/logo-upc.png)
-
-| Campo | Valor                                           |
-|---|-------------------------------------------------|
+| Campo | Valor |
+|---|---|
 | Universidad | Universidad Peruana de Ciencias Aplicadas (UPC) |
-| Carrera | Ingeniería de Software                          |
-| Ciclo | 2026-20                                         |
-| Código y Nombre del Curso | 1ASI0730 – Aplicaciones Web                     |
-| NRC | 8155                                            |
-| Profesor | Angel Augusto Velasquez Nuñez                   |
-| Nombre del Startup | VonNeuman New Men                               |
-| Nombre del Producto | Kinemo                                          |
-| año | 2026                                            |
+| Carrera | Ingeniería de Software |
+| Ciclo | 2026-20 |
+| Código y Nombre del Curso | 1ASI0730 – Aplicaciones Web |
+| NRC | 8155 |
+| Profesor | Angel Augusto Velasquez Nuñez |
+| Nombre del Startup | VonNeuman New Men |
+| Nombre del Producto | Kinemo |
+| Año | 2026 |
 
 **Integrantes**
 
-| Código      | Apellidos y Nombres                  |
-|-------------|--------------------------------------|
-| u202319398  | Llamozas Diaz, Edson Diego           |
-| u202212327  | Flores Chavez, Fabricio              |
-| u20241b932  | Huamanchumo Chicchon, Felipe Marcelo |
-| u202318865  | Trigoso Garrido, Cristian Joseph     |
-| u202412041  | Correa Rodriguez, Andrea Khristina   |
+| Código | Apellidos y Nombres |
+|---|---|
+| u202319398 | Llamozas Diaz, Edson Diego |
+| u202212327 | Flores Chavez, Fabricio |
+| u20241b932 | Huamanchumo Chicchon, Felipe Marcelo |
+| u202318865 | Trigoso Garrido, Cristian Joseph |
+| u202412041 | Correa Rodriguez, Andrea Khristina |
 
 ## Registro de Versiones del Informe
 
@@ -676,7 +674,7 @@ En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Conte
 
 #### 4.8.1 Database Diagrams
 
-![Diagrama de Movie Catalog Management](assets/img/BC01-Movie Catalog Managment.png)
+![Diagrama de Movie Catalog Management](Kinemo-report/assets/img/BC01-Movie Catalog Managment.png)
 
 ## 1. Movie Catalog Management
 
@@ -692,7 +690,7 @@ Para dar soporte a la operativa estructurada del catálogo, el modelo incorpora 
 > Las relaciones establecidas a través de las claves foráneas (`genre_id`, `original_movie_id`) garantizan la integridad referencial del esquema, asegurando que este Bounded Context administre su propia fuente de verdad de manera normalizada y desacoplada del resto de los módulos del sistema.
 
 
-![Diagrama de Sensory Content & Experience Management](assets/img/BC02-Sensory Content and Experience Managment.png)
+![Diagrama de Sensory Content & Experience Management](Kinemo-report/assets/img/BC02-Sensory Content and Experience Managment.png)
 
 ## 2. Sensory Content & Experience Management
 
@@ -709,7 +707,7 @@ A partir de este agregado raíz, el modelo se expande en entidades especializada
 
 ---
 
-![Diagrama de Scheduling & Calendar](assets/img/BC03-Scheduling and Calendar.png) 
+![Diagrama de Scheduling & Calendar](Kinemo-report/assets/img/BC03-Scheduling and Calendar.png) 
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment
