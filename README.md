@@ -389,11 +389,21 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 > _Bloqueado — depende de 2.2.2._
 
-### 2.3 Needfinding
+## 2.3. Needfinding
 
-#### 2.3.1 User Personas
+A partir de la información recopilada de los segmentos objetivo y de los resultados obtenidos en las entrevistas, se realizó el proceso de Needfinding mediante la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps. Estos artefactos permiten representar las características, actividades, objetivos, necesidades y dificultades identificadas en cada segmento y sirven como base para la definición de los requisitos de Kinemo.
 
-> _Pendiente — completar en `feature/user-personas`._
+### 2.3.1. User Personas
+
+**User persona 1 (Personal operativo/técnico de las salas de cine):** La ficha de Carlos Torres representa al personal encargado de las actividades técnicas y operativas de las salas de cine. El arquetipo refleja un perfil orientado a la resolución de problemas, mantenimiento preventivo y atención de incidencias. Sus principales objetivos son mantener los equipos operativos, detectar fallas con rapidez y mejorar el seguimiento del mantenimiento. Entre sus principales dificultades se encuentran las fallas durante las funciones, la demora del soporte técnico, la falta de repuestos y la necesidad de contar con mejores herramientas de diagnóstico y registro.
+
+<img src="assets/img/Carlos%20Torres.png" alt="Carlos Torres">
+
+**User persona 2 (Gerentes/Propietarios de cadenas de cine pequeñas y medianas):** La ficha de Pepe Castillo representa al responsable de la toma de decisiones dentro de una cadena de cine pequeña o mediana. El arquetipo refleja un perfil organizado y analítico, orientado a evaluar inversiones, comparar proveedores y modernizar las salas sin asumir riesgos económicos excesivos. Entre sus principales objetivos se encuentran mejorar la experiencia del cliente, atraer mayor público y diferenciar la oferta de sus salas. Sus principales frustraciones están relacionadas con los altos costos de implementación, el mantenimiento, la disponibilidad de soporte técnico y la incertidumbre sobre el retorno de inversión.
+
+<img src="assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
+
+Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 
 #### 2.3.2 User Task Matrix
 
