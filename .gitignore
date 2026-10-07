@@ -427,3 +427,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/.idea/modules.xml
+/.idea/.gitignore
+/.idea/kinemo-cinema-report.iml
+/.idea/vcs.xml
