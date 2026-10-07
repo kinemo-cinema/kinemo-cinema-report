@@ -452,37 +452,325 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 ## Capítulo IV: Product Design
 
-### 4.1 Style Guidelines
+### 4.1. Style Guidelines
 
-#### 4.1.1 General Style Guidelines
+En esta sección se establecen los lineamientos visuales y de comunicación utilizados en Kinemo. Estos lineamientos permiten mantener una identidad consistente en los productos digitales del proyecto, definiendo criterios para el uso de la marca, tipografía y paleta de colores.
 
-> _Pendiente — completar en `feature/style-guidelines`._
+La propuesta visual de Kinemo busca transmitir innovación, tecnología y entretenimiento inmersivo. Para ello, se emplea una interfaz predominantemente oscura acompañada de tonos morados que permiten destacar los elementos principales y mantener una estética relacionada con la experiencia cinematográfica.
+
+#### 4.1.1. General Style Guidelines
+
+##### Branding
+
+**Concepto de Marca**
+
+Kinemo es una propuesta tecnológica orientada a mejorar la gestión de experiencias cinematográficas 4D. Su identidad visual busca representar conceptos como tecnología, movimiento, inmersión y modernidad mediante una estética minimalista y digital.
+
+El sistema visual de la marca combina fondos oscuros con acentos morados, generando contraste entre el contenido y los principales elementos interactivos. Esta combinación permite mantener una apariencia moderna y coherente con el entorno cinematográfico en el que se desarrolla la propuesta.
+
+**Logotipo Principal**
+
+![Logotipo de Kinemo](../assets/img/4_1_1-General-Style/01-logo-kinemo.png)
+
+El logotipo de Kinemo está compuesto por un símbolo gráfico acompañado del nombre de la marca. Su diseño mantiene una composición simple y reconocible que facilita su integración dentro de la interfaz de la landing page.
+
+El símbolo utiliza el color morado característico de Kinemo, mientras que el nombre emplea un tono claro para mantener un contraste adecuado sobre fondos oscuros. Esta combinación permite conservar la identidad visual utilizada en el resto de la interfaz.
+
+---
+
+##### Typography
+
+Kinemo utiliza **Inter** como familia tipográfica principal en su interfaz. Esta tipografía fue seleccionada por su legibilidad en entornos digitales y por su apariencia moderna, permitiendo mantener consistencia entre títulos, textos descriptivos, botones, etiquetas y elementos de navegación.
+
+La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependiendo de la importancia del contenido. Los títulos principales emplean pesos elevados para generar mayor impacto visual, mientras que los textos descriptivos utilizan pesos regulares que facilitan la lectura.
+
+![Sistema tipográfico de Kinemo](../assets/img/4_1_1-General-Style/02-typography.png)
+
+| Uso | Familia | Peso | Aplicación |
+| --- | --- | --- | --- |
+| **Hero / Display** | Inter | 800 | Mensaje principal de la landing page |
+| **H1** | Inter | 700-800 | Títulos principales |
+| **H2** | Inter | 700-800 | Títulos de secciones |
+| **H3** | Inter | 600-700 | Títulos de tarjetas y componentes |
+| **Body** | Inter | 400 | Descripciones y contenido general |
+| **Labels** | Inter | 600-700 | Etiquetas y categorías |
+| **Navigation** | Inter | 500-600 | Opciones de navegación |
+| **Buttons** | Inter | 600-700 | Llamados a la acción |
+
+Esta jerarquía permite diferenciar visualmente los distintos niveles de información y facilita el recorrido del usuario a través de las secciones de la plataforma.
+
+---
+
+##### Color Palette
+
+La identidad visual de Kinemo utiliza una paleta predominantemente oscura con tonos morados como colores de acento. Los fondos oscuros permiten crear una apariencia asociada con el ambiente cinematográfico, mientras que los tonos morados destacan botones, etiquetas y otros elementos relevantes de la interfaz.
+
+![Paleta de colores de Kinemo](../assets/img/4_1_1-General-Style/03-color-palette.png)
+
+**Paleta Principal**
+
+| Color | HEX | RGB | Uso Principal |
+| --- | --- | --- | --- |
+| **Fondo Principal** | `#0E0F17` | 14, 15, 23 | Fondo general de la interfaz |
+| **Fondo de Tarjetas** | `#16171E` | 22, 23, 30 | Cards y contenedores |
+| **Fondo Secundario** | `#20212C` | 32, 33, 44 | Elementos secundarios |
+| **Morado Principal** | `#8B5CF6` | 139, 92, 246 | CTAs y elementos destacados |
+| **Morado Claro** | `#A78BFA` | 167, 139, 250 | Acentos, etiquetas y estados activos |
+| **Blanco** | `#FFFFFF` | 255, 255, 255 | Títulos y texto principal |
+
+**Colores Complementarios**
+
+| Color | HEX | Uso Principal |
+| --- | --- | --- |
+| **Estado Activo** | `#272338` | Fondos de elementos seleccionados o destacados |
+| **Texto Secundario** | `#94A3B8` | Descripciones y contenido de menor jerarquía |
+| **Bordes** | `#2D2F45` | Separadores y contornos de componentes |
+| **Borde Activo** | `#3B385D` | Contornos de elementos activos |
+| **Éxito** | `#22C55E` | Estados correctos o resueltos |
+| **Advertencia** | `#EAB308` | Alertas y estados en progreso |
+
+**Justificación Cromática**
+
+La combinación de colores utilizada en Kinemo responde a las características visuales y funcionales de la plataforma:
+
+- **Fondos oscuros:** permiten relacionar visualmente la interfaz con el ambiente de una sala de cine y ayudan a destacar el contenido principal.
+- **Morado principal:** funciona como el color representativo de Kinemo y se utiliza para resaltar acciones, elementos interactivos y secciones importantes.
+- **Morado claro:** complementa el color principal y permite generar diferentes niveles de énfasis.
+- **Blanco:** se utiliza principalmente en títulos y textos que requieren alta visibilidad sobre fondos oscuros.
+- **Gris azulado:** se emplea para información secundaria, evitando competir visualmente con los títulos y llamados a la acción.
+- **Verde y amarillo:** permiten diferenciar estados funcionales dentro de los componentes de la plataforma.
+
+El uso consistente de esta paleta permite mantener una identidad visual uniforme entre las diferentes secciones de Kinemo.
+
+---
+
+##### Communication Tone
+
+La comunicación de Kinemo mantiene un tono profesional, tecnológico y directo. Los mensajes buscan explicar las capacidades de la plataforma de forma breve y comprensible, evitando descripciones excesivamente técnicas cuando no son necesarias.
+
+La comunicación de la marca se centra principalmente en:
+
+- La innovación aplicada a experiencias cinematográficas 4D.
+- La facilidad de gestión de las salas.
+- La sincronización de efectos y tecnología inmersiva.
+- El monitoreo y análisis de información.
+- La mejora de la experiencia cinematográfica.
+- La presentación clara de los beneficios de la plataforma.
+
+Los llamados a la acción utilizan expresiones breves y reconocibles, facilitando que el usuario comprenda rápidamente cuál es el siguiente paso dentro de la landing page.
+
+---
+
+##### General Visual Identity
+
+La identidad visual de Kinemo mantiene una composición moderna y minimalista. Las interfaces priorizan espacios amplios, tarjetas claramente diferenciadas, bordes sutiles y una jerarquía visual basada en contraste, tamaño y peso tipográfico.
+
+Los elementos más importantes utilizan el morado principal para captar la atención del usuario, mientras que los fondos y elementos secundarios mantienen tonalidades oscuras. De esta manera, el diseño evita una saturación visual excesiva y conserva una apariencia uniforme en toda la experiencia.
+
+Las decisiones generales de diseño siguen los siguientes criterios:
+
+- Uso consistente de la familia tipográfica Inter.
+- Fondos oscuros como base de la interfaz.
+- Morado como principal color de identidad y acción.
+- Uso de blanco para información de alta jerarquía.
+- Uso de tonos secundarios para descripciones y contenido complementario.
+- Bordes y contenedores sutiles para organizar la información.
+- Diseño visual coherente con un producto tecnológico orientado al entretenimiento cinematográfico.
 
 #### 4.1.2 Web Style Guidelines
 
 > _Pendiente — completar en `feature/style-guidelines`._
 
-### 4.2 Information Architecture
+### 4.2. Information Architecture
 
-#### 4.2.1 Organization Systems
+La arquitectura de información de Kinemo define la forma en que el contenido y las funcionalidades se organizan, etiquetan y presentan dentro de sus productos digitales. Su objetivo es facilitar la comprensión de la plataforma y permitir que cada usuario encuentre las funcionalidades necesarias de acuerdo con el contexto en el que se encuentra.
 
-> _Pendiente — completar en `feature/information-architecture`._
+Kinemo cuenta con dos interfaces principales: la **Landing Page**, orientada a presentar públicamente la propuesta de valor del producto, y la **Web Application**, orientada a la gestión y operación de las experiencias cinematográficas 4D.
 
-#### 4.2.2 Labeling Systems
+La Landing Page utiliza una estructura principalmente lineal, donde el visitante puede conocer progresivamente la plataforma, el equipo, los planes disponibles y las alternativas de contacto. Por otro lado, la Web Application utiliza una organización modular, permitiendo acceder a diferentes funcionalidades relacionadas con la operación de las salas de cine.
 
-> _Pendiente — completar en `feature/information-architecture`._
+---
 
-#### 4.2.3 SEO Tags and Meta Tags
+#### 4.2.1. Organization Systems
 
-> _Pendiente — completar en `feature/information-architecture`._
+Kinemo utiliza diferentes sistemas de organización dependiendo del producto digital y del tipo de información presentada.
 
-#### 4.2.4 Searching Systems
+##### Landing Page
 
-> _Pendiente — completar en `feature/information-architecture`._
+La Landing Page emplea principalmente un **sistema de organización por tópicos**, donde cada sección agrupa información relacionada con un aspecto específico de Kinemo.
 
-#### 4.2.5 Navigation Systems
+La estructura principal se organiza de la siguiente manera:
 
-> _Pendiente — completar en `feature/information-architecture`._
+| Tópico | Descripción |
+| --- | --- |
+| **Home** | Presenta la propuesta de valor principal de Kinemo y las acciones iniciales disponibles para el visitante. |
+| **Platform** | Expone las principales capacidades de la solución para la gestión de experiencias cinematográficas 4D. |
+| **About Us** | Presenta al equipo responsable del desarrollo de Kinemo. |
+| **Pricing** | Permite conocer y comparar los diferentes planes disponibles. |
+| **Contact** | Presenta la llamada a la acción final para iniciar el contacto con Kinemo. |
+| **Terms and Conditions** | Proporciona acceso a la información relacionada con las condiciones de uso del servicio. |
+
+El contenido mantiene una organización jerárquica que comienza presentando qué es Kinemo, continúa explicando sus principales capacidades y finaliza con información comercial y de contacto.
+
+**Home**
+
+La sección inicial comunica de manera directa la propuesta de valor de Kinemo como tecnología orientada a experiencias cinematográficas 4D. Incluye los llamados a la acción **Get Started** y **Learn More**, permitiendo al visitante continuar su recorrido hacia las secciones principales.
+
+**Platform**
+
+Las capacidades principales de Kinemo se organizan en cuatro categorías:
+
+- Effects Synchronization.
+- Simplified Management Software.
+- Maintenance Incident Control.
+- Performance Analytics.
+
+La sección complementa estas categorías mediante elementos visuales relacionados con la sincronización de salas y el seguimiento de incidencias.
+
+**About Us**
+
+Presenta a los integrantes responsables del desarrollo de Kinemo mediante tarjetas individuales que contienen fotografía, nombre e información de identificación académica.
+
+**Pricing**
+
+Organiza las alternativas comerciales de Kinemo en tres planes:
+
+- Starter.
+- Growth.
+- Enterprise.
+
+Esta estructura permite comparar visualmente las características y alcance de cada alternativa.
+
+**Contact**
+
+Representa el cierre del recorrido principal de la Landing Page. Su propósito es dirigir al visitante hacia una acción concreta relacionada con el inicio del servicio o contacto comercial.
+
+---
+
+##### Web Application
+
+La Web Application utiliza un **sistema de organización jerárquico y modular**. Después de autenticarse, el usuario accede al Dashboard, desde donde puede ingresar a los diferentes módulos de la plataforma según las tareas que necesite realizar.
+
+La estructura general identificada en la aplicación es:
+
+| Módulo | Propósito |
+| --- | --- |
+| **Sign In** | Permite autenticar al usuario mediante correo electrónico y contraseña. |
+| **Dashboard** | Funciona como punto central de acceso a las funcionalidades de la aplicación. |
+| **Catalog** | Agrupa las funcionalidades relacionadas con la gestión del catálogo de contenido 4D. |
+| **Scheduling** | Agrupa las funcionalidades relacionadas con la programación de funciones. |
+| **Room Readiness** | Permite acceder a funcionalidades relacionadas con la preparación y disponibilidad de las salas. |
+| **Maintenance** | Agrupa las funcionalidades relacionadas con el mantenimiento y seguimiento de incidencias. |
+| **Subscription** | Permite acceder a las funcionalidades relacionadas con planes y suscripciones. |
+| **Profile** | Presenta información relacionada con el usuario y su rol dentro de la plataforma. |
+| **About** | Proporciona información complementaria sobre Kinemo. |
+
+El Dashboard funciona como el nivel principal de la jerarquía después del inicio de sesión y presenta accesos a diferentes módulos mediante tarjetas.
+
+En la interfaz se distinguen funcionalidades destinadas a la administración y operación de Kinemo. Entre los accesos mostrados se encuentran módulos relacionados con catálogo, programación, salas, ticketing, analítica, suscripción, control de asientos, ejecución y mantenimiento.
+
+De esta manera, el usuario no necesita recorrer una secuencia lineal como en la Landing Page, sino que puede seleccionar directamente el módulo correspondiente a la tarea que desea realizar.
+
+---
+
+#### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Kinemo utiliza términos breves y relacionados directamente con las funcionalidades que representan. Se busca evitar nombres ambiguos y mantener consistencia entre los enlaces de navegación, botones, módulos y secciones.
+
+##### Landing Page
+
+Las principales etiquetas utilizadas son:
+
+| Etiqueta | Propósito |
+| --- | --- |
+| **Platform** | Identifica la sección donde se presentan las capacidades principales de Kinemo. |
+| **About Us** | Identifica la sección donde se presenta el equipo del proyecto. |
+| **Pricing** | Identifica la sección de planes y precios. |
+| **Contact** | Identifica la sección destinada al contacto con Kinemo. |
+| **Get Started** | CTA principal que dirige al visitante hacia el inicio del proceso de contacto. |
+| **Learn More** | CTA secundario que permite conocer las funcionalidades de la plataforma. |
+| **Most Popular** | Destaca visualmente el plan comercial recomendado. |
+| **EN / ES** | Permite seleccionar el idioma de la interfaz. |
+| **Terms and Conditions** | Permite acceder a las condiciones de uso correspondientes. |
+
+##### Web Application
+
+Dentro de la aplicación se utilizan etiquetas orientadas a las tareas que puede realizar el usuario.
+
+| Etiqueta | Propósito |
+| --- | --- |
+| **Sign In** | Acción utilizada para iniciar sesión. |
+| **Dashboard** | Identifica el punto principal de acceso a los módulos. |
+| **Operations** | Agrupa accesos relacionados con las operaciones de las salas. |
+| **Maintenance** | Identifica las funcionalidades relacionadas con mantenimiento. |
+| **Analytics** | Identifica el acceso a información y análisis del funcionamiento de la plataforma. |
+| **Catalog** | Identifica el módulo de gestión del catálogo 4D. |
+| **Scheduling** | Identifica el módulo relacionado con programación. |
+| **Room Readiness** | Identifica las funcionalidades de preparación de salas. |
+| **Subscription** | Identifica la gestión de planes y suscripciones. |
+| **Profile** | Identifica la información asociada al usuario autenticado. |
+| **EN / ES** | Permite alternar el idioma de la aplicación. |
+
+Las etiquetas mantienen una relación directa con las acciones y contenidos disponibles para reducir el esfuerzo necesario para comprender la interfaz.
+
+Además, los módulos del Dashboard utilizan elementos visuales e iconos como apoyo a las etiquetas textuales, facilitando su reconocimiento.
+
+---
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+La estrategia SEO de Kinemo se aplica principalmente a la **Landing Page**, debido a que corresponde a la interfaz pública del producto y funciona como uno de los principales puntos de entrada para potenciales clientes interesados en soluciones tecnológicas para experiencias cinematográficas 4D.
+
+Por otro lado, la **Web Application** posee un propósito principalmente operativo y requiere autenticación para acceder a sus funcionalidades. Por esta razón, su contenido interno no constituye el principal objetivo de posicionamiento en motores de búsqueda.
+
+##### Landing Page
+
+Para la Landing Page se consideran etiquetas orientadas a describir correctamente el contenido del sitio, facilitar su indexación y mejorar la forma en que Kinemo se presenta al compartir la página en plataformas externas.
+
+Las principales etiquetas consideradas son:
+
+- **Title:** identifica el sitio y comunica que Kinemo está relacionado con tecnología para cine 4D.
+- **Description:** resume la propuesta de valor de Kinemo, incluyendo la gestión de asientos de movimiento, efectos sincronizados y analítica.
+- **Keywords:** documenta términos relacionados con tecnología de cine 4D, gestión de salas y experiencias inmersivas.
+- **Author:** identifica al equipo responsable del producto.
+- **Robots:** establece las indicaciones de indexación y seguimiento para los motores de búsqueda.
+- **Canonical:** identifica la URL principal de la Landing Page.
+- **Open Graph:** define cómo se presenta Kinemo al compartir la página en plataformas compatibles.
+- **Twitter Card:** proporciona información para generar una vista previa enriquecida al compartir el sitio en plataformas compatibles.
+
+Una posible implementación dentro del `<head>` de la Landing Page es la siguiente:
+
+<head>
+    <!-- Basic Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kinemo | 4D Cinema Technology</title>
+
+    <!-- SEO Metadata -->
+    <meta name="description" content="Kinemo centralizes motion seat control, synchronized environmental effects, maintenance monitoring and real-time analytics for immersive 4D cinema experiences.">
+    <meta name="keywords" content="Kinemo, 4D cinema technology, 4D theater management, motion seats, synchronized cinema effects, immersive cinema technology">
+    <meta name="author" content="Kinemo Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="LANDING_PAGE_URL">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kinemo | 4D Cinema Technology">
+    <meta property="og:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="LANDING_PAGE_URL">
+    <meta property="og:image" content="LANDING_PAGE_IMAGE_URL">
+    <meta property="og:site_name" content="Kinemo">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kinemo | 4D Cinema Technology">
+    <meta name="twitter:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta name="twitter:image" content="LANDING_PAGE_IMAGE_URL">
+</head>
 
 ### 4.3 Landing Page UI Design
 
