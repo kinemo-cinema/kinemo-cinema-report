@@ -1,4 +1,4 @@
-# Informe de Trabajo Final — Kinemo
+_# Informe de Trabajo Final — Kinemo
 
 ## Carátula
 
@@ -391,56 +391,21 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 ### 2.3 Needfinding
 
-Al recopilar la información de los segmentos objetivo a través de las entrevistas, se procedió a sintetizar y analizar los hallazgos mediante la construcción de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping.
-
 #### 2.3.1 User Personas
 
-**User Persona 1: Carlos Torres**  
-La imagen ilustra el perfil de Carlos Torres, enfocado en el mantenimiento técnico y la operación de las salas. Destaca sus metas de mantener el 100% de operatividad en horas de alta afluencia y sus frustraciones ligadas a la ausencia de un sistema centralizado para dar seguimiento a fallas mecánicas e interfaces complejas.
-
-<img src="assets/img/Carlos%20Torres.png" alt="Carlos Torres">
-
-**User Persona 2: Pepe Castillo**  
-La imagen sintetiza el perfil del tomador de decisiones comerciales. Refleja sus objetivos de diferenciar la oferta de sus cines e incrementar la venta de entradas premium, equilibrado con su temor a realizar inversiones en tecnología propietaria costosa sin soporte local asegurado.
-
-<img src="assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
-
-Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
+> _Pendiente — completar en `feature/user-personas`._
 
 #### 2.3.2 User Task Matrix
 
-La imagen presenta la matriz de tareas construida a partir de las necesidades de nuestros dos User Personas. En ella se relacionan las actividades principales diferenciando la frecuencia de ejecución y el nivel de importancia/prioridad para el Gerente de Operaciones y el Técnico de Mantenimiento.
-
-<img src="assets/img/User%20Task%20Matrix.png" alt="Task Matrix">
-
-Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
+> _Pendiente — completar en `feature/user-task-matrix`._
 
 #### 2.3.3 User Journey Mapping
 
-**Segmento objetivo #1: Gerentes/Propietarios de cadenas de cine pequeñas y medianas**  
-Este user persona presenta el recorrido actual de Pepe Castillo. El mapa ilustra su experiencia completa desde que identifica la necesidad de modernizar sus salas para competir contra las grandes cadenas de cine, pasando por la búsqueda de opciones en el mercado y la evaluación de costos, hasta la toma de decisión y el seguimiento del impacto comercial en su negocio.
-
-<img src="assets/img/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
-
-**Segmento objetivo #2: Personal operativo/técnico de las salas de cine**  
-Este User Journey Map representa el recorrido actual de Carlos Torres. El mapa ilustra su experiencia completa desde que recibe la programación diaria de funciones y realiza la inspección de las salas, pasando por el intento de configurar y sincronizar equipos o atender incidencias mecánicas/técnicas a mano, hasta el reporte de fallas y el cierre de jornada.
-
-<img src="assets/img/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
-
-Link del User Journey Mapping - Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
-Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
+> _Pendiente — completar en `feature/journey-maps`._
 
 #### 2.3.4 Empathy Mapping
 
-**Pepe Castillo:**  
-La imagen resume los hallazgos sobre lo que piensa, siente, ve, escucha, dice y hace el Gerente de Operaciones. Refleja su preocupación por la pérdida de competitividad frente a grandes cadenas y su deseo de adoptar un modelo de software y tecnología accesible con ROI predecible.
-
-<img src="assets/img/Empathy%20map-Pepe%20Castillo.png" alt="Empathy Map - Pepe Castillo">
-
-**Carlos Torres:**  
-La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión por resolver fallas repentinas antes de las funciones y la oportunidad de contar con un sistema automatizado e intuitivo para reportes y calibración de equipos.
-
-<img src="assets/img/Empathy%20map-Carlos%20Torres.png" alt="Empathy Map - Carlos Torres">
+> _Pendiente — completar en `feature/empathy-maps`._
 
 ### 2.4 Big Picture EventStorming
 
@@ -454,853 +419,7 @@ La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión
 
 ### 3.1 User Stories
 
-<table style="width: 100%; border-collapse: collapse;">
-  <!-- BARRA DE ARRIBA -->
-  <tr>
-    <th style="text-align: center;">Epic/Story ID</th>
-    <th style="text-align: center;">Título</th>
-    <th style="text-align: center;">Descripción</th>
-    <th style="text-align: center;">Criterios de Aceptación</th>
-    <th style="text-align: center;">Relacionado con (Epic ID)</th>
-  </tr>
-  <!-- EPICA 1 -->
-  <tr>
-    <td style="text-align: center;">EP01</td>
-    <td style="text-align: center;">Gestión del Catálogo de Experiencias 4D</td>
-    <td style="text-align: center;">
-      Como administrador de la empresa de entretenimiento, quiero gestionar el catálogo de películas y sus archivos de efectos 4D para ofrecer una oferta inmersiva actualizada.
-    </td>
-    <td style="text-align: center;">
-      - Permite registrar y editar las experiencias del catálogo<br>
-      - Asocia archivos de efectos 4D a cada película.<br>
-      - Permite consultar y filtrar contenidos según su disponibilidad.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 2 -->
-  <tr>
-    <td style="text-align: center;">EP02</td>
-    <td style="text-align: center;">Programación de Funciones e Insumos de Sala</td>
-    <td style="text-align: center;">
-      Como administrador u operador, quiero programar las funciones en las salas 4D para garantizar la disponibilidad del servicio y la preparación de la sala.
-    </td>
-    <td style="text-align: center;">
-      - Permite registrar funciones indicando fecha, hora, película y sala asignada.<br>
-      - Notifica los insumos necesarios (agua, aire) requeridos para el día.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 3 -->
-  <tr>
-    <td style="text-align: center;">EP03</td>
-    <td style="text-align: center;">Integración de Ocupación y Control de Sala</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero visualizar el estado de ocupación de la sala para habilitar únicamente las butacas vendidas y optimizar el uso del equipamiento.
-    </td>
-    <td style="text-align: center;">
-      - Visualiza en un mapa de sala las butacas vendidas y disponibles.<br>
-      - Permite activar o desactivar asientos de forma manual o automatizada.<br>
-      - Mantiene inmóviles las butacas vacías durante la función.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 4 -->
-  <tr>
-    <td style="text-align: center;">EP04</td>
-    <td style="text-align: center;">Control y Sincronización de Efectos 4D</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero coordinar y supervisar la sincronización del contenido audiovisual con los efectos físicos (movimiento, viento, agua).
-    </td>
-    <td style="text-align: center;">
-      - Ejecuta la secuencia de efectos en sincronía con la película.<br>
-      - Detiene automáticamente los componentes mecánicos al finalizar la función.<br>
-      - Incluye una opción de parada rápida ante imprevistos o emergencias.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 5 -->
-  <tr>
-    <td style="text-align: center;">EP05</td>
-    <td style="text-align: center;">Pruebas y Calibración de Equipos</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero probar y ajustar los efectos de la sala antes de cada función para asegurar una experiencia fluida.
-    </td>
-    <td style="text-align: center;">
-      - Permite realizar pruebas individuales de los efectos (viento, vibración, agua).<br>
-      - Permite ajustar la intensidad general de los efectos.<br>
-      - Facilita el ajuste básico de las plataformas de movimiento.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 6 -->
-  <tr>
-    <td style="text-align: center;">EP06</td>
-    <td style="text-align: center;">Gestor de Mantenimiento e Incidencias</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero registrar y dar seguimiento al mantenimiento de los equipos para prevenir fallas durante las funciones.
-    </td>
-    <td style="text-align: center;">
-      - Permite registrar los componentes instalados por sala.<br>
-      - Muestra alertas visuales de equipos que requieren revisión o presentan fallas.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 7 -->
-  <tr>
-    <td style="text-align: center;">EP07</td>
-    <td style="text-align: center;">Reportes y Dashboard Operativo</td>
-    <td style="text-align: center;">
-      Como administrador, quiero visualizar métricas del desempeño de las salas y del equipamiento para tomar decisiones de negocio y mantenimiento.
-    </td>
-    <td style="text-align: center;">
-      - Presenta gráficos del uso acumulado de las salas inmersivas.<br>
-      - Genera reportes sobre las incidencias y fallas más frecuentes.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 8 -->
-  <tr>
-    <td style="text-align: center;">EP08</td>
-    <td style="text-align: center;">Landing Page B2B</td>
-    <td style="text-align: center;">
-      Como visitante interesado en implementar una solución 4D, quiero conocer la propuesta de valor, características y servicios de la empresa, además de comparar los planes disponibles, para evaluar si la solución se adapta a las necesidades de mi organización.
-    </td>
-    <td style="text-align: center;">
-      - Presenta información clara sobre la propuesta de valor de la solución 4D.<br>
-      - Describe las principales características y servicios ofrecidos.<br>
-      - Permite a los visitantes comparar y seleccionar los planes de suscripción B2B.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 9 -->
-  <tr>
-    <td style="text-align: center;">EP09</td>
-    <td style="text-align: center;">API RESTful</td>
-    <td style="text-align: center;">
-      Como Developer, quiero disponer de una API RESTful para consultar y gestionar la información principal del sistema, para facilitar la integración entre los diferentes componentes de la solución.
-    </td>
-    <td style="text-align: center;">
-      - Permite consultar información mediante solicitudes HTTP.<br>
-      - Permite registrar y actualizar información mediante los métodos HTTP correspondientes.<br>
-      - Retorna respuestas con códigos de estado HTTP según el resultado de la operación.<br>
-      - Valida el estado de la suscripción del cliente para autorizar o bloquear dinámicamente el acceso a los endpoints protegidos.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- EPICA 10 -->
-  <tr>
-    <td style="text-align: center;">EP10</td>
-    <td style="text-align: center;">Gestión de suscripción</td>
-    <td style="text-align: center;">
-      Como administrador de cine, deseo gestionar mi plan de suscripción en la plataforma para controlar los pagos, renovaciones y el límite de pantallas conectadas de mi cadena.
-    </td>
-    <td style="text-align: center;">
-      - Permite al administrador contratar y realizar el pago de un plan de suscripción para su cadena de cines.<br>
-      - Muestra en el panel el estado actualizado del plan y los límites de pantallas conectadas.<br>
-      - Facilita la renovación o el cambio a un plan superior (upgrade) de manera autogestionada.<br>
-      - Restringe automáticamente el registro de nuevas salas si se supera el límite del plan o si el pago falla.
-    </td>
-    <td style="text-align: center;">-</td>
-  </tr>
-  <!-- US01 -->
-  <tr>
-    <td style="text-align: center;">US01</td>
-    <td style="text-align: center;">Registrar película 4D</td>
-    <td style="text-align: center;">
-      Como administrador, quiero registrar una película en la plataforma para ponerla a disposición de las salas inmersivas.
-    </td>
-    <td style="text-align: center;">
-      - Given que el Administrador ingresa título, duración y género válidos, When guarda el registro, Then el sistema almacena la película en el catálogo.<br>
-      - Given que faltan campos obligatorios, When el Administrador intenta guardar, Then el sistema bloquea el envío y resalta los errores.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US02 -->
-  <tr>
-    <td style="text-align: center;">US02</td>
-    <td style="text-align: center;">Asociar archivo de efectos</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero cargar el archivo de efectos 4D a una película para vincular el contenido con el hardware.
-    </td>
-    <td style="text-align: center;">
-      - Given un archivo de secuencia de efectos válido, When el Personal Técnico lo asigna a una película, Then el sistema lo vincula y confirma la carga.<br>
-      - Given un archivo con formato no permitido, When el Personal Técnico intenta subirlo, Then el sistema muestra un mensaje de error.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US03 -->
-  <tr>
-    <td style="text-align: center;">US03</td>
-    <td style="text-align: center;">Consultar catálogo</td>
-    <td style="text-align: center;">
-      Como administrador, quiero consultar las películas 4D disponibles para seleccionar cuáles programar en cartelera.
-    </td>
-    <td style="text-align: center;">
-      - Given que existen películas registradas, When el Administrador entra al catálogo, Then el sistema muestra la lista con el estado de sus efectos.<br>
-      - Given que el catálogo está vacío, When el Administrador consulta la sección, Then el sistema indica que no hay títulos y ofrece registrar uno.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US04 -->
-  <tr>
-    <td style="text-align: center;">US04</td>
-    <td style="text-align: center;">Desactivar contenido</td>
-    <td style="text-align: center;">
-      Como administrador, quiero cambiar el estado de una película a inactiva para evitar su programación.
-    </td>
-    <td style="text-align: center;">
-      - Given una película activa, When el Administrador la marca como "Inactiva", Then el sistema la deshabilita para nuevas funciones.<br>
-      - Given una película inactiva, When el Administrador abre la agenda, Then el título no aparece entre las opciones seleccionables.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US05 -->
-  <tr>
-    <td style="text-align: center;">US05</td>
-    <td style="text-align: center;">Programar función</td>
-    <td style="text-align: center;">
-      Como administrador, quiero programar una función 4D para organizar el calendario de la sala.
-    </td>
-    <td style="text-align: center;">
-      - Given una sala y horario disponibles, When el Administrador asigna película, fecha y hora, Then el sistema guarda la función con sus efectos enlazados.<br>
-      - Given que la sala está ocupada en ese bloque, When el Administrador intenta guardar, Then el sistema alerta del conflicto y rechaza el registro.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US06 -->
-  <tr>
-    <td style="text-align: center;">US06</td>
-    <td style="text-align: center;">Editar/Cancelar función</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero ajustar o cancelar una función para adaptar la programación ante eventualidades.
-    </td>
-    <td style="text-align: center;">
-      - Given una función programada, When el Personal Operativo modifica la hora o cambia el estado a "Cancelada", Then el sistema actualiza la parrilla.<br>
-      - Given una función cancelada, When el Personal Operativo la revisa, Then el sistema impide iniciar la ejecución de sus efectos.
-    </td>
-    <td style="text-align: center;">EP02</td>
-  </tr>
-  <!-- US07 -->
-  <tr>
-    <td style="text-align: center;">US07</td>
-    <td style="text-align: center;">Consultar insumos del día</td>
-    <td style="text-align: center;">
-      Como personal de sala, quiero ver los insumos requeridos por la programación para preparar el agua y aire.
-    </td>
-    <td style="text-align: center;">
-      - Given funciones 4D agendadas hoy, When el Personal de Sala revisa el panel diario, Then el sistema calcula y muestra los niveles de aire y agua necesarios.<br>
-      - Given funciones que no usan efectos físicos, When se consulta el resumen, Then el sistema notifica que no se requieren cargas adicionales.
-    </td>
-    <td style="text-align: center;">EP02</td>
-  </tr>
-  <!-- US08 -->
-  <tr>
-    <td style="text-align: center;">US08</td>
-    <td style="text-align: center;">Visualizar mapa de sala</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero ver la ocupación de la sala en tiempo real para identificar las butacas a utilizar.
-    </td>
-    <td style="text-align: center;">
-      - Given una función próxima a iniciar, When el Personal Operativo abre el mapa de sala, Then el sistema diferencia butacas ocupadas, libres y fuera de servicio.<br>
-      - Given nuevas ventas registradas en boletería, When el Personal Operativo actualiza la vista, Then el mapa refresca el estado de los asientos.
-    </td>
-    <td style="text-align: center;">EP03</td>
-  </tr>
-  <!-- US09 -->
-  <tr>
-    <td style="text-align: center;">US09</td>
-    <td style="text-align: center;">Activar asientos ocupados</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero activar solo las butacas vendidas para evitar el desgaste de asientos vacíos.
-    </td>
-    <td style="text-align: center;">
-      - Given las ventas confirmadas de una función, When el Personal Operativo envía la orden, Then el sistema activa los motores únicamente en butacas ocupadas.<br>
-      - Given una butaca marcada como libre, When la función entra en proyección, Then el sistema la mantiene inmóvil durante todo el evento.
-    </td>
-    <td style="text-align: center;">EP03</td>
-  </tr>
-  <!-- US10 -->
-  <tr>
-    <td style="text-align: center;">US10</td>
-    <td style="text-align: center;">Habilitación manual de butaca</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero activar manualmente una butaca para reubicar a un asistente.
-    </td>
-    <td style="text-align: center;">
-      - Given una butaca desocupada en el mapa, When el Personal Operativo presiona "Activar Manualmente", Then el sistema la suma a la señal de efectos.<br>
-      - Given una butaca activada manualmente, When se remueve dicha opción, Then el sistema la retorna a su estado inactivo.
-    </td>
-    <td style="text-align: center;">EP03</td>
-  </tr>
-  <!-- US11 -->
-  <tr>
-    <td style="text-align: center;">US11</td>
-    <td style="text-align: center;">Iniciar secuencia de efectos</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero dar inicio a la función 4D para sincronizar el contenido con los efectos físicos.
-    </td>
-    <td style="text-align: center;">
-      - Given la sala lista y verificada, When el Personal Operativo presiona "Iniciar Función", Then el sistema arranca la secuencia y pasa a "En Proyección".<br>
-      - Given un error crítico detectado en el hardware, When se presiona iniciar, Then el sistema detiene el arranque y alerta de la falla.
-    </td>
-    <td style="text-align: center;">EP04</td>
-  </tr>
-  <!-- US12 -->
-  <tr>
-    <td style="text-align: center;">US12</td>
-    <td style="text-align: center;">Parada de emergencia</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero presionar un botón de detención rápida, para frenar los movimientos ante cualquier contingencia en la sala.
-    </td>
-    <td style="text-align: center;">
-      - Given una función en ejecución, When el Personal Operativo activa "Parada de Emergencia", Then el sistema corta los efectos e inmoviliza los asientos.<br>
-      - Given el sistema detenido por emergencia, When se soluciona el evento, Then el sistema exige confirmación manual para restablecer el servicio.
-    </td>
-    <td style="text-align: center;">EP04</td>
-  </tr>
-  <!-- US13 -->
-  <tr>
-    <td style="text-align: center;">US13</td>
-    <td style="text-align: center;">Concluir función</td>
-    <td style="text-align: center;">
-      Como sistema, quiero finalizar automáticamente la ejecución de efectos al terminar la película.
-    </td>
-    <td style="text-align: center;">
-      - Given que la línea de tiempo llega a cero, When la película termina, Then el sistema apaga ventiladores e inyectores y pasa a "Finalizada".<br>
-      - Given la conclusión de la función, When los espectadores se preparan a salir, Then el sistema posiciona las butacas en el nivel neutro.
-    </td>
-    <td style="text-align: center;">EP04</td>
-  </tr>
-  <!-- US14 -->
-  <tr>
-    <td style="text-align: center;">US14</td>
-    <td style="text-align: center;">Probar canal de efectos</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero realizar una prueba de efectos individual para verificar el funcionamiento de viento, agua o movimiento.
-    </td>
-    <td style="text-align: center;">
-      - Given la sala en modo pruebas, When el Personal Técnico selecciona un canal y presiona "Probar", Then el sistema lanza un pulso de 5 segundos.<br>
-      - Given un canal que no responde, When el Personal Técnico ejecuta el test, Then el sistema informa "Prueba fallida en el canal".
-    </td>
-    <td style="text-align: center;">EP05</td>
-  </tr>
-  <!-- US15 -->
-  <tr>
-    <td style="text-align: center;">US15</td>
-    <td style="text-align: center;">Ajustar nivel de intensidad</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero regular la potencia de los efectos para adaptarla a funciones infantiles o de menor impacto.
-    </td>
-    <td style="text-align: center;">
-      - Given una función seleccionada, When el Personal Operativo ajusta el nivel a "Bajo", "Medio" o "Alto", Then el sistema escala la fuerza de los actuadores.<br>
-      - Given una función infantil configurada en nivel "Bajo", When arranca la proyección, Then el sistema atenúa los movimientos bruscos.
-    </td>
-    <td style="text-align: center;">EP05</td>
-  </tr>
-  <!-- US16 -->
-  <tr>
-    <td style="text-align: center;">US16</td>
-    <td style="text-align: center;">Nivelar butacas</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero recalibrar la posición base de los asientos para asegurar su alineación.
-    </td>
-    <td style="text-align: center;">
-      - Given plataformas con inclinación desalineada, When el Personal Técnico ejecuta "Alineación Cero", Then el sistema retorna los asientos a nivel horizontal.<br>
-      - Given que los sensores confirman la posición, When concluye el proceso, Then el sistema despliega el mensaje de ajuste exitoso.
-    </td>
-    <td style="text-align: center;">EP05</td>
-  </tr>
-  <!-- US17 -->
-  <tr>
-    <td style="text-align: center;">US17</td>
-    <td style="text-align: center;">Registrar componentes de sala</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero dar de alta los equipos instalados en la sala para mantener un registro estructurado.
-    </td>
-    <td style="text-align: center;">
-      - Given la instalación de un nuevo hardware, When el Personal Técnico ingresa tipo, código y ubicación, Then el sistema lo registra en la base de datos.<br>
-      - Given un formulario con datos faltantes, When se intenta guardar, Then el sistema bloquea la acción indicando los campos requeridos.
-    </td>
-    <td style="text-align: center;">EP06</td>
-  </tr>
-  <!-- US18 -->
-  <tr>
-    <td style="text-align: center;">US18</td>
-    <td style="text-align: center;">Registrar falla de equipo</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero reportar una avería en un componente específico para solicitar su reparación.
-    </td>
-    <td style="text-align: center;">
-      - Given un equipo defectuoso, When el Personal Operativo lo selecciona y detalla el problema, Then el sistema cambia su estado a "En Revisión".<br>
-      - Given una falla reportada, When el Personal Técnico ingresa al panel, Then el sistema le resalta la orden de revisión prioritaria.
-    </td>
-    <td style="text-align: center;">EP06</td>
-  </tr>
-  <!-- US19 -->
-  <tr>
-    <td style="text-align: center;">US19</td>
-    <td style="text-align: center;">Registrar mantenimiento</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero guardar el reporte de mantenimiento realizado para actualizar el historial de la sala.
-    </td>
-    <td style="text-align: center;">
-      - Given un trabajo técnico concluido, When el Personal Técnico redacta la acción correctiva y cierra la orden, Then el equipo vuelve a "Operativo".<br>
-      - Given un reporte sin descripción técnica, When se intenta guardar, Then el sistema exige especificar la solución aplicada.
-    </td>
-    <td style="text-align: center;">EP06</td>
-  </tr>
-  <!-- US20 -->
-  <tr>
-    <td style="text-align: center;">US20</td>
-    <td style="text-align: center;">Visualizar dashboard operativo</td>
-    <td style="text-align: center;">
-      Como administrador, quiero consultar gráficos de uso de salas y fallas frecuentes para evaluar el rendimiento.
-    </td>
-    <td style="text-align: center;">
-      - Given datos de uso acumulados, When el Administrador abre el Dashboard Operativo, Then el sistema despliega gráficos de funciones, uso y averías.<br>
-      - Given la necesidad de analizar métricas, When el Administrador presiona "Exportar", Then el sistema descarga el resumen en PDF o CSV.
-    </td>
-    <td style="text-align: center;">EP07</td>
-  </tr>
-  <!-- US21 -->
-  <tr>
-    <td style="text-align: center;">US21</td>
-    <td style="text-align: center;">Buscar película por nombre</td>
-    <td style="text-align: center;">
-      Como administrador, quiero buscar películas por título o género para localizarlas rápidamente.
-    </td>
-    <td style="text-align: center;">
-      - Given la lista del catálogo, When el Administrador ingresa un texto de búsqueda, Then el sistema filtra las coincidencias en tiempo real.<br>
-      - Given un término sin coincidencias, When el Administrador realiza la consulta, Then el sistema muestra el mensaje "Sin resultados".
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US22 -->
-  <tr>
-    <td style="text-align: center;">US22</td>
-    <td style="text-align: center;">Asignar etiquetas de efectos</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero clasificar las películas según la intensidad de sus efectos para alertar a la sala.
-    </td>
-    <td style="text-align: center;">
-      - Given un contenido en el catálogo, When el Personal Técnico le asigna un nivel de intensidad y guarda, Then el sistema actualiza la ficha de la película.<br>
-      - Given la etiqueta asignada, When el Administrador visualiza la cartelera, Then el sistema exhibe el distintivo de intensidad correspondiente.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US23 -->
-  <tr>
-    <td style="text-align: center;">US23</td>
-    <td style="text-align: center;">Duplicar configuración de película</td>
-    <td style="text-align: center;">
-      Como administrador, quiero clonar los datos y archivos de un contenido para agilizar el registro de entregas similares.
-    </td>
-    <td style="text-align: center;">
-      - Given una película registrada, When el Administrador selecciona "Duplicar Configuración", Then el sistema genera una copia idéntica editable.<br>
-      - Given la copia editable, When el Administrador modifica el título y guarda, Then se crea un nuevo registro sin alterar el original.
-    </td>
-    <td style="text-align: center;">EP01</td>
-  </tr>
-  <!-- US24 -->
-  <tr>
-    <td style="text-align: center;">US24</td>
-    <td style="text-align: center;">Visualizar resumen diario de funciones</td>
-    <td style="text-align: center;">
-      Como personal de sala, quiero ver una vista resumida de las funciones del día para coordinar los turnos.
-    </td>
-    <td style="text-align: center;">
-      - Given la programación del día, When el Personal de Sala accede al panel diario, Then el sistema lista las funciones en orden cronológico con su estado.<br>
-      - Given una función completada, When se actualiza el resumen, Then el sistema la marca visualmente como finalizada.
-    </td>
-    <td style="text-align: center;">EP02</td>
-  </tr>
-  <!-- US25 -->
-  <tr>
-    <td style="text-align: center;">US25</td>
-    <td style="text-align: center;">Bloquear función por mantenimiento</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero inhabilitar la programación de una sala para evitar asignaciones mientras está en reparación.
-    </td>
-    <td style="text-align: center;">
-      - Given una sala que requiere reparación, When el personal Técnico reserva un rango de horas, Then la sala pasa a estado "En Mantenimiento".<br>
-      - Given el bloqueo activo, When un Administrador intenta agendar una función en esa franja, Then el sistema prohíbe el registro.
-    </td>
-    <td style="text-align: center;">EP02</td>
-  </tr>
-  <!-- US26 -->
-  <tr>
-    <td style="text-align: center;">US26</td>
-    <td style="text-align: center;">Alerta de coincidencia de horarios</td>
-    <td style="text-align: center;">
-      Como administrador, quiero alertas de traslape para evitar programar dos funciones a la misma hora en la misma sala.
-    </td>
-    <td style="text-align: center;">
-      - Given una función ya agendada en un bloque horario, When el Administrador intenta ingresar otra función a la misma hora, Then el sistema bloquea el guardado.<br>
-      - Given horarios continuos sin interferencia, When el Administrador establece el inicio, Then el sistema guarda la función correctamente.
-    </td>
-    <td style="text-align: center;">EP02</td>
-  </tr>
-  <!-- US27 -->
-  <tr>
-    <td style="text-align: center;">US27</td>
-    <td style="text-align: center;">Bloquear butaca individual</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero inhabilitar una butaca averiada para evitar que sea asignada a un espectador.
-    </td>
-    <td style="text-align: center;">
-      - Given el mapa interactivo, When el Personal Operativo selecciona un asiento y marca "Fuera de Servicio", Then el sistema bloquea la butaca.<br>
-      - Given una butaca fuera de servicio, When inicia la función, Then el sistema excluye dicho asiento de cualquier señal de movimiento.
-    </td>
-    <td style="text-align: center;">EP03</td>
-  </tr>
-  <!-- US28 -->
-  <tr>
-    <td style="text-align: center;">US28</td>
-    <td style="text-align: center;">Consultar resumen de ocupación</td>
-    <td style="text-align: center;">
-      Como administrador, quiero ver el porcentaje de ocupación por función para medir el rendimiento de la sala.
-    </td>
-    <td style="text-align: center;">
-      - Given la información de entradas vendidas, When el Administrador consulta la lista de funciones, Then el sistema muestra el % de aforo ocupado.<br>
-      - Given un rango de fechas seleccionado, When el Administrador filtra la vista, Then el sistema calcula el promedio de ocupación del periodo.
-    </td>
-    <td style="text-align: center;">EP03</td>
-  </tr>
-  <!-- US29 -->
-  <tr>
-    <td style="text-align: center;">US29</td>
-    <td style="text-align: center;">Consultar estado de integración</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero consultar el estado de integración con la boletería para confirmar la recepción de datos.
-    </td>
-    <td style="text-align: center;">
-      - Given el módulo de integraciones, When el Personal Técnico abre el panel, Then el sistema muestra el indicador de enlace y la última sincronización.<br>
-      - Given una pérdida de conexión, When el Personal Técnico presiona "Reconectar", Then el sistema reintenta el enlace y actualiza el estado.
-    </td>
-    <td style="text-align: center;">EP03</td>
-  </tr>
-  <!-- US30 -->
-  <tr>
-    <td style="text-align: center;">US30</td>
-    <td style="text-align: center;">Pausar y reanudar secuencia</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero pausar los efectos en vivo para resolver un inconveniente menor sin reiniciar el sistema.
-    </td>
-    <td style="text-align: center;">
-      - Given efectos 4D en reproducción, When el Personal Operativo presiona "Pause", Then el sistema congela la línea de tiempo y actuadores.<br>
-      - Given los efectos congelados, When el Personal Operativo presiona "Reanudar", Then la secuencia continúa exactamente desde el punto pausado.
-    </td>
-    <td style="text-align: center;">EP04</td>
-  </tr>
-  <!-- US31 -->
-  <tr>
-    <td style="text-align: center;">US31</td>
-    <td style="text-align: center;">Simular rutina de inicio de sala</td>
-    <td style="text-align: center;">
-      Como personal operativo, quiero ejecutar una secuencia rápida de bienvenida para mover suavemente las butacas al ingresar el público.
-    </td>
-    <td style="text-align: center;">
-      - Given la apertura de puertas, When el Personal Operativo activa "Rutina de Demo", Then las butacas ejecutan movimientos sutiles por 30 segundos.<br>
-      - Given que concluyen los 30 segundos, When se agota el tiempo, Then el sistema apaga la rutina automáticamente.
-    </td>
-    <td style="text-align: center;">EP04</td>
-  </tr>
-  <!-- US32 -->
-  <tr>
-    <td style="text-align: center;">US32</td>
-    <td style="text-align: center;">Probar inyectores de agua</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero probar el circuito de agua de la sala para asegurar que las boquillas no estén obstruidas.
-    </td>
-    <td style="text-align: center;">
-      - Given el panel de calibración, When el Personal Técnico dispara la prueba de agua, Then el sistema emite una ráfaga corta de 2 segundos.<br>
-      - Given falta de presión en la tubería, When se ejecuta la prueba, Then el sistema despliega una advertencia de baja presión.
-    </td>
-    <td style="text-align: center;">EP05</td>
-  </tr>
-  <!-- US33 -->
-  <tr>
-    <td style="text-align: center;">US33</td>
-    <td style="text-align: center;">Probar ventiladores de viento</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero probar la potencia de las turbinas para verificar la respuesta del sistema de viento.
-    </td>
-    <td style="text-align: center;">
-      - Given la consola de pruebas, When el Personal Técnico activa el viento al nivel deseado, Then los ventiladores operan durante 10 segundos.<br>
-      - Given que transcurre el tiempo de test, When el cronómetro llega a cero, Then el sistema apaga el viento de forma automática.
-    </td>
-    <td style="text-align: center;">EP05</td>
-  </tr>
-  <!-- US34 -->
-  <tr>
-    <td style="text-align: center;">US34</td>
-    <td style="text-align: center;">Restablecer configuración de fábrica</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero resetear los parámetros de sincronización para corregir desajustes tras ediciones fallidas.
-    </td>
-    <td style="text-align: center;">
-      - Given ajustes con errores en los efectos, When el Personal Técnico presiona "Restablecer" y confirma, Then se restaura el archivo original.<br>
-      - Given el cuadro de confirmación en pantalla, When el Personal Técnico selecciona "Cancelar", Then los cambios actuales permanecen intactos.
-    </td>
-    <td style="text-align: center;">EP05</td>
-  </tr>
-  <!-- US35 -->
-  <tr>
-    <td style="text-align: center;">US35</td>
-    <td style="text-align: center;">Consultar hoja de vida del equipo</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero ver el historial completo de un componente para tomar decisiones de sustitución.
-    </td>
-    <td style="text-align: center;">
-      - Given el listado de activos de la sala, When el Personal Técnico selecciona un equipo, Then el sistema muestra fecha de alta, fallas y horas de uso.<br>
-      - Given un equipo con horas operativas excedidas, When se consulta su ficha, Then el sistema resalta una alerta de reemplazo sugerido.
-    </td>
-    <td style="text-align: center;">EP06</td>
-  </tr>
-  <!-- US36 -->
-  <tr>
-    <td style="text-align: center;">US36</td>
-    <td style="text-align: center;">Programar mantenimiento preventivo</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero agendar fechas de revisión periódica para recibir un recordatorio del sistema.
-    </td>
-    <td style="text-align: center;">
-      - Given el módulo de mantenimiento, When el Personal Técnico agenda una revisión futura, Then la tarea se guarda en el calendario técnico.<br>
-      - Given el día de la revisión agendada, When el personal entra a la plataforma, Then el sistema despliega una alerta de tarea pendiente.
-    </td>
-    <td style="text-align: center;">EP06</td>
-  </tr>
-  <!-- US37 -->
-  <tr>
-    <td style="text-align: center;">US37</td>
-    <td style="text-align: center;">Filtrar incidencias por severidad</td>
-    <td style="text-align: center;">
-      Como personal técnico, quiero filtrar los reportes de falla por gravedad para priorizar reparaciones urgentes.
-    </td>
-    <td style="text-align: center;">
-      - Given múltiples reportes registrados, When el Personal Técnico aplica el filtro "Crítica", Then el sistema despliega únicamente las fallas graves.<br>
-      - Given una falla crítica reparada, When se marca como resuelta, Then el sistema la remueve del listado prioritario.
-    </td>
-    <td style="text-align: center;">EP06</td>
-  </tr>
-  <!-- US38 -->
-  <tr>
-    <td style="text-align: center;">US38</td>
-    <td style="text-align: center;">Generar reporte de insumos consumidos</td>
-    <td style="text-align: center;">
-      Como administrador, quiero exportar el consumo de agua y aire por sala para calcular los costos operativos.
-    </td>
-    <td style="text-align: center;">
-      - Given los registros de uso de actuadores, When el Administrador genera el reporte del periodo, Then el sistema calcula el consumo de insumos.<br>
-      - Given el resultado en pantalla, When el Administrador presiona exportar, Then el sistema descarga el archivo en formato PDF o CSV.
-    </td>
-    <td style="text-align: center;">EP07</td>
-  </tr>
-  <!-- US39 -->
-  <tr>
-    <td style="text-align: center;">US39</td>
-    <td style="text-align: center;">Comparar rentabilidad de salas</td>
-    <td style="text-align: center;">
-      Como administrador, quiero comparar el uso entre salas inmersivas para identificar las de mayor rendimiento.
-    </td>
-    <td style="text-align: center;">
-      - Given datos operativos de varios complejos, When el Administrador entra a la comparativa, Then el sistema grafica las horas trabajadas por sala.<br>
-      - Given una sala con uso por debajo de la media, When se genera el gráfico, Then el sistema resalta visualmente la brecha de rendimiento.
-    </td>
-    <td style="text-align: center;">EP07</td>
-  </tr>
-  <!-- US40 -->
-  <tr>
-    <td style="text-align: center;">US40</td>
-    <td style="text-align: center;">Consultar registro de bitácora del personal</td>
-    <td style="text-align: center;">
-      Como administrador, quiero leer las observaciones del turno anterior para dar seguimiento a la operación diaria.
-    </td>
-    <td style="text-align: center;">
-      - Given los comentarios escritos por los operadores, When el Administrador abre la Bitácora, Then el sistema lista las entradas ordenadas por fecha y hora.<br>
-      - Given la lista general de notas, When el Administrador filtra por un operador específico, Then el sistema muestra únicamente las entradas de ese usuario.
-    </td>
-    <td style="text-align: center;">EP07</td>
-  </tr>
-  <!-- US41 -->
-  <tr>
-    <td style="text-align: center;">US41</td>
-    <td style="text-align: center;">Conocer beneficios de la solución</td>
-    <td style="text-align: center;">
-      Como visitante, deseo conocer los beneficios de la solución para entender el valor comercial que aporta la tecnología 4D a mi cine.
-    </td>
-    <td style="text-align: center;">
-      - Given el visitante se encuentra en el Landing Page, When navega a la sección de beneficios, Then el sistema expone las ventajas competitivas de la solución 4D.
-    </td>
-    <td style="text-align: center;">EP08</td>
-  </tr>
-  <!-- US42 -->
-  <tr>
-    <td style="text-align: center;">US42</td>
-    <td style="text-align: center;">Conocer las características</td>
-    <td style="text-align: center;">
-      Como visitante, deseo conocer las características de la solución para entender las especificaciones técnicas del hardware y software.
-    </td>
-    <td style="text-align: center;">
-      - Given el visitante explora la plataforma, When accede a la sección de características, Then el sistema despliega el detalle de las butacas y el controlador Kinemo.
-    </td>
-    <td style="text-align: center;">EP08</td>
-  </tr>
-  <!-- US43 -->
-  <tr>
-    <td style="text-align: center;">US43</td>
-    <td style="text-align: center;">Conocer los servicios</td>
-    <td style="text-align: center;">
-      Como visitante, deseo conocer los servicios ofrecidos para identificar qué nivel de soporte e instalación técnica se incluye.
-    </td>
-    <td style="text-align: center;">
-      - Given el visitante revisa el modelo de negocio, When consulta la oferta, Then el sistema lista las opciones de integración de hardware y soporte técnico.
-    </td>
-    <td style="text-align: center;">EP08</td>
-  </tr>
-  <!-- US44 -->
-  <tr>
-    <td style="text-align: center;">US44</td>
-    <td style="text-align: center;">Seleccionar plan de suscripción</td>
-    <td style="text-align: center;">
-      Como visitante, deseo comparar y seleccionar un plan de suscripción B2B para elegir el servicio que se adapte a las necesidades de mi cadena de cines.
-    </td>
-    <td style="text-align: center;">
-      - Given el visitante accede a la sección de precios, When evalúa las opciones disponibles, Then el sistema muestra las diferencias de características entre los planes.<br>
-      - Given el visitante ha elegido un plan, When hace clic en la acción de selección, Then el sistema redirige al flujo de contratación etiquetando el plan elegido.
-    </td>
-    <td style="text-align: center;">EP08</td>
-  </tr>
-  <!-- US45 -->
-  <tr>
-    <td style="text-align: center;">US45</td>
-    <td style="text-align: center;">Consultar películas mediante API</td>
-    <td style="text-align: center;">
-      Como Developer, quiero consultar las películas disponibles mediante el RESTful API, para utilizar la información del catálogo en la aplicación.
-    </td>
-    <td style="text-align: center;">
-      - Given existen películas registradas, When el Developer realiza una solicitud GET al recurso de películas, Then el API responde con código HTTP 200 y devuelve las películas disponibles.<br>
-      - Given no existen películas registradas, When el Developer consulta el recurso, Then el API responde con código HTTP 200 y una lista vacía.
-    </td>
-    <td style="text-align: center;">EP09</td>
-  </tr>
-  <!-- US46 -->
-  <tr>
-    <td style="text-align: center;">US46</td>
-    <td style="text-align: center;">Registrar una película mediante API</td>
-    <td style="text-align: center;">
-      Como Developer, quiero registrar una película mediante el RESTful API, para almacenar nuevos contenidos en el catálogo.
-    </td>
-    <td style="text-align: center;">
-      - Given el Developer envía los datos obligatorios de una película, When realiza una solicitud POST al recurso correspondiente, Then el API registra la película y responde con un código HTTP 201.<br>
-      - Given faltan datos obligatorios, When el Developer realiza la solicitud, Then el API responde con un código HTTP 400.
-    </td>
-    <td style="text-align: center;">EP09</td>
-  </tr>
-  <!-- US47 -->
-  <tr>
-    <td style="text-align: center;">US47</td>
-    <td style="text-align: center;">Consultar funciones mediante API</td>
-    <td style="text-align: center;">
-      Como Developer, quiero consultar las funciones programadas mediante el RESTful API, para obtener información sobre la programación de las salas.
-    </td>
-    <td style="text-align: center;">
-      - Given existen funciones programadas, When el Developer realiza una solicitud GET al recurso de funciones, Then el API responde con código HTTP 200 y devuelve las funciones registradas.<br>
-      - Given no existen funciones programadas, When el Developer consulta el recurso, Then el API responde con código HTTP 200 y una lista vacía.
-    </td>
-    <td style="text-align: center;">EP09</td>
-  </tr>
-  <!-- US48 -->
-  <tr>
-    <td style="text-align: center;">US48</td>
-    <td style="text-align: center;">Registrar una incidencia mediante API</td>
-    <td style="text-align: center;">
-      Como Developer, quiero registrar una incidencia de mantenimiento mediante el RESTful API, para almacenar los problemas reportados en una sala.
-    </td>
-    <td style="text-align: center;">
-      - Given el Developer envía los datos requeridos de una incidencia, When realiza una solicitud POST al recurso de incidencias, Then el API registra la incidencia y responde con código HTTP 201.<br>
-      - Given los datos enviados son incompletos, When el Developer realiza la solicitud, Then el API responde con código HTTP 400.
-    </td>
-    <td style="text-align: center;">EP09</td>
-  </tr>
-  <!-- US49 -->
-  <tr>
-    <td style="text-align: center;">US49</td>
-    <td style="text-align: center;">Consultar estado de una sala mediante API</td>
-    <td style="text-align: center;">
-      Como Developer, quiero consultar el estado de una sala mediante el RESTful API, para conocer si se encuentra disponible, en funcionamiento o en mantenimiento.
-    </td>
-    <td style="text-align: center;">
-      - Given existe una sala registrada, When el Developer realiza una solicitud GET al recurso de la sala, Then el API responde con código HTTP 200 y devuelve su estado actual.<br>
-      - Given la sala solicitada no existe, When el Developer realiza la solicitud, Then el API responde con código HTTP 404.
-    </td>
-    <td style="text-align: center;">EP09</td>
-  </tr>
-  <!-- US50 -->
-  <tr>
-    <td style="text-align: center;">US50</td>
-    <td style="text-align: center;">Consultar estado de suscripción mediante API</td>
-    <td style="text-align: center;">
-      Como Developer, deseo consultar el estado de la suscripción mediante el RESTful API para habilitar o bloquear dinámicamente funcionalidades en las aplicaciones web.
-    </td>
-    <td style="text-align: center;">
-      - Given un cliente con plan válido, When el Developer realiza una solicitud GET al recurso de suscripción, Then el API responde con código HTTP 200 y devuelve los límites y permisos de acceso.<br>
-      - Given un cliente con una suscripción inactiva, When el Developer consulta el recurso, Then el API responde con código HTTP 403 indicando restricción del servicio.
-    </td>
-    <td style="text-align: center;">EP09</td>
-  </tr>
-  <!-- US51 -->
-  <tr>
-    <td style="text-align: center;">US51</td>
-    <td style="text-align: center;">Contratar servicio 4D</td>
-    <td style="text-align: center;">
-      Como administrador de cine, deseo contratar un plan de servicio 4D para obtener acceso a la solución y comenzar a utilizar el servicio en mis salas.
-    </td>
-    <td style="text-align: center;">
-      - Given el administrador seleccionó un plan disponible, When confirma los datos de contratación, Then el sistema registra la contratación en estado pendiente de pago.<br>
-      - Given el plan seleccionado no está disponible temporalmente, When intenta contratarlo, Then el sistema não permite completar la contratación y notifica la restricción.
-    </td>
-    <td style="text-align: center;">EP10</td>
-  </tr>
-  <!-- US52 -->
-  <tr>
-    <td style="text-align: center;">US52</td>
-    <td style="text-align: center;">Realizar pago de suscripción</td>
-    <td style="text-align: center;">
-      Como administrador de cine, deseo realizar el pago de mi suscripción para activar el servicio contratado y enlazar mis salas.
-    </td>
-    <td style="text-align: center;">
-      - Given existe una contratación pendiente, When el pago es procesado correctamente, Then la suscripción queda habilitada para su activación.<br>
-      - Given el pago es rechazado por la pasarela, When se procesa la transacción, Then la suscripción permanece pendiente y el sistema informa el rechazo.
-    </td>
-    <td style="text-align: center;">EP10</td>
-  </tr>
-  <!-- US53 -->
-  <tr>
-    <td style="text-align: center;">US53</td>
-    <td style="text-align: center;">Consultar estado y límites de suscripción</td>
-    <td style="text-align: center;">
-      Como administrador de cine, deseo consultar el estado y los límites de mi suscripción para conocer los recursos y cantidad de pantallas que tengo disponibles.
-    </td>
-    <td style="text-align: center;">
-      - Given el administrador revisa su cuenta, When consulta la sección de suscripción, Then el sistema muestra el nombre del plan activo, fecha de vigencia y límites de pantallas permitidas.
-    </td>
-    <td style="text-align: center;">EP10</td>
-  </tr>
-  <!-- US54 -->
-  <tr>
-    <td style="text-align: center;">US54</td>
-    <td style="text-align: center;">Renovar o cambiar plan de suscripción</td>
-    <td style="text-align: center;">
-      Como administrador de cine, deseo renovar o cambiar mi plan de suscripción para mantener o ampliar el servicio según el crecimiento de mi cadena.
-    </td>
-    <td style="text-align: center;">
-      - Given un administrador con una suscripción activa, When selecciona la opción de cambiar plan a una categoría superior, Then el sistema inicia el flujo de upgrade de suscripción.<br>
-      - Given una suscripción próxima a vencer, When faltan 15 días para el cierre de ciclo, Then el sistema emite una notificación de recordatorio de renovación.
-    </td>
-    <td style="text-align: center;">EP10</td>
-  </tr>
-</table>
+> _Pendiente — completar en `feature/user-stories`._
 
 ### 3.2 Impact Mapping
 
@@ -1346,275 +465,13 @@ La imagen sintetiza la vivencia diaria del técnico de sala. Destaca la presión
 
 ### 4.3 Landing Page UI Design
 
-##### 4.3.1. Landing Page Wireframe
+#### 4.3.1 Landing Page Wireframe
 
-[Click here for Figma](https://www.figma.com/design/h8gZ1ryldnIq3f485Vx13T/Landing-Page?node-id=0-1&t=MqyMHgKjflZ9zmfu-1)
+> _Pendiente — completar en `feature/landing-page-ui`._
 
-Los wireframes de la Landing Page de Kinemo definen la estructura fundamental de la interfaz, priorizando la organización del contenido y la jerarquía visual antes de aplicar elementos de diseño detallados. Se diseñaron utilizando elementos esquemáticos en escala de grises para facilitar la evaluación de la arquitectura de información sin distracciones visuales.
+#### 4.3.2 Landing Page Mock-up
 
-**1. Home (Hero Section)**
-
-La interfaz del wireframe Home presenta una estructura en Z que guía la vista del usuario de manera natural. En la parte superior, un header fijo contiene el logotipo de Kinemo alineado a la izquierda, seguido de un menú de navegación principal con enlaces a "Platform", "Pricing" y "Contact". A la derecha del header se ubica un enlace de "Sign in" y un botón de llamado a la acción "Suscribe" con mayor énfasis visual.
-
-El hero section ocupa aproximadamente el 60% del viewport inicial, dividido en dos columnas asimétricas. La columna izquierda contiene el kicker pequeño "4D Cinema Technology", seguido del titular principal "Lleva la experiencia 4D a tus salas de cine sin altos costos" en tipografía de gran tamaño, y un subtítulo descriptivo que indica: "Centralizamos el control de asientos de movimiento, efectos ambientales sincronizados y analíticas en tiempo real, sin reemplazar tu infraestructura actual." Debajo se posicionan dos botones CTA: uno primario "Empezar ahora" con tratamiento destacado y uno secundario "Conoce más".
-
-El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hacia la acción principal.
-
-![Landing Wireframe - Home](../assets/img/landing-page/wireframe-home.png)
-
----
-
-**2. Plataforma (Platform Section)**
-
-Inmediatamente debajo del hero, la sección de plataforma presenta el título principal "Todo lo que necesitas para gestionar tu sala inmersiva", acompañado de un layout de dos columnas. La columna izquierda muestra una tarjeta contenedora con cuatro ítems verticales estructurados con un icono cuadrado superior y texto descriptivo:
-
-- **Sincronización de efectos:** Protocolo propietario con latencia sub-10ms que coordina asientos de movimiento, viento, aroma y vibración cuadro a cuadro.
-- **Software de gestión simplificado:** Panel unificado e intuitivo para operar todas las salas de tu complejo desde un solo dispositivo.
-- **Gestión de incidencias de mantenimiento:** Detección preventiva de fallos mecánicos e hidráulicos antes de que afecten la función.
-- **Análisis de rendimiento:** Métricas detalladas de ocupación, consumo energético y retorno de inversión por sala.
-
-La columna derecha reserva espacio para dos contenedores de imagen superpuestos en vertical (placeholders indicados con diagonales cruzadas) que ilustrarán el software y los dashboards de la plataforma.
-
-![Landing Wireframe - Platform](../assets/img/landing-page/wireframe-plataform.png)
-
----
-
-**3. Planes (Pricing Section)**
-
-La sección de "Pricing" adopta un layout centrado que facilita la comparación visual entre opciones de suscripción. El wireframe muestra una etiqueta superior pequeña "Pricing", seguido del titular principal "Planes sencillos y transparentes." y un párrafo descriptivo: "Todos los planes incluyen opciones de arrendamiento de hardware. La facturación anual supone un ahorro del 20%."
-
-Debajo se presenta una grilla de tres columnas equitativas, cada una representada por una tarjeta de plan con un placeholder de imagen cuadrada (indicado con diagonales cruzadas) de aproximadamente 200×200px. Esta estructura permite al usuario escanear rápidamente las opciones disponibles y comparar las alternativas de suscripción para su cadena de cines con un espaciado generoso que facilita la legibilidad.
-
-![Landing Wireframe - Pricing](../assets/img/landing-page/wireframe-pricing.png)
-
----
-
-**4. Contacto / Sección Final (Call to Action y Suscripción)**
-
-El wireframe de la sección de contacto y conversión presenta una etiqueta superior "Contact" y el título principal centrado: "¿Listo para transformar tu experiencia en el cine?", acompañado de un texto descriptivo: "Despliega Kinemo en tu cadena de cines hoy mismo con integración rápida, estabilidad de nivel empresarial y sincronización 4D inmersiva."
-
-Incluye un bloque contenedor central destacado titulado "Inicia tu Suscripción" que integra un botón de acción principal ("Suscribe") centrado en la parte inferior del bloque.
-
-El footer de la página incluye a la izquierda el logotipo "Kinemo" acompañado del texto de derechos de autor "© 2026 Kinemo - Todos los derechos reservados", y hacia la derecha los enlaces de navegación "Privacidad", "Términos" y "Contacto", estableciendo el cierre visual de la landing page sobre una franja horizontal de fondo sólido.
-
-![Landing Wireframe - Contact](../assets/img/landing-page/wireframe-contact.png)
-
-
-##### 4.3.2. Landing Page Mock-up
-
-[Link de Landing Page Mock-up](https://www.figma.com/design/2kl9zH6WgBNDCJAPYMhC0v/Landing-Page-Mock-up?node-id=0-1&t=01NT4lXX92lQUrnf-1)
-
-Los mockups de alta fidelidad de la Landing Page de **Kinemo** fueron desarrollados siguiendo el sistema de diseño definido para la plataforma. La propuesta utiliza una estética oscura y tecnológica, orientada al sector del entretenimiento inmersivo 4D. Se emplea la tipografía **Inter**, una paleta basada en tonos oscuros y morados, bordes sutiles, tarjetas con esquinas redondeadas e indicadores visuales para representar estados y métricas del sistema.
-
-La interfaz utiliza como colores principales el fondo oscuro **#0E0F17**, las tarjetas **#16171E** y **#20212C**, el morado principal **#8B5CF6**, el morado claro **#A78BFA**, el texto blanco **#FFFFFF** y el texto secundario **#94A3B8**.
-
----
-
-### 1. Home (Hero Section)
-
-El mockup de la sección **Home** presenta la propuesta principal de Kinemo mediante una composición visual inmersiva relacionada con la experiencia cinematográfica 4D.
-
-#### Header
-
-- Fondo oscuro **#0E0F17** con una línea inferior sutil.
-- Logotipo de **Kinemo** ubicado en la parte izquierda, compuesto por el símbolo de la marca y el nombre en color blanco.
-- Menú de navegación con las opciones **Platform, About Us, Pricing** y **Contact**.
-- Selector de idioma **EN / ES**.
-- Enlace de **Sign in**.
-- Botón principal **Subscribe**, utilizando el color morado **#8B5CF6**.
-
-#### Hero Section
-
-- Imagen de fondo relacionada con una sala de cine y los asientos de una experiencia 4D.
-- Overlay oscuro mediante un degradado para mejorar la legibilidad del contenido.
-- Etiqueta superior **"4D CINEMA TECHNOLOGY"**, presentada con un fondo oscuro translúcido y detalles en morado.
-- Titular principal: **"Bring the 4D experience to your cinema screens without high costs."**
-- La última parte del titular utiliza el color morado claro **#A78BFA** para generar énfasis visual.
-- Descripción: **"Centralize motion seat control, synchronized environmental effects, and real-time analytics without replacing your existing infrastructure."**
-- Botón principal **"Get Started"**, con fondo morado y efecto de elevación al pasar el cursor.
-- Botón secundario **"Learn More"**, con fondo oscuro y borde sutil.
-
-La sección busca comunicar desde el primer momento que Kinemo permite incorporar tecnología 4D a las salas de cine sin requerir una renovación completa de la infraestructura existente.
-
-![Landing Mock-up - Home](../assets/img/Mock-up/moc-home.png)
-
----
-
-### 2. Plataforma (Platform Section)
-
-La sección **Platform** presenta las principales funcionalidades de Kinemo mediante una estructura de dos columnas, permitiendo mostrar tanto las capacidades del sistema como información relacionada con su funcionamiento en tiempo real.
-
-#### Encabezado de sección
-
-- Etiqueta **"PLATFORM"** en color morado claro.
-- Título principal **"Everything you need to manage your immersive theater"**.
-- Fondo general oscuro para mantener la continuidad visual de la landing page.
-
-#### Columna izquierda
-
-Se presentan tarjetas funcionales con fondo **#20212C**, bordes sutiles y esquinas redondeadas. Cada tarjeta describe una capacidad principal de la plataforma:
-
-- **Effects Synchronization:** coordinación de los asientos de movimiento y efectos ambientales de la experiencia 4D.
-- **Simplified Management Software:** panel centralizado para administrar las diferentes salas de cine.
-- **Maintenance Incident Control:** seguimiento de incidencias relacionadas con el funcionamiento del sistema.
-- **Performance Analytics:** visualización de información relacionada con ocupación, consumo y rendimiento de las salas.
-
-Las tarjetas incorporan estados *hover* que modifican ligeramente el fondo y el borde para proporcionar retroalimentación visual al usuario.
-
-#### Columna derecha
-
-Se presentan módulos visuales que representan información operativa de la plataforma:
-
-- **Live Synchronization:** muestra el estado de las pantallas y su sincronización mediante indicadores como **OK** y **Alert**.
-- **Recent Incidents:** presenta las incidencias recientes del sistema utilizando diferentes estados como **Resolved**, **In progress** y **Pending**.
-- Paneles de métricas y gráficos para representar información de rendimiento en tiempo real.
-
-Estos elementos permiten representar visualmente cómo Kinemo centraliza el monitoreo y control de una experiencia cinematográfica inmersiva.
-
-![Landing Mock-up - Platform](../assets/img/Mock-up/moc-plataform.png)
-
----
-
-### 3. Nosotros / Equipo (About Us Section)
-
-La sección **About Us** presenta al equipo responsable del desarrollo de Kinemo y mantiene la identidad visual oscura utilizada en el resto de la landing page.
-
-#### Encabezado
-
-- Etiqueta superior **"NOSOTROS"** en color morado claro.
-- Título principal **"Conoce al Equipo"**.
-- Texto descriptivo centrado que explica el propósito del equipo y su enfoque en el entretenimiento inmersivo.
-
-#### Tarjetas del equipo
-
-La sección utiliza una cuadrícula de cuatro tarjetas con fondo **#16171E**, borde **#2D2F45** y esquinas redondeadas.
-
-Cada tarjeta contiene:
-
-- Fotografía circular del integrante.
-- Borde morado de **2px** alrededor de la fotografía.
-- Nombre completo.
-- Código de estudiante en color morado claro.
-
-Los integrantes mostrados son:
-
-- **Huamanchumo Chicchon, Felipe Marcelo** — u20241b932
-- **Correa Rodriguez, Andrea Khristina** — u20231c234
-- **Trigoso Garrido, Cristian Joseph** — u20231a456
-- **Flores Chavez, Fabricio** — u20231d789
-
-Las tarjetas incorporan un efecto *hover* que modifica el borde y genera un ligero desplazamiento vertical para proporcionar mayor interacción visual.
-
-#### Video de presentación
-
-Debajo de las tarjetas se incorpora un contenedor de video con fondo oscuro, bordes morados discontinuos y un botón circular de reproducción. Actualmente muestra el mensaje **"Video Próximamente"**, acompañado de una breve descripción indicando que la presentación del equipo estará disponible próximamente.
-
-![Landing Mock-up - About Us](../assets/img/Mock-up/moc-about.png)
-
----
-
-### 4. Planes (Pricing Section)
-
-La sección **Pricing** presenta los diferentes planes de suscripción de Kinemo mediante tres tarjetas diferenciadas, permitiendo visualizar las características incluidas en cada alternativa.
-
-#### Encabezado de sección
-
-- Etiqueta **"PRICING"** en color morado claro.
-- Título principal **"Simple, transparent pricing"**.
-- Banner informativo con el mensaje: *"All plans include hardware leasing options with up to 20% savings"*.
-
-#### Grid de planes
-
-##### Starter — $490/mes
-
-Orientado a operadores que están comenzando a incorporar experiencias 4D en sus salas.
-
-Incluye:
-
-- Hasta **3 pantallas conectadas**.
-- Sincronización básica.
-- Panel de control unificado.
-- Soporte por correo electrónico.
-- Reportes analíticos mensuales.
-
-##### Growth — $1,190/mes
-
-Presentado visualmente como **"MOST POPULAR"** y orientado a operadores que requieren mayores capacidades de gestión y sincronización.
-
-Incluye:
-
-- Hasta **12 pantallas conectadas**.
-- Sincronización avanzada de fotogramas.
-- Gestión de incidencias y telemetría.
-- Soporte prioritario.
-- Analítica en tiempo real.
-- API de integración completa.
-
-##### Enterprise — Custom
-
-Dirigido a grandes cadenas de cine con múltiples ubicaciones.
-
-Incluye:
-
-- Pantallas conectadas ilimitadas.
-- SLA garantizado del **99.9%**.
-- Integración con sistemas personalizados.
-- Customer Success Manager dedicado.
-- On-site onboarding.
-- Contratos flexibles.
-
-Las tarjetas utilizan fondos oscuros, bordes sutiles y esquinas redondeadas. El plan **Growth** se diferencia mediante un borde morado y una etiqueta superior que indica **"MOST POPULAR"**, reforzando visualmente su diferenciación dentro de la sección.
-
-![Landing Mock-up - Pricing](../assets/img/Mock-up/moc-pricing.png)
-
----
-
-### 5. Contacto / Call to Action y Footer
-
-La sección final funciona como un **Call to Action (CTA)** orientado a incentivar al usuario a iniciar la contratación del servicio.
-
-#### Call to Action
-
-- Etiqueta superior **"GET STARTED"**.
-- Título principal **"¿Ready to transform your cinema experience?"**.
-- Texto descriptivo relacionado con el despliegue rápido de Kinemo y su capacidad de adaptación a diferentes necesidades de los operadores de cine.
-- Contenedor central con fondo oscuro y borde sutil.
-- Título **"Start Your Subscription"**.
-- Descripción relacionada con la escalabilidad de la plataforma.
-- Botón principal **"Subscribe Now"**, utilizando el color morado **#8B5CF6**.
-- Enlaces complementarios relacionados con los términos y la política de privacidad.
-
-#### Footer
-
-El footer mantiene la misma identidad visual oscura de la landing page e incluye:
-
-- Logotipo de Kinemo en la parte izquierda.
-- Texto **"© 2026 Kinemo - All rights reserved"**.
-- Enlaces **Privacy**, **Terms** y **Contact**.
-
-De esta manera, la sección final cierra el recorrido de la landing page mediante una llamada a la acción clara y mantiene los elementos institucionales y legales necesarios.
-
-![Landing Mock-up - Contact](../assets/img/Mock-up/moc-contact.png)
-
----
-
-### Consideraciones de Diseño Responsivo
-
-La landing page utiliza una estructura adaptable para mantener la correcta visualización de sus componentes en diferentes tamaños de pantalla.
-
-Las principales consideraciones son:
-
-- El contenido se organiza mediante contenedores con un ancho máximo de **1200px**.
-- Las secciones mantienen espaciados amplios para separar visualmente cada bloque.
-- Las tarjetas de plataforma, equipo y planes utilizan estructuras basadas en **CSS Grid y Flexbox**.
-- Los botones utilizan áreas de interacción amplias y estados *hover* para proporcionar retroalimentación visual.
-- Los elementos visuales mantienen bordes redondeados de **8px y 16px**, de acuerdo con el sistema de diseño.
-- La interfaz utiliza una jerarquía basada en texto blanco para información principal y **#94A3B8** para información secundaria.
-- El color **#8B5CF6** y su variante **#A78BFA** se utilizan para destacar acciones, estados y elementos importantes.
-
-### Identidad Visual
-
-La propuesta visual busca mantener una apariencia tecnológica y consistente con el concepto de **entretenimiento inmersivo 4D**. El uso de fondos oscuros, tarjetas diferenciadas, efectos de iluminación morada y componentes de monitoreo permite representar una plataforma orientada a la gestión y supervisión de tecnología cinematográfica.
+> _Pendiente — completar en `feature/landing-page-ui`._
 
 ### 4.4 Web Applications UX/UI Design
 
@@ -1624,7 +481,11 @@ La propuesta visual busca mantener una apariencia tecnológica y consistente con
 
 #### 4.4.2 Web Applications Wireflow Diagrams
 
+> _Pendiente — completar en `feature/web-app-ux`._
 
+#### 4.4.3 Web Applications Mock-ups
+
+> _Pendiente — completar en `feature/web-app-ux`._
 
 #### 4.4.4 Web Applications User Flow Diagrams
 
@@ -1636,21 +497,174 @@ La propuesta visual busca mantener una apariencia tecnológica y consistente con
 
 ### 4.6 Domain-Driven Software Architecture
 
-#### 4.6.1 Design-Level EventStorming
+### 4.6.1. Design-Level EventStorming
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+El Design-Level EventStorming permitió al equipo refinar el modelo de dominio identificado durante el modelado inicial de Kinemo 4D. La sesión se enfocó en revisar las funcionalidades del dominio, agruparlas según sus responsabilidades y establecer límites claros entre las diferentes áreas del negocio.
 
-#### 4.6.2 Software Architecture Context Diagram
+Durante esta actividad se analizaron los eventos, comandos, consultas y responsabilidades asociadas a las principales funcionalidades de la solución. A partir de este refinamiento se identificaron y delimitaron los Bounded Contexts que representan las diferentes áreas del dominio de Kinemo 4D.
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+Como resultado del proceso de refinamiento, se identificaron los siguientes nueve Bounded Contexts:
 
-#### 4.6.3 Software Architecture Container Diagrams
+1. **BC01 — Movie & Sensory Content Management**  
+   Gestiona el registro y administración de las películas 4D y su contenido sensorial asociado, incluyendo la configuración de efectos, intensidades y archivos necesarios para su reproducción.
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+2. **BC02 — Scheduling & Calendar**  
+   Gestiona la programación de las funciones 4D, considerando horarios, disponibilidad, conflictos de programación, reprogramación y cancelación de funciones.
 
-#### 4.6.4 Software Architecture Component Diagrams
+3. **BC03 — Room & Resource Readiness**  
+   Gestiona la preparación y disponibilidad de las salas para las funciones 4D, incluyendo el bloqueo de salas por mantenimiento y su posterior liberación.
 
-> _Pendiente — completar en `feature/domain-driven-architecture`._
+4. **BC04 — Ticketing Integration**  
+   Gestiona la integración con el sistema externo de boletería para sincronizar la información necesaria de las funciones y la ocupación de las salas.
+
+5. **BC05 — Seat Allocation & Control**  
+   Gestiona la asignación y control de las butacas asociadas a las funciones 4D, incluyendo la actualización de sus estados y la activación de las butacas vendidas.
+
+6. **BC06 — 4D Execution & Synchronization**  
+   Gestiona la ejecución de las funciones 4D y la sincronización de los efectos sensoriales con la película. También contempla la pausa, reanudación, desviaciones de sincronización y situaciones de emergencia durante la ejecución.
+
+7. **BC07 — Resource Testing & Maintenance**  
+   Gestiona las pruebas de los canales y componentes del sistema 4D, el registro de incidencias y las actividades de mantenimiento correctivo y preventivo de los recursos.
+
+8. **BC08 — Operational Analytics & Reporting**  
+   Gestiona la recopilación de métricas operativas y la generación de dashboards y reportes relacionados con la operación de las funciones y el mantenimiento.
+
+9. **BC09 — Subscription & Service Management**  
+   Gestiona los planes de suscripción del servicio, incluyendo la selección del plan, contratación, procesamiento del pago, activación, renovación y cambio de plan.
+
+El refinamiento también permitió establecer las principales relaciones entre los Bounded Contexts mediante los eventos y comandos identificados durante la sesión. De esta manera, los cambios producidos en un contexto pueden desencadenar acciones en otro contexto cuando existe una dependencia dentro del dominio.
+
+Por ejemplo, el evento **“Película 4D Registrada”** en el BC01 permite iniciar la programación de una función 4D en el BC02. Asimismo, el evento **“Función 4D Programada”** permite solicitar la verificación de la preparación de la sala en el BC03. De manera similar, la actualización de la ocupación proveniente del BC04 permite gestionar la activación de las butacas vendidas en el BC05.
+
+En la ejecución de una función, el BC06 puede generar eventos relacionados con incidencias de hardware que son gestionados por el BC07. Posteriormente, los resultados de la ejecución y del mantenimiento pueden ser utilizados por el BC08 para generar métricas y reportes operativos. Finalmente, el BC09 permite gestionar la suscripción que habilita el acceso a los servicios de Kinemo 4D.
+
+La siguiente imagen evidencia el resultado del Design-Level EventStorming realizado por el equipo:
+
+![Design-Level EventStorming](Kinemo-report/assets/img/eventstorming.jpg)
+
+#### 4.6.2. Software Architecture Context Diagram
+
+El **Context Diagram** representa a **Kinemo 4D** como un único sistema central, mostrando los actores que interactúan con la solución y los sistemas externos con los que se integra. Este diagrama se elaboró aplicando la notación **C4 Model**, permitiendo visualizar el alcance de Kinemo 4D y sus principales relaciones con el entorno, sin mostrar todavía la estructura interna de la solución.
+
+Los actores identificados son:
+
+- **Gerente**: responsable de administrar la operación de Kinemo 4D, incluyendo la gestión de películas y contenido sensorial, programación de funciones, consulta de información operativa y gestión del servicio.
+- **Técnico**: responsable de las actividades técnicas relacionadas con la preparación, pruebas, mantenimiento y atención de incidencias de los recursos 4D.
+
+Asimismo, Kinemo 4D mantiene integración con los siguientes sistemas externos:
+
+- **Sistema Externo de Boletería**: proporciona información relacionada con las funciones, ventas y ocupación de las salas.
+- **Hardware 4D**: ejecuta los efectos sensoriales y las acciones físicas asociadas a las funciones 4D.
+- **Pasarela de Pagos**: procesa los pagos asociados a las suscripciones del servicio.
+- **Servicio de Facturación Electrónica**: permite gestionar la emisión de comprobantes relacionados con las suscripciones.
+- **Almacenamiento de Archivos**: permite almacenar los archivos multimedia y contenido sensorial utilizados por las películas 4D.
+- **Servicio de Notificaciones**: permite enviar alertas y notificaciones relacionadas con la operación, mantenimiento y suscripciones.
+
+![Context Diagram de Kinemo 4D](Kinemo-report/assets/img/diagram-context.png)
+
+Como se observa en el diagrama, **Kinemo 4D centraliza la interacción entre el Gerente y el Técnico y los servicios externos necesarios para soportar la operación de la plataforma**. Esta vista permite identificar claramente el límite del sistema y sus principales dependencias externas, sin entrar todavía en el detalle de los Containers o Bounded Contexts que conforman la solución.#### 4.6.3. Software Architecture Container Diagrams
+
+El **Container Diagram** detalla los elementos de alto nivel que conforman la arquitectura de software de Kinemo 4D, las principales responsabilidades de cada container, las decisiones tecnológicas adoptadas y la manera en que estos containers se comunican entre sí. Cada container representa una unidad de despliegue independiente dentro de la solución.
+
+La solución está compuesta por:
+
+- **Landing Page B2B**: sitio de presentación de Kinemo 4D que comunica la propuesta de valor del servicio y permite consultar los planes de suscripción disponibles. Constituye el punto de entrada para el Gerente y el Técnico.
+
+- **Web Application**: aplicación web utilizada por el Gerente y el Técnico para acceder a las funcionalidades de gestión y operación de Kinemo 4D, según las responsabilidades de cada actor.
+
+- **RESTful API**: punto de entrada para las solicitudes provenientes de la aplicación web. Centraliza el acceso a las funcionalidades del sistema y dirige las solicitudes hacia el Bounded Context correspondiente.
+
+- **9 Bounded Contexts** como containers independientes, cada uno encargado de un área específica del dominio de Kinemo 4D:
+  **BC01 — Movie & Sensory Content Management**, **BC02 — Scheduling & Calendar**, **BC03 — Room & Resource Readiness**, **BC04 — Ticketing Integration**, **BC05 — Seat Allocation & Control**, **BC06 — 4D Execution & Synchronization**, **BC07 — Resource Testing & Maintenance**, **BC08 — Operational Analytics & Reporting** y **BC09 — Subscription & Service Management**.
+
+  Cada Bounded Context mantiene su propia base de datos, siguiendo el patrón **Database per Service**, con el objetivo de mantener la autonomía de datos y reducir el acoplamiento entre los diferentes contextos del dominio.
+
+- **Sistemas externos**: Kinemo 4D se integra con el **Sistema Externo de Boletería**, **Hardware 4D**, **Pasarela de Pagos**, **Servicio de Facturación Electrónica**, **Almacenamiento de Archivos** y **Servicio de Notificaciones**, según las necesidades de cada Bounded Context.
+
+![Container Diagram de Kinemo 4D](Kinemo-report/assets/img/diagram-container.png)
+
+La comunicación entre los actores y la solución se inicia desde el **Landing Page B2B**, desde donde el **Gerente** y el **Técnico** acceden a la plataforma. El Landing Page se comunica con la **Web Application**, y esta utiliza la **RESTful API** como punto de entrada hacia los diferentes Bounded Contexts.
+
+A nivel interno, cada Bounded Context encapsula las responsabilidades de un área específica del dominio y mantiene su propia persistencia. Las relaciones entre los contextos se basan en las interacciones identificadas durante el **Design-Level EventStorming**, permitiendo que los eventos producidos en un contexto puedan desencadenar acciones en otro cuando existe una dependencia funcional.
+
+Por ejemplo, el **BC01 — Movie & Sensory Content Management** permite registrar una película 4D y su contenido sensorial, lo que permite al **BC02 — Scheduling & Calendar** iniciar la programación de una función. Asimismo, una función programada permite al **BC03 — Room & Resource Readiness** verificar la preparación de la sala.
+
+De manera similar, el **BC04 — Ticketing Integration** proporciona información de ocupación que permite al **BC05 — Seat Allocation & Control** gestionar el estado de las butacas vendidas. Durante la ejecución, el **BC06 — 4D Execution & Synchronization** interactúa con el **BC07 — Resource Testing & Maintenance** cuando se presentan incidencias relacionadas con los recursos 4D. Finalmente, los resultados de la ejecución y del mantenimiento pueden ser utilizados por el **BC08 — Operational Analytics & Reporting** para generar métricas y reportes operativos.
+
+El **BC09 — Subscription & Service Management** gestiona la suscripción del servicio y se relaciona con los demás contextos para habilitar las funcionalidades correspondientes según el estado de la suscripción.
+
+De esta manera, el Container Diagram permite visualizar la distribución de responsabilidades, las principales decisiones tecnológicas, las relaciones entre los Bounded Contexts y las dependencias con los sistemas externos que forman parte del ecosistema de Kinemo 4D.
+
+#### 4.6.4. Software Architecture Components Diagrams
+
+Para cada uno de los **9 Bounded Contexts** identificados como containers, se elaboró el **Component Diagram** correspondiente. Cada diagrama muestra la descomposición interna del Bounded Context en componentes responsables de exponer las operaciones, ejecutar la lógica de aplicación, aplicar las reglas del dominio y gestionar la persistencia de información.
+
+De acuerdo con las responsabilidades de cada contexto, se identificaron componentes como **Controllers**, **Application Services**, **Domain Services**, **Repositories** y **External Services**, según las necesidades de interacción con otros Bounded Contexts o sistemas externos.
+
+A continuación se presenta el detalle de los componentes definidos para cada Bounded Context.
+
+#### BC01 — Movie & Sensory Content Management
+
+El **MovieSensoryController** expone las operaciones relacionadas con la gestión de películas y contenido sensorial. El **MovieCommandService** gestiona las operaciones de registro, actualización y desactivación de películas, mientras que el **MovieQueryService** permite realizar consultas y búsquedas sobre el catálogo. El **SensoryContentService** gestiona la carga, vinculación, validación y habilitación del contenido sensorial. El **MovieSensoryDomainService** aplica las reglas de negocio relacionadas con las películas y el contenido sensorial, y el **MovieSensoryRepository** gestiona la persistencia y recuperación de la información.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_1.png)
+
+#### BC02 — Scheduling & Calendar
+
+El **SchedulingController** expone las operaciones relacionadas con la programación de funciones 4D. El **SchedulingCommandService** gestiona las operaciones de programación, reprogramación y cancelación de funciones, mientras que el **AvailabilityService** permite consultar la disponibilidad necesaria para la programación. El **SchedulingDomainService** aplica las reglas de negocio relacionadas con horarios y disponibilidad, y el **SchedulingRepository** gestiona la persistencia de las funciones programadas.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_2.png)
+
+#### BC03 — Room & Resource Readiness
+
+El **RoomReadinessController** expone las operaciones relacionadas con la preparación y disponibilidad de las salas. El **RoomPreparationService** gestiona las actividades necesarias para verificar la preparación de una sala, mientras que el **RoomBlockingService** permite bloquear una sala cuando no se encuentra disponible. El **RoomReleaseService** gestiona la liberación de las salas una vez finalizadas las restricciones correspondientes. El **RoomReadinessRepository** gestiona la persistencia de la información relacionada con el estado y preparación de las salas.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_3.png)
+#### BC04 — Ticketing Integration
+
+El **TicketingController** expone las operaciones relacionadas con la integración con el sistema externo de boletería. El **TicketingSyncService** gestiona la sincronización de la información proveniente del sistema de boletería, mientras que el **TicketingConnectionMonitor** permite supervisar el estado de la conexión con dicho sistema. El **OccupancyService** procesa la información relacionada con la ocupación de las salas y el **TicketingRepository** gestiona la persistencia de la información de integración.
+
+Como dependencia externa, el **Sistema Externo de Boletería** proporciona la información necesaria para mantener actualizada la ocupación de las funciones.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_4.png)
+
+#### BC05 — Seat Allocation & Control
+
+El **SeatController** expone las operaciones relacionadas con la asignación y control de las butacas. El **SeatAllocationService** gestiona la asignación de butacas para las funciones, mientras que el **SeatActivationService** permite activar las butacas que corresponden a los boletos vendidos. El **SeatControlService** gestiona el estado operativo de las butacas y el **SeatRepository** administra la persistencia de la información relacionada con su asignación y estado.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_5.png)
+
+#### BC06 — 4D Execution & Synchronization
+
+El **ExecutionController** expone las operaciones relacionadas con la ejecución de las funciones 4D. El **ExecutionService** gestiona el inicio, pausa, reanudación y finalización de la ejecución, mientras que el **SynchronizationService** controla la sincronización entre la película y los efectos sensoriales. El **EmergencyExecutionService** gestiona las situaciones de emergencia que pueden interrumpir la ejecución. El **Hardware4DGateway** encapsula la comunicación con el hardware encargado de ejecutar los efectos físicos y el **ExecutionRepository** gestiona la persistencia de la información relacionada con la ejecución.
+
+Como sistema externo, el **Hardware 4D** recibe las instrucciones necesarias para ejecutar los efectos sensoriales durante una función.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_6.png)
+
+#### BC07 — Resource Testing & Maintenance
+
+El **MaintenanceController** expone las operaciones relacionadas con las pruebas, mantenimiento e incidencias de los recursos 4D. El **ChannelTestingService** gestiona las pruebas de los canales y componentes del sistema, mientras que el **IncidentService** permite registrar y gestionar las incidencias identificadas. El **MaintenanceService** gestiona las actividades de mantenimiento y el **EquipmentService** administra la información relacionada con los equipos. El **HardwareMaintenanceGateway** encapsula la comunicación con los recursos de hardware y el **MaintenanceRepository** gestiona la persistencia de las pruebas, incidencias y actividades de mantenimiento.
+
+Como dependencia externa, el **Hardware 4D** permite realizar las pruebas y actividades técnicas necesarias sobre los recursos físicos.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_7.png)
+
+#### BC08 — Operational Analytics & Reporting
+
+El **AnalyticsController** expone las operaciones relacionadas con la consulta de información operativa y generación de reportes. El **OperationalMetricsService** gestiona el cálculo y consolidación de métricas relacionadas con la operación de las funciones y el mantenimiento. El **DashboardService** permite obtener la información necesaria para los dashboards, mientras que el **IncidentReportService** gestiona la información relacionada con las incidencias. El **DashboardExportService** permite generar y exportar reportes operativos y el **AnalyticsRepository** gestiona la persistencia y consulta de la información utilizada para los análisis.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_8.png)
+
+#### BC09 — Subscription & Service Management
+
+El **SubscriptionController** expone las operaciones relacionadas con la gestión de las suscripciones del servicio. El **SubscriptionPlanService** gestiona la información de los planes disponibles, mientras que el **SubscriptionService** administra la contratación, activación, renovación y cambio de plan. El **SubscriptionPaymentService** gestiona el procesamiento de los pagos asociados a las suscripciones. El **SubscriptionDomainService** aplica las reglas de negocio relacionadas con el ciclo de vida de las suscripciones y el **SubscriptionRepository** gestiona su persistencia.
+
+Como dependencias externas, el **Payment Gateway Adapter** encapsula la comunicación con la **Pasarela de Pagos**, permitiendo procesar los pagos de las suscripciones. Asimismo, el contexto puede interactuar con el **Servicio de Facturación Electrónica** para gestionar los comprobantes correspondientes.
+
+![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_9.png)
+
+En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Context se descompone internamente en componentes con responsabilidades específicas, manteniendo una separación clara entre la exposición de operaciones, la lógica de aplicación, las reglas del dominio, la persistencia y las integraciones externas. Esta descomposición contribuye a mantener la autonomía de cada contexto y facilita su evolución y despliegue independiente.
 
 ### 4.7 Software Object-Oriented Design
 
@@ -1697,20 +711,6 @@ A partir de este agregado raíz, el modelo se expande en entidades especializada
 
 ![Diagrama de Scheduling & Calendar](assets/img/BC03-Scheduling and Calendar.png) 
 
-## 3. Scheduling & Calendar
-
-La base de datos del módulo **Scheduling & Calendar** se estructura alrededor del agregado principal `shows`, el cual centraliza la programación y el ciclo de vida de las funciones 4D.
-
-Esta entidad incorpora atributos fundamentales como `start_time` y `end_time`, los cuales permiten ejecutar consultas precisas para detectar conflictos y dar soporte directo a los flujos de *Creación de Función* y *Reprogramación de Función*. A través del Value Object `status`, el sistema gestiona la transición de estados operativos de la proyección (*Programada*, *Reprogramada*, *Cancelada* o *Bloqueada*). Asimismo, los campos `assigned_professional_id` y `cancellation_reason` respaldan la auditoría del flujo de *Cancelación de Función*, permitiendo documentar motivos operativos específicos, como la falta de personal y su reasignación a emergencias.
-
-Para dar soporte a la logística de los espacios y la operatividad técnica, el modelo se expande mediante dos entidades complementarias:
-
-*   **Entidad `rooms`:** Representa la infraestructura física del cine. Identificar unívocamente el espacio donde ocurre la función o el bloqueo es un componente crítico para evaluar correctamente las reglas del flujo de *Gestión de Disponibilidad*.
-*   **Entidad `maintenance_blocks`:** Funciona como una tabla especializada para dar soporte exclusivo al flujo de *Bloqueo por Mantenimiento*. Al separar las restricciones técnicas de las proyecciones regulares, se mantiene un historial limpio y normalizado. Esta estructura permite bloquear una sala por periodos prolongados sin la necesidad de registrar funciones ficticias; el cálculo de disponibilidad se resuelve verificando que el intervalo solicitado no intersecte con registros activos en `shows` ni en `maintenance_blocks`.
-
-> Finalmente, las relaciones establecidas a través de las claves foráneas (`room_id`, `movie_id`, `assigned_professional_id`) garantizan la estricta integridad referencial del esquema. De manera particular, el atributo `movie_id` actúa como el enlace lógico principal que vincula este contexto con el Bounded Context de *Movie Catalog Management*, asegurando el desacoplamiento estructural del sistema.
-
----
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
