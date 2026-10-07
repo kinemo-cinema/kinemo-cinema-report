@@ -713,3 +713,25 @@ Durante el Sprint 1 se logró la implementación completa de la primera versión
 
 **Video de navegación:** El video que ilustra la visualización y navegación lograda en este Sprint se encuentra publicado en Microsoft Stream con el siguiente enlace: `[PENDIENTE — URL del video]`.
 
+
+##### 5.2.1.6 Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 **no se implementaron Web Services**. El alcance de este Sprint se limitó exclusivamente al desarrollo y despliegue del Landing Page. La implementación del RESTful API está planificada para el Sprint 2 (TB1).
+
+Por lo tanto, no se cuenta con Endpoints documentados con OpenAPI para este Sprint.
+
+##### 5.2.1.7 Software Deployment Evidence for Sprint Review
+
+
+Durante el Sprint 1 se realizó el despliegue del Landing Page utilizando **GitHub Pages**. El proceso consistió en:
+
+1. **Creación del repositorio** `landing-page-Kinemo` en la organización `kinemo-cinema` de GitHub.
+2. **Configuración de GitFlow** con las ramas `main` y `develop`.
+3. **Desarrollo de las secciones** del Landing Page en ramas `feature/` independientes, fusionadas a `develop` y posteriormente a `main`.
+4. **Activación de GitHub Pages** desde la configuración del repositorio (Settings → Pages), seleccionando la rama `main` y la carpeta raíz.
+5. **Verificación del despliegue** accediendo a la URL pública.
+
+**URL del Landing Page desplegado:** `https://kinemo-cinema.github.io/landing-page-Kinemo/`
+
+**Capturas de pantalla:** Las imágenes del proceso de configuración de GitHub Pages y del Landing Page desplegado se incluyen en el informe (Anexo B).
+
