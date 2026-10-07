@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="add startup profile section">
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/01-introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/01-introduction.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +28,19 @@
       <option value="repository" />
     </option>
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/aikho/Development/2610/kinemo-cinema-report" value="3KLkc1XM2OpONkJRzCDNwqD8nGJ" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="9" />
+  </component>
   <component name="Git.Settings">
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/01-version-record" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,7 +138,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/solution-profile",
+    "git-widget-placeholder": "#11 on develop",
     "git.auto.fetch.suggestion.counter": "1",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.preferred.runtime.type.id": "node",
@@ -138,11 +155,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aikho\Development\2610\kinemo-cinema-report\Kinemo-report\assets\img\4_7_1-Class-diagrams" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img" />
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\cover" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -231,5 +248,15 @@
     <MESSAGE value="docs: add target segments section" />
     <MESSAGE value="add startup profile section" />
     <option name="LAST_COMMIT_MESSAGE" value="add startup profile section" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

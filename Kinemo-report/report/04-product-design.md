@@ -944,3 +944,122 @@ Como dependencias externas, el **Payment Gateway Adapter** encapsula la comunica
 ![Component Diagram - BC09 Subscription & Service Management](../assets/img/Component_9.png)
 
 En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Context se descompone internamente en componentes con responsabilidades específicas, manteniendo una separación clara entre la exposición de operaciones, la lógica de aplicación, las reglas del dominio, la persistencia y las integraciones externas. Esta descomposición contribuye a mantener la autonomía de cada contexto y facilita su evolución.
+### 4.7 Software Object-Oriented Design
+
+En esta sección se presenta el diseño orientado a objetos de Kinemo 4D mediante diagramas de clases UML. Estos diagramas permiten representar la estructura interna de los principales elementos del dominio, mostrando las clases, atributos, métodos y relaciones que intervienen en las funcionalidades de cada Bounded Context.
+
+Para mantener consistencia con la arquitectura definida previamente, los diagramas de clases se organizan de acuerdo con los nueve Bounded Contexts identificados durante el diseño de la solución.
+
+#### 4.7.1 Class Diagrams
+
+A continuación, se presentan los diagramas de clases correspondientes a cada Bounded Context de Kinemo 4D.
+
+##### BC01 — Movie & Sensory Content Management
+
+El diagrama de clases del **BC01 — Movie & Sensory Content Management** representa los elementos relacionados con la gestión de películas 4D y su contenido sensorial asociado.
+
+Las clases de este contexto permiten administrar la información de las películas, así como los efectos, configuraciones y recursos sensoriales necesarios para su posterior utilización dentro de las experiencias 4D. De esta manera, el modelo mantiene agrupadas las responsabilidades relacionadas con el catálogo y contenido sensorial.
+
+![Class Diagram - BC01 Movie & Sensory Content Management](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%201.png)
+
+---
+
+##### BC02 — Scheduling & Calendar
+
+El diagrama de clases del **BC02 — Scheduling & Calendar** representa los elementos necesarios para administrar la programación de las funciones 4D.
+
+Las clases de este contexto permiten gestionar horarios, disponibilidad y estados asociados a las funciones programadas. Asimismo, soportan operaciones relacionadas con la creación, reprogramación y cancelación de funciones, manteniendo centralizada la información correspondiente al calendario operativo.
+
+![Class Diagram - BC02 Scheduling & Calendar](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%202.png)
+
+---
+
+##### BC03 — Room & Resource Readiness
+
+El diagrama de clases del **BC03 — Room & Resource Readiness** representa los elementos relacionados con la preparación y disponibilidad de las salas y recursos necesarios para realizar una función 4D.
+
+Las clases permiten mantener información sobre el estado de las salas, verificar su disponibilidad y controlar situaciones en las que una sala debe ser bloqueada temporalmente o liberada nuevamente para su utilización.
+
+![Class Diagram - BC03 Room & Resource Readiness](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%203.png)
+
+---
+
+##### BC04 — Ticketing Integration
+
+El diagrama de clases del **BC04 — Ticketing Integration** representa los elementos encargados de manejar la información obtenida mediante la integración con el sistema externo de boletería.
+
+Las clases de este contexto permiten procesar y mantener información relacionada con las funciones, ventas y ocupación de las salas. Esta información puede posteriormente ser utilizada por otros contextos que requieren conocer la cantidad de butacas vendidas o el nivel de ocupación de una función.
+
+![Class Diagram - BC04 Ticketing Integration](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%204.png)
+
+---
+
+##### BC05 — Seat Allocation & Control
+
+El diagrama de clases del **BC05 — Seat Allocation & Control** representa los elementos responsables de la asignación, activación y control de las butacas utilizadas durante las funciones 4D.
+
+Las clases permiten relacionar las butacas con las funciones correspondientes, mantener su estado y determinar cuáles deben participar durante la experiencia. La información de ocupación obtenida mediante Ticketing Integration sirve como referencia para identificar las butacas asociadas a los boletos vendidos.
+
+![Class Diagram - BC05 Seat Allocation & Control](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%205.png)
+
+---
+
+##### BC06 — 4D Execution & Synchronization
+
+El diagrama de clases del **BC06 — 4D Execution & Synchronization** representa los elementos responsables de la ejecución de las funciones y de la sincronización de los efectos sensoriales con el contenido cinematográfico.
+
+Las clases permiten controlar el inicio, pausa, reanudación y finalización de una ejecución. Asimismo, contemplan la coordinación de los efectos 4D y el manejo de situaciones que puedan afectar el desarrollo normal de una función, como desviaciones de sincronización o eventos de emergencia.
+
+![Class Diagram - BC06 4D Execution & Synchronization](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%206.png)
+
+---
+
+##### BC07 — Resource Testing & Maintenance
+
+El diagrama de clases del **BC07 — Resource Testing & Maintenance** representa los elementos relacionados con las pruebas, incidencias y actividades de mantenimiento de los recursos utilizados por Kinemo 4D.
+
+Las clases permiten registrar y administrar incidencias, ejecutar pruebas sobre los componentes disponibles y gestionar actividades de mantenimiento preventivo y correctivo. De esta manera, el contexto concentra la información necesaria para realizar el seguimiento técnico de los recursos 4D.
+
+![Class Diagram - BC07 Resource Testing & Maintenance](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%207.png)
+
+---
+
+##### BC08 — Operational Analytics & Reporting
+
+El diagrama de clases del **BC08 — Operational Analytics & Reporting** representa los elementos utilizados para recopilar, organizar y presentar información relacionada con el funcionamiento de Kinemo 4D.
+
+Las clases de este contexto permiten gestionar métricas operativas, información para dashboards y reportes relacionados con la ejecución de funciones, incidencias y mantenimiento. Esto permite presentar información relevante para facilitar el seguimiento y análisis de la operación.
+
+![Class Diagram - BC08 Operational Analytics & Reporting](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%208.png)
+
+---
+
+##### BC09 — Subscription & Service Management
+
+El diagrama de clases del **BC09 — Subscription & Service Management** representa los elementos relacionados con la administración de los planes y suscripciones del servicio Kinemo.
+
+Las clases permiten gestionar los planes disponibles y controlar las diferentes etapas del ciclo de vida de una suscripción, incluyendo su contratación, activación, renovación y cambio de plan. Asimismo, se contempla la información necesaria para relacionar la suscripción con los procesos de pago correspondientes.
+
+![Class Diagram - BC09 Subscription & Service Management](../assets/img/4_7_1-Class-diagrams/diagrama%20de%20clase%209.png)
+
+---
+
+En conjunto, los diagramas de clases permiten representar la estructura orientada a objetos de los nueve Bounded Contexts que conforman Kinemo 4D. Cada modelo mantiene las clases relacionadas con una responsabilidad específica del dominio, conservando la separación establecida previamente en el diseño de la arquitectura.
+
+### 4.8 Database Design
+
+El diseño de base de datos de **Kinemo 4D** representa la estructura utilizada para almacenar y organizar la información necesaria para las diferentes funcionalidades de la plataforma. La organización de los datos mantiene relación con los Bounded Contexts definidos previamente, permitiendo que cada área del dominio gestione la información correspondiente a sus responsabilidades.
+
+Los diagramas permiten identificar las principales entidades de persistencia, sus atributos y las relaciones existentes entre ellas. De esta manera, el diseño de datos mantiene coherencia con el modelo de dominio y con la arquitectura planteada para la solución.
+
+#### 4.8.1 Database Diagrams
+
+A continuación, se presentan los diagramas de base de datos correspondientes a los diferentes Bounded Contexts de Kinemo 4D.
+
+##### BC01 — Movie & Sensory Content Management
+
+El diagrama de base de datos del **BC01 — Movie & Sensory Content Management** representa la estructura de persistencia utilizada para almacenar la información relacionada con las películas 4D y su contenido sensorial asociado.
+
+Este modelo permite organizar los datos necesarios para administrar las películas y los recursos sensoriales utilizados posteriormente durante las experiencias cinematográficas 4D.
+
+![Database Diagram - BC01 Movie & Sensory Content Management](../assets/img/BC01-Movie%20Catalog%20Managment.png)
