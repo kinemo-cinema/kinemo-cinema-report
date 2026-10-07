@@ -759,9 +759,69 @@ En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Conte
 
 ### 4.7 Software Object-Oriented Design
 
-#### 4.7.1 Class Diagrams
+Esta sección presenta el diseño orientado a objetos del sistema Kinemo 4D mediante diagramas de clases UML. Cada diagrama representa la estructura de un Bounded Context, identificando sus principales clases, atributos, métodos y relaciones, con el propósito de definir las responsabilidades de los componentes y facilitar la implementación del sistema.
 
-> _Pendiente — completar en `feature/class-diagrams`._
+#### 4.7.1. Class Diagrams
+
+**BC01 – Movie & Sensory Content Management**
+
+Descripción: Gestiona las películas disponibles en Kinemo y el contenido sensorial asociado a cada una. Permite registrar, modificar, activar o desactivar películas, clasificarlas por género, asociar contenido sensorial y administrar las pistas de efectos utilizadas durante las experiencias 4D.  
+Su responsabilidad reúne lo que anteriormente se encontraba separado en Movie Catalog Management y Sensory Content & Experience Management. En el proyecto original ambos procesos contemplaban películas, archivos sensoriales, pistas y configuraciones de efectos.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%201.png" alt="BC01 – Movie & Sensory Content Management" width="100%">
+
+**BC02 – Scheduling & Calendar**
+
+Descripción: Administra la programación de las funciones 4D. Permite crear, modificar, reprogramar y cancelar funciones, así como comprobar conflictos de horarios y la disponibilidad necesaria para ejecutar cada función.  
+El agregado principal es Show, ya que representa la función 4D y controla su ciclo de vida.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%202.png" alt="BC02 – Scheduling & Calendar" width="100%">
+
+**BC03 – Room & Resource Readiness**
+
+Descripción: Administra el estado operativo de las salas utilizadas para experiencias 4D. Permite inspeccionar una sala, determinar si se encuentra disponible, bloquearla temporalmente, liberarla después de una intervención y gestionar los recursos necesarios para una función. El agregado principal es Room.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%203.png" alt="BC03 – Room & Resource Readiness" width="100%">
+
+**BC04 – Ticketing Integration**
+
+Descripción: Administra la comunicación entre Kinemo y el sistema externo de boletería. Se encarga de establecer y supervisar la conexión, sincronizar información de ventas y ocupación, registrar fallas y reintentos de sincronización y mantener una representación interna de la ocupación de cada función.  
+En el diseño previo del proyecto, ticketing connections ya se encontraba definido como el agregado principal de este contexto.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%204.png" alt="BC04 – Ticketing Integration" width="100%">
+
+**BC05 – Seat Allocation & Control**
+
+Descripción: Administra las butacas que participarán en una función 4D. Utiliza los datos de ocupación provenientes de la boletería para determinar cuáles butacas fueron vendidas y deben habilitarse, cuáles deben permanecer inactivas y qué intervenciones manuales realiza el personal operativo. El agregado principal es SeatAllocation.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%205.png" alt="BC05 – Seat Allocation & Control" width="100%">
+
+**BC06 – 4D Execution & Synchronization**
+
+Descripción: Administra la ejecución de una experiencia 4D durante una función. Controla el inicio, pausa, reanudación y finalización de la ejecución, así como la sincronización entre la película y los efectos sensoriales.  
+También incorpora la parada de emergencia, por lo que Emergency Management deja de existir como contexto separado y pasa a formar parte del ciclo de ejecución. El agregado principal es ShowExecution.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%206.png" alt="BC06 – 4D Execution & Synchronization" width="100%">
+
+**BC07 – Resource Testing & Maintenance**
+
+Descripción: Gestiona el ciclo técnico de los equipos que intervienen en las experiencias 4D. Permite registrar equipos, probar canales de efectos, reportar incidencias, controlar su vida útil y gestionar órdenes de mantenimiento preventivo y correctivo. Aquí se consolidan los antiguos contextos Testing & Calibration y Maintenance & Incident Management.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%207.png" alt="BC07 – Resource Testing & Maintenance" width="100%">
+
+**BC08 – Operational Analytics & Reporting**
+
+Descripción: Concentra información proveniente de diferentes procesos operativos para proporcionar métricas, dashboard y reportes que ayuden al administrador a supervisar el funcionamiento de Kinemo.  
+Este contexto está principalmente orientado a Queries y Read Models, por lo que no es necesario inventar un Aggregate Root únicamente para cumplir una estructura. En el informe anterior ya estaba orientado a métricas, reportes y exportación.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%208.png" alt="BC08 – Operational Analytics & Reporting" width="100%">
+
+**BC09 – Subscription & Service Management**
+
+Descripción: Administra la relación comercial entre Kinemo y las cadenas de cine. Gestiona planes disponibles, contratación, pagos, activación, estado y límites de una suscripción, además de renovación y cambio a planes superiores. El agregado principal es Subscription.  
+El Statement menciona explícitamente Subscriptions and Payment Management como uno de los subdominios habituales en soluciones SaaS.
+
+<img src="Kinemo-report/assets/img/diagrama%20de%20clase%209.png" alt="BC09 – Subscription & Service Management" width="100%">
 
 ### 4.8 Database Design
 
