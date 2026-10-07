@@ -1,9 +1,5 @@
 ## Capítulo IV: Product Design
 
-### 4.1 Style Guidelines
-
-#### 4.1.1 General Style Guidelines
-
 ### 4.1. Style Guidelines
 
 En esta sección se establecen los lineamientos visuales y de comunicación utilizados en Kinemo. Estos lineamientos permiten mantener una identidad consistente en los productos digitales del proyecto, definiendo criterios para el uso de la marca, tipografía y paleta de colores.
@@ -133,27 +129,196 @@ Las decisiones generales de diseño siguen los siguientes criterios:
 
 > _Pendiente — completar en `feature/style-guidelines`._
 
-### 4.2 Information Architecture
+### 4.2. Information Architecture
 
-#### 4.2.1 Organization Systems
+La arquitectura de información de Kinemo define la forma en que el contenido y las funcionalidades se organizan, etiquetan y presentan dentro de sus productos digitales. Su objetivo es facilitar la comprensión de la plataforma y permitir que cada usuario encuentre las funcionalidades necesarias de acuerdo con el contexto en el que se encuentra.
 
-> _Pendiente — completar en `feature/information-architecture`._
+Kinemo cuenta con dos interfaces principales: la **Landing Page**, orientada a presentar públicamente la propuesta de valor del producto, y la **Web Application**, orientada a la gestión y operación de las experiencias cinematográficas 4D.
 
-#### 4.2.2 Labeling Systems
+La Landing Page utiliza una estructura principalmente lineal, donde el visitante puede conocer progresivamente la plataforma, el equipo, los planes disponibles y las alternativas de contacto. Por otro lado, la Web Application utiliza una organización modular, permitiendo acceder a diferentes funcionalidades relacionadas con la operación de las salas de cine.
 
-> _Pendiente — completar en `feature/information-architecture`._
+---
 
-#### 4.2.3 SEO Tags and Meta Tags
+#### 4.2.1. Organization Systems
 
-> _Pendiente — completar en `feature/information-architecture`._
+Kinemo utiliza diferentes sistemas de organización dependiendo del producto digital y del tipo de información presentada.
 
-#### 4.2.4 Searching Systems
+##### Landing Page
 
-> _Pendiente — completar en `feature/information-architecture`._
+La Landing Page emplea principalmente un **sistema de organización por tópicos**, donde cada sección agrupa información relacionada con un aspecto específico de Kinemo.
 
-#### 4.2.5 Navigation Systems
+La estructura principal se organiza de la siguiente manera:
 
-> _Pendiente — completar en `feature/information-architecture`._
+| Tópico | Descripción |
+| --- | --- |
+| **Home** | Presenta la propuesta de valor principal de Kinemo y las acciones iniciales disponibles para el visitante. |
+| **Platform** | Expone las principales capacidades de la solución para la gestión de experiencias cinematográficas 4D. |
+| **About Us** | Presenta al equipo responsable del desarrollo de Kinemo. |
+| **Pricing** | Permite conocer y comparar los diferentes planes disponibles. |
+| **Contact** | Presenta la llamada a la acción final para iniciar el contacto con Kinemo. |
+| **Terms and Conditions** | Proporciona acceso a la información relacionada con las condiciones de uso del servicio. |
+
+El contenido mantiene una organización jerárquica que comienza presentando qué es Kinemo, continúa explicando sus principales capacidades y finaliza con información comercial y de contacto.
+
+**Home**
+
+La sección inicial comunica de manera directa la propuesta de valor de Kinemo como tecnología orientada a experiencias cinematográficas 4D. Incluye los llamados a la acción **Get Started** y **Learn More**, permitiendo al visitante continuar su recorrido hacia las secciones principales.
+
+**Platform**
+
+Las capacidades principales de Kinemo se organizan en cuatro categorías:
+
+- Effects Synchronization.
+- Simplified Management Software.
+- Maintenance Incident Control.
+- Performance Analytics.
+
+La sección complementa estas categorías mediante elementos visuales relacionados con la sincronización de salas y el seguimiento de incidencias.
+
+**About Us**
+
+Presenta a los integrantes responsables del desarrollo de Kinemo mediante tarjetas individuales que contienen fotografía, nombre e información de identificación académica.
+
+**Pricing**
+
+Organiza las alternativas comerciales de Kinemo en tres planes:
+
+- Starter.
+- Growth.
+- Enterprise.
+
+Esta estructura permite comparar visualmente las características y alcance de cada alternativa.
+
+**Contact**
+
+Representa el cierre del recorrido principal de la Landing Page. Su propósito es dirigir al visitante hacia una acción concreta relacionada con el inicio del servicio o contacto comercial.
+
+---
+
+##### Web Application
+
+La Web Application utiliza un **sistema de organización jerárquico y modular**. Después de autenticarse, el usuario accede al Dashboard, desde donde puede ingresar a los diferentes módulos de la plataforma según las tareas que necesite realizar.
+
+La estructura general identificada en la aplicación es:
+
+| Módulo | Propósito |
+| --- | --- |
+| **Sign In** | Permite autenticar al usuario mediante correo electrónico y contraseña. |
+| **Dashboard** | Funciona como punto central de acceso a las funcionalidades de la aplicación. |
+| **Catalog** | Agrupa las funcionalidades relacionadas con la gestión del catálogo de contenido 4D. |
+| **Scheduling** | Agrupa las funcionalidades relacionadas con la programación de funciones. |
+| **Room Readiness** | Permite acceder a funcionalidades relacionadas con la preparación y disponibilidad de las salas. |
+| **Maintenance** | Agrupa las funcionalidades relacionadas con el mantenimiento y seguimiento de incidencias. |
+| **Subscription** | Permite acceder a las funcionalidades relacionadas con planes y suscripciones. |
+| **Profile** | Presenta información relacionada con el usuario y su rol dentro de la plataforma. |
+| **About** | Proporciona información complementaria sobre Kinemo. |
+
+El Dashboard funciona como el nivel principal de la jerarquía después del inicio de sesión y presenta accesos a diferentes módulos mediante tarjetas.
+
+En la interfaz se distinguen funcionalidades destinadas a la administración y operación de Kinemo. Entre los accesos mostrados se encuentran módulos relacionados con catálogo, programación, salas, ticketing, analítica, suscripción, control de asientos, ejecución y mantenimiento.
+
+De esta manera, el usuario no necesita recorrer una secuencia lineal como en la Landing Page, sino que puede seleccionar directamente el módulo correspondiente a la tarea que desea realizar.
+
+---
+
+#### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Kinemo utiliza términos breves y relacionados directamente con las funcionalidades que representan. Se busca evitar nombres ambiguos y mantener consistencia entre los enlaces de navegación, botones, módulos y secciones.
+
+##### Landing Page
+
+Las principales etiquetas utilizadas son:
+
+| Etiqueta | Propósito |
+| --- | --- |
+| **Platform** | Identifica la sección donde se presentan las capacidades principales de Kinemo. |
+| **About Us** | Identifica la sección donde se presenta el equipo del proyecto. |
+| **Pricing** | Identifica la sección de planes y precios. |
+| **Contact** | Identifica la sección destinada al contacto con Kinemo. |
+| **Get Started** | CTA principal que dirige al visitante hacia el inicio del proceso de contacto. |
+| **Learn More** | CTA secundario que permite conocer las funcionalidades de la plataforma. |
+| **Most Popular** | Destaca visualmente el plan comercial recomendado. |
+| **EN / ES** | Permite seleccionar el idioma de la interfaz. |
+| **Terms and Conditions** | Permite acceder a las condiciones de uso correspondientes. |
+
+##### Web Application
+
+Dentro de la aplicación se utilizan etiquetas orientadas a las tareas que puede realizar el usuario.
+
+| Etiqueta | Propósito |
+| --- | --- |
+| **Sign In** | Acción utilizada para iniciar sesión. |
+| **Dashboard** | Identifica el punto principal de acceso a los módulos. |
+| **Operations** | Agrupa accesos relacionados con las operaciones de las salas. |
+| **Maintenance** | Identifica las funcionalidades relacionadas con mantenimiento. |
+| **Analytics** | Identifica el acceso a información y análisis del funcionamiento de la plataforma. |
+| **Catalog** | Identifica el módulo de gestión del catálogo 4D. |
+| **Scheduling** | Identifica el módulo relacionado con programación. |
+| **Room Readiness** | Identifica las funcionalidades de preparación de salas. |
+| **Subscription** | Identifica la gestión de planes y suscripciones. |
+| **Profile** | Identifica la información asociada al usuario autenticado. |
+| **EN / ES** | Permite alternar el idioma de la aplicación. |
+
+Las etiquetas mantienen una relación directa con las acciones y contenidos disponibles para reducir el esfuerzo necesario para comprender la interfaz.
+
+Además, los módulos del Dashboard utilizan elementos visuales e iconos como apoyo a las etiquetas textuales, facilitando su reconocimiento.
+
+---
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+La estrategia SEO de Kinemo se aplica principalmente a la **Landing Page**, debido a que corresponde a la interfaz pública del producto y funciona como uno de los principales puntos de entrada para potenciales clientes interesados en soluciones tecnológicas para experiencias cinematográficas 4D.
+
+Por otro lado, la **Web Application** posee un propósito principalmente operativo y requiere autenticación para acceder a sus funcionalidades. Por esta razón, su contenido interno no constituye el principal objetivo de posicionamiento en motores de búsqueda.
+
+##### Landing Page
+
+Para la Landing Page se consideran etiquetas orientadas a describir correctamente el contenido del sitio, facilitar su indexación y mejorar la forma en que Kinemo se presenta al compartir la página en plataformas externas.
+
+Las principales etiquetas consideradas son:
+
+- **Title:** identifica el sitio y comunica que Kinemo está relacionado con tecnología para cine 4D.
+- **Description:** resume la propuesta de valor de Kinemo, incluyendo la gestión de asientos de movimiento, efectos sincronizados y analítica.
+- **Keywords:** documenta términos relacionados con tecnología de cine 4D, gestión de salas y experiencias inmersivas.
+- **Author:** identifica al equipo responsable del producto.
+- **Robots:** establece las indicaciones de indexación y seguimiento para los motores de búsqueda.
+- **Canonical:** identifica la URL principal de la Landing Page.
+- **Open Graph:** define cómo se presenta Kinemo al compartir la página en plataformas compatibles.
+- **Twitter Card:** proporciona información para generar una vista previa enriquecida al compartir el sitio en plataformas compatibles.
+
+Una posible implementación dentro del `<head>` de la Landing Page es la siguiente:
+
+<head>
+    <!-- Basic Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kinemo | 4D Cinema Technology</title>
+
+    <!-- SEO Metadata -->
+    <meta name="description" content="Kinemo centralizes motion seat control, synchronized environmental effects, maintenance monitoring and real-time analytics for immersive 4D cinema experiences.">
+    <meta name="keywords" content="Kinemo, 4D cinema technology, 4D theater management, motion seats, synchronized cinema effects, immersive cinema technology">
+    <meta name="author" content="Kinemo Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="LANDING_PAGE_URL">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kinemo | 4D Cinema Technology">
+    <meta property="og:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="LANDING_PAGE_URL">
+    <meta property="og:image" content="LANDING_PAGE_IMAGE_URL">
+    <meta property="og:site_name" content="Kinemo">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kinemo | 4D Cinema Technology">
+    <meta name="twitter:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta name="twitter:image" content="LANDING_PAGE_IMAGE_URL">
+</head>
 
 ### 4.3 Landing Page UI Design
 
