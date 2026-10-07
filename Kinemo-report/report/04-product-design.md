@@ -20,7 +20,7 @@ El sistema visual de la marca combina fondos oscuros con acentos morados, genera
 
 ![Logotipo de Kinemo](../assets/img/4_1_1-General-Style/01-logo-kinemo.png)
 
-El logotipo de Kinemo está compuesto por un símbolo gráfico acompañado del nombre de la marca. Su diseño mantiene una composición simple y reconocible que facilita su integración dentro de la interfaz de la landing page.
+El logotipo de Kinemo está compuesto por un símbolo gráfico acompañado del nombre de la marca. Su diseño mantiene una composición simple y reconocible que facilita su integración dentro de las diferentes interfaces del proyecto.
 
 El símbolo utiliza el color morado característico de Kinemo, mientras que el nombre emplea un tono claro para mantener un contraste adecuado sobre fondos oscuros. Esta combinación permite conservar la identidad visual utilizada en el resto de la interfaz.
 
@@ -28,7 +28,7 @@ El símbolo utiliza el color morado característico de Kinemo, mientras que el n
 
 ##### Typography
 
-Kinemo utiliza **Inter** como familia tipográfica principal en su interfaz. Esta tipografía fue seleccionada por su legibilidad en entornos digitales y por su apariencia moderna, permitiendo mantener consistencia entre títulos, textos descriptivos, botones, etiquetas y elementos de navegación.
+Kinemo utiliza **Inter** como familia tipográfica principal en sus interfaces. Esta tipografía fue seleccionada por su legibilidad en entornos digitales y por su apariencia moderna, permitiendo mantener consistencia entre títulos, textos descriptivos, botones, etiquetas y elementos de navegación.
 
 La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependiendo de la importancia del contenido. Los títulos principales emplean pesos elevados para generar mayor impacto visual, mientras que los textos descriptivos utilizan pesos regulares que facilitan la lectura.
 
@@ -36,7 +36,7 @@ La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependie
 
 | Uso | Familia | Peso | Aplicación |
 | --- | --- | --- | --- |
-| **Hero / Display** | Inter | 800 | Mensaje principal de la landing page |
+| **Hero / Display** | Inter | 800 | Mensaje principal de la Landing Page |
 | **H1** | Inter | 700-800 | Títulos principales |
 | **H2** | Inter | 700-800 | Títulos de secciones |
 | **H3** | Inter | 600-700 | Títulos de tarjetas y componentes |
@@ -45,7 +45,7 @@ La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependie
 | **Navigation** | Inter | 500-600 | Opciones de navegación |
 | **Buttons** | Inter | 600-700 | Llamados a la acción |
 
-Esta jerarquía permite diferenciar visualmente los distintos niveles de información y facilita el recorrido del usuario a través de las secciones de la plataforma.
+Esta jerarquía permite diferenciar visualmente los distintos niveles de información y facilita el recorrido del usuario a través de las interfaces de Kinemo.
 
 ---
 
@@ -105,7 +105,7 @@ La comunicación de la marca se centra principalmente en:
 - La mejora de la experiencia cinematográfica.
 - La presentación clara de los beneficios de la plataforma.
 
-Los llamados a la acción utilizan expresiones breves y reconocibles, facilitando que el usuario comprenda rápidamente cuál es el siguiente paso dentro de la landing page.
+Los llamados a la acción utilizan expresiones breves y reconocibles, facilitando que el usuario comprenda rápidamente cuál es el siguiente paso dentro de la interfaz.
 
 ---
 
@@ -127,7 +127,102 @@ Las decisiones generales de diseño siguen los siguientes criterios:
 
 #### 4.1.2 Web Style Guidelines
 
-> _Pendiente — completar en `feature/style-guidelines`._
+Los Web Style Guidelines de Kinemo establecen los criterios visuales y de interacción utilizados en la Landing Page y la Web Application. Estos lineamientos complementan la identidad visual definida previamente y permiten mantener consistencia entre los diferentes componentes de la interfaz.
+
+##### Layout and Spacing
+
+Las interfaces de Kinemo utilizan una estructura basada principalmente en contenedores, CSS Grid y Flexbox. Esta organización permite distribuir los elementos de manera ordenada y adaptar el contenido a diferentes tamaños de pantalla.
+
+Los principales criterios utilizados son:
+
+- Uso de contenedores centrados para organizar el contenido principal.
+- Ancho máximo aproximado de 1200px en las secciones principales de la Landing Page.
+- Separación clara entre secciones para facilitar la lectura del contenido.
+- Uso de Grid para estructuras formadas por tarjetas, como Platform, About Us y Pricing.
+- Uso de Flexbox para elementos de navegación, botones y componentes alineados horizontalmente.
+- Márgenes y espacios internos consistentes para evitar la saturación visual.
+
+##### Buttons
+
+Los botones de Kinemo permiten diferenciar las acciones principales y secundarias dentro de la interfaz.
+
+**Primary Button**
+
+Utiliza el color morado principal `#8B5CF6` y texto claro. Se emplea para destacar las acciones de mayor importancia, como **Get Started** o **Sign In**.
+
+**Secondary Button**
+
+Utiliza un fondo oscuro acompañado de un borde sutil. Se emplea para acciones complementarias, como **Learn More**, evitando competir visualmente con la acción principal.
+
+Los botones utilizan bordes redondeados y estados visuales de interacción para proporcionar retroalimentación al usuario.
+
+##### Cards
+
+Las tarjetas permiten agrupar información relacionada dentro de un mismo bloque visual. Son utilizadas en diferentes secciones de Kinemo, incluyendo funcionalidades de la plataforma, integrantes del equipo, planes de suscripción y módulos de la Web Application.
+
+Las tarjetas utilizan principalmente:
+
+- Fondo `#16171E` o `#20212C`.
+- Bordes sutiles `#2D2F45`.
+- Esquinas redondeadas.
+- Espaciado interno para separar correctamente los elementos.
+- Títulos en color blanco.
+- Información secundaria en `#94A3B8`.
+- Morado `#8B5CF6` o `#A78BFA` para elementos destacados.
+
+Esta estructura permite mantener una presentación uniforme de la información en las diferentes interfaces.
+
+##### Navigation
+
+La navegación mantiene una estructura sencilla que permite identificar rápidamente las principales opciones disponibles.
+
+En la Landing Page, la barra de navegación proporciona acceso a:
+
+- Platform.
+- About Us.
+- Pricing.
+- Contact.
+- Selector de idioma EN / ES.
+
+En la Web Application, la navegación proporciona acceso a las principales áreas disponibles para el usuario, incluyendo el Dashboard y opciones relacionadas con Operations, Maintenance y Analytics. Asimismo, incorpora el selector de idioma y el acceso al perfil del usuario.
+
+Las barras de navegación utilizan fondos oscuros y separadores sutiles para mantener continuidad con el resto de la interfaz.
+
+##### Form Elements
+
+Los formularios de la Web Application mantienen la misma identidad visual del sistema. Los campos utilizan fondos oscuros, bordes sutiles y etiquetas claras para facilitar la identificación de la información solicitada.
+
+En interfaces como Sign In se utilizan:
+
+- Labels visibles para identificar cada campo.
+- Inputs con contraste respecto al fondo.
+- Placeholders como información complementaria.
+- Botones principales en morado.
+- Enlaces secundarios para acciones adicionales.
+
+La distribución mantiene una separación suficiente entre los campos para facilitar la lectura y la interacción.
+
+##### Interaction States
+
+Los componentes interactivos utilizan cambios visuales para comunicar su estado al usuario.
+
+Entre los principales estados se consideran:
+
+- **Default:** estado inicial del componente.
+- **Hover:** cambio visual al posicionar el cursor sobre elementos interactivos.
+- **Active:** utiliza fondos o bordes destacados para representar una opción seleccionada.
+- **Success:** utiliza `#22C55E` para representar estados satisfactorios o completados.
+- **Warning:** utiliza `#EAB308` para representar advertencias o procesos que requieren atención.
+
+Además del color, se utilizan etiquetas textuales e iconos cuando es necesario para evitar que la interpretación de un estado dependa exclusivamente de su representación cromática.
+
+##### Responsive Design
+
+Kinemo utiliza una estructura adaptable para mantener la correcta visualización de la Landing Page y la Web Application en diferentes tamaños de pantalla.
+
+Las estructuras de múltiples columnas pueden reorganizarse verticalmente cuando disminuye el espacio disponible. Asimismo, las imágenes, tarjetas, botones y contenedores se ajustan al ancho disponible para evitar desplazamientos horizontales innecesarios.
+
+La combinación de Grid, Flexbox y unidades adaptables permite conservar la jerarquía visual y facilitar la interacción con la plataforma en diferentes resoluciones.
 
 ### 4.2. Information Architecture
 
@@ -136,8 +231,6 @@ La arquitectura de información de Kinemo define la forma en que el contenido y 
 Kinemo cuenta con dos interfaces principales: la **Landing Page**, orientada a presentar públicamente la propuesta de valor del producto, y la **Web Application**, orientada a la gestión y operación de las experiencias cinematográficas 4D.
 
 La Landing Page utiliza una estructura principalmente lineal, donde el visitante puede conocer progresivamente la plataforma, el equipo, los planes disponibles y las alternativas de contacto. Por otro lado, la Web Application utiliza una organización modular, permitiendo acceder a diferentes funcionalidades relacionadas con la operación de las salas de cine.
-
----
 
 #### 4.2.1. Organization Systems
 
@@ -193,33 +286,29 @@ Esta estructura permite comparar visualmente las características y alcance de c
 
 Representa el cierre del recorrido principal de la Landing Page. Su propósito es dirigir al visitante hacia una acción concreta relacionada con el inicio del servicio o contacto comercial.
 
----
-
 ##### Web Application
 
 La Web Application utiliza un **sistema de organización jerárquico y modular**. Después de autenticarse, el usuario accede al Dashboard, desde donde puede ingresar a los diferentes módulos de la plataforma según las tareas que necesite realizar.
 
-La estructura general identificada en la aplicación es:
+La estructura de navegación identificada en la aplicación se organiza mediante los siguientes módulos. Estas etiquetas representan accesos funcionales de la interfaz y no necesariamente corresponden de forma directa con los nombres arquitectónicos de los Bounded Contexts definidos posteriormente.
 
 | Módulo | Propósito |
 | --- | --- |
 | **Sign In** | Permite autenticar al usuario mediante correo electrónico y contraseña. |
 | **Dashboard** | Funciona como punto central de acceso a las funcionalidades de la aplicación. |
-| **Catalog** | Agrupa las funcionalidades relacionadas con la gestión del catálogo de contenido 4D. |
-| **Scheduling** | Agrupa las funcionalidades relacionadas con la programación de funciones. |
+| **Catalog** | Agrupa funcionalidades relacionadas con el catálogo de contenido 4D. |
+| **Scheduling** | Agrupa funcionalidades relacionadas con la programación de funciones. |
 | **Room Readiness** | Permite acceder a funcionalidades relacionadas con la preparación y disponibilidad de las salas. |
-| **Maintenance** | Agrupa las funcionalidades relacionadas con el mantenimiento y seguimiento de incidencias. |
-| **Subscription** | Permite acceder a las funcionalidades relacionadas con planes y suscripciones. |
+| **Maintenance** | Agrupa funcionalidades relacionadas con el mantenimiento y seguimiento de incidencias. |
+| **Subscription** | Permite acceder a funcionalidades relacionadas con planes y suscripciones. |
 | **Profile** | Presenta información relacionada con el usuario y su rol dentro de la plataforma. |
 | **About** | Proporciona información complementaria sobre Kinemo. |
 
-El Dashboard funciona como el nivel principal de la jerarquía después del inicio de sesión y presenta accesos a diferentes módulos mediante tarjetas.
+El **Dashboard** funciona como el nivel principal de navegación después del inicio de sesión y proporciona acceso a las funcionalidades disponibles mediante diferentes módulos y tarjetas.
 
 En la interfaz se distinguen funcionalidades destinadas a la administración y operación de Kinemo. Entre los accesos mostrados se encuentran módulos relacionados con catálogo, programación, salas, ticketing, analítica, suscripción, control de asientos, ejecución y mantenimiento.
 
-De esta manera, el usuario no necesita recorrer una secuencia lineal como en la Landing Page, sino que puede seleccionar directamente el módulo correspondiente a la tarea que desea realizar.
-
----
+De esta manera, a diferencia del recorrido principalmente lineal de la Landing Page, la Web Application permite que el usuario seleccione directamente el módulo correspondiente a la tarea que necesita realizar.
 
 #### 4.2.2. Labeling Systems
 
@@ -263,8 +352,6 @@ Las etiquetas mantienen una relación directa con las acciones y contenidos disp
 
 Además, los módulos del Dashboard utilizan elementos visuales e iconos como apoyo a las etiquetas textuales, facilitando su reconocimiento.
 
----
-
 #### 4.2.3. SEO Tags and Meta Tags
 
 La estrategia SEO de Kinemo se aplica principalmente a la **Landing Page**, debido a que corresponde a la interfaz pública del producto y funciona como uno de los principales puntos de entrada para potenciales clientes interesados en soluciones tecnológicas para experiencias cinematográficas 4D.
@@ -286,8 +373,9 @@ Las principales etiquetas consideradas son:
 - **Open Graph:** define cómo se presenta Kinemo al compartir la página en plataformas compatibles.
 - **Twitter Card:** proporciona información para generar una vista previa enriquecida al compartir el sitio en plataformas compatibles.
 
-Una posible implementación dentro del `<head>` de la Landing Page es la siguiente:
+Una posible implementación dentro del `<head>` de la Landing Page es la siguiente. Los valores `LANDING_PAGE_URL` y `LANDING_PAGE_IMAGE_URL` representan placeholders que deberán ser reemplazados por las direcciones públicas correspondientes una vez que la Landing Page se encuentre desplegada en su entorno definitivo:
 
+```html
 <head>
     <!-- Basic Metadata -->
     <meta charset="UTF-8">
@@ -296,8 +384,14 @@ Una posible implementación dentro del `<head>` de la Landing Page es la siguien
     <title>Kinemo | 4D Cinema Technology</title>
 
     <!-- SEO Metadata -->
-    <meta name="description" content="Kinemo centralizes motion seat control, synchronized environmental effects, maintenance monitoring and real-time analytics for immersive 4D cinema experiences.">
-    <meta name="keywords" content="Kinemo, 4D cinema technology, 4D theater management, motion seats, synchronized cinema effects, immersive cinema technology">
+    <meta
+        name="description"
+        content="Kinemo centralizes motion seat control, synchronized environmental effects, maintenance monitoring and real-time analytics for immersive 4D cinema experiences."
+    >
+    <meta
+        name="keywords"
+        content="Kinemo, 4D cinema technology, 4D theater management, motion seats, synchronized cinema effects, immersive cinema technology"
+    >
     <meta name="author" content="Kinemo Team">
     <meta name="robots" content="index, follow">
 
@@ -306,7 +400,10 @@ Una posible implementación dentro del `<head>` de la Landing Page es la siguien
 
     <!-- Open Graph -->
     <meta property="og:title" content="Kinemo | 4D Cinema Technology">
-    <meta property="og:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta
+        property="og:description"
+        content="Technology for managing immersive 4D cinema experiences."
+    >
     <meta property="og:type" content="website">
     <meta property="og:url" content="LANDING_PAGE_URL">
     <meta property="og:image" content="LANDING_PAGE_IMAGE_URL">
@@ -316,13 +413,66 @@ Una posible implementación dentro del `<head>` de la Landing Page es la siguien
     <!-- Twitter / X Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Kinemo | 4D Cinema Technology">
-    <meta name="twitter:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta
+        name="twitter:description"
+        content="Technology for managing immersive 4D cinema experiences."
+    >
     <meta name="twitter:image" content="LANDING_PAGE_IMAGE_URL">
 </head>
+```
+
+#### 4.2.4. Searching Systems
+
+La Landing Page de Kinemo no incorpora un sistema de búsqueda interno debido a que su contenido se encuentra organizado en un número reducido de secciones y puede recorrerse directamente mediante la barra de navegación.
+
+El visitante puede acceder a **Platform, About Us, Pricing** y **Contact** sin necesidad de realizar búsquedas textuales. Esta decisión permite mantener una experiencia simple y evita incorporar un componente que no resulta necesario para la cantidad de información presentada.
+
+En la Web Application, la localización de funcionalidades se realiza principalmente mediante la navegación por módulos y las opciones disponibles en el Dashboard. Cada funcionalidad se encuentra agrupada de acuerdo con su propósito dentro de la plataforma.
+
+En aquellos módulos que manejan conjuntos de información más amplios, las búsquedas y filtros pueden implementarse dentro del contexto específico correspondiente, en lugar de utilizar un buscador global para toda la aplicación.
+
+#### 4.2.5. Navigation Systems
+
+Kinemo utiliza diferentes mecanismos de navegación dependiendo de la interfaz y del contexto del usuario.
+
+##### Landing Page
+
+La Landing Page utiliza una navegación principalmente global y contextual.
+
+La **navegación global** se encuentra disponible mediante el header y permite acceder directamente a:
+
+- Platform.
+- About Us.
+- Pricing.
+- Contact.
+- Selector de idioma EN / ES.
+
+Asimismo, se utilizan llamados a la acción que permiten realizar desplazamientos contextuales dentro de la página:
+
+- **Get Started:** dirige al usuario hacia la sección de contacto.
+- **Learn More:** dirige al usuario hacia la sección Platform.
+
+El footer complementa esta navegación proporcionando acceso a información legal mediante **Terms and Conditions**.
+
+El recorrido principal puede representarse de la siguiente manera:
+
+**Home → Platform → About Us → Pricing → Contact**
+
+##### Web Application
+
+La Web Application utiliza una navegación jerárquica y modular. El usuario inicia su recorrido en la pantalla de autenticación y, después de iniciar sesión, accede al Dashboard.
+
+Desde el Dashboard puede dirigirse a los diferentes módulos disponibles según las tareas que necesite realizar. La barra superior mantiene accesos a áreas generales como **Dashboard, Operations, Maintenance** y **Analytics**, además de opciones relacionadas con el idioma y el perfil.
+
+La navegación puede representarse de forma general de la siguiente manera:
+
+**Sign In → Dashboard → Módulo seleccionado → Funcionalidad específica**
+
+Esta estructura permite que el usuario acceda directamente a las funciones necesarias sin recorrer de forma secuencial toda la aplicación.
 
 ### 4.3 Landing Page UI Design
 
-##### 4.3.1. Landing Page Wireframe
+#### 4.3.1. Landing Page Wireframe
 
 [Click here for Figma](https://www.figma.com/design/h8gZ1ryldnIq3f485Vx13T/Landing-Page?node-id=0-1&t=MqyMHgKjflZ9zmfu-1)
 
@@ -330,11 +480,11 @@ Los wireframes de la Landing Page de Kinemo definen la estructura fundamental de
 
 **1. Home (Hero Section)**
 
-La interfaz del wireframe Home presenta una estructura en Z que guía la vista del usuario de manera natural. En la parte superior, un header fijo contiene el logotipo de Kinemo alineado a la izquierda, seguido de un menú de navegación principal con enlaces a "Platform", "Pricing" y "Contact". A la derecha del header se ubica un enlace de "Sign in" y un botón de llamado a la acción "Suscribe" con mayor énfasis visual.
+La propuesta inicial del wireframe Home presenta una estructura que guía la vista del usuario hacia la propuesta de valor y las principales acciones de la página. En la parte superior se ubica el logotipo de Kinemo acompañado de las principales opciones de navegación consideradas durante esta primera etapa del diseño.
 
-El hero section ocupa aproximadamente el 60% del viewport inicial, dividido en dos columnas asimétricas. La columna izquierda contiene el kicker pequeño "4D Cinema Technology", seguido del titular principal "Lleva la experiencia 4D a tus salas de cine sin altos costos" en tipografía de gran tamaño, y un subtítulo descriptivo que indica: "Centralizamos el control de asientos de movimiento, efectos ambientales sincronizados y analíticas en tiempo real, sin reemplazar tu infraestructura actual." Debajo se posicionan dos botones CTA: uno primario "Empezar ahora" con tratamiento destacado y uno secundario "Conoce más".
+El Hero Section presenta el mensaje principal **"Lleva la experiencia 4D a tus salas de cine sin altos costos"**, acompañado por una descripción relacionada con la centralización del control de asientos de movimiento, efectos ambientales sincronizados y analítica en tiempo real.
 
-El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hacia la acción principal.
+Debajo del mensaje principal se ubican los llamados a la acción **"Empezar ahora"** y **"Conoce más"**, permitiendo dirigir al usuario hacia las siguientes secciones de la Landing Page.
 
 ![Landing Wireframe - Home](../assets/img/landing-page/wireframe-home.png)
 
@@ -342,14 +492,16 @@ El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuari
 
 **2. Plataforma (Platform Section)**
 
-Inmediatamente debajo del hero, la sección de plataforma presenta el título principal "Todo lo que necesitas para gestionar tu sala inmersiva", acompañado de un layout de dos columnas. La columna izquierda muestra una tarjeta contenedora con cuatro ítems verticales estructurados con un icono cuadrado superior y texto descriptivo:
+La sección de plataforma presenta las principales capacidades de Kinemo mediante una distribución que combina información textual con espacios destinados a representaciones visuales de la solución.
 
-- **Sincronización de efectos:** Protocolo propietario con latencia sub-10ms que coordina asientos de movimiento, viento, aroma y vibración cuadro a cuadro.
-- **Software de gestión simplificado:** Panel unificado e intuitivo para operar todas las salas de tu complejo desde un solo dispositivo.
-- **Gestión de incidencias de mantenimiento:** Detección preventiva de fallos mecánicos e hidráulicos antes de que afecten la función.
-- **Análisis de rendimiento:** Métricas detalladas de ocupación, consumo energético y retorno de inversión por sala.
+Las principales funcionalidades consideradas son:
 
-La columna derecha reserva espacio para dos contenedores de imagen superpuestos en vertical (placeholders indicados con diagonales cruzadas) que ilustrarán el software y los dashboards de la plataforma.
+- **Sincronización de efectos:** coordinación de los asientos de movimiento y efectos ambientales para mantenerlos alineados con la experiencia cinematográfica.
+- **Software de gestión simplificado:** panel centralizado que facilita la administración de las diferentes salas desde una misma plataforma.
+- **Gestión de incidencias de mantenimiento:** seguimiento de incidencias relacionadas con el funcionamiento de los equipos y recursos 4D.
+- **Análisis de rendimiento:** presentación de información relacionada con la ocupación, operación y rendimiento de las salas.
+
+La sección reserva además espacios para recursos visuales relacionados con el software y la información operativa de la plataforma.
 
 ![Landing Wireframe - Platform](../assets/img/landing-page/wireframe-plataform.png)
 
@@ -357,26 +509,39 @@ La columna derecha reserva espacio para dos contenedores de imagen superpuestos 
 
 **3. Planes (Pricing Section)**
 
-La sección de "Pricing" adopta un layout centrado que facilita la comparación visual entre opciones de suscripción. El wireframe muestra una etiqueta superior pequeña "Pricing", seguido del titular principal "Planes sencillos y transparentes." y un párrafo descriptivo: "Todos los planes incluyen opciones de arrendamiento de hardware. La facturación anual supone un ahorro del 20%."
+La sección de **Pricing** adopta un layout centrado que facilita la comparación visual entre las diferentes opciones de suscripción.
 
-Debajo se presenta una grilla de tres columnas equitativas, cada una representada por una tarjeta de plan con un placeholder de imagen cuadrada (indicado con diagonales cruzadas) de aproximadamente 200×200px. Esta estructura permite al usuario escanear rápidamente las opciones disponibles y comparar las alternativas de suscripción para su cadena de cines con un espaciado generoso que facilita la legibilidad.
+El wireframe organiza los planes mediante una cuadrícula de tres columnas, donde cada tarjeta representa una alternativa disponible. Esta distribución permite comparar de forma rápida las opciones comerciales de Kinemo y mantiene una separación suficiente entre los diferentes bloques de información.
 
 ![Landing Wireframe - Pricing](../assets/img/landing-page/wireframe-pricing.png)
 
 ---
 
-**4. Contacto / Sección Final (Call to Action y Suscripción)**
+**4. Contacto / Sección Final**
 
-El wireframe de la sección de contacto y conversión presenta una etiqueta superior "Contact" y el título principal centrado: "¿Listo para transformar tu experiencia en el cine?", acompañado de un texto descriptivo: "Despliega Kinemo en tu cadena de cines hoy mismo con integración rápida, estabilidad de nivel empresarial y sincronización 4D inmersiva."
+La sección final del wireframe funciona como un llamado a la acción orientado a que el visitante continúe con el proceso de contacto o contratación del servicio.
 
-Incluye un bloque contenedor central destacado titulado "Inicia tu Suscripción" que integra un botón de acción principal ("Suscribe") centrado en la parte inferior del bloque.
-
-El footer de la página incluye a la izquierda el logotipo "Kinemo" acompañado del texto de derechos de autor "© 2026 Kinemo - Todos los derechos reservados", y hacia la derecha los enlaces de navegación "Privacidad", "Términos" y "Contacto", estableciendo el cierre visual de la landing page sobre una franja horizontal de fondo sólido.
+El bloque principal concentra el título, una descripción breve y la acción principal. El footer complementa esta sección mediante el logotipo de Kinemo, información de derechos reservados y accesos a información complementaria.
 
 ![Landing Wireframe - Contact](../assets/img/landing-page/wireframe-contact.png)
 
+---
 
-##### 4.3.2. Landing Page Mock-up
+##### Evolución del Wireframe al Mock-up
+
+Durante la evolución del diseño desde los wireframes hacia el mock-up de alta fidelidad se realizaron algunos ajustes en la estructura de la Landing Page con el objetivo de mejorar la navegación y adaptar la interfaz a la propuesta final de Kinemo.
+
+Entre los principales cambios realizados se encuentra la incorporación de la sección **About Us**, destinada a presentar al equipo responsable del proyecto. Asimismo, la navegación fue refinada incorporando un acceso directo a esta nueva sección y el selector de idioma **EN / ES**.
+
+Las acciones preliminares **Sign In** y **Suscribe**, consideradas durante la etapa inicial de wireframing, fueron retiradas de la navegación principal de la versión final de la Landing Page. En su lugar, la página utiliza llamados a la acción integrados en las secciones correspondientes, como **Get Started** y **Learn More**.
+
+Como resultado, la estructura final utilizada en el mock-up se organiza de la siguiente manera:
+
+**Home → Platform → About Us → Pricing → Contact**
+
+Estos cambios representan la evolución del diseño entre una representación estructural de baja fidelidad y la propuesta visual definitiva presentada en el mock-up.
+
+#### 4.3.2. Landing Page Mock-up
 
 [Link de Landing Page Mock-up](https://www.figma.com/design/2kl9zH6WgBNDCJAPYMhC0v/Landing-Page-Mock-up?node-id=0-1&t=01NT4lXX92lQUrnf-1)
 
@@ -386,28 +551,28 @@ La interfaz utiliza como colores principales el fondo oscuro **#0E0F17**, las ta
 
 ---
 
-### 1. Home (Hero Section)
+**1. Home (Hero Section)**
 
 El mockup de la sección **Home** presenta la propuesta principal de Kinemo mediante una composición visual relacionada con la experiencia cinematográfica 4D. La imagen utilizada como fondo permite contextualizar el servicio desde el primer contacto con la Landing Page, mientras que un overlay oscuro facilita la lectura del contenido.
 
-#### Header
+**Header**
 
 - Fondo oscuro **#090A10** con una línea inferior sutil.
-- Logotipo de **Kinemo** ubicado en la parte izquierda, compuesto por el símbolo de la marca y el nombre en color blanco.
+- Logotipo de **Kinemo** ubicado en la parte izquierda.
 - Menú de navegación con las opciones **Platform, About Us, Pricing** y **Contact**.
 - Selector de idioma **EN / ES** ubicado en la parte derecha.
 - Los enlaces mantienen una apariencia simple para facilitar el acceso directo a las principales secciones de la Landing Page.
 
-#### Hero Section
+**Hero Section**
 
 - Imagen de fondo relacionada con una sala de cine equipada con asientos para una experiencia 4D.
 - Overlay oscuro aplicado sobre la imagen para mejorar el contraste y la legibilidad.
-- Etiqueta superior **"4D CINEMA TECHNOLOGY"**, presentada con un fondo oscuro y detalles en morado.
+- Etiqueta superior **"4D CINEMA TECHNOLOGY"**.
 - Titular principal **"Bring the 4D experience to your cinema screens without high costs"**.
 - La frase **"without high costs"** utiliza el color morado claro **#A78BFA** para generar énfasis visual.
 - Descripción **"Centralize motion seat control, synchronized environmental effects, and real-time analytics without replacing your existing infrastructure."**
-- Botón principal **"Get Started"**, utilizando el morado principal de Kinemo.
-- Botón secundario **"Learn More"**, utilizando un fondo oscuro y borde sutil.
+- Botón principal **"Get Started"**.
+- Botón secundario **"Learn More"**.
 
 La sección busca comunicar desde el primer momento la propuesta de valor de Kinemo, destacando la posibilidad de incorporar y gestionar experiencias 4D sin necesidad de reemplazar completamente la infraestructura existente.
 
@@ -415,53 +580,51 @@ La sección busca comunicar desde el primer momento la propuesta de valor de Kin
 
 ---
 
-### 2. Plataforma (Platform Section)
+**2. Plataforma (Platform Section)**
 
 La sección **Platform** presenta las principales funcionalidades de Kinemo mediante una estructura de dos columnas. Esta distribución permite mostrar las capacidades principales del sistema junto con una representación visual de información operativa.
 
-#### Encabezado de sección
+**Encabezado de sección**
 
 - Etiqueta **"PLATFORM"** en color morado claro.
 - Título principal **"Everything you need to manage your immersive theater"**.
 - Fondo oscuro que mantiene continuidad con el resto de la Landing Page.
 
-#### Columna izquierda
+**Columna izquierda**
 
-La columna izquierda presenta cuatro tarjetas funcionales con fondo oscuro, bordes sutiles y esquinas redondeadas. Cada tarjeta representa una de las principales capacidades de Kinemo:
+La columna izquierda presenta cuatro tarjetas funcionales con fondo oscuro, bordes sutiles y esquinas redondeadas:
 
 - **Effects Synchronization:** coordinación de los asientos de movimiento y efectos ambientales relacionados con la experiencia 4D.
 - **Simplified Management Software:** panel centralizado orientado a facilitar la administración de las diferentes salas.
 - **Maintenance Incident Control:** seguimiento de incidencias relacionadas con el funcionamiento de los equipos.
-- **Performance Analytics:** presentación de información relacionada con ocupación, consumo y rendimiento de las salas.
+- **Performance Analytics:** presentación de información relacionada con ocupación, operación y rendimiento de las salas.
 
 Cada funcionalidad está acompañada por un icono que facilita su identificación visual.
 
-#### Columna derecha
+**Columna derecha**
 
-La columna derecha presenta dos módulos que representan información relacionada con la operación de la plataforma:
+La columna derecha presenta dos módulos relacionados con la operación de la plataforma:
 
 - **Live Synchronization:** muestra diferentes pantallas mediante indicadores como **OK** y **Alert**, acompañados por una representación gráfica de su actividad.
 - **Recent Incidents:** muestra incidencias recientes junto con estados como **Resolved**, **In progress** y **Pending**.
 
 Los estados utilizan diferentes colores acompañados por etiquetas textuales para facilitar su reconocimiento sin depender exclusivamente del color.
 
-Esta organización permite representar cómo Kinemo centraliza diferentes funciones de supervisión y gestión dentro de una misma plataforma.
-
 ![Landing Mock-up - Platform](../assets/img/4_3_2-landing-mock-up/landing-page-2.png)
 
 ---
 
-### 3. Nosotros / Equipo (About Us Section)
+**3. Nosotros / Equipo (About Us Section)**
 
 La sección **About Us** presenta a los integrantes responsables del desarrollo de Kinemo. Mantiene la misma identidad visual oscura y utiliza tarjetas individuales para organizar la información de cada miembro.
 
-#### Encabezado
+**Encabezado**
 
 - Etiqueta superior **"ABOUT US"** en color morado claro.
 - Título principal **"Meet the Team"**.
 - Texto descriptivo **"The creators behind Kinemo, building next-generation technology for modern cinema spaces."**
 
-#### Tarjetas del equipo
+**Tarjetas del equipo**
 
 La sección utiliza una cuadrícula de cuatro tarjetas con fondo oscuro, bordes sutiles y esquinas redondeadas.
 
@@ -472,39 +635,33 @@ Cada tarjeta contiene:
 - Nombre completo.
 - Código de estudiante en color morado claro.
 
-Los integrantes se distribuyen horizontalmente dentro de la sección, permitiendo identificar de forma clara a los miembros responsables del proyecto.
-
 Las tarjetas mantienen una estructura visual uniforme para conservar la consistencia de la interfaz.
 
-#### Video de presentación
+**Video de presentación**
 
 Debajo de las tarjetas del equipo se incorpora un recurso audiovisual relacionado con la tecnología utilizada en experiencias cinematográficas con movimiento.
 
-El video permite complementar la información presentada en la Landing Page mediante una referencia visual del funcionamiento de este tipo de tecnología en una sala de cine.
-
-El recurso se integra dentro de un contenedor de gran tamaño alineado con las tarjetas superiores, manteniendo la organización visual de la sección.
+El recurso complementa la información presentada en la Landing Page mediante una referencia visual de este tipo de tecnología y se integra dentro de un contenedor alineado con el resto de los elementos de la sección.
 
 ![Landing Mock-up - About Us](../assets/img/4_3_2-landing-mock-up/landing-page-3.png)
 
 ---
 
-### 4. Planes (Pricing Section)
+**4. Planes (Pricing Section)**
 
 La sección **Pricing** presenta los diferentes planes disponibles de Kinemo mediante tres tarjetas principales. La distribución permite comparar visualmente las características y precios de cada alternativa.
 
-#### Encabezado de sección
+**Encabezado de sección**
 
 - Etiqueta **"PRICING"** en color morado claro.
 - Título principal **"Simple, transparent pricing"**.
 - Banner informativo con el mensaje **"All plans include hardware leasing options with up to 20% savings"**.
 
-#### Grid de planes
+**Grid de planes**
 
 La información se organiza mediante una cuadrícula de tres columnas correspondiente a los planes **Starter**, **Growth** y **Enterprise**.
 
-##### Starter — $490/mo
-
-El plan **Starter** está orientado a operadores que comienzan a incorporar experiencias 4D y requieren las funciones principales de Kinemo.
+**Starter — $490/mo**
 
 Incluye:
 
@@ -514,9 +671,7 @@ Incluye:
 - Soporte por correo electrónico.
 - Reportes analíticos mensuales.
 
-##### Growth — $1,190/mo
-
-El plan **Growth** está orientado a operadores que requieren una mayor cantidad de pantallas y funcionalidades avanzadas.
+**Growth — $1,190/mo**
 
 Incluye:
 
@@ -527,11 +682,9 @@ Incluye:
 - Analítica en tiempo real.
 - API de integración.
 
-Este plan se diferencia visualmente mediante un borde morado y la etiqueta **"MOST POPULAR"**, permitiendo destacar la alternativa recomendada dentro de la sección.
+Este plan se diferencia visualmente mediante un borde morado y la etiqueta **"MOST POPULAR"**.
 
-##### Enterprise — Custom
-
-El plan **Enterprise** está dirigido a grandes cadenas de cine que requieren una solución adaptada a una mayor cantidad de salas o ubicaciones.
+**Enterprise — Custom**
 
 Incluye:
 
@@ -548,58 +701,52 @@ Las tres tarjetas utilizan fondos oscuros, bordes sutiles, esquinas redondeadas 
 
 ---
 
-### 5. Contacto / Call to Action y Footer
+**5. Contacto / Call to Action y Footer**
 
 La sección final de la Landing Page funciona como un **Call to Action (CTA)** orientado a incentivar al usuario a establecer contacto con Kinemo y conocer las alternativas disponibles para implementar la solución.
 
-#### Call to Action
-
-La sección utiliza un contenedor central con fondo oscuro, borde sutil y esquinas redondeadas, manteniendo la identidad visual establecida en las secciones anteriores.
+**Call to Action**
 
 Está compuesta por:
 
 - Etiqueta superior **"CONTACT"** en color morado claro.
 - Título principal **"Ready to transform your cinema experience?"**.
 - Texto descriptivo **"Talk to our team and discover how Kinemo can elevate your cinema screens."**
-- Botón principal **"Get Started"**, utilizando el color morado **#8B5CF6**.
+- Botón principal **"Get Started"**.
 - Texto complementario relacionado con la aceptación de los **Terms & Conditions**.
-- Enlace **"Need custom enterprise solutions? Contact sales"**, dirigido a clientes que requieren soluciones empresariales personalizadas.
+- Enlace **"Need custom enterprise solutions? Contact sales"**.
 
-La organización centralizada de estos elementos permite dirigir la atención hacia la acción principal sin agregar información innecesaria.
-
-#### Footer
+**Footer**
 
 El footer mantiene un fondo oscuro similar al utilizado en la barra de navegación, proporcionando continuidad visual entre el inicio y el cierre de la Landing Page.
 
 Incluye:
 
-- Nombre y logotipo de **Kinemo** en la parte izquierda.
+- Nombre y logotipo de **Kinemo**.
 - Texto **"© 2026 Kinemo · All rights reserved"**.
-- Enlace **"terms and conditions"** ubicado en la parte derecha.
-
-De esta manera, la sección final cierra el recorrido de la Landing Page mediante una llamada a la acción clara y mantiene disponible el acceso a la información legal correspondiente.
+- Enlace **"terms and conditions"**.
 
 ![Landing Mock-up - Contact](../assets/img/4_3_2-landing-mock-up/landing-page-5.png)
 
 ---
 
-### Consideraciones de Diseño Responsivo
+##### Consideraciones de Diseño Responsivo
 
 La Landing Page utiliza una estructura adaptable para mantener la correcta visualización de sus componentes en diferentes tamaños de pantalla.
 
 Las principales consideraciones son:
 
 - El contenido se organiza mediante contenedores con un ancho máximo aproximado de **1200px**.
-- Las secciones mantienen espacios amplios para diferenciar visualmente cada bloque de contenido.
-- Las tarjetas de Platform, About Us y Pricing utilizan estructuras basadas en **CSS Grid** y **Flexbox**.
+- Las secciones mantienen espacios amplios para diferenciar visualmente cada bloque.
+- Las tarjetas utilizan estructuras basadas en **CSS Grid** y **Flexbox**.
 - Las estructuras de varias columnas pueden reorganizarse verticalmente cuando disminuye el espacio disponible.
-- Los botones utilizan áreas de interacción amplias y estados *hover* para proporcionar retroalimentación visual.
-- Las imágenes se adaptan al espacio disponible sin generar desplazamiento horizontal.
-- Los elementos visuales mantienen bordes redondeados de aproximadamente **8px y 16px**, de acuerdo con el sistema de diseño.
-- La interfaz utiliza texto blanco para la información principal y **#94A3B8** para la información secundaria.
-- El color **#8B5CF6** y su variante **#A78BFA** se utilizan para destacar acciones, etiquetas y elementos importantes.
+- Los botones utilizan áreas de interacción amplias y estados *hover*.
+- Las imágenes se adaptan al espacio disponible.
+- Los elementos visuales mantienen bordes redondeados de aproximadamente **8px y 16px**.
+- La interfaz utiliza texto blanco para información principal y **#94A3B8** para información secundaria.
+- **#8B5CF6** y **#A78BFA** se utilizan para destacar acciones y elementos importantes.
 
-### Identidad Visual
+##### Identidad Visual
 
 La propuesta visual busca mantener una apariencia tecnológica y consistente con el concepto de **entretenimiento inmersivo 4D**.
 
@@ -607,7 +754,8 @@ El uso de fondos oscuros permite relacionar visualmente la interfaz con el ambie
 
 Las tarjetas, indicadores de estado, botones, módulos de información y recursos audiovisuales mantienen una composición uniforme durante todo el recorrido de la Landing Page.
 
-De esta manera, el diseño mantiene una identidad visual consistente entre las secciones **Home, Platform, About Us, Pricing** y **Contact**, facilitando que el usuario reconozca la estructura y las acciones disponibles.
+De esta manera, el diseño mantiene una identidad visual consistente entre las secciones **Home, Platform, About Us, Pricing** y **Contact**.
+
 ### 4.4 Web Applications UX/UI Design
 
 #### 4.4.1 Web Applications Wireframes
@@ -616,9 +764,9 @@ De esta manera, el diseño mantiene una identidad visual consistente entre las s
 
 #### 4.4.2 Web Applications Wireflow Diagrams
 
+> _Pendiente — completar en `feature/web-app-ux`._
 
-
-#### 4.4.4 Web Applications User Flow Diagrams
+#### 4.4.3 Web Applications User Flow Diagrams
 
 > _Pendiente — completar en `feature/web-app-ux`._
 
@@ -628,7 +776,7 @@ De esta manera, el diseño mantiene una identidad visual consistente entre las s
 
 ### 4.6 Domain-Driven Software Architecture
 
-### 4.6.1. Design-Level EventStorming
+#### 4.6.1. Design-Level EventStorming
 
 El Design-Level EventStorming permitió al equipo refinar el modelo de dominio identificado durante el modelado inicial de Kinemo 4D. La sesión se enfocó en revisar las funcionalidades del dominio, agruparlas según sus responsabilidades y establecer límites claros entre las diferentes áreas del negocio.
 
@@ -671,7 +819,7 @@ En la ejecución de una función, el BC06 puede generar eventos relacionados con
 
 La siguiente imagen evidencia el resultado del Design-Level EventStorming realizado por el equipo:
 
-![Design-Level EventStorming](Kinemo-report/assets/img/eventstorming.jpg)
+![Design-Level EventStorming de Kinemo 4D](../assets/img/eventstorming.jpg)
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -679,165 +827,120 @@ El **Context Diagram** representa a **Kinemo 4D** como un único sistema central
 
 Los actores identificados son:
 
-- **Gerente**: responsable de administrar la operación de Kinemo 4D, incluyendo la gestión de películas y contenido sensorial, programación de funciones, consulta de información operativa y gestión del servicio.
-- **Técnico**: responsable de las actividades técnicas relacionadas con la preparación, pruebas, mantenimiento y atención de incidencias de los recursos 4D.
+- **Gerente:** responsable de administrar la operación de Kinemo 4D, incluyendo la gestión de películas y contenido sensorial, programación de funciones, consulta de información operativa y gestión del servicio.
+- **Técnico:** responsable de las actividades técnicas relacionadas con la preparación, pruebas, mantenimiento y atención de incidencias de los recursos 4D.
 
 Asimismo, Kinemo 4D mantiene integración con los siguientes sistemas externos:
 
-- **Sistema Externo de Boletería**: proporciona información relacionada con las funciones, ventas y ocupación de las salas.
-- **Hardware 4D**: ejecuta los efectos sensoriales y las acciones físicas asociadas a las funciones 4D.
-- **Pasarela de Pagos**: procesa los pagos asociados a las suscripciones del servicio.
-- **Servicio de Facturación Electrónica**: permite gestionar la emisión de comprobantes relacionados con las suscripciones.
-- **Almacenamiento de Archivos**: permite almacenar los archivos multimedia y contenido sensorial utilizados por las películas 4D.
-- **Servicio de Notificaciones**: permite enviar alertas y notificaciones relacionadas con la operación, mantenimiento y suscripciones.
+- **Sistema Externo de Boletería:** proporciona información relacionada con las funciones, ventas y ocupación de las salas.
+- **Hardware 4D:** ejecuta los efectos sensoriales y las acciones físicas asociadas a las funciones 4D.
+- **Pasarela de Pagos:** procesa los pagos asociados a las suscripciones del servicio.
+- **Servicio de Facturación Electrónica:** permite gestionar la emisión de comprobantes relacionados con las suscripciones.
+- **Almacenamiento de Archivos:** permite almacenar los archivos multimedia y contenido sensorial utilizados por las películas 4D.
+- **Servicio de Notificaciones:** permite enviar alertas y notificaciones relacionadas con la operación, mantenimiento y suscripciones.
 
-![Context Diagram de Kinemo 4D](Kinemo-report/assets/img/diagram-context.png)
+![Software Architecture Context Diagram - Kinemo 4D](../assets/img/diagram-context.png)
 
-Como se observa en el diagrama, **Kinemo 4D centraliza la interacción entre el Gerente y el Técnico y los servicios externos necesarios para soportar la operación de la plataforma**. Esta vista permite identificar claramente el límite del sistema y sus principales dependencias externas, sin entrar todavía en el detalle de los Containers o Bounded Contexts que conforman la solución.#### 4.6.3. Software Architecture Container Diagrams
+Como se observa en el diagrama, **Kinemo 4D centraliza la interacción entre el Gerente y el Técnico y los servicios externos necesarios para soportar la operación de la plataforma**. Esta vista permite identificar claramente el límite del sistema y sus principales dependencias externas, sin entrar todavía en el detalle de los Containers o Bounded Contexts que conforman la solución.
 
-El **Container Diagram** detalla los elementos de alto nivel que conforman la arquitectura de software de Kinemo 4D, las principales responsabilidades de cada container, las decisiones tecnológicas adoptadas y la manera en que estos containers se comunican entre sí. Cada container representa una unidad de despliegue independiente dentro de la solución.
+#### 4.6.3. Software Architecture Container Diagrams
+
+El **Container Diagram** detalla los elementos de alto nivel que conforman la arquitectura de software de Kinemo 4D, las principales responsabilidades de cada container, las decisiones tecnológicas adoptadas y la manera en que estos containers se comunican entre sí.
 
 La solución está compuesta por:
 
-- **Landing Page B2B**: sitio de presentación de Kinemo 4D que comunica la propuesta de valor del servicio y permite consultar los planes de suscripción disponibles. Constituye el punto de entrada para el Gerente y el Técnico.
+- **Landing Page B2B:** sitio de presentación de Kinemo 4D que comunica la propuesta de valor del servicio y permite consultar los planes disponibles.
 
-- **Web Application**: aplicación web utilizada por el Gerente y el Técnico para acceder a las funcionalidades de gestión y operación de Kinemo 4D, según las responsabilidades de cada actor.
+- **Web Application:** aplicación web utilizada por el Gerente y el Técnico para acceder a las funcionalidades de gestión y operación de Kinemo 4D, según las responsabilidades de cada actor.
 
-- **RESTful API**: punto de entrada para las solicitudes provenientes de la aplicación web. Centraliza el acceso a las funcionalidades del sistema y dirige las solicitudes hacia el Bounded Context correspondiente.
+- **RESTful API:** punto de entrada para las solicitudes provenientes de la aplicación web y encargado de permitir el acceso a las funcionalidades proporcionadas por el backend.
 
-- **9 Bounded Contexts** como containers independientes, cada uno encargado de un área específica del dominio de Kinemo 4D:
-  **BC01 — Movie & Sensory Content Management**, **BC02 — Scheduling & Calendar**, **BC03 — Room & Resource Readiness**, **BC04 — Ticketing Integration**, **BC05 — Seat Allocation & Control**, **BC06 — 4D Execution & Synchronization**, **BC07 — Resource Testing & Maintenance**, **BC08 — Operational Analytics & Reporting** y **BC09 — Subscription & Service Management**.
+- **9 Bounded Contexts:** áreas independientes encargadas de representar responsabilidades específicas del dominio de Kinemo 4D: **BC01 — Movie & Sensory Content Management**, **BC02 — Scheduling & Calendar**, **BC03 — Room & Resource Readiness**, **BC04 — Ticketing Integration**, **BC05 — Seat Allocation & Control**, **BC06 — 4D Execution & Synchronization**, **BC07 — Resource Testing & Maintenance**, **BC08 — Operational Analytics & Reporting** y **BC09 — Subscription & Service Management**.
 
-  Cada Bounded Context mantiene su propia base de datos, siguiendo el patrón **Database per Service**, con el objetivo de mantener la autonomía de datos y reducir el acoplamiento entre los diferentes contextos del dominio.
+- **Persistencia:** cada Bounded Context administra la información correspondiente a su responsabilidad, buscando reducir el acoplamiento entre las diferentes áreas del dominio.
 
-- **Sistemas externos**: Kinemo 4D se integra con el **Sistema Externo de Boletería**, **Hardware 4D**, **Pasarela de Pagos**, **Servicio de Facturación Electrónica**, **Almacenamiento de Archivos** y **Servicio de Notificaciones**, según las necesidades de cada Bounded Context.
+- **Sistemas externos:** Kinemo 4D se integra con el **Sistema Externo de Boletería**, **Hardware 4D**, **Pasarela de Pagos**, **Servicio de Facturación Electrónica**, **Almacenamiento de Archivos** y **Servicio de Notificaciones**, según las necesidades de cada Bounded Context.
 
-![Container Diagram de Kinemo 4D](Kinemo-report/assets/img/diagram-container.png)
+![Software Architecture Container Diagram - Kinemo 4D](../assets/img/diagram-container.png)
 
-La comunicación entre los actores y la solución se inicia desde el **Landing Page B2B**, desde donde el **Gerente** y el **Técnico** acceden a la plataforma. El Landing Page se comunica con la **Web Application**, y esta utiliza la **RESTful API** como punto de entrada hacia los diferentes Bounded Contexts.
+La interacción principal con la solución se realiza mediante la **Web Application**, mientras que la **Landing Page B2B** funciona como la interfaz pública destinada a presentar la propuesta de valor, características y planes de Kinemo.
 
-A nivel interno, cada Bounded Context encapsula las responsabilidades de un área específica del dominio y mantiene su propia persistencia. Las relaciones entre los contextos se basan en las interacciones identificadas durante el **Design-Level EventStorming**, permitiendo que los eventos producidos en un contexto puedan desencadenar acciones en otro cuando existe una dependencia funcional.
+A nivel interno, los Bounded Contexts encapsulan las responsabilidades correspondientes a cada área del dominio. Las relaciones entre ellos se basan en las interacciones identificadas durante el **Design-Level EventStorming**, permitiendo coordinar las diferentes funcionalidades necesarias para la operación de una experiencia 4D.
 
-Por ejemplo, el **BC01 — Movie & Sensory Content Management** permite registrar una película 4D y su contenido sensorial, lo que permite al **BC02 — Scheduling & Calendar** iniciar la programación de una función. Asimismo, una función programada permite al **BC03 — Room & Resource Readiness** verificar la preparación de la sala.
+Por ejemplo, el **BC01 — Movie & Sensory Content Management** permite gestionar una película 4D y su contenido sensorial, mientras que el **BC02 — Scheduling & Calendar** gestiona la programación de las funciones. Una función programada puede requerir posteriormente que el **BC03 — Room & Resource Readiness** compruebe la preparación de la sala.
 
-De manera similar, el **BC04 — Ticketing Integration** proporciona información de ocupación que permite al **BC05 — Seat Allocation & Control** gestionar el estado de las butacas vendidas. Durante la ejecución, el **BC06 — 4D Execution & Synchronization** interactúa con el **BC07 — Resource Testing & Maintenance** cuando se presentan incidencias relacionadas con los recursos 4D. Finalmente, los resultados de la ejecución y del mantenimiento pueden ser utilizados por el **BC08 — Operational Analytics & Reporting** para generar métricas y reportes operativos.
+De manera similar, el **BC04 — Ticketing Integration** proporciona información relacionada con la ocupación que puede ser utilizada por el **BC05 — Seat Allocation & Control**. Durante una función, el **BC06 — 4D Execution & Synchronization** se encarga de la ejecución y sincronización de los efectos, mientras que las incidencias relacionadas con los recursos son gestionadas por el **BC07 — Resource Testing & Maintenance**.
 
-El **BC09 — Subscription & Service Management** gestiona la suscripción del servicio y se relaciona con los demás contextos para habilitar las funcionalidades correspondientes según el estado de la suscripción.
+Los resultados operativos pueden ser utilizados por el **BC08 — Operational Analytics & Reporting** para presentar métricas y reportes. Finalmente, el **BC09 — Subscription & Service Management** gestiona los planes y suscripciones relacionados con el servicio.
 
-De esta manera, el Container Diagram permite visualizar la distribución de responsabilidades, las principales decisiones tecnológicas, las relaciones entre los Bounded Contexts y las dependencias con los sistemas externos que forman parte del ecosistema de Kinemo 4D.
+De esta manera, el Container Diagram permite visualizar la distribución general de responsabilidades, las relaciones entre las principales partes de Kinemo 4D y las dependencias externas necesarias para soportar la solución.
 
 #### 4.6.4. Software Architecture Components Diagrams
 
-Para cada uno de los **9 Bounded Contexts** identificados como containers, se elaboró el **Component Diagram** correspondiente. Cada diagrama muestra la descomposición interna del Bounded Context en componentes responsables de exponer las operaciones, ejecutar la lógica de aplicación, aplicar las reglas del dominio y gestionar la persistencia de información.
-
-De acuerdo con las responsabilidades de cada contexto, se identificaron componentes como **Controllers**, **Application Services**, **Domain Services**, **Repositories** y **External Services**, según las necesidades de interacción con otros Bounded Contexts o sistemas externos.
+Para cada uno de los **9 Bounded Contexts** identificados se elaboró el **Component Diagram** correspondiente. Cada diagrama representa la descomposición interna del contexto y muestra los componentes responsables de recibir solicitudes, ejecutar la lógica de aplicación, aplicar las reglas del dominio, administrar la persistencia e interactuar con servicios externos cuando corresponde.
 
 A continuación se presenta el detalle de los componentes definidos para cada Bounded Context.
 
-#### BC01 — Movie & Sensory Content Management
+##### BC01 — Movie & Sensory Content Management
 
 El **MovieSensoryController** expone las operaciones relacionadas con la gestión de películas y contenido sensorial. El **MovieCommandService** gestiona las operaciones de registro, actualización y desactivación de películas, mientras que el **MovieQueryService** permite realizar consultas y búsquedas sobre el catálogo. El **SensoryContentService** gestiona la carga, vinculación, validación y habilitación del contenido sensorial. El **MovieSensoryDomainService** aplica las reglas de negocio relacionadas con las películas y el contenido sensorial, y el **MovieSensoryRepository** gestiona la persistencia y recuperación de la información.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_1.png)
+![Component Diagram - BC01 Movie & Sensory Content Management](../assets/img/Component_1.png)
 
-#### BC02 — Scheduling & Calendar
+##### BC02 — Scheduling & Calendar
 
 El **SchedulingController** expone las operaciones relacionadas con la programación de funciones 4D. El **SchedulingCommandService** gestiona las operaciones de programación, reprogramación y cancelación de funciones, mientras que el **AvailabilityService** permite consultar la disponibilidad necesaria para la programación. El **SchedulingDomainService** aplica las reglas de negocio relacionadas con horarios y disponibilidad, y el **SchedulingRepository** gestiona la persistencia de las funciones programadas.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_2.png)
+![Component Diagram - BC02 Scheduling & Calendar](../assets/img/Component_2.png)
 
-#### BC03 — Room & Resource Readiness
+##### BC03 — Room & Resource Readiness
 
 El **RoomReadinessController** expone las operaciones relacionadas con la preparación y disponibilidad de las salas. El **RoomPreparationService** gestiona las actividades necesarias para verificar la preparación de una sala, mientras que el **RoomBlockingService** permite bloquear una sala cuando no se encuentra disponible. El **RoomReleaseService** gestiona la liberación de las salas una vez finalizadas las restricciones correspondientes. El **RoomReadinessRepository** gestiona la persistencia de la información relacionada con el estado y preparación de las salas.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_3.png)
-#### BC04 — Ticketing Integration
+![Component Diagram - BC03 Room & Resource Readiness](../assets/img/Component_3.png)
+
+##### BC04 — Ticketing Integration
 
 El **TicketingController** expone las operaciones relacionadas con la integración con el sistema externo de boletería. El **TicketingSyncService** gestiona la sincronización de la información proveniente del sistema de boletería, mientras que el **TicketingConnectionMonitor** permite supervisar el estado de la conexión con dicho sistema. El **OccupancyService** procesa la información relacionada con la ocupación de las salas y el **TicketingRepository** gestiona la persistencia de la información de integración.
 
 Como dependencia externa, el **Sistema Externo de Boletería** proporciona la información necesaria para mantener actualizada la ocupación de las funciones.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_4.png)
+![Component Diagram - BC04 Ticketing Integration](../assets/img/Component_4.png)
 
-#### BC05 — Seat Allocation & Control
+##### BC05 — Seat Allocation & Control
 
 El **SeatController** expone las operaciones relacionadas con la asignación y control de las butacas. El **SeatAllocationService** gestiona la asignación de butacas para las funciones, mientras que el **SeatActivationService** permite activar las butacas que corresponden a los boletos vendidos. El **SeatControlService** gestiona el estado operativo de las butacas y el **SeatRepository** administra la persistencia de la información relacionada con su asignación y estado.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_5.png)
+![Component Diagram - BC05 Seat Allocation & Control](../assets/img/Component_5.png)
 
-#### BC06 — 4D Execution & Synchronization
+##### BC06 — 4D Execution & Synchronization
 
 El **ExecutionController** expone las operaciones relacionadas con la ejecución de las funciones 4D. El **ExecutionService** gestiona el inicio, pausa, reanudación y finalización de la ejecución, mientras que el **SynchronizationService** controla la sincronización entre la película y los efectos sensoriales. El **EmergencyExecutionService** gestiona las situaciones de emergencia que pueden interrumpir la ejecución. El **Hardware4DGateway** encapsula la comunicación con el hardware encargado de ejecutar los efectos físicos y el **ExecutionRepository** gestiona la persistencia de la información relacionada con la ejecución.
 
 Como sistema externo, el **Hardware 4D** recibe las instrucciones necesarias para ejecutar los efectos sensoriales durante una función.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_6.png)
+![Component Diagram - BC06 4D Execution & Synchronization](../assets/img/Component_6.png)
 
-#### BC07 — Resource Testing & Maintenance
+##### BC07 — Resource Testing & Maintenance
 
 El **MaintenanceController** expone las operaciones relacionadas con las pruebas, mantenimiento e incidencias de los recursos 4D. El **ChannelTestingService** gestiona las pruebas de los canales y componentes del sistema, mientras que el **IncidentService** permite registrar y gestionar las incidencias identificadas. El **MaintenanceService** gestiona las actividades de mantenimiento y el **EquipmentService** administra la información relacionada con los equipos. El **HardwareMaintenanceGateway** encapsula la comunicación con los recursos de hardware y el **MaintenanceRepository** gestiona la persistencia de las pruebas, incidencias y actividades de mantenimiento.
 
 Como dependencia externa, el **Hardware 4D** permite realizar las pruebas y actividades técnicas necesarias sobre los recursos físicos.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_7.png)
+![Component Diagram - BC07 Resource Testing & Maintenance](../assets/img/Component_7.png)
 
-#### BC08 — Operational Analytics & Reporting
+##### BC08 — Operational Analytics & Reporting
 
 El **AnalyticsController** expone las operaciones relacionadas con la consulta de información operativa y generación de reportes. El **OperationalMetricsService** gestiona el cálculo y consolidación de métricas relacionadas con la operación de las funciones y el mantenimiento. El **DashboardService** permite obtener la información necesaria para los dashboards, mientras que el **IncidentReportService** gestiona la información relacionada con las incidencias. El **DashboardExportService** permite generar y exportar reportes operativos y el **AnalyticsRepository** gestiona la persistencia y consulta de la información utilizada para los análisis.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_8.png)
+![Component Diagram - BC08 Operational Analytics & Reporting](../assets/img/Component_8.png)
 
-#### BC09 — Subscription & Service Management
+##### BC09 — Subscription & Service Management
 
 El **SubscriptionController** expone las operaciones relacionadas con la gestión de las suscripciones del servicio. El **SubscriptionPlanService** gestiona la información de los planes disponibles, mientras que el **SubscriptionService** administra la contratación, activación, renovación y cambio de plan. El **SubscriptionPaymentService** gestiona el procesamiento de los pagos asociados a las suscripciones. El **SubscriptionDomainService** aplica las reglas de negocio relacionadas con el ciclo de vida de las suscripciones y el **SubscriptionRepository** gestiona su persistencia.
 
 Como dependencias externas, el **Payment Gateway Adapter** encapsula la comunicación con la **Pasarela de Pagos**, permitiendo procesar los pagos de las suscripciones. Asimismo, el contexto puede interactuar con el **Servicio de Facturación Electrónica** para gestionar los comprobantes correspondientes.
 
-![Component Diagram de Kinemo 4D](Kinemo-report/assets/img/Component_9.png)
+![Component Diagram - BC09 Subscription & Service Management](../assets/img/Component_9.png)
 
-En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Context se descompone internamente en componentes con responsabilidades específicas, manteniendo una separación clara entre la exposición de operaciones, la lógica de aplicación, las reglas del dominio, la persistencia y las integraciones externas. Esta descomposición contribuye a mantener la autonomía de cada contexto y facilita su evolución y despliegue independiente.
-
-### 4.7 Software Object-Oriented Design
-
-#### 4.7.1 Class Diagrams
-
-> _Pendiente — completar en `feature/class-diagrams`._
-
-### 4.8 Database Design
-
-#### 4.8.1 Database Diagrams
-
-![Diagrama de Movie Catalog Management](Kinemo-report/assets/img/BC01-Movie Catalog Managment.png)
-
-## 1. Movie Catalog Management
-
-La base de datos del módulo **Movie Catalog Management** se encuentra estructurada alrededor del agregado principal `movies`, el cual representa y centraliza la información base de las películas 4D registradas en el sistema.
-
-Este agregado almacena atributos fundamentales como `title` y `duration_minutes`, y utiliza el Value Object `status` para gestionar la transición de estados del flujo de *Desactivación de Contenido*, permitiendo clasificar la disponibilidad del recurso en estados como *Activo*, *Inactivo* o *Bloqueado para Programación*.
-
-Para dar soporte a la operativa estructurada del catálogo, el modelo incorpora características y entidades complementarias:
-
-*   **Trazabilidad Autorreferencial:** El agregado `movies` implementa una relación recursiva mediante el atributo `original_movie_id`. Esta estructura da soporte directo al flujo de *Duplicación de Configuración*, permitiendo registrar y modificar copias de una cinta manteniendo intacta la trazabilidad histórica hacia la película de origen.
-*   **Entidad `genres`:** Funciona como una entidad de soporte que normaliza la clasificación del contenido. Al separar los géneros en su propia estructura relacional, se elimina la redundancia de datos y se agiliza significativamente la ejecución del flujo de *Búsqueda de Película* mediante filtros estructurados.
-
-> Las relaciones establecidas a través de las claves foráneas (`genre_id`, `original_movie_id`) garantizan la integridad referencial del esquema, asegurando que este Bounded Context administre su propia fuente de verdad de manera normalizada y desacoplada del resto de los módulos del sistema.
-
-
-![Diagrama de Sensory Content & Experience Management](Kinemo-report/assets/img/BC02-Sensory Content and Experience Managment.png)
-
-## 2. Sensory Content & Experience Management
-
-La base de datos del módulo **Sensory Content & Experience Management** se encuentra estructurada alrededor del agregado principal `sensory_files`, el cual gestiona de manera centralizada la subida y administración del "Archivo de Efectos 4D".
-
-Esta entidad utiliza el Value Object `validation_status` para administrar la transición de estados correspondiente al flujo de *Carga de Archivo de Efectos*, controlando etapas críticas como *Cargado*, *Rechazado* o *Vinculado*. Asimismo, integra el atributo `movie_id`, el cual actúa como clave foránea para establecer una conexión referencial con el catálogo de películas.
-
-A partir de este agregado raíz, el modelo se expande en entidades especializadas para soportar el nivel granular de la experiencia sensorial:
-
-*   **Entidad `sensory_tracks`:** Representa la "Pista Sensorial" individual, permitiendo que un mismo archivo agrupe múltiples pistas (ej. viento, movimiento, agua). Esta entidad emplea el atributo `track_status` para dirigir el ciclo de vida en el flujo de *Validación de Pista Sensorial* (*Validada*, *Rechazada*, *Habilitada para Ejecución*). Por su parte, el campo `intensity_level` da soporte directo al flujo de *Asignación de Intensidad*, almacenando el parámetro operativo validado por el técnico.
-*   **Entidad `configuration_history`:** Funciona como una tabla de soporte y auditoría para el flujo de *Restablecimiento de Configuración*. Al almacenar un registro histórico de los cambios aplicados en los niveles de intensidad (`previous_intensity_level`), esta entidad provee al sistema la capacidad de emitir recomendaciones basadas en el uso y permite al técnico de mantenimiento revertir o restablecer la configuración a un estado anterior validado.
-
-> Finalmente, las relaciones establecidas mediante las claves foráneas (`movie_id`, `sensory_file_id`, `sensory_track_id`) garantizan la estricta integridad referencial del modelo, asegurando un diseño normalizado que mantiene el desacoplamiento estructural frente a otros Bounded Contexts del sistema.
-
----
-
-![Diagrama de Scheduling & Calendar](Kinemo-report/assets/img/BC03-Scheduling and Calendar.png) 
+En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Context se descompone internamente en componentes con responsabilidades específicas, manteniendo una separación clara entre la exposición de operaciones, la lógica de aplicación, las reglas del dominio, la persistencia y las integraciones externas. Esta descomposición contribuye a mantener la autonomía de cada contexto y facilita su evolución.
