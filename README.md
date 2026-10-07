@@ -649,3 +649,16 @@ El despliegue de la Web Application (Vue + PrimeVue) y del RESTful API (ASP.NET 
 | Sprint 1 Velocity | 12 Story Points |
 | Sum of Story Points | 12 Story Points |
 
+
+##### 5.2.1.2 Aspect Leaders and Collaborators
+
+La siguiente tabla muestra la asignación de líderes (L) y colaboradores (C) por cada aspecto del Landing Page durante el Sprint 1. Esta organización se alinea con la selección de tareas del Sprint Backlog y con la evidencia de commits registrada en GitHub.
+
+| Team Member | GitHub Username | Hero Section | Platform Section | Pricing Section | Team Section | Contact Form | Repo & Deployment |
+|---|---|---|---|---|---|---|-------------------|
+| Llamozas Diaz, Edson Diego | DiegoLlamozas | C | C | C | C | C | C                 |
+| Huamanchumo Chicchon, Felipe Marcelo | Daiko-07 | L | L | L | L | L | C                 |
+| Correa Rodriguez, Andrea Khristina | Elmiau2341 | C | C | C | C | C | C                 |
+| Trigoso Garrido, Cristian Joseph | Crzzz30 | C | C | C | C | C | C                 |
+| Flores Chavez, Fabricio | Ferdwar | C | C | C | C | C | C                 |
+
