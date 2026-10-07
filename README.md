@@ -436,7 +436,13 @@ Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9
 
 ### 2.3.4. Empathy Mapping
 
-> _Pendiente — completar en `feature/empathy-maps`._
+El Empathy Map de Pepe Castillo evidencia un perfil orientado a la planificación, evaluación económica y reducción del riesgo antes de adoptar nuevas tecnologías. Sus principales preocupaciones se relacionan con el costo, mantenimiento, soporte y retorno esperado de la inversión.
+
+<img src="Kinemo-report/assets/img/Empathy%20map-Pepe%20Castillo.png" alt="Empathy Map - Pepe Castillo">
+
+El Empathy Map de Carlos Torres refleja un perfil técnico enfocado en la prevención y resolución de incidencias. Sus principales dificultades aparecen ante fallas inesperadas, limitaciones de diagnóstico, falta de repuestos y demoras del soporte, mientras que sus objetivos se centran en mantener la continuidad operativa de las salas.
+
+<img src="Kinemo-report/assets/img/Empathy%20map-Carlos%20Torres.png" alt="Empathy Map - Carlos Torres">
 
 ### 2.4 Big Picture EventStorming
 
