@@ -270,39 +270,46 @@ Creemos que lograremos reducir el costo de adquisición de clientes si los geren
 | **7. What's the most important thing we need to learn first?** | Si los gerentes de cadenas de cine pequeñas y medianas perciben la solución integral (hardware + mantenimiento + software) como suficientemente accesible y valiosa como para justificar la contratación frente a no invertir en tecnología inmersiva. |
 | **8. What's the least amount of work we need to do to learn the next most important thing?** | Realizar entrevistas de validación con gerentes de cadenas de cine pequeñas/medianas presentando el concepto de la solución y un prototipo de baja fidelidad del panel de administración y del Landing Page, para medir su nivel de interés y disposición a contratar. |
 
-### 1.3 Segmentos objetivo
+## 1.3. Segmentos objetivo
 
+El proyecto Kinemo considera dos segmentos objetivo principales dentro del mercado de exhibición cinematográfica: los responsables de la toma de decisiones en cadenas de cine pequeñas y medianas, y el personal operativo/técnico encargado de la gestión diaria de las salas. La selección de ambos segmentos responde a su participación directa en la adopción, gestión y operación de soluciones de entretenimiento inmersivo.
 
-El mercado de exhibición cinematográfica en Perú está altamente concentrado: dos cadenas líderes —Cineplanet y Cinemark— capturan en conjunto más de dos tercios de la cuota de mercado, mientras que un grupo de cadenas más pequeñas (UVK Multicines, Cinerama, Cine Star, Movie Time, entre otras) se reparten el resto. Kinemo se enfoca en este segundo grupo, que compite en un mercado dominado por actores de mayor escala sin contar con presupuesto propio para adoptar tecnología inmersiva por su cuenta.
+En 2023, el mercado peruano de exhibición cinematográfica registró aproximadamente 45,9 millones de espectadores y S/485 millones en ingresos de taquilla. Cineplanet concentró el 56% de la recaudación total, Cinemark el 19,5% y Cinestar el 9%, evidenciando una concentración importante del mercado en las principales cadenas. Este contexto permite identificar oportunidades para cadenas de menor escala que buscan modernizar y diferenciar su oferta.
 
-**Segmento 1: Gerentes de Operaciones / Propietarios de cadenas de cine pequeñas y medianas**
+### Segmento 1: Gerentes de Operaciones / Propietarios de cadenas de cine pequeñas y medianas
 
-**Perfil firmográfico**
-- Cadenas peruanas independientes o familiares con entre 1 y 10 complejos a nivel nacional (ejemplo de referencia: UVK Multicines, con 5 complejos a nivel nacional).
-- Cuota de mercado individual minoritaria frente a los líderes del sector, generalmente concentradas en Lima con posible presencia en provincias.
-- Sin tecnología de entretenimiento inmersivo instalada actualmente en ninguno de sus complejos.
+Este segmento está conformado por las personas responsables de evaluar inversiones, seleccionar proveedores y tomar decisiones relacionadas con la incorporación de nuevas tecnologías en cadenas de cine pequeñas y medianas.
 
-**Perfil demográfico del tomador de decisión**
+**Perfil empresarial:**
+
+- Responsables de cadenas de cine pequeñas y medianas que operan en el mercado peruano.
+- Organizaciones con menor participación de mercado y menor capacidad de inversión que las principales cadenas del sector.
+- Cadenas que actualmente no cuentan con infraestructura de entretenimiento inmersivo o cuya incorporación representa una inversión elevada.
+
+**Perfil demográfico:**
+
 - Edad aproximada: 35–55 años.
 - Rol: Gerente General, Gerente de Operaciones o Propietario/Socio de la cadena.
-- Nivel educativo: superior universitario, frecuentemente con formación en administración o gestión de negocios.
-- Ubicación: principalmente Lima Metropolitana, con posibilidad de gerencias regionales en otras ciudades.
+- Ubicación: principalmente Lima Metropolitana y otras ciudades donde operen los complejos de la cadena.
 
-> Las motivaciones y frustraciones de este segmento se plantean como Assumptions en la sección 1.2.2.2 y se validarán con datos reales al construir el User Persona correspondiente en la sección 2.3.1, una vez realizadas las entrevistas.
+Las características demográficas específicas, así como las motivaciones, frustraciones, objetivos y comportamientos de este segmento, serán contrastadas posteriormente mediante las entrevistas y el análisis correspondiente del Capítulo II.
 
-**Segmento 2: Personal Operativo / Técnico de las salas de cine**
+### Segmento 2: Personal Operativo / Técnico de las salas de cine
 
-**Perfil demográfico**
+Este segmento está conformado por los trabajadores responsables de las actividades operativas y técnicas necesarias para el funcionamiento cotidiano de las salas de cine.
+
+**Perfil laboral:**
+
+- Personal encargado de la operación cotidiana de las salas.
+- Participa en tareas como programación de funciones, supervisión de salas, configuración de equipos y seguimiento de incidencias.
+- Incluye roles como jefe de sala, coordinador de operaciones, técnico de mantenimiento o proyeccionista.
+
+**Perfil demográfico:**
+
 - Edad aproximada: 20–40 años.
-- Rol: Jefe de sala, coordinador de operaciones, técnico de mantenimiento o proyeccionista.
-- Nivel educativo: variable, desde educación técnica hasta universitaria; no necesariamente con formación en tecnología.
-- Ubicación: en el mismo complejo de cine donde trabaja, dentro del área de influencia de la cadena.
+- Ubicación: trabajan principalmente en los complejos de cine donde realizan sus actividades operativas.
 
-
-
-**Segmento 2: Personal Operativo / Técnico de las salas de cine**
-
-
+Las características demográficas, tecnológicas, laborales y de comportamiento de este segmento serán validadas posteriormente mediante las entrevistas y el análisis estadístico realizado en el Capítulo II.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
