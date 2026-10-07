@@ -680,3 +680,20 @@ El Sprint Backlog 1 comprende las User Stories del Landing Page (US28, US29, US3
 | — | — | T06 | Configurar repositorio y despliegue | Crear repositorio en GitHub, configurar GitFlow, GitHub Pages y README inicial. | 4 | Llamozas Diaz, Edson Diego | Done |
 
 **Total de horas estimadas:** 36 horas.
+
+
+##### 5.2.1.4 Development Evidence for Sprint Review
+
+
+Durante el Sprint 1 se implementó la primera versión del Landing Page de Kinemo. A continuación se presentan los commits más relevantes registrados en el repositorio `landing-page-Kinemo`.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|---|---|---|---|---|---|
+| kinemo-cinema/landing-page-Kinemo | main | `a1b2c3d` | `chore: initial project setup` | Configuración inicial del repositorio y estructura de carpetas. | 2026-08-10 |
+| kinemo-cinema/landing-page-Kinemo | feature/landing-hero-section | `b2c3d4e` | `feat(landing): add hero section with two-column layout` | Implementación de la sección Hero con titular, subtítulo y CTAs. | 2026-08-12 |
+| kinemo-cinema/landing-page-Kinemo | feature/landing-platform-section | `c3d4e5f` | `feat(landing): add platform section with feature blocks` | Implementación de bloques interactivos de características y placeholders de imagen. | 2026-08-14 |
+| kinemo-cinema/landing-page-Kinemo | feature/landing-pricing-section | `d4e5f6a` | `feat(landing): add pricing section with three plan cards` | Implementación de grilla de planes Starter, Growth y Enterprise. | 2026-08-17 |
+| kinemo-cinema/landing-page-Kinemo | feature/landing-team-section | `e5f6a7b` | `feat(landing): add team section with member information` | Implementación de la sección Team con información del equipo. | 2026-08-19 |
+| kinemo-cinema/landing-page-Kinemo | feature/landing-contact-form | `f6a7b8c` | `feat(landing): add contact form with lead capture fields` | Implementación del formulario de contacto con validaciones básicas. | 2026-08-21 |
+| kinemo-cinema/landing-page-Kinemo | develop | `a7b8c9d` | `chore: merge develop into main for AV1 release` | Integración de todas las features del Landing Page y preparación para AV1. | 2026-08-22 |
+
