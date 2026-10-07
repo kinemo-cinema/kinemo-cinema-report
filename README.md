@@ -391,31 +391,50 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 A partir de la información recopilada de los segmentos objetivo y de los resultados obtenidos en las entrevistas, se realizó el proceso de Needfinding mediante la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps. Estos artefactos permiten representar las características, actividades, objetivos, necesidades y dificultades identificadas en cada segmento y sirven como base para la definición de los requisitos de Kinemo.
 
+## 2.3. Needfinding
+
+A partir de la información recopilada de los segmentos objetivo y de los resultados obtenidos en las entrevistas, se realizó el proceso de Needfinding mediante la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps. Estos artefactos permiten representar las características, actividades, objetivos, necesidades y dificultades identificadas en cada segmento y sirven como base para la definición de los requisitos de Kinemo.
+
 ### 2.3.1. User Personas
 
 **User persona 1 (Personal operativo/técnico de las salas de cine):** La ficha de Carlos Torres representa al personal encargado de las actividades técnicas y operativas de las salas de cine. El arquetipo refleja un perfil orientado a la resolución de problemas, mantenimiento preventivo y atención de incidencias. Sus principales objetivos son mantener los equipos operativos, detectar fallas con rapidez y mejorar el seguimiento del mantenimiento. Entre sus principales dificultades se encuentran las fallas durante las funciones, la demora del soporte técnico, la falta de repuestos y la necesidad de contar con mejores herramientas de diagnóstico y registro.
 
-<img src="assets/img/Carlos%20Torres.png" alt="Carlos Torres">
+<img src="Kinemo-report/assets/img/Carlos%20Torres.png" alt="Carlos Torres">
 
 **User persona 2 (Gerentes/Propietarios de cadenas de cine pequeñas y medianas):** La ficha de Pepe Castillo representa al responsable de la toma de decisiones dentro de una cadena de cine pequeña o mediana. El arquetipo refleja un perfil organizado y analítico, orientado a evaluar inversiones, comparar proveedores y modernizar las salas sin asumir riesgos económicos excesivos. Entre sus principales objetivos se encuentran mejorar la experiencia del cliente, atraer mayor público y diferenciar la oferta de sus salas. Sus principales frustraciones están relacionadas con los altos costos de implementación, el mantenimiento, la disponibilidad de soporte técnico y la incertidumbre sobre el retorno de inversión.
 
-<img src="assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
+<img src="Kinemo-report/assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
 
 Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 
-#### 2.3.2 User Task Matrix
+### 2.3.2. User Task Matrix
 
 La siguiente User Task Matrix presenta las principales tareas realizadas por los dos User Personas identificados: Pepe Castillo, representante del segmento de Gerentes/Propietarios de cadenas de cine pequeñas y medianas, y Carlos Torres, representante del Personal operativo/técnico de las salas de cine. Las tareas se definieron a partir de los hallazgos obtenidos en las entrevistas y representan actividades que actualmente realizan los usuarios para cumplir sus objetivos, independientemente de la existencia de Kinemo. Cada tarea se evalúa según su frecuencia de realización y su nivel de importancia para cada User Persona.
 
-<img src="assets/img/User%20Task%20Matrix.png" alt="Task Matrix">
+<img src="Kinemo-report/assets/img/User%20Task%20Matrix.png" alt="User Task Matrix">
 
 Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
 
-#### 2.3.3 User Journey Mapping
+### 2.3.3. User Journey Mapping
 
-> _Pendiente — completar en `feature/journey-maps`._
+En esta sección se presentan los User Journey Maps correspondientes a los dos User Personas identificados. Cada mapa representa el recorrido actual As-Is de los usuarios, mostrando las actividades que realizan para alcanzar sus objetivos antes de la implementación de Kinemo. Los recorridos permiten identificar los principales puntos de contacto, dificultades, decisiones y oportunidades de mejora observadas durante las entrevistas.
 
-#### 2.3.4 Empathy Mapping
+**Segmento objetivo 1: Gerentes/Propietarios de cadenas de cine pequeñas y medianas:**
+
+El User Journey Map de Pepe Castillo representa el proceso actual de evaluación y adopción de nuevas tecnologías por parte de un gerente o propietario de una cadena de cine pequeña o mediana. El recorrido abarca desde la identificación de una necesidad de modernización hasta el seguimiento posterior de la inversión.
+
+<img src="Kinemo-report/assets/img/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
+
+**Segmento objetivo 2: Personal operativo/técnico de las salas de cine:**
+
+El User Journey Map de Carlos Torres representa el recorrido cotidiano del personal técnico, desde la preparación de la jornada y revisión preventiva de los equipos hasta la atención, resolución y registro de incidencias técnicas.
+
+<img src="Kinemo-report/assets/img/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
+
+Link del User Journey Mapping - Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
+Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
+
+### 2.3.4. Empathy Mapping
 
 > _Pendiente — completar en `feature/empathy-maps`._
 
