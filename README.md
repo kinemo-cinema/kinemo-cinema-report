@@ -137,175 +137,257 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## Capítulo I: Introducción
 
-### 1.1 Startup Profile
+### 1.1. Startup Profile
 
-#### 1.1.1 Descripción de la Startup
+#### 1.1.1. Descripción de la Startup
 
-Kinemo es una startup de tecnología para entretenimiento cinematográfico que provee a cadenas de cine pequeñas y medianas una solución integral de experiencias inmersivas: butacas con movimiento y efectos físicos sincronizados (viento, vibración, entre otros), servicio de mantenimiento especializado y un software propio de gestión operativa.
+Kinemo es una startup de tecnología para entretenimiento cinematográfico que provee a cadenas de cine pequeñas y medianas una solución integral de experiencias inmersivas: butacas con movimiento y efectos físicos sincronizados, como viento y vibración, servicio de mantenimiento especializado y un software propio de gestión operativa.
 
-Kinemo nace para cerrar la brecha entre las grandes cadenas de cine —que ya cuentan con tecnología inmersiva propietaria como 4DX o D-BOX— y las cadenas pequeñas y medianas, que hoy no pueden competir en experiencia de usuario debido al alto costo de inversión y a la falta de conocimiento técnico especializado para operar y mantener este tipo de tecnología por cuenta propia.
+Kinemo nace para cerrar la brecha entre las grandes cadenas de cine que ya cuentan con tecnología inmersiva propietaria, como 4DX o D-BOX, y las cadenas pequeñas y medianas, que actualmente presentan mayores dificultades para competir en experiencia de usuario debido al alto costo de inversión y a la falta de conocimiento técnico especializado para operar y mantener este tipo de tecnología por cuenta propia.
 
-Tagline: "Cine que se siente."
+**Tagline:** “Cine que se siente.”
 
-Misión: Democratizar el acceso a experiencias cinematográficas inmersivas, permitiendo que cadenas de cine de cualquier tamaño ofrezcan a sus espectadores sensaciones físicas sincronizadas con el contenido, a través de una solución accesible de hardware, mantenimiento y software de gestión.
+**Misión:** Democratizar el acceso a experiencias cinematográficas inmersivas, permitiendo que cadenas de cine de cualquier tamaño ofrezcan a sus espectadores sensaciones físicas sincronizadas con el contenido, a través de una solución accesible de hardware, mantenimiento y software de gestión.
 
-#### 1.1.2 Perfiles de integrantes del equipo
+#### 1.1.2. Perfiles de integrantes del equipo
 
-> _Pendiente — completar en `feature/startup-profile` (foto, nombres, código, carrera, conocimientos técnicos por integrante)._
+| Carrera | Integrante | Foto |
+|---|---|---|
+| Ingeniería de Software | **Cristian Joseph Trigoso Garrido**  U202318865 | ![Cristian Joseph Trigoso Garrido](assets/cristian-trigoso.jpg) |
+| **Descripción** | Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | |
 
-### 1.2 Solution Profile
+| Carrera | Integrante | Foto |
+|---|---|---|
+| Ingeniería de Software | **Felipe Marcelo Huamanchumo Chicchon**  U20241B932 | ![Felipe Marcelo Huamanchumo Chicchon](assets/felipe-huamanchumo.jpg) |
+| **Descripción** | Cuento con conocimientos en programación con C++, bases de datos utilizando SQL y nociones de redes mediante Cisco Packet Tracer. Además, poseo conocimientos básicos en Microsoft Azure, diseño de interfaces con Figma y patrones de software. Dentro del equipo puedo aportar en la organización de tareas, investigación y resolución de problemas para el desarrollo del proyecto. | |
 
-#### 1.2.1 Antecedentes y problemática
+| Carrera | Integrante | Foto |
+|---|---|---|
+| Ingeniería de Software | **Fabricio Flores Chavez**  U202212327 | ![Fabricio Flores Chavez](assets/fabricio-flores.jpg) |
+| **Descripción** | Me gusta mucho seguir aprendiendo cosas nuevas y poder ser un gran profesional, y siempre poder ayudar a los demás en lo que necesiten. | |
 
-Análisis 5W2H
+| Carrera | Integrante | Foto |
+|---|---|---|
+| Ingeniería de Software | **Andrea Khristina Correa Rodriguez**  U202412041 | ![Andrea Khristina Correa Rodriguez](assets/andrea-correa.jpg) |
+| **Descripción** | Estudiante de Ingeniería de Software con enfoque en análisis de sistemas y arquitectura de software. Tiene conocimientos en modelado de procesos de negocio. Le motiva entender cómo funcionan los sistemas complejos y traducir requisitos en soluciones técnicas efectivas. | |
 
-Who (¿Quién?): cadenas de cine pequeñas y medianas —operadas de forma independiente o familiar, con un número reducido de complejos— y su personal operativo/técnico, que hoy no cuentan con tecnología de entretenimiento inmersivo en sus salas.
-What (¿Qué?): la imposibilidad de ofrecer experiencias de cine inmersivo (butacas con movimiento, efectos físicos sincronizados) comparables a las de las grandes cadenas, debido al alto costo de inversión y a la falta de conocimiento técnico especializado para operar y mantener este tipo de tecnología por cuenta propia.
-Where (¿Dónde?): mercados donde conviven pocas cadenas dominantes de gran escala con varias cadenas regionales más pequeñas; inicialmente el proyecto se enfoca en el mercado peruano, con potencial de expansión a otros países de Latinoamérica.
-When (¿Cuándo?): el problema se ha intensificado en los últimos años, conforme las cadenas líderes han adoptado formatos inmersivos propietarios (4DX, D-BOX) como diferenciador frente a la competencia, ampliando la brecha de experiencia frente a las cadenas más pequeñas.
-Why (¿Por qué?): porque los proveedores actuales de tecnología inmersiva dirigen su modelo comercial principalmente a cadenas de gran escala, exigiendo una inversión de capital y una infraestructura técnica que las cadenas pequeñas y medianas no pueden asumir por sí solas.
-How (¿Cómo?): actualmente estas cadenas continúan operando salas convencionales sin posibilidad de diferenciarse en experiencia, lo que las expone a perder espectadores frente a cadenas más grandes o a otras formas de entretenimiento en el hogar.
-How Much (¿Cuánto?): el mercado de exhibición cinematográfica peruano está altamente concentrado en dos cadenas líderes, mientras que un conjunto de cadenas más pequeñas —como UVK Multicines (5 complejos a nivel nacional), Cinerama, Cine Star y Movie Time— compiten por una porción menor del mercado; dimensionar con precisión el impacto económico de esta brecha requiere profundizar con fuentes primarias (entrevistas) además de las fuentes secundarias consultadas.
+| Carrera | Integrante | Foto |
+|---|---|---|
+| Ingeniería de Software | **Edson Diego Llamozas Diaz**  U202319398 | ![Edson Diego Llamozas Diaz](assets/edson-llamozas.jpg) |
+| **Descripción** | Estudiante de Ingeniería de Software, interesado en los sistemas de bajo nivel y lenguaje de ensamblador. | |
 
-**Enunciado del problema**
+### 1.2. Solution Profile
 
-Las cadenas de cine pequeñas y medianas no pueden ofrecer experiencias de entretenimiento inmersivo comparables a las de las grandes cadenas, debido al alto costo de la tecnología propietaria existente en el mercado, a la falta de conocimiento técnico especializado para operarla y mantenerla, y a la ausencia de un software de gestión adecuado para su operación diaria. Esto las deja en desventaja competitiva frente a cadenas líderes que ya ofrecen este tipo de experiencia como diferenciador.
+#### 1.2.1. Antecedentes y problemática
 
-**Puntos más importantes que debe resolver la solución propuesta**
+### Descripción de los antecedentes
 
-Reducir la barrera de inversión de capital necesaria para adoptar tecnología de entretenimiento inmersivo.
-Suplir la falta de conocimiento técnico especializado del personal operativo mediante software de gestión simple y soporte de mantenimiento incluido.
-Permitir que el personal operativo programe funciones y perfiles de efectos sin fricción, integrando esta gestión con la operación diaria de la sala.
-Comunicar de forma clara la propuesta de valor a los tomadores de decisión de las cadenas de cine (Landing Page) y facilitar el paso de la evaluación a la contratación.
+La industria cinematográfica ha incorporado progresivamente tecnologías de entretenimiento inmersivo, como butacas con movimiento y efectos físicos sincronizados, con el propósito de ofrecer experiencias diferenciadas a los espectadores. Sin embargo, este tipo de soluciones se encuentra principalmente disponible en cadenas de cine de gran escala, debido a los elevados costos de adquisición, instalación, operación y mantenimiento.
 
-**Objetivos del proyecto**
+Como consecuencia, las cadenas pequeñas y medianas encuentran mayores dificultades para adoptar estas tecnologías y competir mediante experiencias inmersivas, especialmente cuando disponen de recursos económicos y técnicos más limitados.
 
-Diseñar y desarrollar una solución de software (Landing Page, Web Application y RESTful API) que dé soporte al modelo de negocio de Kinemo, permitiendo gestionar la programación de funciones, la sincronización de efectos y el mantenimiento de las salas.
-Validar la propuesta de valor y los Assumptions del modelo de negocio mediante entrevistas con gerentes/propietarios de cadenas de cine y con su personal operativo.
-Desplegar progresivamente versiones funcionales del producto digital a lo largo del ciclo académico, cumpliendo con los hitos AV1, TB1, AV2 y TB2.
+### Análisis 5W's y 2H's
 
-**Restricciones que delimitan el alcance del proyecto**
+**Who (¿Quién?):** Cadenas de cine pequeñas y medianas, operadas de forma independiente o con una cantidad reducida de complejos, así como su personal operativo y técnico, que actualmente no cuentan con tecnologías de entretenimiento inmersivo en sus salas.
 
-El alcance académico del proyecto se limita al desarrollo del software (Landing Page, Web Application, RESTful API); la fabricación física de butacas y actuadores de efectos se trata como un supuesto de negocio (Business Assumption), no como un entregable de ingeniería de software.
-El desarrollo se realiza dentro del calendario académico del ciclo 2026-20 (15 semanas).
-El backend debe implementarse en C# sobre ASP.NET Core, y el frontend en Vue, conforme a los lineamientos tecnológicos del curso.
-Las entrevistas y validaciones se limitan a 3–5 participantes por segmento objetivo, dado el carácter académico del proyecto.
+**What (¿Qué?):** La dificultad para ofrecer experiencias de cine inmersivo, como butacas con movimiento y efectos físicos sincronizados, comparables a las ofrecidas por grandes cadenas, debido al alto costo de inversión y a la necesidad de conocimientos técnicos especializados para operar y mantener estas tecnologías.
 
-#### 1.2.2 Lean UX Process
+**Where (¿Dónde?):** En salas de cine pertenecientes a cadenas pequeñas y medianas. Inicialmente, Kinemo orienta su propuesta al mercado peruano, considerando posteriormente la posibilidad de expansión hacia otros mercados latinoamericanos.
 
-#### 1.2.2 Lean UX Process
+**When (¿Cuándo?):** El problema se presenta principalmente cuando estas cadenas buscan modernizar sus salas y diferenciar su oferta, así como durante la operación cotidiana de funciones, programación de efectos y mantenimiento de los equipos.
 
-Para abordar el dominio del problema se aplicó el Lean UX Process, cuyo objetivo es validar de forma temprana y económica las creencias del equipo sobre el negocio, los usuarios y la solución antes de invertir en su construcción completa. A continuación se presenta el Problem Statement consolidado del proyecto, los Assumptions identificados por categoría, los Hypothesis Statements derivados de los Feature Assumptions, y finalmente el Lean UX Canvas que resume el proceso.
+**Why (¿Por qué?):** Porque las soluciones tradicionales de entretenimiento inmersivo suelen requerir inversiones elevadas, infraestructura especializada y personal capacitado, factores que dificultan su adopción por parte de cadenas pequeñas y medianas.
 
-##### 1.2.2.1 Lean UX Problem Statements
+**How (¿Cómo?):** Estas cadenas continúan operando principalmente salas convencionales y gestionando de forma poco integrada aspectos como programación, operación y mantenimiento, reduciendo sus posibilidades de incorporar experiencias inmersivas de manera accesible.
 
-El estado actual del dominio de **entretenimiento cinematográfico inmersivo** se ha enfocado principalmente en **cadenas de cine grandes**, que cuentan con el capital suficiente para adquirir tecnología propietaria de efectos sincronizados (butacas con movimiento, viento, aromas, entre otros), dejando de lado a las **cadenas de cine pequeñas y medianas**, cuyos puntos de dolor son la imposibilidad de competir en experiencia de usuario frente a las grandes cadenas, la falta de conocimiento técnico especializado para operar y mantener este tipo de tecnología, y flujos de trabajo de programación de funciones y mantenimiento de sala que siguen siendo manuales y desarticulados.
+**How Much (¿Cuánto?):** En 2023, el mercado peruano de exhibición cinematográfica registró aproximadamente 45,9 millones de espectadores y S/485 millones en ingresos de taquilla (Apoyo & Asociados, 2024). Cineplanet concentró el 56% de la recaudación total, mientras que Cinemark alcanzó el 19,5% y Cinestar el 9%, evidenciando una concentración importante del mercado. Las fuentes públicas consultadas no presentan una estimación específica del impacto económico que genera la falta de experiencias inmersivas en las cadenas de cine pequeñas y medianas del Perú.
 
-Lo que los productos y proveedores existentes de tecnología inmersiva (por ejemplo, soluciones propietarias de efectos 4D) no logran abordar es una **oferta integral y accesible** dirigida específicamente a cadenas pequeñas y medianas, que combine el hardware (butacas motorizadas y actuadores de efectos), el mantenimiento especializado y un software de gestión, bajo un modelo que no exija una inversión de capital equivalente a la de una gran cadena.
+### Enunciado del problema
 
-Nuestro producto/servicio abordará esta brecha ofreciendo una **solución llave en mano de entretenimiento inmersivo** —butacas con movimiento y efectos físicos sincronizados (viento, vibración, entre otros), servicio de mantenimiento y un software de gestión propio— bajo un modelo comercial más accesible que el de los proveedores tradicionales, permitiendo a cines pequeños y medianos ofrecer experiencias comparables a las de las grandes cadenas.
+Las cadenas de cine pequeñas y medianas presentan dificultades para incorporar experiencias de entretenimiento inmersivo debido al elevado costo de las soluciones existentes, la necesidad de personal técnico especializado y la falta de herramientas digitales integradas que permitan administrar su operación.
 
-Nuestro enfoque inicial será las **cadenas de cine pequeñas y medianas que actualmente no cuentan con salas de experiencia inmersiva**, junto con el personal operativo/técnico de dichas salas, responsable de la programación de funciones y del mantenimiento del equipamiento.
+Esta situación limita su capacidad para modernizar sus salas y ofrecer experiencias diferenciadas frente a cadenas de mayor escala.
 
-Sabremos que somos exitosos cuando veamos que estas cadenas de cine **contratan el servicio, programan funciones de forma recurrente en las salas inmersivas instaladas, renuevan sus contratos de mantenimiento, y reportan un incremento medible en la venta de entradas premium** en las salas equipadas con nuestra solución.
+### Puntos más importantes que debe resolver la solución propuesta
 
-##### 1.2.2.2 Lean UX Assumptions
+- Reducir la barrera de adopción de tecnologías de entretenimiento inmersivo para cadenas de cine pequeñas y medianas.
+- Facilitar al personal operativo la gestión de funciones y efectos inmersivos mediante una aplicación web.
+- Proporcionar herramientas para registrar y gestionar actividades relacionadas con el mantenimiento de las salas.
+- Centralizar en una misma solución digital los principales procesos asociados a la operación de las experiencias inmersivas.
+- Presentar mediante el Landing Page la propuesta de valor de Kinemo y dirigir a los segmentos objetivo hacia las funcionalidades correspondientes de la Web Application.
 
-**Business Assumptions**
-- Creemos que el mercado de cadenas de cine pequeñas y medianas en la región representa una oportunidad desatendida por los proveedores actuales de tecnología de entretenimiento inmersivo.
-- Creemos que un modelo de servicio (hardware + mantenimiento + software, en lugar de venta directa de equipos) reduce la barrera de inversión de capital para este segmento.
-- Creemos que podemos generar ingresos recurrentes mediante contratos de mantenimiento y actualizaciones periódicas del software de gestión.
-- Creemos que las cadenas de cine estarán dispuestas a firmar contratos de mediano/largo plazo a cambio de condiciones comerciales preferenciales.
-- Creemos que contamos con la capacidad organizativa para fabricar o ensamblar el hardware de las butacas y ofrecer soporte técnico continuo a múltiples salas simultáneamente.
+### Objetivos del proyecto
 
-**Business Outcome Assumptions**
-- Incremento en el número de contratos firmados con cadenas de cine (por ejemplo, de 0 a un número determinado de cadenas contratadas en un periodo de tiempo definido).
-- Reducción del tiempo promedio de instalación y puesta en marcha de una sala inmersiva.
-- Incremento en la tasa de renovación de los contratos de mantenimiento.
-- Reducción del costo de adquisición de clientes mediante referidos de cadenas que ya cuentan con la solución instalada.
-- Incremento del ingreso promedio por sala instalada gracias a servicios adicionales del software de gestión.
+- Diseñar y desarrollar una solución web que permita administrar la operación de experiencias cinematográficas inmersivas dirigidas a cadenas de cine pequeñas y medianas.
+- Permitir al personal operativo gestionar la programación de funciones, así como el control, la configuración y la sincronización de los efectos asociados a cada experiencia inmersiva.
+- Facilitar el seguimiento de actividades de mantenimiento relacionadas con la infraestructura inmersiva.
+- Proporcionar a los responsables de las cadenas de cine una solución digital centralizada que simplifique la gestión de estas experiencias.
+- Desarrollar una experiencia consistente entre el Landing Page y la Web Application, adaptable a distintos dispositivos.
 
-**User Assumptions**
-- Gerentes de operaciones y/o propietarios de cadenas de cine pequeñas y medianas, con poder de decisión sobre inversión en tecnología para sus salas.
-- Personal técnico/operativo de las salas de cine, responsable de configurar, programar y dar mantenimiento a las butacas y efectos.
-- Espectadores finales de las salas de cine, que asisten buscando una experiencia audiovisual más dinámica.
+### Restricciones que delimitan el alcance del proyecto
 
-**User Outcome and Benefit Assumptions**
-- Los gerentes de cadenas de cine desean diferenciar su oferta frente a cadenas más grandes sin realizar una inversión de capital prohibitiva.
-- El personal operativo desea contar con una herramienta simple para programar funciones y asignar perfiles de efectos sin requerir conocimiento técnico avanzado.
-- El personal operativo desea poder reportar y dar seguimiento a incidencias de mantenimiento de forma centralizada.
-- Los espectadores finales desean sentir que forman parte de la película mediante movimiento de butacas, viento y otras sensaciones físicas sincronizadas con el contenido.
+- El alcance académico comprende el desarrollo del Landing Page, la Web Application y el RESTful API que soportará el modelo de negocio de Kinemo. La fabricación física de butacas, actuadores u otros dispositivos de efectos inmersivos no forma parte de los entregables de software del proyecto.
+- El Landing Page debe desarrollarse utilizando HTML5, CSS3 y JavaScript.
+- La Web Application debe desarrollarse utilizando Vue Framework, HTML5, CSS3 y JavaScript, empleando PrimeVue para los componentes de interfaz.
+- Los Web Services deben seguir el estilo arquitectónico RESTful API y desarrollarse utilizando ASP.NET Core, Entity Framework Core y C#.
+- La solución debe contar con una interfaz web adaptable a las dimensiones de los dispositivos cliente.
+- La Web Application debe integrarse con el RESTful API desarrollado por el equipo y acceder además a por lo menos un servicio externo de terceros.
+- El desarrollo está limitado al periodo académico correspondiente al ciclo 2026-20.
 
-**Feature Assumptions**
-- Un panel de administración web que permita programar funciones y asignar perfiles de efectos a cada película.
-- Un motor de sincronización entre el contenido audiovisual y los efectos físicos (movimiento de butacas, viento, entre otros).
-- Un módulo de gestión de mantenimiento preventivo y correctivo del hardware instalado en cada sala.
-- Un dashboard de analítica sobre el uso, desempeño y estado de las salas instaladas.
-- Un Landing Page dirigido a cadenas de cine que comunique la propuesta de valor del negocio y permita solicitar una demostración o cotización.
+#### 1.2.2. Lean UX Process
 
-##### 1.2.2.3 Lean UX Hypothesis Statements
+Para abordar el dominio del problema se aplicó el Lean UX Process, cuyo objetivo es validar de forma temprana y económica las creencias del equipo sobre el negocio, los usuarios y la solución antes de invertir en su construcción completa.
 
-**H1**
-Creemos que lograremos incrementar el número de contratos firmados con cadenas de cine si los gerentes de operaciones de cadenas pequeñas y medianas logran evaluar y contratar el servicio de forma clara y rápida, con un panel de administración web que les permita programar funciones y asignar perfiles de efectos a cada película.
+A continuación se presenta el Problem Statement consolidado del proyecto, los Assumptions identificados por categoría, los Hypothesis Statements derivados de los Feature Assumptions y, finalmente, el Lean UX Canvas que resume el proceso.
 
-**H2**
-Creemos que lograremos incrementar la retención de clientes y la venta de entradas premium si los espectadores finales logran sentir que forman parte de la película, mediante un motor de sincronización entre el contenido audiovisual y los efectos físicos de las butacas.
+##### 1.2.2.1. Lean UX Problem Statements
 
-**H3**
-Creemos que lograremos incrementar la tasa de renovación de los contratos de mantenimiento si el personal operativo de las salas logra reportar y resolver incidencias de forma centralizada, con un módulo de gestión de mantenimiento preventivo y correctivo.
+El estado actual del mercado peruano de exhibición cinematográfica se encuentra concentrado principalmente en cadenas de mayor escala. En 2023, el mercado registró aproximadamente 45,9 millones de espectadores y S/485 millones en ingresos de taquilla, mientras que Cineplanet concentró el 56% de la recaudación, Cinemark el 19,5% y Cinestar el 9%.
 
-**H4**
-Creemos que lograremos incrementar el ingreso promedio por sala instalada si los gerentes de operaciones logran monitorear el desempeño de sus salas, con un dashboard de analítica sobre uso, desempeño y estado del hardware instalado.
+Dentro de este contexto, las cadenas pequeñas y medianas cuentan con menores recursos económicos y técnicos para incorporar tecnologías de entretenimiento inmersivo, como butacas con movimiento y efectos físicos sincronizados.
 
-**H5**
-Creemos que lograremos reducir el costo de adquisición de clientes si los gerentes de cadenas de cine logran conocer la propuesta de valor del negocio y solicitar una demostración de forma sencilla, con un Landing Page claro y orientado a su segmento.
+Lo que los productos y servicios existentes no logran abordar adecuadamente es una alternativa accesible dirigida específicamente a cadenas de cine pequeñas y medianas que combine la gestión de funciones inmersivas, la configuración de efectos y el seguimiento del mantenimiento dentro de una solución digital centralizada.
 
-##### 1.2.2.4 Lean UX Canvas
+Las soluciones actuales requieren inversiones elevadas, infraestructura especializada y personal técnico capacitado, lo que dificulta su adopción por organizaciones de menor escala.
+
+Kinemo abordará esta brecha mediante una propuesta de entretenimiento inmersivo orientada a cadenas pequeñas y medianas, acompañada de una solución digital compuesta por un Landing Page, una Web Application y un RESTful API.
+
+La aplicación permitirá centralizar procesos relacionados con la programación de funciones, la configuración de efectos y el seguimiento de actividades de mantenimiento, buscando simplificar la operación para el personal que no necesariamente cuenta con conocimientos técnicos especializados.
+
+El enfoque inicial estará dirigido a cadenas de cine pequeñas y medianas que operan en el mercado peruano y que actualmente no cuenten con tecnologías de entretenimiento inmersivo, considerando como usuarios principales a los responsables de la toma de decisiones y al personal operativo/técnico de sus salas.
+
+Las grandes cadenas que ya disponen de infraestructura inmersiva propia no forman parte del segmento inicial del proyecto.
+
+Dentro del alcance académico, Kinemo se limita al desarrollo de los componentes de software Landing Page, Web Application y RESTful API, por lo que la fabricación física de butacas, actuadores y otros dispositivos de efectos inmersivos no forman parte de los entregables del proyecto.
+
+La solución deberá cumplir con las tecnologías y condiciones establecidas por el curso, incluyendo una interfaz responsive, integración con el RESTful API desarrollado por el equipo y acceso a un servicio externo de terceros.
+
+Sabremos que la propuesta es exitosa cuando los representantes de cadenas pequeñas y medianas logren identificar claramente la propuesta de valor de Kinemo y manifiesten intención de evaluar su contratación, mientras que el personal operativo y técnico logre completar satisfactoriamente los principales flujos de programación de funciones, configuración de efectos y seguimiento de mantenimiento mediante la Web Application.
+
+A nivel del modelo de negocio, el éxito se evidenciará posteriormente mediante la adopción recurrente de estas funcionalidades y la continuidad del servicio por parte de las cadenas.
+
+##### 1.2.2.2. Lean UX Assumptions
+
+###### Business Assumptions
+
+- Creemos que existe una oportunidad de mercado en cadenas de cine pequeñas y medianas del Perú que actualmente no cuentan con tecnología de entretenimiento inmersivo y que consideran demasiado elevada la inversión requerida por soluciones propietarias orientadas a grandes cadenas.
+- Creemos que un modelo comercial que integre hardware, mantenimiento y software de gestión puede reducir la barrera de entrada frente a una compra tradicional de equipamiento, al distribuir el costo del servicio durante el tiempo de contratación.
+- Creemos que las cadenas de cine pequeñas y medianas valorarán más una propuesta integral que incluya instalación, soporte técnico y software de gestión que la adquisición aislada de hardware inmersivo.
+- Creemos que Kinemo puede generar ingresos recurrentes mediante contratos de mantenimiento, soporte técnico y acceso continuo a funcionalidades del software de gestión.
+- Creemos que las cadenas estarán dispuestas a mantener contratos de mediano o largo plazo si perciben que la solución reduce el riesgo operativo, simplifica el mantenimiento y les permite ofrecer una experiencia diferenciada a sus espectadores.
+- Creemos que Kinemo podrá escalar progresivamente su operación siempre que estandarice los procesos de instalación, mantenimiento y soporte para atender más de una sala sin requerir un equipo técnico exclusivo por cada complejo.
+
+###### Business Outcome Assumptions
+
+- Creemos que una mayor claridad en la propuesta de valor facilitará que los gerentes comprendan los beneficios de Kinemo y avancen hacia la contratación y uso de los servicios digitales ofrecidos.
+- Creemos que una operación más centralizada permitirá reducir el tiempo dedicado por el personal técnico a coordinar manualmente la programación de funciones y el seguimiento de incidencias.
+- Creemos que una gestión estructurada del mantenimiento contribuirá a reducir el tiempo de atención de incidencias y el periodo de inactividad de una sala cuando presente una falla.
+- Creemos que una experiencia satisfactoria de uso del sistema aumentará la probabilidad de renovación de los contratos de mantenimiento y servicio.
+- Creemos que la incorporación de funcionalidades adicionales, como analítica operativa y seguimiento del estado de salas, puede aumentar el valor percibido del servicio y el ingreso generado por cada sala contratada.
+
+###### User Assumptions
+
+- Creemos que los gerentes de operaciones y propietarios de cadenas de cine pequeñas y medianas son los principales responsables de evaluar la inversión, comparar proveedores y aprobar la contratación de nuevas tecnologías para sus salas.
+- Creemos que estos gerentes necesitan comprender con claridad el costo, los beneficios, los requerimientos técnicos y el soporte incluido antes de considerar la adopción de una solución inmersiva.
+- Creemos que el personal operativo y técnico es responsable de actividades como programación de funciones, supervisión de sala, configuración de equipos y reporte de incidencias.
+- Creemos que parte del personal operativo no cuenta con conocimientos especializados en sistemas de entretenimiento inmersivo y necesita una herramienta fácil de aprender y utilizar.
+
+###### User Outcome and Benefit Assumptions
+
+- Creemos que los gerentes desean diferenciar la oferta de sus cines frente a cadenas de mayor escala sin asumir una inversión inicial que comprometa significativamente su presupuesto.
+- Creemos que los gerentes necesitan reducir la incertidumbre asociada a la adopción de nueva tecnología mediante información clara sobre soporte, mantenimiento y funcionamiento del servicio.
+- Creemos que el personal operativo desea programar funciones y configurar los efectos asociados sin depender constantemente de especialistas externos.
+- Creemos que el personal técnico desea registrar, consultar y dar seguimiento a incidencias desde un único sistema, evitando depender de comunicaciones dispersas por llamadas, mensajes u otros medios.
+- Creemos que el personal operativo se beneficiará de una interfaz simple que reduzca el tiempo necesario para realizar tareas frecuentes de programación y supervisión.
+
+###### Feature Assumptions
+
+- Creemos que un panel de administración web que permita crear, consultar y modificar la programación de funciones ayudará al personal operativo a gestionar las actividades diarias de la sala desde un único sistema.
+- Creemos que una funcionalidad para asignar y configurar perfiles de efectos por película o función reducirá la necesidad de realizar configuraciones manuales repetitivas.
+- Creemos que un mecanismo de sincronización entre el contenido audiovisual y los efectos físicos permitirá ejecutar de forma coordinada movimientos de butacas, viento, vibración y otros efectos definidos para cada experiencia.
+- Creemos que un módulo de mantenimiento permitirá registrar incidencias, consultar su estado y dar seguimiento a actividades preventivas y correctivas de cada sala.
+- Creemos que un dashboard con indicadores sobre uso, funcionamiento e incidencias permitirá a los responsables de la cadena supervisar el estado general de sus salas.
+- Creemos que una experiencia responsive permitirá que gerentes y personal operativo accedan a las principales funcionalidades desde distintos dispositivos.
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### H1 - Gestión de programación de funciones
+
+Creemos que lograremos reducir el tiempo dedicado a la coordinación manual de la programación de funciones si el personal operativo y técnico de las salas de cine logra gestionar las actividades diarias de programación desde un único sistema, mediante un panel de administración web que permita crear, consultar y modificar la programación de funciones.
+
+#### H2 - Configuración de perfiles de efectos
+
+Creemos que lograremos reducir el tiempo dedicado a tareas operativas repetitivas si el personal operativo de las salas de cine logra configurar los efectos asociados a cada función sin depender constantemente de especialistas externos, mediante una funcionalidad que permita asignar y configurar perfiles de efectos por película o función.
+
+#### H3 - Sincronización de efectos inmersivos
+
+Creemos que lograremos mejorar la eficiencia de la operación de las experiencias inmersivas si el personal operativo y técnico logra ejecutar los efectos físicos de forma coordinada con el contenido audiovisual, mediante un mecanismo de sincronización entre el contenido audiovisual y los movimientos de butacas, viento, vibración y otros efectos configurados.
+
+#### H4 - Gestión de mantenimiento
+
+Creemos que lograremos reducir el tiempo de atención de incidencias y los periodos de inactividad de las salas si el personal técnico y operativo logra registrar, consultar y dar seguimiento a las incidencias desde un único sistema, mediante un módulo de gestión de mantenimiento preventivo y correctivo.
+
+#### H5 - Dashboard de supervisión
+
+Creemos que lograremos aumentar el valor percibido del servicio y facilitar una gestión más centralizada de las salas si los gerentes de operaciones y responsables de las cadenas de cine logran supervisar el funcionamiento y estado de sus salas con información centralizada, mediante un dashboard con indicadores de uso, funcionamiento e incidencias.
+
+#### H6 - Experiencia responsive
+
+Creemos que lograremos mejorar la experiencia de uso del sistema y aumentar la probabilidad de continuidad en el uso del servicio si los gerentes y el personal operativo logran acceder y realizar sus principales tareas desde distintos dispositivos, mediante una Web Application responsive adaptada a diferentes dimensiones de pantalla.
+
+#### 1.2.2.4. Lean UX Canvas
 
 | Bloque | Contenido |
 |---|---|
-| **1. Business Problem** | Las cadenas de cine pequeñas y medianas no pueden ofrecer experiencias de entretenimiento inmersivo comparables a las de las grandes cadenas, debido al alto costo de la tecnología propietaria, la falta de conocimiento técnico especializado y la ausencia de un software de gestión adecuado. |
-| **2. Business Outcomes** | Incremento en el número de cadenas de cine contratadas; incremento en el ingreso promedio por sala instalada; incremento en la tasa de renovación de contratos de mantenimiento; reducción del costo de adquisición de clientes. |
-| **3. Users** | Gerentes de operaciones/propietarios de cadenas de cine pequeñas y medianas; personal técnico/operativo de las salas de cine; espectadores finales de las salas de cine. |
-| **4. User Outcomes & Benefits** | Diferenciación competitiva sin alta inversión de capital (gerentes); simplicidad operativa en la programación y mantenimiento de salas (personal operativo); mayor inmersión y disfrute de la experiencia (espectadores finales). |
-| **5. Solutions** | Butacas con movimiento y efectos físicos sincronizados; servicio de mantenimiento especializado; software de gestión (panel de programación de funciones, motor de sincronización, módulo de mantenimiento, dashboard de analítica); Landing Page y Web Application. |
-| **6. Hypotheses** | H1 a H5 (ver sección 1.2.2.3), priorizadas según su impacto en los Business Outcomes definidos. |
-| **7. What's the most important thing we need to learn first?** | Si los gerentes de cadenas de cine pequeñas y medianas perciben la solución integral (hardware + mantenimiento + software) como suficientemente accesible y valiosa como para justificar la contratación frente a no invertir en tecnología inmersiva. |
-| **8. What's the least amount of work we need to do to learn the next most important thing?** | Realizar entrevistas de validación con gerentes de cadenas de cine pequeñas/medianas presentando el concepto de la solución y un prototipo de baja fidelidad del panel de administración y del Landing Page, para medir su nivel de interés y disposición a contratar. |
+| **1. Business Problem** | Las cadenas de cine pequeñas y medianas del Perú presentan dificultades para incorporar experiencias de entretenimiento inmersivo debido al elevado costo de las soluciones existentes, la necesidad de conocimientos técnicos especializados y la falta de herramientas digitales centralizadas para gestionar su operación. Esta situación limita su capacidad para modernizar sus salas y diferenciarse frente a cadenas de mayor escala. |
+| **2. Business Outcomes** | Reducir el tiempo dedicado a la coordinación manual de la programación de funciones; reducir el tiempo de atención de incidencias y los periodos de inactividad de las salas; mejorar la eficiencia de la operación de experiencias inmersivas; aumentar el valor percibido del servicio; y favorecer la continuidad en el uso y renovación del servicio. |
+| **3. Users** | Gerentes de operaciones y propietarios de cadenas de cine pequeñas y medianas. Personal operativo y técnico responsable de la programación, configuración, supervisión y mantenimiento de las salas. |
+| **4. User Outcomes & Benefits** | Los gerentes buscan diferenciar la oferta de sus cines sin asumir una inversión inicial elevada y reducir la incertidumbre asociada a la adopción de tecnología inmersiva. El personal operativo y técnico busca gestionar la programación, configuración de efectos y mantenimiento desde un único sistema, reduciendo tareas manuales y la dependencia constante de especialistas externos. |
+| **5. Solutions** | Panel de administración web para gestionar la programación de funciones; funcionalidad para asignar y configurar perfiles de efectos; mecanismo de sincronización entre contenido audiovisual y efectos físicos; módulo de mantenimiento preventivo y correctivo; dashboard de supervisión del estado de las salas; Web Application responsive y Landing Page integrado con la experiencia web. |
+| **6. Hypotheses** | H1 - Gestión de programación de funciones; H2 - Configuración de perfiles de efectos; H3 - Sincronización de efectos inmersivos; H4 - Gestión de mantenimiento; H5 - Dashboard de supervisión; H6 - Experiencia responsive. |
+| **7. What's the most important thing we need to learn first?** | Si las cadenas de cine pequeñas y medianas consideran que una solución que centralice programación, configuración de efectos y mantenimiento puede reducir la complejidad operativa y facilitar la adopción de experiencias inmersivas. |
+| **8. What's the least amount of work we need to do to learn the next most important thing?** | Validar inicialmente con representantes de los segmentos objetivo un prototipo de baja fidelidad de los principales flujos de la Web Application y del Landing Page, para evaluar si la propuesta resulta comprensible, útil y adecuada para sus necesidades operativas y de gestión. |
 
-### 1.3 Segmentos objetivo
+### 1.3. Segmentos objetivo
 
+El proyecto Kinemo considera dos segmentos objetivo principales dentro del mercado de exhibición cinematográfica: los responsables de la toma de decisiones en cadenas de cine pequeñas y medianas, y el personal operativo/técnico encargado de la gestión diaria de las salas. La selección de ambos segmentos responde a su participación directa en la adopción, gestión y operación de soluciones de entretenimiento inmersivo.
 
-El mercado de exhibición cinematográfica en Perú está altamente concentrado: dos cadenas líderes —Cineplanet y Cinemark— capturan en conjunto más de dos tercios de la cuota de mercado, mientras que un grupo de cadenas más pequeñas (UVK Multicines, Cinerama, Cine Star, Movie Time, entre otras) se reparten el resto. Kinemo se enfoca en este segundo grupo, que compite en un mercado dominado por actores de mayor escala sin contar con presupuesto propio para adoptar tecnología inmersiva por su cuenta.
+En 2023, el mercado peruano de exhibición cinematográfica registró aproximadamente 45,9 millones de espectadores y S/485 millones en ingresos de taquilla. Cineplanet concentró el 56% de la recaudación total, Cinemark el 19,5% y Cinestar el 9%, evidenciando una concentración importante del mercado en las principales cadenas. Este contexto permite identificar oportunidades para cadenas de menor escala que buscan modernizar y diferenciar su oferta.
 
-**Segmento 1: Gerentes de Operaciones / Propietarios de cadenas de cine pequeñas y medianas**
+#### Segmento 1: Gerentes de Operaciones / Propietarios de cadenas de cine pequeñas y medianas
 
-**Perfil firmográfico**
-- Cadenas peruanas independientes o familiares con entre 1 y 10 complejos a nivel nacional (ejemplo de referencia: UVK Multicines, con 5 complejos a nivel nacional).
-- Cuota de mercado individual minoritaria frente a los líderes del sector, generalmente concentradas en Lima con posible presencia en provincias.
-- Sin tecnología de entretenimiento inmersivo instalada actualmente en ninguno de sus complejos.
+Este segmento está conformado por las personas responsables de evaluar inversiones, seleccionar proveedores y tomar decisiones relacionadas con la incorporación de nuevas tecnologías en cadenas de cine pequeñas y medianas.
 
-**Perfil demográfico del tomador de decisión**
+##### Perfil empresarial
+
+- Responsables de cadenas de cine pequeñas y medianas que operan en el mercado peruano.
+- Organizaciones con menor participación de mercado y menor capacidad de inversión que las principales cadenas del sector.
+- Cadenas que actualmente no cuentan con infraestructura de entretenimiento inmersivo o cuya incorporación representa una inversión elevada.
+
+##### Perfil demográfico
+
 - Edad aproximada: 35–55 años.
 - Rol: Gerente General, Gerente de Operaciones o Propietario/Socio de la cadena.
-- Nivel educativo: superior universitario, frecuentemente con formación en administración o gestión de negocios.
-- Ubicación: principalmente Lima Metropolitana, con posibilidad de gerencias regionales en otras ciudades.
+- Ubicación: principalmente Lima Metropolitana y otras ciudades donde operen los complejos de la cadena.
 
-> Las motivaciones y frustraciones de este segmento se plantean como Assumptions en la sección 1.2.2.2 y se validarán con datos reales al construir el User Persona correspondiente en la sección 2.3.1, una vez realizadas las entrevistas.
+Las características demográficas específicas, así como las motivaciones, frustraciones, objetivos y comportamientos de este segmento, serán contrastadas posteriormente mediante las entrevistas y el análisis correspondiente del Capítulo II.
 
-**Segmento 2: Personal Operativo / Técnico de las salas de cine**
+#### Segmento 2: Personal Operativo / Técnico de las salas de cine
 
-**Perfil demográfico**
+Este segmento está conformado por los trabajadores responsables de las actividades operativas y técnicas necesarias para el funcionamiento cotidiano de las salas de cine.
+
+##### Perfil laboral
+
+- Personal encargado de la operación cotidiana de las salas.
+- Participa en tareas como programación de funciones, supervisión de salas, configuración de equipos y seguimiento de incidencias.
+- Incluye roles como jefe de sala, coordinador de operaciones, técnico de mantenimiento o proyeccionista.
+
+##### Perfil demográfico
+
 - Edad aproximada: 20–40 años.
-- Rol: Jefe de sala, coordinador de operaciones, técnico de mantenimiento o proyeccionista.
-- Nivel educativo: variable, desde educación técnica hasta universitaria; no necesariamente con formación en tecnología.
-- Ubicación: en el mismo complejo de cine donde trabaja, dentro del área de influencia de la cadena.
+- Ubicación: trabajan principalmente en los complejos de cine donde realizan sus actividades operativas.
 
-
-
-**Segmento 2: Personal Operativo / Técnico de las salas de cine**
-
-
+Las características demográficas, tecnológicas, laborales y de comportamiento de este segmento serán validadas posteriormente mediante las entrevistas y el análisis estadístico realizado en el Capítulo II.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
@@ -522,47 +604,614 @@ Link de Trello: https://trello.com/invite/b/6ac2a2ced29ee515d72506f0/ATTIe716a18
 
 ## Capítulo IV: Product Design
 
-### 4.1 Style Guidelines
+### 4.1. Style Guidelines
 
-#### 4.1.1 General Style Guidelines
+En esta sección se establecen los lineamientos visuales y de comunicación utilizados en Kinemo. Estos lineamientos permiten mantener una identidad consistente en los productos digitales del proyecto, definiendo criterios para el uso de la marca, tipografía y paleta de colores.
 
-> _Pendiente — completar en `feature/style-guidelines`._
+La propuesta visual de Kinemo busca transmitir innovación, tecnología y entretenimiento inmersivo. Para ello, se emplea una interfaz predominantemente oscura acompañada de tonos morados que permiten destacar los elementos principales y mantener una estética relacionada con la experiencia cinematográfica.
+
+#### 4.1.1. General Style Guidelines
+
+##### Branding
+
+**Concepto de Marca**
+
+Kinemo es una propuesta tecnológica orientada a mejorar la gestión de experiencias cinematográficas 4D. Su identidad visual busca representar conceptos como tecnología, movimiento, inmersión y modernidad mediante una estética minimalista y digital.
+
+El sistema visual de la marca combina fondos oscuros con acentos morados, generando contraste entre el contenido y los principales elementos interactivos. Esta combinación permite mantener una apariencia moderna y coherente con el entorno cinematográfico en el que se desarrolla la propuesta.
+
+**Logotipo Principal**
+
+![Logotipo de Kinemo](../assets/img/4_1_1-General-Style/01-logo-kinemo.png)
+
+El logotipo de Kinemo está compuesto por un símbolo gráfico acompañado del nombre de la marca. Su diseño mantiene una composición simple y reconocible que facilita su integración dentro de la interfaz de la landing page.
+
+El símbolo utiliza el color morado característico de Kinemo, mientras que el nombre emplea un tono claro para mantener un contraste adecuado sobre fondos oscuros. Esta combinación permite conservar la identidad visual utilizada en el resto de la interfaz.
+
+---
+
+##### Typography
+
+Kinemo utiliza **Inter** como familia tipográfica principal en su interfaz. Esta tipografía fue seleccionada por su legibilidad en entornos digitales y por su apariencia moderna, permitiendo mantener consistencia entre títulos, textos descriptivos, botones, etiquetas y elementos de navegación.
+
+La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependiendo de la importancia del contenido. Los títulos principales emplean pesos elevados para generar mayor impacto visual, mientras que los textos descriptivos utilizan pesos regulares que facilitan la lectura.
+
+![Sistema tipográfico de Kinemo](../assets/img/4_1_1-General-Style/02-typography.png)
+
+| Uso | Familia | Peso | Aplicación |
+| --- | --- | --- | --- |
+| **Hero / Display** | Inter | 800 | Mensaje principal de la landing page |
+| **H1** | Inter | 700-800 | Títulos principales |
+| **H2** | Inter | 700-800 | Títulos de secciones |
+| **H3** | Inter | 600-700 | Títulos de tarjetas y componentes |
+| **Body** | Inter | 400 | Descripciones y contenido general |
+| **Labels** | Inter | 600-700 | Etiquetas y categorías |
+| **Navigation** | Inter | 500-600 | Opciones de navegación |
+| **Buttons** | Inter | 600-700 | Llamados a la acción |
+
+Esta jerarquía permite diferenciar visualmente los distintos niveles de información y facilita el recorrido del usuario a través de las secciones de la plataforma.
+
+---
+
+##### Color Palette
+
+La identidad visual de Kinemo utiliza una paleta predominantemente oscura con tonos morados como colores de acento. Los fondos oscuros permiten crear una apariencia asociada con el ambiente cinematográfico, mientras que los tonos morados destacan botones, etiquetas y otros elementos relevantes de la interfaz.
+
+![Paleta de colores de Kinemo](../assets/img/4_1_1-General-Style/03-color-palette.png)
+
+**Paleta Principal**
+
+| Color | HEX | RGB | Uso Principal |
+| --- | --- | --- | --- |
+| **Fondo Principal** | `#0E0F17` | 14, 15, 23 | Fondo general de la interfaz |
+| **Fondo de Tarjetas** | `#16171E` | 22, 23, 30 | Cards y contenedores |
+| **Fondo Secundario** | `#20212C` | 32, 33, 44 | Elementos secundarios |
+| **Morado Principal** | `#8B5CF6` | 139, 92, 246 | CTAs y elementos destacados |
+| **Morado Claro** | `#A78BFA` | 167, 139, 250 | Acentos, etiquetas y estados activos |
+| **Blanco** | `#FFFFFF` | 255, 255, 255 | Títulos y texto principal |
+
+**Colores Complementarios**
+
+| Color | HEX | Uso Principal |
+| --- | --- | --- |
+| **Estado Activo** | `#272338` | Fondos de elementos seleccionados o destacados |
+| **Texto Secundario** | `#94A3B8` | Descripciones y contenido de menor jerarquía |
+| **Bordes** | `#2D2F45` | Separadores y contornos de componentes |
+| **Borde Activo** | `#3B385D` | Contornos de elementos activos |
+| **Éxito** | `#22C55E` | Estados correctos o resueltos |
+| **Advertencia** | `#EAB308` | Alertas y estados en progreso |
+
+**Justificación Cromática**
+
+La combinación de colores utilizada en Kinemo responde a las características visuales y funcionales de la plataforma:
+
+- **Fondos oscuros:** permiten relacionar visualmente la interfaz con el ambiente de una sala de cine y ayudan a destacar el contenido principal.
+- **Morado principal:** funciona como el color representativo de Kinemo y se utiliza para resaltar acciones, elementos interactivos y secciones importantes.
+- **Morado claro:** complementa el color principal y permite generar diferentes niveles de énfasis.
+- **Blanco:** se utiliza principalmente en títulos y textos que requieren alta visibilidad sobre fondos oscuros.
+- **Gris azulado:** se emplea para información secundaria, evitando competir visualmente con los títulos y llamados a la acción.
+- **Verde y amarillo:** permiten diferenciar estados funcionales dentro de los componentes de la plataforma.
+
+El uso consistente de esta paleta permite mantener una identidad visual uniforme entre las diferentes secciones de Kinemo.
+
+---
+
+##### Communication Tone
+
+La comunicación de Kinemo mantiene un tono profesional, tecnológico y directo. Los mensajes buscan explicar las capacidades de la plataforma de forma breve y comprensible, evitando descripciones excesivamente técnicas cuando no son necesarias.
+
+La comunicación de la marca se centra principalmente en:
+
+- La innovación aplicada a experiencias cinematográficas 4D.
+- La facilidad de gestión de las salas.
+- La sincronización de efectos y tecnología inmersiva.
+- El monitoreo y análisis de información.
+- La mejora de la experiencia cinematográfica.
+- La presentación clara de los beneficios de la plataforma.
+
+Los llamados a la acción utilizan expresiones breves y reconocibles, facilitando que el usuario comprenda rápidamente cuál es el siguiente paso dentro de la landing page.
+
+---
+
+##### General Visual Identity
+
+La identidad visual de Kinemo mantiene una composición moderna y minimalista. Las interfaces priorizan espacios amplios, tarjetas claramente diferenciadas, bordes sutiles y una jerarquía visual basada en contraste, tamaño y peso tipográfico.
+
+Los elementos más importantes utilizan el morado principal para captar la atención del usuario, mientras que los fondos y elementos secundarios mantienen tonalidades oscuras. De esta manera, el diseño evita una saturación visual excesiva y conserva una apariencia uniforme en toda la experiencia.
+
+Las decisiones generales de diseño siguen los siguientes criterios:
+
+- Uso consistente de la familia tipográfica Inter.
+- Fondos oscuros como base de la interfaz.
+- Morado como principal color de identidad y acción.
+- Uso de blanco para información de alta jerarquía.
+- Uso de tonos secundarios para descripciones y contenido complementario.
+- Bordes y contenedores sutiles para organizar la información.
+- Diseño visual coherente con un producto tecnológico orientado al entretenimiento cinematográfico.
 
 #### 4.1.2 Web Style Guidelines
 
 > _Pendiente — completar en `feature/style-guidelines`._
 
-### 4.2 Information Architecture
+### 4.2. Information Architecture
 
-#### 4.2.1 Organization Systems
+La arquitectura de información de Kinemo define la forma en que el contenido y las funcionalidades se organizan, etiquetan y presentan dentro de sus productos digitales. Su objetivo es facilitar la comprensión de la plataforma y permitir que cada usuario encuentre las funcionalidades necesarias de acuerdo con el contexto en el que se encuentra.
 
-> _Pendiente — completar en `feature/information-architecture`._
+Kinemo cuenta con dos interfaces principales: la **Landing Page**, orientada a presentar públicamente la propuesta de valor del producto, y la **Web Application**, orientada a la gestión y operación de las experiencias cinematográficas 4D.
 
-#### 4.2.2 Labeling Systems
+La Landing Page utiliza una estructura principalmente lineal, donde el visitante puede conocer progresivamente la plataforma, el equipo, los planes disponibles y las alternativas de contacto. Por otro lado, la Web Application utiliza una organización modular, permitiendo acceder a diferentes funcionalidades relacionadas con la operación de las salas de cine.
 
-> _Pendiente — completar en `feature/information-architecture`._
+---
 
-#### 4.2.3 SEO Tags and Meta Tags
+#### 4.2.1. Organization Systems
 
-> _Pendiente — completar en `feature/information-architecture`._
+Kinemo utiliza diferentes sistemas de organización dependiendo del producto digital y del tipo de información presentada.
 
-#### 4.2.4 Searching Systems
+##### Landing Page
 
-> _Pendiente — completar en `feature/information-architecture`._
+La Landing Page emplea principalmente un **sistema de organización por tópicos**, donde cada sección agrupa información relacionada con un aspecto específico de Kinemo.
 
-#### 4.2.5 Navigation Systems
+La estructura principal se organiza de la siguiente manera:
 
-> _Pendiente — completar en `feature/information-architecture`._
+| Tópico | Descripción |
+| --- | --- |
+| **Home** | Presenta la propuesta de valor principal de Kinemo y las acciones iniciales disponibles para el visitante. |
+| **Platform** | Expone las principales capacidades de la solución para la gestión de experiencias cinematográficas 4D. |
+| **About Us** | Presenta al equipo responsable del desarrollo de Kinemo. |
+| **Pricing** | Permite conocer y comparar los diferentes planes disponibles. |
+| **Contact** | Presenta la llamada a la acción final para iniciar el contacto con Kinemo. |
+| **Terms and Conditions** | Proporciona acceso a la información relacionada con las condiciones de uso del servicio. |
+
+El contenido mantiene una organización jerárquica que comienza presentando qué es Kinemo, continúa explicando sus principales capacidades y finaliza con información comercial y de contacto.
+
+**Home**
+
+La sección inicial comunica de manera directa la propuesta de valor de Kinemo como tecnología orientada a experiencias cinematográficas 4D. Incluye los llamados a la acción **Get Started** y **Learn More**, permitiendo al visitante continuar su recorrido hacia las secciones principales.
+
+**Platform**
+
+Las capacidades principales de Kinemo se organizan en cuatro categorías:
+
+- Effects Synchronization.
+- Simplified Management Software.
+- Maintenance Incident Control.
+- Performance Analytics.
+
+La sección complementa estas categorías mediante elementos visuales relacionados con la sincronización de salas y el seguimiento de incidencias.
+
+**About Us**
+
+Presenta a los integrantes responsables del desarrollo de Kinemo mediante tarjetas individuales que contienen fotografía, nombre e información de identificación académica.
+
+**Pricing**
+
+Organiza las alternativas comerciales de Kinemo en tres planes:
+
+- Starter.
+- Growth.
+- Enterprise.
+
+Esta estructura permite comparar visualmente las características y alcance de cada alternativa.
+
+**Contact**
+
+Representa el cierre del recorrido principal de la Landing Page. Su propósito es dirigir al visitante hacia una acción concreta relacionada con el inicio del servicio o contacto comercial.
+
+---
+
+##### Web Application
+
+La Web Application utiliza un **sistema de organización jerárquico y modular**. Después de autenticarse, el usuario accede al Dashboard, desde donde puede ingresar a los diferentes módulos de la plataforma según las tareas que necesite realizar.
+
+La estructura general identificada en la aplicación es:
+
+| Módulo | Propósito |
+| --- | --- |
+| **Sign In** | Permite autenticar al usuario mediante correo electrónico y contraseña. |
+| **Dashboard** | Funciona como punto central de acceso a las funcionalidades de la aplicación. |
+| **Catalog** | Agrupa las funcionalidades relacionadas con la gestión del catálogo de contenido 4D. |
+| **Scheduling** | Agrupa las funcionalidades relacionadas con la programación de funciones. |
+| **Room Readiness** | Permite acceder a funcionalidades relacionadas con la preparación y disponibilidad de las salas. |
+| **Maintenance** | Agrupa las funcionalidades relacionadas con el mantenimiento y seguimiento de incidencias. |
+| **Subscription** | Permite acceder a las funcionalidades relacionadas con planes y suscripciones. |
+| **Profile** | Presenta información relacionada con el usuario y su rol dentro de la plataforma. |
+| **About** | Proporciona información complementaria sobre Kinemo. |
+
+El Dashboard funciona como el nivel principal de la jerarquía después del inicio de sesión y presenta accesos a diferentes módulos mediante tarjetas.
+
+En la interfaz se distinguen funcionalidades destinadas a la administración y operación de Kinemo. Entre los accesos mostrados se encuentran módulos relacionados con catálogo, programación, salas, ticketing, analítica, suscripción, control de asientos, ejecución y mantenimiento.
+
+De esta manera, el usuario no necesita recorrer una secuencia lineal como en la Landing Page, sino que puede seleccionar directamente el módulo correspondiente a la tarea que desea realizar.
+
+---
+
+#### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Kinemo utiliza términos breves y relacionados directamente con las funcionalidades que representan. Se busca evitar nombres ambiguos y mantener consistencia entre los enlaces de navegación, botones, módulos y secciones.
+
+##### Landing Page
+
+Las principales etiquetas utilizadas son:
+
+| Etiqueta | Propósito |
+| --- | --- |
+| **Platform** | Identifica la sección donde se presentan las capacidades principales de Kinemo. |
+| **About Us** | Identifica la sección donde se presenta el equipo del proyecto. |
+| **Pricing** | Identifica la sección de planes y precios. |
+| **Contact** | Identifica la sección destinada al contacto con Kinemo. |
+| **Get Started** | CTA principal que dirige al visitante hacia el inicio del proceso de contacto. |
+| **Learn More** | CTA secundario que permite conocer las funcionalidades de la plataforma. |
+| **Most Popular** | Destaca visualmente el plan comercial recomendado. |
+| **EN / ES** | Permite seleccionar el idioma de la interfaz. |
+| **Terms and Conditions** | Permite acceder a las condiciones de uso correspondientes. |
+
+##### Web Application
+
+Dentro de la aplicación se utilizan etiquetas orientadas a las tareas que puede realizar el usuario.
+
+| Etiqueta | Propósito |
+| --- | --- |
+| **Sign In** | Acción utilizada para iniciar sesión. |
+| **Dashboard** | Identifica el punto principal de acceso a los módulos. |
+| **Operations** | Agrupa accesos relacionados con las operaciones de las salas. |
+| **Maintenance** | Identifica las funcionalidades relacionadas con mantenimiento. |
+| **Analytics** | Identifica el acceso a información y análisis del funcionamiento de la plataforma. |
+| **Catalog** | Identifica el módulo de gestión del catálogo 4D. |
+| **Scheduling** | Identifica el módulo relacionado con programación. |
+| **Room Readiness** | Identifica las funcionalidades de preparación de salas. |
+| **Subscription** | Identifica la gestión de planes y suscripciones. |
+| **Profile** | Identifica la información asociada al usuario autenticado. |
+| **EN / ES** | Permite alternar el idioma de la aplicación. |
+
+Las etiquetas mantienen una relación directa con las acciones y contenidos disponibles para reducir el esfuerzo necesario para comprender la interfaz.
+
+Además, los módulos del Dashboard utilizan elementos visuales e iconos como apoyo a las etiquetas textuales, facilitando su reconocimiento.
+
+---
+
+#### 4.2.3. SEO Tags and Meta Tags
+
+La estrategia SEO de Kinemo se aplica principalmente a la **Landing Page**, debido a que corresponde a la interfaz pública del producto y funciona como uno de los principales puntos de entrada para potenciales clientes interesados en soluciones tecnológicas para experiencias cinematográficas 4D.
+
+Por otro lado, la **Web Application** posee un propósito principalmente operativo y requiere autenticación para acceder a sus funcionalidades. Por esta razón, su contenido interno no constituye el principal objetivo de posicionamiento en motores de búsqueda.
+
+##### Landing Page
+
+Para la Landing Page se consideran etiquetas orientadas a describir correctamente el contenido del sitio, facilitar su indexación y mejorar la forma en que Kinemo se presenta al compartir la página en plataformas externas.
+
+Las principales etiquetas consideradas son:
+
+- **Title:** identifica el sitio y comunica que Kinemo está relacionado con tecnología para cine 4D.
+- **Description:** resume la propuesta de valor de Kinemo, incluyendo la gestión de asientos de movimiento, efectos sincronizados y analítica.
+- **Keywords:** documenta términos relacionados con tecnología de cine 4D, gestión de salas y experiencias inmersivas.
+- **Author:** identifica al equipo responsable del producto.
+- **Robots:** establece las indicaciones de indexación y seguimiento para los motores de búsqueda.
+- **Canonical:** identifica la URL principal de la Landing Page.
+- **Open Graph:** define cómo se presenta Kinemo al compartir la página en plataformas compatibles.
+- **Twitter Card:** proporciona información para generar una vista previa enriquecida al compartir el sitio en plataformas compatibles.
+
+Una posible implementación dentro del `<head>` de la Landing Page es la siguiente:
+
+<head>
+    <!-- Basic Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kinemo | 4D Cinema Technology</title>
+
+    <!-- SEO Metadata -->
+    <meta name="description" content="Kinemo centralizes motion seat control, synchronized environmental effects, maintenance monitoring and real-time analytics for immersive 4D cinema experiences.">
+    <meta name="keywords" content="Kinemo, 4D cinema technology, 4D theater management, motion seats, synchronized cinema effects, immersive cinema technology">
+    <meta name="author" content="Kinemo Team">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="LANDING_PAGE_URL">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kinemo | 4D Cinema Technology">
+    <meta property="og:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="LANDING_PAGE_URL">
+    <meta property="og:image" content="LANDING_PAGE_IMAGE_URL">
+    <meta property="og:site_name" content="Kinemo">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kinemo | 4D Cinema Technology">
+    <meta name="twitter:description" content="Technology for managing immersive 4D cinema experiences.">
+    <meta name="twitter:image" content="LANDING_PAGE_IMAGE_URL">
+</head>
 
 ### 4.3 Landing Page UI Design
 
-#### 4.3.1 Landing Page Wireframe
+##### 4.3.1. Landing Page Wireframe
 
-> _Pendiente — completar en `feature/landing-page-ui`._
+[Click here for Figma](https://www.figma.com/design/h8gZ1ryldnIq3f485Vx13T/Landing-Page?node-id=0-1&t=MqyMHgKjflZ9zmfu-1)
 
-#### 4.3.2 Landing Page Mock-up
+Los wireframes de la Landing Page de Kinemo definen la estructura fundamental de la interfaz, priorizando la organización del contenido y la jerarquía visual antes de aplicar elementos de diseño detallados. Se diseñaron utilizando elementos esquemáticos en escala de grises para facilitar la evaluación de la arquitectura de información sin distracciones visuales.
 
-> _Pendiente — completar en `feature/landing-page-ui`._
+**1. Home (Hero Section)**
+
+La interfaz del wireframe Home presenta una estructura en Z que guía la vista del usuario de manera natural. En la parte superior, un header fijo contiene el logotipo de Kinemo alineado a la izquierda, seguido de un menú de navegación principal con enlaces a "Platform", "Pricing" y "Contact". A la derecha del header se ubica un enlace de "Sign in" y un botón de llamado a la acción "Suscribe" con mayor énfasis visual.
+
+El hero section ocupa aproximadamente el 60% del viewport inicial, dividido en dos columnas asimétricas. La columna izquierda contiene el kicker pequeño "4D Cinema Technology", seguido del titular principal "Lleva la experiencia 4D a tus salas de cine sin altos costos" en tipografía de gran tamaño, y un subtítulo descriptivo que indica: "Centralizamos el control de asientos de movimiento, efectos ambientales sincronizados y analíticas en tiempo real, sin reemplazar tu infraestructura actual." Debajo se posicionan dos botones CTA: uno primario "Empezar ahora" con tratamiento destacado y uno secundario "Conoce más".
+
+El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hacia la acción principal.
+
+![Landing Wireframe - Home](../assets/img/landing-page/wireframe-home.png)
+
+---
+
+**2. Plataforma (Platform Section)**
+
+Inmediatamente debajo del hero, la sección de plataforma presenta el título principal "Todo lo que necesitas para gestionar tu sala inmersiva", acompañado de un layout de dos columnas. La columna izquierda muestra una tarjeta contenedora con cuatro ítems verticales estructurados con un icono cuadrado superior y texto descriptivo:
+
+- **Sincronización de efectos:** Protocolo propietario con latencia sub-10ms que coordina asientos de movimiento, viento, aroma y vibración cuadro a cuadro.
+- **Software de gestión simplificado:** Panel unificado e intuitivo para operar todas las salas de tu complejo desde un solo dispositivo.
+- **Gestión de incidencias de mantenimiento:** Detección preventiva de fallos mecánicos e hidráulicos antes de que afecten la función.
+- **Análisis de rendimiento:** Métricas detalladas de ocupación, consumo energético y retorno de inversión por sala.
+
+La columna derecha reserva espacio para dos contenedores de imagen superpuestos en vertical (placeholders indicados con diagonales cruzadas) que ilustrarán el software y los dashboards de la plataforma.
+
+![Landing Wireframe - Platform](../assets/img/landing-page/wireframe-plataform.png)
+
+---
+
+**3. Planes (Pricing Section)**
+
+La sección de "Pricing" adopta un layout centrado que facilita la comparación visual entre opciones de suscripción. El wireframe muestra una etiqueta superior pequeña "Pricing", seguido del titular principal "Planes sencillos y transparentes." y un párrafo descriptivo: "Todos los planes incluyen opciones de arrendamiento de hardware. La facturación anual supone un ahorro del 20%."
+
+Debajo se presenta una grilla de tres columnas equitativas, cada una representada por una tarjeta de plan con un placeholder de imagen cuadrada (indicado con diagonales cruzadas) de aproximadamente 200×200px. Esta estructura permite al usuario escanear rápidamente las opciones disponibles y comparar las alternativas de suscripción para su cadena de cines con un espaciado generoso que facilita la legibilidad.
+
+![Landing Wireframe - Pricing](../assets/img/landing-page/wireframe-pricing.png)
+
+---
+
+**4. Contacto / Sección Final (Call to Action y Suscripción)**
+
+El wireframe de la sección de contacto y conversión presenta una etiqueta superior "Contact" y el título principal centrado: "¿Listo para transformar tu experiencia en el cine?", acompañado de un texto descriptivo: "Despliega Kinemo en tu cadena de cines hoy mismo con integración rápida, estabilidad de nivel empresarial y sincronización 4D inmersiva."
+
+Incluye un bloque contenedor central destacado titulado "Inicia tu Suscripción" que integra un botón de acción principal ("Suscribe") centrado en la parte inferior del bloque.
+
+El footer de la página incluye a la izquierda el logotipo "Kinemo" acompañado del texto de derechos de autor "© 2026 Kinemo - Todos los derechos reservados", y hacia la derecha los enlaces de navegación "Privacidad", "Términos" y "Contacto", estableciendo el cierre visual de la landing page sobre una franja horizontal de fondo sólido.
+
+![Landing Wireframe - Contact](../assets/img/landing-page/wireframe-contact.png)
+
+
+##### 4.3.2. Landing Page Mock-up
+
+[Link de Landing Page Mock-up](https://www.figma.com/design/2kl9zH6WgBNDCJAPYMhC0v/Landing-Page-Mock-up?node-id=0-1&t=01NT4lXX92lQUrnf-1)
+
+Los mockups de alta fidelidad de la Landing Page de **Kinemo** fueron desarrollados siguiendo el sistema de diseño definido para la plataforma. La propuesta utiliza una estética oscura y tecnológica, orientada al sector del entretenimiento inmersivo 4D. Se emplea la tipografía **Inter**, una paleta basada en tonos oscuros y morados, bordes sutiles, tarjetas con esquinas redondeadas e indicadores visuales para representar estados y métricas del sistema.
+
+La interfaz utiliza como colores principales el fondo oscuro **#0E0F17**, las tarjetas **#16171E** y **#20212C**, el morado principal **#8B5CF6**, el morado claro **#A78BFA**, el texto blanco **#FFFFFF** y el texto secundario **#94A3B8**.
+
+---
+
+### 1. Home (Hero Section)
+
+El mockup de la sección **Home** presenta la propuesta principal de Kinemo mediante una composición visual relacionada con la experiencia cinematográfica 4D. La imagen utilizada como fondo permite contextualizar el servicio desde el primer contacto con la Landing Page, mientras que un overlay oscuro facilita la lectura del contenido.
+
+#### Header
+
+- Fondo oscuro **#090A10** con una línea inferior sutil.
+- Logotipo de **Kinemo** ubicado en la parte izquierda, compuesto por el símbolo de la marca y el nombre en color blanco.
+- Menú de navegación con las opciones **Platform, About Us, Pricing** y **Contact**.
+- Selector de idioma **EN / ES** ubicado en la parte derecha.
+- Los enlaces mantienen una apariencia simple para facilitar el acceso directo a las principales secciones de la Landing Page.
+
+#### Hero Section
+
+- Imagen de fondo relacionada con una sala de cine equipada con asientos para una experiencia 4D.
+- Overlay oscuro aplicado sobre la imagen para mejorar el contraste y la legibilidad.
+- Etiqueta superior **"4D CINEMA TECHNOLOGY"**, presentada con un fondo oscuro y detalles en morado.
+- Titular principal **"Bring the 4D experience to your cinema screens without high costs"**.
+- La frase **"without high costs"** utiliza el color morado claro **#A78BFA** para generar énfasis visual.
+- Descripción **"Centralize motion seat control, synchronized environmental effects, and real-time analytics without replacing your existing infrastructure."**
+- Botón principal **"Get Started"**, utilizando el morado principal de Kinemo.
+- Botón secundario **"Learn More"**, utilizando un fondo oscuro y borde sutil.
+
+La sección busca comunicar desde el primer momento la propuesta de valor de Kinemo, destacando la posibilidad de incorporar y gestionar experiencias 4D sin necesidad de reemplazar completamente la infraestructura existente.
+
+![Landing Mock-up - Home](../assets/img/4_3_2-landing-mock-up/landing-page-1.png)
+
+---
+
+### 2. Plataforma (Platform Section)
+
+La sección **Platform** presenta las principales funcionalidades de Kinemo mediante una estructura de dos columnas. Esta distribución permite mostrar las capacidades principales del sistema junto con una representación visual de información operativa.
+
+#### Encabezado de sección
+
+- Etiqueta **"PLATFORM"** en color morado claro.
+- Título principal **"Everything you need to manage your immersive theater"**.
+- Fondo oscuro que mantiene continuidad con el resto de la Landing Page.
+
+#### Columna izquierda
+
+La columna izquierda presenta cuatro tarjetas funcionales con fondo oscuro, bordes sutiles y esquinas redondeadas. Cada tarjeta representa una de las principales capacidades de Kinemo:
+
+- **Effects Synchronization:** coordinación de los asientos de movimiento y efectos ambientales relacionados con la experiencia 4D.
+- **Simplified Management Software:** panel centralizado orientado a facilitar la administración de las diferentes salas.
+- **Maintenance Incident Control:** seguimiento de incidencias relacionadas con el funcionamiento de los equipos.
+- **Performance Analytics:** presentación de información relacionada con ocupación, consumo y rendimiento de las salas.
+
+Cada funcionalidad está acompañada por un icono que facilita su identificación visual.
+
+#### Columna derecha
+
+La columna derecha presenta dos módulos que representan información relacionada con la operación de la plataforma:
+
+- **Live Synchronization:** muestra diferentes pantallas mediante indicadores como **OK** y **Alert**, acompañados por una representación gráfica de su actividad.
+- **Recent Incidents:** muestra incidencias recientes junto con estados como **Resolved**, **In progress** y **Pending**.
+
+Los estados utilizan diferentes colores acompañados por etiquetas textuales para facilitar su reconocimiento sin depender exclusivamente del color.
+
+Esta organización permite representar cómo Kinemo centraliza diferentes funciones de supervisión y gestión dentro de una misma plataforma.
+
+![Landing Mock-up - Platform](../assets/img/4_3_2-landing-mock-up/landing-page-2.png)
+
+---
+
+### 3. Nosotros / Equipo (About Us Section)
+
+La sección **About Us** presenta a los integrantes responsables del desarrollo de Kinemo. Mantiene la misma identidad visual oscura y utiliza tarjetas individuales para organizar la información de cada miembro.
+
+#### Encabezado
+
+- Etiqueta superior **"ABOUT US"** en color morado claro.
+- Título principal **"Meet the Team"**.
+- Texto descriptivo **"The creators behind Kinemo, building next-generation technology for modern cinema spaces."**
+
+#### Tarjetas del equipo
+
+La sección utiliza una cuadrícula de cuatro tarjetas con fondo oscuro, bordes sutiles y esquinas redondeadas.
+
+Cada tarjeta contiene:
+
+- Fotografía circular del integrante.
+- Borde morado alrededor de la fotografía.
+- Nombre completo.
+- Código de estudiante en color morado claro.
+
+Los integrantes se distribuyen horizontalmente dentro de la sección, permitiendo identificar de forma clara a los miembros responsables del proyecto.
+
+Las tarjetas mantienen una estructura visual uniforme para conservar la consistencia de la interfaz.
+
+#### Video de presentación
+
+Debajo de las tarjetas del equipo se incorpora un recurso audiovisual relacionado con la tecnología utilizada en experiencias cinematográficas con movimiento.
+
+El video permite complementar la información presentada en la Landing Page mediante una referencia visual del funcionamiento de este tipo de tecnología en una sala de cine.
+
+El recurso se integra dentro de un contenedor de gran tamaño alineado con las tarjetas superiores, manteniendo la organización visual de la sección.
+
+![Landing Mock-up - About Us](../assets/img/4_3_2-landing-mock-up/landing-page-3.png)
+
+---
+
+### 4. Planes (Pricing Section)
+
+La sección **Pricing** presenta los diferentes planes disponibles de Kinemo mediante tres tarjetas principales. La distribución permite comparar visualmente las características y precios de cada alternativa.
+
+#### Encabezado de sección
+
+- Etiqueta **"PRICING"** en color morado claro.
+- Título principal **"Simple, transparent pricing"**.
+- Banner informativo con el mensaje **"All plans include hardware leasing options with up to 20% savings"**.
+
+#### Grid de planes
+
+La información se organiza mediante una cuadrícula de tres columnas correspondiente a los planes **Starter**, **Growth** y **Enterprise**.
+
+##### Starter — $490/mo
+
+El plan **Starter** está orientado a operadores que comienzan a incorporar experiencias 4D y requieren las funciones principales de Kinemo.
+
+Incluye:
+
+- Hasta **3 pantallas conectadas**.
+- Sincronización básica.
+- Panel de control unificado.
+- Soporte por correo electrónico.
+- Reportes analíticos mensuales.
+
+##### Growth — $1,190/mo
+
+El plan **Growth** está orientado a operadores que requieren una mayor cantidad de pantallas y funcionalidades avanzadas.
+
+Incluye:
+
+- Hasta **12 pantallas conectadas**.
+- Sincronización avanzada.
+- Gestión de incidencias y telemetría.
+- Soporte prioritario.
+- Analítica en tiempo real.
+- API de integración.
+
+Este plan se diferencia visualmente mediante un borde morado y la etiqueta **"MOST POPULAR"**, permitiendo destacar la alternativa recomendada dentro de la sección.
+
+##### Enterprise — Custom
+
+El plan **Enterprise** está dirigido a grandes cadenas de cine que requieren una solución adaptada a una mayor cantidad de salas o ubicaciones.
+
+Incluye:
+
+- Pantallas conectadas ilimitadas.
+- SLA garantizado del **99.9%**.
+- Integración con sistemas personalizados.
+- Customer Success Manager dedicado.
+- On-site onboarding.
+- Contratos flexibles.
+
+Las tres tarjetas utilizan fondos oscuros, bordes sutiles, esquinas redondeadas y una jerarquía tipográfica que permite diferenciar el nombre del plan, precio, descripción y características incluidas.
+
+![Landing Mock-up - Pricing](../assets/img/4_3_2-landing-mock-up/landing-page-4.png)
+
+---
+
+### 5. Contacto / Call to Action y Footer
+
+La sección final de la Landing Page funciona como un **Call to Action (CTA)** orientado a incentivar al usuario a establecer contacto con Kinemo y conocer las alternativas disponibles para implementar la solución.
+
+#### Call to Action
+
+La sección utiliza un contenedor central con fondo oscuro, borde sutil y esquinas redondeadas, manteniendo la identidad visual establecida en las secciones anteriores.
+
+Está compuesta por:
+
+- Etiqueta superior **"CONTACT"** en color morado claro.
+- Título principal **"Ready to transform your cinema experience?"**.
+- Texto descriptivo **"Talk to our team and discover how Kinemo can elevate your cinema screens."**
+- Botón principal **"Get Started"**, utilizando el color morado **#8B5CF6**.
+- Texto complementario relacionado con la aceptación de los **Terms & Conditions**.
+- Enlace **"Need custom enterprise solutions? Contact sales"**, dirigido a clientes que requieren soluciones empresariales personalizadas.
+
+La organización centralizada de estos elementos permite dirigir la atención hacia la acción principal sin agregar información innecesaria.
+
+#### Footer
+
+El footer mantiene un fondo oscuro similar al utilizado en la barra de navegación, proporcionando continuidad visual entre el inicio y el cierre de la Landing Page.
+
+Incluye:
+
+- Nombre y logotipo de **Kinemo** en la parte izquierda.
+- Texto **"© 2026 Kinemo · All rights reserved"**.
+- Enlace **"terms and conditions"** ubicado en la parte derecha.
+
+De esta manera, la sección final cierra el recorrido de la Landing Page mediante una llamada a la acción clara y mantiene disponible el acceso a la información legal correspondiente.
+
+![Landing Mock-up - Contact](../assets/img/4_3_2-landing-mock-up/landing-page-5.png)
+
+---
+
+### Consideraciones de Diseño Responsivo
+
+La Landing Page utiliza una estructura adaptable para mantener la correcta visualización de sus componentes en diferentes tamaños de pantalla.
+
+Las principales consideraciones son:
+
+- El contenido se organiza mediante contenedores con un ancho máximo aproximado de **1200px**.
+- Las secciones mantienen espacios amplios para diferenciar visualmente cada bloque de contenido.
+- Las tarjetas de Platform, About Us y Pricing utilizan estructuras basadas en **CSS Grid** y **Flexbox**.
+- Las estructuras de varias columnas pueden reorganizarse verticalmente cuando disminuye el espacio disponible.
+- Los botones utilizan áreas de interacción amplias y estados *hover* para proporcionar retroalimentación visual.
+- Las imágenes se adaptan al espacio disponible sin generar desplazamiento horizontal.
+- Los elementos visuales mantienen bordes redondeados de aproximadamente **8px y 16px**, de acuerdo con el sistema de diseño.
+- La interfaz utiliza texto blanco para la información principal y **#94A3B8** para la información secundaria.
+- El color **#8B5CF6** y su variante **#A78BFA** se utilizan para destacar acciones, etiquetas y elementos importantes.
+
+### Identidad Visual
+
+La propuesta visual busca mantener una apariencia tecnológica y consistente con el concepto de **entretenimiento inmersivo 4D**.
+
+El uso de fondos oscuros permite relacionar visualmente la interfaz con el ambiente de una sala de cine, mientras que los tonos morados funcionan como elementos de identidad y permiten destacar las principales acciones.
+
+Las tarjetas, indicadores de estado, botones, módulos de información y recursos audiovisuales mantienen una composición uniforme durante todo el recorrido de la Landing Page.
+
+De esta manera, el diseño mantiene una identidad visual consistente entre las secciones **Home, Platform, About Us, Pricing** y **Contact**, facilitando que el usuario reconozca la estructura y las acciones disponibles.
 
 ### 4.4 Web Applications UX/UI Design
 
