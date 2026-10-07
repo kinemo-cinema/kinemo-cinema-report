@@ -100,122 +100,123 @@ La interfaz utiliza como colores principales el fondo oscuro **#0E0F17**, las ta
 
 ### 1. Home (Hero Section)
 
-El mockup de la sección **Home** presenta la propuesta principal de Kinemo mediante una composición visual inmersiva relacionada con la experiencia cinematográfica 4D.
+El mockup de la sección **Home** presenta la propuesta principal de Kinemo mediante una composición visual relacionada con la experiencia cinematográfica 4D. La imagen utilizada como fondo permite contextualizar el servicio desde el primer contacto con la Landing Page, mientras que un overlay oscuro facilita la lectura del contenido.
 
 #### Header
 
-- Fondo oscuro **#0E0F17** con una línea inferior sutil.
+- Fondo oscuro **#090A10** con una línea inferior sutil.
 - Logotipo de **Kinemo** ubicado en la parte izquierda, compuesto por el símbolo de la marca y el nombre en color blanco.
 - Menú de navegación con las opciones **Platform, About Us, Pricing** y **Contact**.
-- Selector de idioma **EN / ES**.
-- Enlace de **Sign in**.
-- Botón principal **Subscribe**, utilizando el color morado **#8B5CF6**.
+- Selector de idioma **EN / ES** ubicado en la parte derecha.
+- Los enlaces mantienen una apariencia simple para facilitar el acceso directo a las principales secciones de la Landing Page.
 
 #### Hero Section
 
-- Imagen de fondo relacionada con una sala de cine y los asientos de una experiencia 4D.
-- Overlay oscuro mediante un degradado para mejorar la legibilidad del contenido.
-- Etiqueta superior **"4D CINEMA TECHNOLOGY"**, presentada con un fondo oscuro translúcido y detalles en morado.
-- Titular principal: **"Bring the 4D experience to your cinema screens without high costs."**
-- La última parte del titular utiliza el color morado claro **#A78BFA** para generar énfasis visual.
-- Descripción: **"Centralize motion seat control, synchronized environmental effects, and real-time analytics without replacing your existing infrastructure."**
-- Botón principal **"Get Started"**, con fondo morado y efecto de elevación al pasar el cursor.
-- Botón secundario **"Learn More"**, con fondo oscuro y borde sutil.
+- Imagen de fondo relacionada con una sala de cine equipada con asientos para una experiencia 4D.
+- Overlay oscuro aplicado sobre la imagen para mejorar el contraste y la legibilidad.
+- Etiqueta superior **"4D CINEMA TECHNOLOGY"**, presentada con un fondo oscuro y detalles en morado.
+- Titular principal **"Bring the 4D experience to your cinema screens without high costs"**.
+- La frase **"without high costs"** utiliza el color morado claro **#A78BFA** para generar énfasis visual.
+- Descripción **"Centralize motion seat control, synchronized environmental effects, and real-time analytics without replacing your existing infrastructure."**
+- Botón principal **"Get Started"**, utilizando el morado principal de Kinemo.
+- Botón secundario **"Learn More"**, utilizando un fondo oscuro y borde sutil.
 
-La sección busca comunicar desde el primer momento que Kinemo permite incorporar tecnología 4D a las salas de cine sin requerir una renovación completa de la infraestructura existente.
+La sección busca comunicar desde el primer momento la propuesta de valor de Kinemo, destacando la posibilidad de incorporar y gestionar experiencias 4D sin necesidad de reemplazar completamente la infraestructura existente.
 
-![Landing Mock-up - Home](../assets/img/Mock-up/moc-home.png)
+![Landing Mock-up - Home](../assets/img/4_3_2-landing-mock-up/landing-home.png)
 
 ---
 
 ### 2. Plataforma (Platform Section)
 
-La sección **Platform** presenta las principales funcionalidades de Kinemo mediante una estructura de dos columnas, permitiendo mostrar tanto las capacidades del sistema como información relacionada con su funcionamiento en tiempo real.
+La sección **Platform** presenta las principales funcionalidades de Kinemo mediante una estructura de dos columnas. Esta distribución permite mostrar las capacidades principales del sistema junto con una representación visual de información operativa.
 
 #### Encabezado de sección
 
 - Etiqueta **"PLATFORM"** en color morado claro.
 - Título principal **"Everything you need to manage your immersive theater"**.
-- Fondo general oscuro para mantener la continuidad visual de la landing page.
+- Fondo oscuro que mantiene continuidad con el resto de la Landing Page.
 
 #### Columna izquierda
 
-Se presentan tarjetas funcionales con fondo **#20212C**, bordes sutiles y esquinas redondeadas. Cada tarjeta describe una capacidad principal de la plataforma:
+La columna izquierda presenta cuatro tarjetas funcionales con fondo oscuro, bordes sutiles y esquinas redondeadas. Cada tarjeta representa una de las principales capacidades de Kinemo:
 
-- **Effects Synchronization:** coordinación de los asientos de movimiento y efectos ambientales de la experiencia 4D.
-- **Simplified Management Software:** panel centralizado para administrar las diferentes salas de cine.
-- **Maintenance Incident Control:** seguimiento de incidencias relacionadas con el funcionamiento del sistema.
-- **Performance Analytics:** visualización de información relacionada con ocupación, consumo y rendimiento de las salas.
+- **Effects Synchronization:** coordinación de los asientos de movimiento y efectos ambientales relacionados con la experiencia 4D.
+- **Simplified Management Software:** panel centralizado orientado a facilitar la administración de las diferentes salas.
+- **Maintenance Incident Control:** seguimiento de incidencias relacionadas con el funcionamiento de los equipos.
+- **Performance Analytics:** presentación de información relacionada con ocupación, consumo y rendimiento de las salas.
 
-Las tarjetas incorporan estados *hover* que modifican ligeramente el fondo y el borde para proporcionar retroalimentación visual al usuario.
+Cada funcionalidad está acompañada por un icono que facilita su identificación visual.
 
 #### Columna derecha
 
-Se presentan módulos visuales que representan información operativa de la plataforma:
+La columna derecha presenta dos módulos que representan información relacionada con la operación de la plataforma:
 
-- **Live Synchronization:** muestra el estado de las pantallas y su sincronización mediante indicadores como **OK** y **Alert**.
-- **Recent Incidents:** presenta las incidencias recientes del sistema utilizando diferentes estados como **Resolved**, **In progress** y **Pending**.
-- Paneles de métricas y gráficos para representar información de rendimiento en tiempo real.
+- **Live Synchronization:** muestra diferentes pantallas mediante indicadores como **OK** y **Alert**, acompañados por una representación gráfica de su actividad.
+- **Recent Incidents:** muestra incidencias recientes junto con estados como **Resolved**, **In progress** y **Pending**.
 
-Estos elementos permiten representar visualmente cómo Kinemo centraliza el monitoreo y control de una experiencia cinematográfica inmersiva.
+Los estados utilizan diferentes colores acompañados por etiquetas textuales para facilitar su reconocimiento sin depender exclusivamente del color.
 
-![Landing Mock-up - Platform](../assets/img/Mock-up/moc-plataform.png)
+Esta organización permite representar cómo Kinemo centraliza diferentes funciones de supervisión y gestión dentro de una misma plataforma.
+
+![Landing Mock-up - Platform](../assets/img/4_3_2-landing-mock-up/landing-platform.png)
 
 ---
 
 ### 3. Nosotros / Equipo (About Us Section)
 
-La sección **About Us** presenta al equipo responsable del desarrollo de Kinemo y mantiene la identidad visual oscura utilizada en el resto de la landing page.
+La sección **About Us** presenta a los integrantes responsables del desarrollo de Kinemo. Mantiene la misma identidad visual oscura y utiliza tarjetas individuales para organizar la información de cada miembro.
 
 #### Encabezado
 
-- Etiqueta superior **"NOSOTROS"** en color morado claro.
-- Título principal **"Conoce al Equipo"**.
-- Texto descriptivo centrado que explica el propósito del equipo y su enfoque en el entretenimiento inmersivo.
+- Etiqueta superior **"ABOUT US"** en color morado claro.
+- Título principal **"Meet the Team"**.
+- Texto descriptivo **"The creators behind Kinemo, building next-generation technology for modern cinema spaces."**
 
 #### Tarjetas del equipo
 
-La sección utiliza una cuadrícula de cuatro tarjetas con fondo **#16171E**, borde **#2D2F45** y esquinas redondeadas.
+La sección utiliza una cuadrícula de cuatro tarjetas con fondo oscuro, bordes sutiles y esquinas redondeadas.
 
 Cada tarjeta contiene:
 
 - Fotografía circular del integrante.
-- Borde morado de **2px** alrededor de la fotografía.
+- Borde morado alrededor de la fotografía.
 - Nombre completo.
 - Código de estudiante en color morado claro.
 
-Los integrantes mostrados son:
+Los integrantes se distribuyen horizontalmente dentro de la sección, permitiendo identificar de forma clara a los miembros responsables del proyecto.
 
-- **Huamanchumo Chicchon, Felipe Marcelo** — u20241b932
-- **Correa Rodriguez, Andrea Khristina** — u20231c234
-- **Trigoso Garrido, Cristian Joseph** — u20231a456
-- **Flores Chavez, Fabricio** — u20231d789
-
-Las tarjetas incorporan un efecto *hover* que modifica el borde y genera un ligero desplazamiento vertical para proporcionar mayor interacción visual.
+Las tarjetas mantienen una estructura visual uniforme para conservar la consistencia de la interfaz.
 
 #### Video de presentación
 
-Debajo de las tarjetas se incorpora un contenedor de video con fondo oscuro, bordes morados discontinuos y un botón circular de reproducción. Actualmente muestra el mensaje **"Video Próximamente"**, acompañado de una breve descripción indicando que la presentación del equipo estará disponible próximamente.
+Debajo de las tarjetas del equipo se incorpora un recurso audiovisual relacionado con la tecnología utilizada en experiencias cinematográficas con movimiento.
 
-![Landing Mock-up - About Us](../assets/img/Mock-up/moc-about.png)
+El video permite complementar la información presentada en la Landing Page mediante una referencia visual del funcionamiento de este tipo de tecnología en una sala de cine.
+
+El recurso se integra dentro de un contenedor de gran tamaño alineado con las tarjetas superiores, manteniendo la organización visual de la sección.
+
+![Landing Mock-up - About Us](../assets/img/4_3_2-landing-mock-up/landing-about-us.png)
 
 ---
 
 ### 4. Planes (Pricing Section)
 
-La sección **Pricing** presenta los diferentes planes de suscripción de Kinemo mediante tres tarjetas diferenciadas, permitiendo visualizar las características incluidas en cada alternativa.
+La sección **Pricing** presenta los diferentes planes disponibles de Kinemo mediante tres tarjetas principales. La distribución permite comparar visualmente las características y precios de cada alternativa.
 
 #### Encabezado de sección
 
 - Etiqueta **"PRICING"** en color morado claro.
 - Título principal **"Simple, transparent pricing"**.
-- Banner informativo con el mensaje: *"All plans include hardware leasing options with up to 20% savings"*.
+- Banner informativo con el mensaje **"All plans include hardware leasing options with up to 20% savings"**.
 
 #### Grid de planes
 
-##### Starter — $490/mes
+La información se organiza mediante una cuadrícula de tres columnas correspondiente a los planes **Starter**, **Growth** y **Enterprise**.
 
-Orientado a operadores que están comenzando a incorporar experiencias 4D en sus salas.
+##### Starter — $490/mo
+
+El plan **Starter** está orientado a operadores que comienzan a incorporar experiencias 4D y requieren las funciones principales de Kinemo.
 
 Incluye:
 
@@ -225,22 +226,24 @@ Incluye:
 - Soporte por correo electrónico.
 - Reportes analíticos mensuales.
 
-##### Growth — $1,190/mes
+##### Growth — $1,190/mo
 
-Presentado visualmente como **"MOST POPULAR"** y orientado a operadores que requieren mayores capacidades de gestión y sincronización.
+El plan **Growth** está orientado a operadores que requieren una mayor cantidad de pantallas y funcionalidades avanzadas.
 
 Incluye:
 
 - Hasta **12 pantallas conectadas**.
-- Sincronización avanzada de fotogramas.
+- Sincronización avanzada.
 - Gestión de incidencias y telemetría.
 - Soporte prioritario.
 - Analítica en tiempo real.
-- API de integración completa.
+- API de integración.
+
+Este plan se diferencia visualmente mediante un borde morado y la etiqueta **"MOST POPULAR"**, permitiendo destacar la alternativa recomendada dentro de la sección.
 
 ##### Enterprise — Custom
 
-Dirigido a grandes cadenas de cine con múltiples ubicaciones.
+El plan **Enterprise** está dirigido a grandes cadenas de cine que requieren una solución adaptada a una mayor cantidad de salas o ubicaciones.
 
 Incluye:
 
@@ -251,59 +254,72 @@ Incluye:
 - On-site onboarding.
 - Contratos flexibles.
 
-Las tarjetas utilizan fondos oscuros, bordes sutiles y esquinas redondeadas. El plan **Growth** se diferencia mediante un borde morado y una etiqueta superior que indica **"MOST POPULAR"**, reforzando visualmente su diferenciación dentro de la sección.
+Las tres tarjetas utilizan fondos oscuros, bordes sutiles, esquinas redondeadas y una jerarquía tipográfica que permite diferenciar el nombre del plan, precio, descripción y características incluidas.
 
-![Landing Mock-up - Pricing](../assets/img/Mock-up/moc-pricing.png)
+![Landing Mock-up - Pricing](../assets/img/4_3_2-landing-mock-up/landing-pricing.png)
 
 ---
 
 ### 5. Contacto / Call to Action y Footer
 
-La sección final funciona como un **Call to Action (CTA)** orientado a incentivar al usuario a iniciar la contratación del servicio.
+La sección final de la Landing Page funciona como un **Call to Action (CTA)** orientado a incentivar al usuario a establecer contacto con Kinemo y conocer las alternativas disponibles para implementar la solución.
 
 #### Call to Action
 
-- Etiqueta superior **"GET STARTED"**.
-- Título principal **"¿Ready to transform your cinema experience?"**.
-- Texto descriptivo relacionado con el despliegue rápido de Kinemo y su capacidad de adaptación a diferentes necesidades de los operadores de cine.
-- Contenedor central con fondo oscuro y borde sutil.
-- Título **"Start Your Subscription"**.
-- Descripción relacionada con la escalabilidad de la plataforma.
-- Botón principal **"Subscribe Now"**, utilizando el color morado **#8B5CF6**.
-- Enlaces complementarios relacionados con los términos y la política de privacidad.
+La sección utiliza un contenedor central con fondo oscuro, borde sutil y esquinas redondeadas, manteniendo la identidad visual establecida en las secciones anteriores.
+
+Está compuesta por:
+
+- Etiqueta superior **"CONTACT"** en color morado claro.
+- Título principal **"Ready to transform your cinema experience?"**.
+- Texto descriptivo **"Talk to our team and discover how Kinemo can elevate your cinema screens."**
+- Botón principal **"Get Started"**, utilizando el color morado **#8B5CF6**.
+- Texto complementario relacionado con la aceptación de los **Terms & Conditions**.
+- Enlace **"Need custom enterprise solutions? Contact sales"**, dirigido a clientes que requieren soluciones empresariales personalizadas.
+
+La organización centralizada de estos elementos permite dirigir la atención hacia la acción principal sin agregar información innecesaria.
 
 #### Footer
 
-El footer mantiene la misma identidad visual oscura de la landing page e incluye:
+El footer mantiene un fondo oscuro similar al utilizado en la barra de navegación, proporcionando continuidad visual entre el inicio y el cierre de la Landing Page.
 
-- Logotipo de Kinemo en la parte izquierda.
-- Texto **"© 2026 Kinemo - All rights reserved"**.
-- Enlaces **Privacy**, **Terms** y **Contact**.
+Incluye:
 
-De esta manera, la sección final cierra el recorrido de la landing page mediante una llamada a la acción clara y mantiene los elementos institucionales y legales necesarios.
+- Nombre y logotipo de **Kinemo** en la parte izquierda.
+- Texto **"© 2026 Kinemo · All rights reserved"**.
+- Enlace **"terms and conditions"** ubicado en la parte derecha.
 
-![Landing Mock-up - Contact](../assets/img/Mock-up/moc-contact.png)
+De esta manera, la sección final cierra el recorrido de la Landing Page mediante una llamada a la acción clara y mantiene disponible el acceso a la información legal correspondiente.
+
+![Landing Mock-up - Contact](../assets/img/4_3_2-landing-mock-up/landing-contact.png)
 
 ---
 
 ### Consideraciones de Diseño Responsivo
 
-La landing page utiliza una estructura adaptable para mantener la correcta visualización de sus componentes en diferentes tamaños de pantalla.
+La Landing Page utiliza una estructura adaptable para mantener la correcta visualización de sus componentes en diferentes tamaños de pantalla.
 
 Las principales consideraciones son:
 
-- El contenido se organiza mediante contenedores con un ancho máximo de **1200px**.
-- Las secciones mantienen espaciados amplios para separar visualmente cada bloque.
-- Las tarjetas de plataforma, equipo y planes utilizan estructuras basadas en **CSS Grid y Flexbox**.
+- El contenido se organiza mediante contenedores con un ancho máximo aproximado de **1200px**.
+- Las secciones mantienen espacios amplios para diferenciar visualmente cada bloque de contenido.
+- Las tarjetas de Platform, About Us y Pricing utilizan estructuras basadas en **CSS Grid** y **Flexbox**.
+- Las estructuras de varias columnas pueden reorganizarse verticalmente cuando disminuye el espacio disponible.
 - Los botones utilizan áreas de interacción amplias y estados *hover* para proporcionar retroalimentación visual.
-- Los elementos visuales mantienen bordes redondeados de **8px y 16px**, de acuerdo con el sistema de diseño.
-- La interfaz utiliza una jerarquía basada en texto blanco para información principal y **#94A3B8** para información secundaria.
-- El color **#8B5CF6** y su variante **#A78BFA** se utilizan para destacar acciones, estados y elementos importantes.
+- Las imágenes se adaptan al espacio disponible sin generar desplazamiento horizontal.
+- Los elementos visuales mantienen bordes redondeados de aproximadamente **8px y 16px**, de acuerdo con el sistema de diseño.
+- La interfaz utiliza texto blanco para la información principal y **#94A3B8** para la información secundaria.
+- El color **#8B5CF6** y su variante **#A78BFA** se utilizan para destacar acciones, etiquetas y elementos importantes.
 
 ### Identidad Visual
 
-La propuesta visual busca mantener una apariencia tecnológica y consistente con el concepto de **entretenimiento inmersivo 4D**. El uso de fondos oscuros, tarjetas diferenciadas, efectos de iluminación morada y componentes de monitoreo permite representar una plataforma orientada a la gestión y supervisión de tecnología cinematográfica.
+La propuesta visual busca mantener una apariencia tecnológica y consistente con el concepto de **entretenimiento inmersivo 4D**.
 
+El uso de fondos oscuros permite relacionar visualmente la interfaz con el ambiente de una sala de cine, mientras que los tonos morados funcionan como elementos de identidad y permiten destacar las principales acciones.
+
+Las tarjetas, indicadores de estado, botones, módulos de información y recursos audiovisuales mantienen una composición uniforme durante todo el recorrido de la Landing Page.
+
+De esta manera, el diseño mantiene una identidad visual consistente entre las secciones **Home, Platform, About Us, Pricing** y **Contact**, facilitando que el usuario reconozca la estructura y las acciones disponibles.
 ### 4.4 Web Applications UX/UI Design
 
 #### 4.4.1 Web Applications Wireframes
