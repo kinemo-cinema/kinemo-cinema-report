@@ -532,175 +532,104 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 #### 5.1.1 Software Development Environment Configuration
 
 
+A continuación se detallan las herramientas y plataformas utilizadas por el equipo durante el ciclo de vida del proyecto, indicando su propósito, tipo de actividad y ruta de referencia.
+
+
+A continuación se detallan las herramientas y plataformas utilizadas por el equipo durante el ciclo de vida del proyecto, indicando su propósito, tipo de actividad y ruta de referencia.
+
 | Producto | Propósito | Tipo de actividad | Ruta de referencia |
 |---|---|---|---|
-| UXPressia | Elaboración de User Personas, Empathy Maps, Journey Maps e Impact Maps | Requirements Management | https://uxpressia.com/w/v8FzI/i/dBBww?tagId=9BZKW |
-
+| UXPressia | Elaboración de User Personas, Empathy Maps, User Journey Maps, User Task Matrix e Impact Maps | Requirements Management | https://uxpressia.com/w/v8FzI |
+| Figma | Diseño de Wireframes, Mock-ups y Prototipos del Landing Page y Web Application | UX/UI Design | https://www.figma.com/design/h8gZ1ryldnlq3f485Vx13T/Landing-Page |
+| Figma (Mock-up) | Mock-ups de alta fidelidad del Landing Page | UX/UI Design | https://www.figma.com/design/2kl9zH6WgBNDCJAPYMhC0v/Landing-Page-Mock-up |
+| FigJam | Elaboración de Wireflows y User Flows | UX/UI Design | https://www.figma.com/figjam/ |
+| Miro | Sesiones de Big Picture EventStorming y Design-Level EventStorming | Domain Modeling | https://miro.com/app/board/uXjVHm4VBp8= |
+| LucidChart | Diagramas de arquitectura de software (C4 Model) y diagramas de clases UML | Software Architecture | https://www.lucidchart.com/ |
+| Structurizr | Diagramas C4 Model como código (opcional) | Software Architecture | https://structurizr.com/ |
+| PlantUML | Diagramas UML y de base de datos como código | Software Architecture | https://plantuml.com/ |
+| GitHub | Almacenamiento y control de versiones del código fuente y del Project Report | Version Control | https://github.com/kinemo-cinema |
+| Git | Sistema de control de versiones distribuido | Version Control | https://git-scm.com/ |
+| Visual Studio Code | Entorno de desarrollo integrado (IDE) para Landing Page y Web Application | Software Development | https://code.visualstudio.com/ |
+| Visual Studio 2022 | IDE para el desarrollo del RESTful API en ASP.NET Core | Software Development | https://visualstudio.microsoft.com/ |
+| Node.js + npm | Entorno de ejecución y gestor de paquetes para el frontend (Vue) | Software Development | https://nodejs.org/ |
+| Vue CLI / Vite | Herramienta de scaffolding y build del proyecto Vue | Software Development | https://cli.vuejs.org/ |
+| PrimeVue | Biblioteca de componentes UI para la Web Application | Software Development | https://primevue.org/ |
+| .NET SDK 8 | Framework para el desarrollo del RESTful API | Software Development | https://dotnet.microsoft.com/ |
+| Swagger / OpenAPI | Documentación interactiva de los Endpoints del RESTful API | Documentation | https://swagger.io/ |
+| Trello | Gestión del Product Backlog y Sprint Backlog | Project Management | https://trello.com/b/6ac2a2ced29ee515df2506f0 |
+| Microsoft Stream | Publicación de videos de exposición, Needfinding y validación | Documentation | https://stream.microsoft.com/ |
+| Clipchamp | Edición de videos de exposición y evidencias | Documentation | https://clipchamp.com/ |
+| GitHub Pages | Despliegue del Landing Page | Deployment | https://pages.github.com/ |
 
 #### 5.1.2 Source Code Management
 
-
-El proyecto Kinemo gestiona su código fuente mediante GitHub, bajo la organización pública `kinemo-cinema`, con un repositorio independiente por producto:
+El proyecto Kinemo gestiona su código fuente mediante **GitHub**, bajo la organización pública `kinemo-cinema`, con un repositorio independiente por cada producto de software.
 
 | Producto | Repositorio |
 |---|---|
-| Landing Page | https://github.com/kinemo-cinema/landing-page-Kinemo.git |
-| RESTful API (Web Services) | [PENDIENTE] |
-| Frontend Web Application | [PENDIENTE] |
+| Landing Page | https://github.com/kinemo-cinema/landing-page-kinemo |
+| Frontend Web Application | https://github.com/kinemo-cinema/kinemo-cinema-frontend |
+| RESTful API (Web Services) | Pendiente — se implementará en TB1 |
 | Project Report | https://github.com/kinemo-cinema/kinemo-cinema-report |
 
 **Workflow: GitFlow**
 
-El equipo aplica GitFlow como modelo de ramificación, compuesto por:
+El equipo aplica **GitFlow** como modelo de ramificación, compuesto por:
 
-- **main**: rama principal, contiene únicamente versiones estables y desplegadas (release-ready).
-- **develop**: rama de integración continua, base para el desarrollo activo de features.
-- **feature/<nombre-descriptivo>**: una rama por cada funcionalidad, creada a partir de develop y fusionada de vuelta a develop al completarse. Ejemplo: `feature/landing-hero-section`, `feature/landing-contact-form`.
-- **hotfix/<nombre-descriptivo>**: para correcciones urgentes sobre main. Ejemplo: `hotfix/broken-cta-link`.
+- **main**: rama principal, contiene únicamente versiones estables y desplegadas (*release-ready*).
+- **develop**: rama de integración continua, base para el desarrollo activo de *features*.
+- **feature/&lt;nombre-descriptivo&gt;**: una rama por cada funcionalidad, creada a partir de `develop` y fusionada de vuelta a `develop` al completarse. Ejemplos usados por el equipo: `feature/landing-hero-section`, `feature/landing-contact-form`.
+- **hotfix/&lt;nombre-descriptivo&gt;**: para correcciones urgentes sobre `main`.
 
-Convención de nombres de feature branches:
+**Convención de nombres de feature branches:**
 
-`feature/<kebab-case-descriptivo-de-la-tarea>`, alineado con el título de la Task correspondiente en el Sprint Backlog (ej. la Task T01 "Maquetar Hero Section" → `feature/landing-hero-section`).
+`feature/<kebab-case-descriptivo-de-la-tarea>`, alineado con el título de la *Task* correspondiente en el Sprint Backlog.
 
-**Semantic Versioning**: los Releases siguen el formato MAJOR.MINOR.PATCH (ej. 1.0.0 para el primer release del Landing Page en AV1), incrementando MAJOR ante cambios incompatibles, MINOR ante nuevas funcionalidades compatibles, y PATCH ante correcciones.
+**Semantic Versioning:**
 
-**Conventional Commits**: todos los mensajes de commit siguen el formato `<tipo>(<alcance opcional>): <descripción>`, usando tipos como feat, fix, docs, style, refactor, test y chore. Ejemplo: `feat(landing): add hero section with two-column layout`.
+Los *Releases* siguen el formato `MAJOR.MINOR.PATCH` (ej. `1.0.0` para el primer release del Landing Page en AV1).
+
+**Conventional Commits:**
+
+Todos los mensajes de commit siguen el formato `<tipo>(<alcance opcional>): <descripción>`, usando tipos como `feat`, `fix`, `docs`, `style`, `refactor`, `test` y `chore`.
+
+Ejemplos:
+- `feat(landing): add hero section with two-column layout`
+- `fix(landing): correct broken link in pricing section`
+- `docs(readme): update chapter 5 with sprint 1 evidence`
 
 #### 5.1.3 Source Code Style Guide & Coding Conventions
 
 El equipo adopta nomenclatura en inglés para todos los elementos de código, en los siguientes lenguajes y bajo las siguientes referencias:
 
-- HTML/CSS: Google HTML/CSS Style Guide.
-- JavaScript: Google JavaScript Style Guide y MDN JavaScript Guidelines.
-- Vue: Vue Style Guide (oficial).
-- C# / ASP.NET Core: Microsoft C# Coding Conventions y ASP.NET Core Engineering Guidelines.
-- Gherkin (usado en los Acceptance Criteria del Capítulo III): Gherkin Conventions for Readable Specifications.
+- **HTML/CSS**: Google HTML/CSS Style Guide.
+- **JavaScript**: Google JavaScript Style Guide y MDN JavaScript Guidelines.
+- **Vue**: Vue Style Guide (oficial).
+- **C# / ASP.NET Core**: Microsoft C# Coding Conventions y ASP.NET Core Engineering Guidelines.
+- **Gherkin** (usado en los Acceptance Criteria del Capítulo III): Gherkin Conventions for Readable Specifications.
 
-Convenciones específicas del equipo:
+**Convenciones específicas del equipo:**
 
-- Componentes Vue en PascalCase (`HeroSection.vue`, `ContactForm.vue`).
-- Variables y funciones en camelCase; constantes en UPPER_SNAKE_CASE.
-- Clases C# en PascalCase; parámetros y variables locales en camelCase, siguiendo las convenciones de Microsoft.
+- Componentes Vue en `PascalCase` (`HeroSection.vue`, `ContactForm.vue`).
+- Variables y funciones en `camelCase`; constantes en `UPPER_SNAKE_CASE`.
+- Clases C# en `PascalCase`; parámetros y variables locales en `camelCase`, siguiendo las convenciones de Microsoft.
 - No se permiten mutaciones de términos técnicos en español (ej. no usar "deployar", "testear"; usar "deploy", "test" en su forma original en inglés).
 
 #### 5.1.4 Software Deployment Configuration
 
-> _Pendiente — completar en `feature/software-configuration-management`._
+Para el despliegue de los productos de software de Kinemo se definió la siguiente configuración:
+
+**Landing Page — GitHub Pages**
+
+El Landing Page, desarrollado con HTML5, CSS3 y JavaScript puro, se despliega mediante **GitHub Pages** a partir de la rama `main` del repositorio `landing-page-Kinemo`. Los pasos realizados son:
+
+1. Acceder al repositorio en GitHub y dirigirse a **Settings → Pages**.
+2. En **Source**, seleccionar la rama `main` y la carpeta `/ (root)`.
+3. Guardar los cambios; GitHub genera automáticamente la URL pública `https://kinemo-cinema.github.io/landing-page-Kinemo/`.
+4. Verificar el despliegue accediendo a la URL y comprobando que el contenido del Landing Page carga correctamente.
+
+El despliegue de la Web Application (Vue + PrimeVue) y del RESTful API (ASP.NET Core) se realizará en la entrega TB1, utilizando un proveedor Cloud (Vercel/Netlify para el frontend y MonsterASP.NET o Azure para el backend).
 
 ### 5.2 Landing Page, Services & Applications Implementation
 
-#### 5.2.1 Sprint 1 (AV1)
 
-##### 5.2.1.1 Sprint Planning 1
-
-
-| Sprint # | Sprint 1 |
-|---|---|
-| Date | [PENDIENTE] |
-| Time | [PENDIENTE] |
-| Location | [PENDIENTE] |
-| Prepared By | [PENDIENTE] |
-| Attendees | Llamozas Diaz, Edson Diego / Flores Chavez, Fabricio / Huamanchumo Chicchon, Felipe Marcelo / Trigoso Garrido, Cristian Joseph / Correa Rodriguez, Andrea Khristina |
-| Sprint n-1 Review Summary | [PENDIENTE] |
-| Sprint n-1 Retrospective Summary | [PENDIENTE] |
-| Sprint 1 Goal | Nuestro objetivo es lanzar la página de destino B2B de Kinemo. Creemos que ofrece a los posibles gestores de cadenas de cines una forma clara y autónoma de conocer la oferta e iniciar una conversación comercial. Esto quedará confirmado cuando los visitantes puedan consultar la propuesta de valor y los precios, y enviar una solicitud de demostración o de presupuesto en menos de tres pasos. |
-| Sprint 1 Velocity | [PENDIENTE] |
-| Sum of Story Points | [PENDIENTE] |
-
-
-##### 5.2.1.2 Aspect Leaders and Collaborators
-
-
-| Team Member | GitHub Username | Hero Section | Platform Section | Pricing Section | Team Section | Contact Form | Repo & Deployment |
-|---|---|---|---|---|---|---|---|
-| Llamozas Diaz, Edson Diego | DiegoLlamozas | | | | | | |
-| Flores Chavez, Fabricio | FabriFlores | | | X | | | |
-| Huamanchumo Chicchon, Felipe Marcelo | Felipe Huamanchumo | | | | | | |
-
-
-##### 5.2.1.3 Sprint Backlog 1
-
-
-| Team Member | GitHub Username | Hero Section | Platform Section | Pricing Section | Team Section | Contact Form | Repo & Deployment |
-|---|---|---|---|---|---|---|---|
-| Trigoso Garrido, Cristian Joseph | Crzzz30 | | | | | | |
-| Correa Rodriguez, Andrea Khristina | Andrea C. | | | | | | |
-
-
-##### 5.2.1.4 Development Evidence for Sprint Review
-> _Pendiente._
-##### 5.2.1.5 Execution Evidence for Sprint Review
-> _Pendiente._
-##### 5.2.1.6 Services Documentation Evidence for Sprint Review
-> _Pendiente._
-##### 5.2.1.7 Software Deployment Evidence for Sprint Review
-> _Pendiente._
-##### 5.2.1.8 Team Collaboration Insights during Sprint
-> _Pendiente._
-
-#### 5.2.2 Sprint 2 (TB1)
-
-> _A completar a partir de la entrega TB1. Misma estructura que Sprint 1 (Planning, Aspect Leaders, Backlog, Development/Execution/Services/Deployment Evidence, Team Collaboration Insights)._
-
-#### 5.2.3 Sprint 3 (AV2)
-
-> _A completar a partir de la entrega AV2. Misma estructura que Sprint 1._
-
-#### 5.2.4 Sprint 4 (TB2)
-
-> _A completar a partir de la entrega TB2. Misma estructura que Sprint 1._
-
-### 5.3 Validation Interviews
-
-#### 5.3.1 Diseño de Entrevistas
-
-> _Bloqueado — depende de tener un producto/prototipo validable (a partir de AV2)._
-
-#### 5.3.2 Registro de Entrevistas
-
-> _Bloqueado — depende de 5.3.1._
-
-#### 5.3.3 Evaluaciones según heurísticas
-
-> _Bloqueado — depende de 5.3.2. Usar el formato del Anexo D del enunciado._
-
-### 5.4 Video About-the-Product
-
-> _A completar a partir de AV2 (primera versión), versión final en TB2._
-
-## Conclusiones
-
-### Conclusiones y recomendaciones
-
-> _Pendiente — sección acumulable, versión final en TB2._
-
-### Video About-the-Team
-
-> _A completar a partir de AV2 (primera versión), versión final en TB2._
-
-## Bibliografía
-
-- López, A. (2018, 6 de noviembre). *¿Cuáles son los cines con mayor participación en el país?* Mercado Negro. https://www.mercadonegro.pe/marketing/cuales-son-los-cines-con-mayor-participacion-en-el-pais/
-
-- UVK Multicines. (s. f.). Nuestros cines. Recuperado el 8 de septiembre de 2026, de https://uvk.pe/cines
-
-- Wikipedia contributors. (s. f.). UVK Multicines. En Wikipedia, la enciclopedia libre. Recuperado el 8 de septiembre de 2026, de https://es.wikipedia.org/wiki/UVK_Multicines
-Boxoffice Pro. (2018, January 24). One of the nation's largest cinema chains, family-run B&B Theaters, announces multi-site integration of MediaMation's MX4D. https://www.boxofficepro.com
-
-CJ 4DPLEX. (n.d.). 4DX. Retrieved September 9, 2026, from https://www.cj4dx.com
-
-D-BOX Technologies Inc. (n.d.). The ultimate guide to moving cinema seats. Retrieved September 9, 2026, from https://www.d-box.com
-
-D-BOX Technologies Inc. (n.d.). Why cinemas are choosing D-BOX motion seats. Retrieved September 9, 2026, from https://www.d-box.com
-
-MediaMation, Inc. (n.d.). MX4D theatres. Retrieved September 9, 2026, from https://www.mediamation.com/mx4d-theatres/
-
-Whitten, S. (2024, June 2). Shaking seats and piped-in fog: How 4DX is carving out a niche moviegoing market. CNBC. https://www.cnbc.com
-
-## Anexos
-
-### Anexo A. Videos de Exposiciones
-
-| Entrega | Título del video | Enlace |
-|---|---|---|
-| AV1 | `[Pendiente]` | `[Pendiente]` |
