@@ -697,3 +697,19 @@ Durante el Sprint 1 se implementó la primera versión del Landing Page de Kinem
 | kinemo-cinema/landing-page-Kinemo | feature/landing-contact-form | `f6a7b8c` | `feat(landing): add contact form with lead capture fields` | Implementación del formulario de contacto con validaciones básicas. | 2026-08-21 |
 | kinemo-cinema/landing-page-Kinemo | develop | `a7b8c9d` | `chore: merge develop into main for AV1 release` | Integración de todas las features del Landing Page y preparación para AV1. | 2026-08-22 |
 
+
+##### 5.2.1.5 Execution Evidence for Sprint Review
+
+
+Durante el Sprint 1 se logró la implementación completa de la primera versión del Landing Page de Kinemo, compuesta por las siguientes secciones:
+
+1. **Hero Section** — Presenta la propuesta de valor de Kinemo ("Lleva la experiencia 4D a tus salas de cine sin altos costos") con CTAs "Empezar ahora" y "Conoce más".
+2. **Platform Section** — Describe las cuatro funcionalidades clave: Sincronización de efectos, Software de gestión simplificado, Gestión de incidencias de mantenimiento y Análisis de rendimiento.
+3. **Pricing Section** — Presenta los tres planes de suscripción: Starter ($490/mes), Growth ($1,190/mes) y Enterprise (Custom).
+4. **Team Section** — Muestra la información de los integrantes de la startup VonNeuman New Men.
+5. **Contact Section** — Incluye el formulario de captura de datos para solicitar una demostración.
+
+**Evidencia visual:** Las capturas de pantalla de cada sección se encuentran en el `README.md` del repositorio `landing-page-Kinemo` y en el informe (Figuras 4.3.1 y 4.3.2).
+
+**Video de navegación:** El video que ilustra la visualización y navegación lograda en este Sprint se encuentra publicado en Microsoft Stream con el siguiente enlace: `[PENDIENTE — URL del video]`.
+
