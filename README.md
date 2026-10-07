@@ -662,3 +662,21 @@ La siguiente tabla muestra la asignación de líderes (L) y colaboradores (C) po
 | Trigoso Garrido, Cristian Joseph | Crzzz30 | C | C | C | C | C | C                 |
 | Flores Chavez, Fabricio | Ferdwar | C | C | C | C | C | C                 |
 
+
+##### 5.2.1.3 Sprint Backlog 1
+
+
+El Sprint Backlog 1 comprende las User Stories del Landing Page (US28, US29, US30, US31 y US32) priorizadas en el Product Backlog, descompuestas en tareas técnicas.
+
+| Sprint # | Sprint 1 |
+|---|---|
+| **User Story** | **Work-Item / Task** | | | | |
+| **Story ID** | **Story Title** | **Task ID** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US28 | Conocer beneficios de la solución | T01 | Maquetar Hero Section | Implementar la sección Hero con titular, subtítulo, CTAs y placeholder de imagen hero. | 6 | Llamozas Diaz, Edson Diego | Done |
+| US29 | Conocer características de la solución | T02 | Maquetar Platform Section | Implementar la sección Platform con bloques interactivos de características y placeholders de imagen. | 8 | Flores Chavez, Fabricio | Done |
+| US30 | Conocer los servicios | T03 | Maquetar Pricing Section | Implementar la sección Pricing con grilla de tres planes y tarjetas informativas. | 6 | Trigoso Garrido, Cristian Joseph | Done |
+| US31 | Comparar planes disponibles | T04 | Maquetar Team Section | Implementar la sección Team con información del equipo y foto representativa. | 4 | Huamanchumo Chicchon, Felipe Marcelo | Done |
+| US32 | Acceder a la Web Application | T05 | Maquetar Contact Form | Implementar la sección de contacto con formulario de captura de datos y CTAs. | 8 | Correa Rodriguez, Andrea Khristina | Done |
+| — | — | T06 | Configurar repositorio y despliegue | Crear repositorio en GitHub, configurar GitFlow, GitHub Pages y README inicial. | 4 | Llamozas Diaz, Edson Diego | Done |
+
+**Total de horas estimadas:** 36 horas.
