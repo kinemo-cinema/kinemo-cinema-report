@@ -458,9 +458,13 @@ El Empathy Map de Carlos Torres refleja un perfil técnico enfocado en la preven
 
 > _Pendiente — completar en `feature/user-stories`._
 
-### 3.2 Impact Mapping
+### 3.2. Impact Mapping
 
-> _Pendiente — completar en `feature/impact-mapping`._
+El Impact Mapping de Kinemo se elaboró con el propósito de alinear los objetivos estratégicos de la startup con la entrega de valor del software. Esta técnica permite establecer la relación entre los Business Goals, los User Personas, los impactos esperados en su comportamiento, los Deliverables necesarios y las User Stories que permitirán materializarlos.
+
+<img src="Kinemo-report/assets/img/Impact%20mapPING.png" alt="Impact Mapping">
+
+Link de UXpressia: https://uxpressia.com/w/v8FzI/i/dBBww?tagId=9BZKW
 
 ### 3.3 Product Backlog
 
