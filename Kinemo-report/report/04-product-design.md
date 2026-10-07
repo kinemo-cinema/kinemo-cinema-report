@@ -123,7 +123,7 @@ El mockup de la sección **Home** presenta la propuesta principal de Kinemo medi
 
 La sección busca comunicar desde el primer momento la propuesta de valor de Kinemo, destacando la posibilidad de incorporar y gestionar experiencias 4D sin necesidad de reemplazar completamente la infraestructura existente.
 
-![Landing Mock-up - Home](../assets/img/4_3_2-landing-mock-up/landing-home.png)
+![Landing Mock-up - Home](../assets/img/4_3_2-landing-mock-up/landing-page-1.png)
 
 ---
 
@@ -159,7 +159,7 @@ Los estados utilizan diferentes colores acompañados por etiquetas textuales par
 
 Esta organización permite representar cómo Kinemo centraliza diferentes funciones de supervisión y gestión dentro de una misma plataforma.
 
-![Landing Mock-up - Platform](../assets/img/4_3_2-landing-mock-up/landing-platform.png)
+![Landing Mock-up - Platform](../assets/img/4_3_2-landing-mock-up/landing-page-2.png)
 
 ---
 
@@ -196,7 +196,7 @@ El video permite complementar la información presentada en la Landing Page medi
 
 El recurso se integra dentro de un contenedor de gran tamaño alineado con las tarjetas superiores, manteniendo la organización visual de la sección.
 
-![Landing Mock-up - About Us](../assets/img/4_3_2-landing-mock-up/landing-about-us.png)
+![Landing Mock-up - About Us](../assets/img/4_3_2-landing-mock-up/landing-page-3.png)
 
 ---
 
@@ -256,7 +256,7 @@ Incluye:
 
 Las tres tarjetas utilizan fondos oscuros, bordes sutiles, esquinas redondeadas y una jerarquía tipográfica que permite diferenciar el nombre del plan, precio, descripción y características incluidas.
 
-![Landing Mock-up - Pricing](../assets/img/4_3_2-landing-mock-up/landing-pricing.png)
+![Landing Mock-up - Pricing](../assets/img/4_3_2-landing-mock-up/landing-page-4.png)
 
 ---
 
@@ -291,7 +291,7 @@ Incluye:
 
 De esta manera, la sección final cierra el recorrido de la Landing Page mediante una llamada a la acción clara y mantiene disponible el acceso a la información legal correspondiente.
 
-![Landing Mock-up - Contact](../assets/img/4_3_2-landing-mock-up/landing-contact.png)
+![Landing Mock-up - Contact](../assets/img/4_3_2-landing-mock-up/landing-page-5.png)
 
 ---
 
