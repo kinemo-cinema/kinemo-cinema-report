@@ -405,7 +405,11 @@ Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 
 #### 2.3.2 User Task Matrix
 
-> _Pendiente — completar en `feature/user-task-matrix`._
+La siguiente User Task Matrix presenta las principales tareas realizadas por los dos User Personas identificados: Pepe Castillo, representante del segmento de Gerentes/Propietarios de cadenas de cine pequeñas y medianas, y Carlos Torres, representante del Personal operativo/técnico de las salas de cine. Las tareas se definieron a partir de los hallazgos obtenidos en las entrevistas y representan actividades que actualmente realizan los usuarios para cumplir sus objetivos, independientemente de la existencia de Kinemo. Cada tarea se evalúa según su frecuencia de realización y su nivel de importancia para cada User Persona.
+
+<img src="assets/img/User%20Task%20Matrix.png" alt="Task Matrix">
+
+Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
 
 #### 2.3.3 User Journey Mapping
 
