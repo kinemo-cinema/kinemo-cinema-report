@@ -632,4 +632,20 @@ El despliegue de la Web Application (Vue + PrimeVue) y del RESTful API (ASP.NET 
 
 ### 5.2 Landing Page, Services & Applications Implementation
 
+#### 5.2.1 Sprint 1 (AV1)
+
+##### 5.2.1.1 Sprint Planning 1
+
+| Sprint # | Sprint 1 |
+|---|---|
+| Date | 2026-08-24 |
+| Time | 08:00 PM |
+| Location | Reunión virtual vía Discord |
+| Prepared By | Llamozas Diaz, Edson Diego |
+| Attendees | Llamozas Diaz, Edson Diego / Flores Chavez, Fabricio / Huamanchumo Chicchon, Felipe Marcelo / Trigoso Garrido, Cristian Joseph / Correa Rodriguez, Andrea Khristina |
+| Sprint n-1 Review Summary | No aplica — este es el primer Sprint del proyecto. |
+| Sprint n-1 Retrospective Summary | No aplica — este es el primer Sprint del proyecto. |
+| Sprint 1 Goal | Nuestro objetivo es lanzar la página de destino B2B de Kinemo. Creemos que ofrece a los posibles gestores de cadenas de cines una forma clara y autónoma de conocer la oferta e iniciar una conversación comercial. Esto quedará confirmado cuando los visitantes puedan consultar la propuesta de valor y los precios, y enviar una solicitud de demostración o de presupuesto en menos de tres pasos. |
+| Sprint 1 Velocity | 12 Story Points |
+| Sum of Story Points | 12 Story Points |
 
