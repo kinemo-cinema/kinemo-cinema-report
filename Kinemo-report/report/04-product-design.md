@@ -4,7 +4,130 @@
 
 #### 4.1.1 General Style Guidelines
 
-> _Pendiente — completar en `feature/style-guidelines`._
+### 4.1. Style Guidelines
+
+En esta sección se establecen los lineamientos visuales y de comunicación utilizados en Kinemo. Estos lineamientos permiten mantener una identidad consistente en los productos digitales del proyecto, definiendo criterios para el uso de la marca, tipografía y paleta de colores.
+
+La propuesta visual de Kinemo busca transmitir innovación, tecnología y entretenimiento inmersivo. Para ello, se emplea una interfaz predominantemente oscura acompañada de tonos morados que permiten destacar los elementos principales y mantener una estética relacionada con la experiencia cinematográfica.
+
+#### 4.1.1. General Style Guidelines
+
+##### Branding
+
+**Concepto de Marca**
+
+Kinemo es una propuesta tecnológica orientada a mejorar la gestión de experiencias cinematográficas 4D. Su identidad visual busca representar conceptos como tecnología, movimiento, inmersión y modernidad mediante una estética minimalista y digital.
+
+El sistema visual de la marca combina fondos oscuros con acentos morados, generando contraste entre el contenido y los principales elementos interactivos. Esta combinación permite mantener una apariencia moderna y coherente con el entorno cinematográfico en el que se desarrolla la propuesta.
+
+**Logotipo Principal**
+
+![Logotipo de Kinemo](../assets/img/4_1_1-General-Style/01-logo-kinemo.png)
+
+El logotipo de Kinemo está compuesto por un símbolo gráfico acompañado del nombre de la marca. Su diseño mantiene una composición simple y reconocible que facilita su integración dentro de la interfaz de la landing page.
+
+El símbolo utiliza el color morado característico de Kinemo, mientras que el nombre emplea un tono claro para mantener un contraste adecuado sobre fondos oscuros. Esta combinación permite conservar la identidad visual utilizada en el resto de la interfaz.
+
+---
+
+##### Typography
+
+Kinemo utiliza **Inter** como familia tipográfica principal en su interfaz. Esta tipografía fue seleccionada por su legibilidad en entornos digitales y por su apariencia moderna, permitiendo mantener consistencia entre títulos, textos descriptivos, botones, etiquetas y elementos de navegación.
+
+La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependiendo de la importancia del contenido. Los títulos principales emplean pesos elevados para generar mayor impacto visual, mientras que los textos descriptivos utilizan pesos regulares que facilitan la lectura.
+
+![Sistema tipográfico de Kinemo](../assets/img/4_1_1-General-Style/02-typography.png)
+
+| Uso | Familia | Peso | Aplicación |
+| --- | --- | --- | --- |
+| **Hero / Display** | Inter | 800 | Mensaje principal de la landing page |
+| **H1** | Inter | 700-800 | Títulos principales |
+| **H2** | Inter | 700-800 | Títulos de secciones |
+| **H3** | Inter | 600-700 | Títulos de tarjetas y componentes |
+| **Body** | Inter | 400 | Descripciones y contenido general |
+| **Labels** | Inter | 600-700 | Etiquetas y categorías |
+| **Navigation** | Inter | 500-600 | Opciones de navegación |
+| **Buttons** | Inter | 600-700 | Llamados a la acción |
+
+Esta jerarquía permite diferenciar visualmente los distintos niveles de información y facilita el recorrido del usuario a través de las secciones de la plataforma.
+
+---
+
+##### Color Palette
+
+La identidad visual de Kinemo utiliza una paleta predominantemente oscura con tonos morados como colores de acento. Los fondos oscuros permiten crear una apariencia asociada con el ambiente cinematográfico, mientras que los tonos morados destacan botones, etiquetas y otros elementos relevantes de la interfaz.
+
+![Paleta de colores de Kinemo](../assets/img/4_1_1-General-Style/03-color-palette.png)
+
+**Paleta Principal**
+
+| Color | HEX | RGB | Uso Principal |
+| --- | --- | --- | --- |
+| **Fondo Principal** | `#0E0F17` | 14, 15, 23 | Fondo general de la interfaz |
+| **Fondo de Tarjetas** | `#16171E` | 22, 23, 30 | Cards y contenedores |
+| **Fondo Secundario** | `#20212C` | 32, 33, 44 | Elementos secundarios |
+| **Morado Principal** | `#8B5CF6` | 139, 92, 246 | CTAs y elementos destacados |
+| **Morado Claro** | `#A78BFA` | 167, 139, 250 | Acentos, etiquetas y estados activos |
+| **Blanco** | `#FFFFFF` | 255, 255, 255 | Títulos y texto principal |
+
+**Colores Complementarios**
+
+| Color | HEX | Uso Principal |
+| --- | --- | --- |
+| **Estado Activo** | `#272338` | Fondos de elementos seleccionados o destacados |
+| **Texto Secundario** | `#94A3B8` | Descripciones y contenido de menor jerarquía |
+| **Bordes** | `#2D2F45` | Separadores y contornos de componentes |
+| **Borde Activo** | `#3B385D` | Contornos de elementos activos |
+| **Éxito** | `#22C55E` | Estados correctos o resueltos |
+| **Advertencia** | `#EAB308` | Alertas y estados en progreso |
+
+**Justificación Cromática**
+
+La combinación de colores utilizada en Kinemo responde a las características visuales y funcionales de la plataforma:
+
+- **Fondos oscuros:** permiten relacionar visualmente la interfaz con el ambiente de una sala de cine y ayudan a destacar el contenido principal.
+- **Morado principal:** funciona como el color representativo de Kinemo y se utiliza para resaltar acciones, elementos interactivos y secciones importantes.
+- **Morado claro:** complementa el color principal y permite generar diferentes niveles de énfasis.
+- **Blanco:** se utiliza principalmente en títulos y textos que requieren alta visibilidad sobre fondos oscuros.
+- **Gris azulado:** se emplea para información secundaria, evitando competir visualmente con los títulos y llamados a la acción.
+- **Verde y amarillo:** permiten diferenciar estados funcionales dentro de los componentes de la plataforma.
+
+El uso consistente de esta paleta permite mantener una identidad visual uniforme entre las diferentes secciones de Kinemo.
+
+---
+
+##### Communication Tone
+
+La comunicación de Kinemo mantiene un tono profesional, tecnológico y directo. Los mensajes buscan explicar las capacidades de la plataforma de forma breve y comprensible, evitando descripciones excesivamente técnicas cuando no son necesarias.
+
+La comunicación de la marca se centra principalmente en:
+
+- La innovación aplicada a experiencias cinematográficas 4D.
+- La facilidad de gestión de las salas.
+- La sincronización de efectos y tecnología inmersiva.
+- El monitoreo y análisis de información.
+- La mejora de la experiencia cinematográfica.
+- La presentación clara de los beneficios de la plataforma.
+
+Los llamados a la acción utilizan expresiones breves y reconocibles, facilitando que el usuario comprenda rápidamente cuál es el siguiente paso dentro de la landing page.
+
+---
+
+##### General Visual Identity
+
+La identidad visual de Kinemo mantiene una composición moderna y minimalista. Las interfaces priorizan espacios amplios, tarjetas claramente diferenciadas, bordes sutiles y una jerarquía visual basada en contraste, tamaño y peso tipográfico.
+
+Los elementos más importantes utilizan el morado principal para captar la atención del usuario, mientras que los fondos y elementos secundarios mantienen tonalidades oscuras. De esta manera, el diseño evita una saturación visual excesiva y conserva una apariencia uniforme en toda la experiencia.
+
+Las decisiones generales de diseño siguen los siguientes criterios:
+
+- Uso consistente de la familia tipográfica Inter.
+- Fondos oscuros como base de la interfaz.
+- Morado como principal color de identidad y acción.
+- Uso de blanco para información de alta jerarquía.
+- Uso de tonos secundarios para descripciones y contenido complementario.
+- Bordes y contenedores sutiles para organizar la información.
+- Diseño visual coherente con un producto tecnológico orientado al entretenimiento cinematográfico.
 
 #### 4.1.2 Web Style Guidelines
 
