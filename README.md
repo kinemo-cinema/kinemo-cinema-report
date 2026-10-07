@@ -181,10 +181,46 @@ Misión: Democratizar el acceso a experiencias cinematográficas inmersivas, per
 
 > _Pendiente — completar en `feature/lean-ux-process`._
 
-### 1.3 Segmentos objetivo
+## 1.3. Segmentos objetivo
 
-> _Pendiente — completar en `feature/target-segments`._
+El proyecto Kinemo considera dos segmentos objetivo principales dentro del mercado de exhibición cinematográfica: los responsables de la toma de decisiones en cadenas de cine pequeñas y medianas, y el personal operativo/técnico encargado de la gestión diaria de las salas. La selección de ambos segmentos responde a su participación directa en la adopción, gestión y operación de soluciones de entretenimiento inmersivo.
 
+En 2023, el mercado peruano de exhibición cinematográfica registró aproximadamente 45,9 millones de espectadores y S/485 millones en ingresos de taquilla. Cineplanet concentró el 56% de la recaudación total, Cinemark el 19,5% y Cinestar el 9%, evidenciando una concentración importante del mercado en las principales cadenas. Este contexto permite identificar oportunidades para cadenas de menor escala que buscan modernizar y diferenciar su oferta.
+
+### Segmento 1: Gerentes de Operaciones / Propietarios de cadenas de cine pequeñas y medianas
+
+Este segmento está conformado por las personas responsables de evaluar inversiones, seleccionar proveedores y tomar decisiones relacionadas con la incorporación de nuevas tecnologías en cadenas de cine pequeñas y medianas.
+
+**Perfil empresarial:**
+
+- Responsables de cadenas de cine pequeñas y medianas que operan en el mercado peruano.
+- Organizaciones con menor participación de mercado y menor capacidad de inversión que las principales cadenas del sector.
+- Cadenas que actualmente no cuentan con infraestructura de entretenimiento inmersivo o cuya incorporación representa una inversión elevada.
+
+**Perfil demográfico:**
+
+- Edad aproximada: 35–55 años.
+- Rol: Gerente General, Gerente de Operaciones o Propietario/Socio de la cadena.
+- Ubicación: principalmente Lima Metropolitana y otras ciudades donde operen los complejos de la cadena.
+
+Las características demográficas específicas, así como las motivaciones, frustraciones, objetivos y comportamientos de este segmento, serán contrastadas posteriormente mediante las entrevistas y el análisis correspondiente del Capítulo II.
+
+### Segmento 2: Personal Operativo / Técnico de las salas de cine
+
+Este segmento está conformado por los trabajadores responsables de las actividades operativas y técnicas necesarias para el funcionamiento cotidiano de las salas de cine.
+
+**Perfil laboral:**
+
+- Personal encargado de la operación cotidiana de las salas.
+- Participa en tareas como programación de funciones, supervisión de salas, configuración de equipos y seguimiento de incidencias.
+- Incluye roles como jefe de sala, coordinador de operaciones, técnico de mantenimiento o proyeccionista.
+
+**Perfil demográfico:**
+
+- Edad aproximada: 20–40 años.
+- Ubicación: trabajan principalmente en los complejos de cine donde realizan sus actividades operativas.
+
+Las características demográficas, tecnológicas, laborales y de comportamiento de este segmento serán validadas posteriormente mediante las entrevistas y el análisis estadístico realizado en el Capítulo II.
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1 Competidores
