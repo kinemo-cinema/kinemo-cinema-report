@@ -733,5 +733,84 @@ Durante el Sprint 1 se realizó el despliegue del Landing Page utilizando **GitH
 
 **URL del Landing Page desplegado:** `https://kinemo-cinema.github.io/landing-page-Kinemo/`
 
-**Capturas de pantalla:** Las imágenes del proceso de configuración de GitHub Pages y del Landing Page desplegado se incluyen en el informe (Anexo B).
 
+##### 5.2.1.8 Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, todos los integrantes del equipo participaron activamente en el desarrollo del Landing Page y en la elaboración del informe. La colaboración se evidencia a través de los siguientes analíticos de GitHub:
+
+- **Repositorio del Landing Page** (`landing-page-Kinemo`): Los 5 integrantes registraron commits en sus respectivas ramas `feature/`. La rama `main` recibió la integración final del Sprint.
+- **Repositorio del Project Report** (`kinemo-cinema-report`): Todos los integrantes contribuyeron con secciones del informe, incluyendo el Capítulo I, II, III y IV.
+
+**Analíticos de colaboración (GitHub Insights):**
+
+- **Contributors:** 5 integrantes activos.
+- **Commits totales en el Sprint:** Aproximadamente 25 commits distribuidos entre las ramas `main`, `develop` y `feature/`.
+- **Pull Requests fusionados:** 6 Pull Requests (uno por cada feature del Landing Page).
+
+
+#### 5.2.2 Sprint 2 (TB1)
+
+> _A completar a partir de la entrega TB1. Misma estructura que Sprint 1 (Planning, Aspect Leaders, Backlog, Development/Execution/Services/Deployment Evidence, Team Collaboration Insights)._
+
+#### 5.2.3 Sprint 3 (AV2)
+
+> _A completar a partir de la entrega AV2. Misma estructura que Sprint 1._
+
+#### 5.2.4 Sprint 4 (TB2)
+
+> _A completar a partir de la entrega TB2. Misma estructura que Sprint 1._
+
+### 5.3 Validation Interviews
+
+#### 5.3.1 Diseño de Entrevistas
+
+> _Bloqueado — depende de tener un producto/prototipo validable (a partir de AV2)._
+
+#### 5.3.2 Registro de Entrevistas
+
+> _Bloqueado — depende de 5.3.1._
+
+#### 5.3.3 Evaluaciones según heurísticas
+
+> _Bloqueado — depende de 5.3.2. Usar el formato del Anexo D del enunciado._
+
+### 5.4 Video About-the-Product
+
+> _A completar a partir de AV2 (primera versión), versión final en TB2._
+
+## Conclusiones
+
+### Conclusiones y recomendaciones
+
+> _Pendiente — sección acumulable, versión final en TB2._
+
+### Video About-the-Team
+
+> _A completar a partir de AV2 (primera versión), versión final en TB2._
+
+## Bibliografía
+
+- López, A. (2018, 6 de noviembre). *¿Cuáles son los cines con mayor participación en el país?* Mercado Negro. https://www.mercadonegro.pe/marketing/cuales-son-los-cines-con-mayor-participacion-en-el-pais/
+
+- UVK Multicines. (s. f.). Nuestros cines. Recuperado el 8 de septiembre de 2026, de https://uvk.pe/cines
+
+- Wikipedia contributors. (s. f.). UVK Multicines. En Wikipedia, la enciclopedia libre. Recuperado el 8 de septiembre de 2026, de https://es.wikipedia.org/wiki/UVK_Multicines
+  Boxoffice Pro. (2018, January 24). One of the nation's largest cinema chains, family-run B&B Theaters, announces multi-site integration of MediaMation's MX4D. https://www.boxofficepro.com
+
+CJ 4DPLEX. (n.d.). 4DX. Retrieved September 9, 2026, from https://www.cj4dx.com
+
+D-BOX Technologies Inc. (n.d.). The ultimate guide to moving cinema seats. Retrieved September 9, 2026, from https://www.d-box.com
+
+D-BOX Technologies Inc. (n.d.). Why cinemas are choosing D-BOX motion seats. Retrieved September 9, 2026, from https://www.d-box.com
+
+MediaMation, Inc. (n.d.). MX4D theatres. Retrieved September 9, 2026, from https://www.mediamation.com/mx4d-theatres/
+
+Whitten, S. (2024, June 2). Shaking seats and piped-in fog: How 4DX is carving out a niche moviegoing market. CNBC. https://www.cnbc.com
+
+## Anexos
+
+### Anexo A. Videos de Exposiciones
+
+| Entrega | Título del video | Enlace |
+|---|---|---|
+| AV1 | `[Pendiente]` | `[Pendiente]` |
