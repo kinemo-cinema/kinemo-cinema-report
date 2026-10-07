@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="add startup profile section">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 5.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/diagrama de clase 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_7_1-Class-diagrams/diagrama de clase 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/aikho/Development/2610/kinemo-cinema-report" value="3KLkc1XM2OpONkJRzCDNwqD8nGJ" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="9" />
+  </component>
+  <component name="Git.Settings">
+    <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ferdwar&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kinemo-cinema/kinemo-cinema-report.git&quot;,
+    &quot;accountId&quot;: &quot;98c9c47f-e9ad-44fb-be5f-8a3e01076c79&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.7763942699506274" />
+      <entry key="MS500" value="4.835006411437076" />
+      <entry key="S2" value="10.117165634765767" />
+      <entry key="S5" value="13.482940386601095" />
+      <entry key="S10" value="15.092235088875183" />
+      <entry key="S30" value="18.313679159290317" />
+      <entry key="S60" value="23.51494342210759" />
+      <entry key="M2" value="29.626871685402552" />
+      <entry key="M5" value="35.653665749905045" />
+      <entry key="M10" value="39.02186231665112" />
+      <entry key="M15" value="41.27617694541738" />
+      <entry key="M30" value="45.71280759684566" />
+      <entry key="H1" value="49.72233048835068" />
+      <entry key="H2" value="52.501919833039175" />
+      <entry key="H4" value="54.14941045198072" />
+      <entry key="D1" value="55.67633944430324" />
+      <entry key="W1" value="55.95337419800985" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.0769365733510185E-140" />
+      <entry key="S10" value="1.037755546046861E-70" />
+      <entry key="S30" value="4.699283950137289E-24" />
+      <entry key="S60" value="2.1677831879912016E-12" />
+      <entry key="M2" value="1.4723393589764544E-6" />
+      <entry key="M5" value="0.004647326325196245" />
+      <entry key="M10" value="0.06817130133125116" />
+      <entry key="M15" value="0.16687875700511223" />
+      <entry key="M30" value="0.40850796443290166" />
+      <entry key="H1" value="0.6391462778057155" />
+      <entry key="H2" value="0.7994662455699523" />
+      <entry key="H4" value="0.894128763417188" />
+      <entry key="D1" value="0.9815219380922011" />
+      <entry key="W1" value="0.9973391301325459" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6880498779846205" />
+      <entry key="MS500" value="4.78367626659897" />
+      <entry key="S2" value="10.078217020392064" />
+      <entry key="S5" value="13.45849919410535" />
+      <entry key="S10" value="15.077733647088193" />
+      <entry key="S30" value="18.307537260015156" />
+      <entry key="S60" value="23.51091317199804" />
+      <entry key="M2" value="29.62429818522919" />
+      <entry key="M5" value="35.65698425301182" />
+      <entry key="M10" value="39.088772866330835" />
+      <entry key="M15" value="41.441628909451154" />
+      <entry key="M30" value="46.11988449771398" />
+      <entry key="H1" value="50.360416650013704" />
+      <entry key="H2" value="53.30073569792235" />
+      <entry key="H4" value="55.043178405518084" />
+      <entry key="D1" value="56.65779575684465" />
+      <entry key="W1" value="56.950703810963205" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3K0w0isRYJT8oYGMlkCjTfkvqKU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "#11 on develop",
+    "git.auto.fetch.suggestion.counter": "1",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aikho\Development\2610\kinemo-cinema-report\Kinemo-report\assets\img\4_7_1-Class-diagrams" />
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report" />
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report" />
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets" />
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="" />
+      <created>1790707575180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1790707575180</updated>
+      <workItem from="1790707579786" duration="4457000" />
+      <workItem from="1791135222862" duration="658000" />
+      <workItem from="1791213985485" duration="845000" />
+      <workItem from="1791218189594" duration="36000" />
+      <workItem from="1791242684928" duration="519000" />
+      <workItem from="1791244379546" duration="1244000" />
+      <workItem from="1791335578515" duration="3579000" />
+      <workItem from="1791339232732" duration="3016000" />
+      <workItem from="1791342341214" duration="1031000" />
+    </task>
+    <task id="LOCAL-00001" summary="docs: add report cover">
+      <option name="closed" value="true" />
+      <created>1791337796368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1791337796368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: add report cover">
+      <option name="closed" value="true" />
+      <created>1791340136133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1791340136133</updated>
+    </task>
+    <task id="LOCAL-00003" summary="docs: add target segments section">
+      <option name="closed" value="true" />
+      <created>1791341233266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1791341233266</updated>
+    </task>
+    <task id="LOCAL-00004" summary="docs: add target segments section">
+      <option name="closed" value="true" />
+      <created>1791341669829</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1791341669829</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add startup profile section">
+      <option name="closed" value="true" />
+      <created>1791342949403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1791342949403</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="docs: add report cover" />
+    <MESSAGE value="docs: add target segments section" />
+    <MESSAGE value="add startup profile section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add startup profile section" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
