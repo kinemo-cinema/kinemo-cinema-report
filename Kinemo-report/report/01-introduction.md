@@ -16,27 +16,27 @@ Kinemo nace para cerrar la brecha entre las grandes cadenas de cine que ya cuent
 
 | Carrera | Integrante | Foto |
 |---|---|---|
-| Ingeniería de Software | **Cristian Joseph Trigoso Garrido**  U202318865 | ![Cristian Joseph Trigoso Garrido](assets/cristian-trigoso.jpg) |
+| Ingeniería de Software | **Cristian Joseph Trigoso Garrido**  U202318865 | ![Cristian Joseph Trigoso Garrido](../assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Cristian.png) |
 | **Descripción** | Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | |
 
 | Carrera | Integrante | Foto |
 |---|---|---|
-| Ingeniería de Software | **Felipe Marcelo Huamanchumo Chicchon**  U20241B932 | ![Felipe Marcelo Huamanchumo Chicchon](assets/felipe-huamanchumo.jpg) |
+| Ingeniería de Software | **Felipe Marcelo Huamanchumo Chicchon**  U20241B932 | ![Felipe Marcelo Huamanchumo Chicchon](../assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Felipe.png) |
 | **Descripción** | Cuento con conocimientos en programación con C++, bases de datos utilizando SQL y nociones de redes mediante Cisco Packet Tracer. Además, poseo conocimientos básicos en Microsoft Azure, diseño de interfaces con Figma y patrones de software. Dentro del equipo puedo aportar en la organización de tareas, investigación y resolución de problemas para el desarrollo del proyecto. | |
 
 | Carrera | Integrante | Foto |
 |---|---|---|
-| Ingeniería de Software | **Fabricio Flores Chavez**  U202212327 | ![Fabricio Flores Chavez](assets/fabricio-flores.jpg) |
+| Ingeniería de Software | **Fabricio Flores Chavez**  U202212327 | ![Fabricio Flores Chavez](../assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Fabricio.png) |
 | **Descripción** | Me gusta mucho seguir aprendiendo cosas nuevas y poder ser un gran profesional, y siempre poder ayudar a los demás en lo que necesiten. | |
 
 | Carrera | Integrante | Foto |
 |---|---|---|
-| Ingeniería de Software | **Andrea Khristina Correa Rodriguez**  U202412041 | ![Andrea Khristina Correa Rodriguez](assets/andrea-correa.jpg) |
+| Ingeniería de Software | **Andrea Khristina Correa Rodriguez**  U202412041 | ![Andrea Khristina Correa Rodriguez](../assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Andrea.png) |
 | **Descripción** | Estudiante de Ingeniería de Software con enfoque en análisis de sistemas y arquitectura de software. Tiene conocimientos en modelado de procesos de negocio. Le motiva entender cómo funcionan los sistemas complejos y traducir requisitos en soluciones técnicas efectivas. | |
 
 | Carrera | Integrante | Foto |
 |---|---|---|
-| Ingeniería de Software | **Edson Diego Llamozas Diaz**  U202319398 | ![Edson Diego Llamozas Diaz](assets/edson-llamozas.jpg) |
+| Ingeniería de Software | **Edson Diego Llamozas Diaz**  U202319398 | ![Edson Diego Llamozas Diaz](../assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Diego.png) |
 | **Descripción** | Estudiante de Ingeniería de Software, interesado en los sistemas de bajo nivel y lenguaje de ensamblador. | |
 
 ### 1.2. Solution Profile
