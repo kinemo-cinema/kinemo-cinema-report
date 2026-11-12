@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Carlos Torres.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_1-User-personas/Carlos Torres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Empathy map-Carlos Torres.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_4-Empathy-mapping/Empathy map-Carlos Torres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Empathy map-Pepe Castillo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_4-Empathy-mapping/Empathy map-Pepe Castillo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Pepe Castillo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_1-User-personas/Pepe Castillo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/User Journey Map - Carlos Torres.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_3-User-journey-mapping/User Journey Map - Carlos Torres.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/User Journey Map - Pepe Castillo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_3-User-journey-mapping/User Journey Map - Pepe Castillo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/User Task Matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_3_2-User-task-matrix/User Task Matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/02-requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/02-requirements.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Impact mapPING.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/3_2-Impact-mapping/Impact-mapping.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/03-specification.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/03-specification.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0001187322933853" />
-      <entry key="MS500" value="1.1640264068239952" />
-      <entry key="S2" value="1.6363974676379718" />
-      <entry key="S5" value="1.8346258180800488" />
-      <entry key="S10" value="1.9149126061885133" />
-      <entry key="S30" value="2.256413866875788" />
-      <entry key="S60" value="3.456408847348446" />
-      <entry key="M2" value="5.757084270434108" />
-      <entry key="M5" value="12.471190742781948" />
-      <entry key="M10" value="22.36869410020079" />
-      <entry key="M15" value="28.70993033173281" />
-      <entry key="M30" value="37.81921508940188" />
-      <entry key="H1" value="43.79770668378786" />
-      <entry key="H2" value="47.230689824610444" />
-      <entry key="H4" value="49.07123827195138" />
-      <entry key="D1" value="50.67223006630077" />
-      <entry key="W1" value="50.9530187474272" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000738827803" />
+      <entry key="S5" value="1.0024315004979876" />
+      <entry key="S10" value="1.0886156485785288" />
+      <entry key="S30" value="2.3301939401823613" />
+      <entry key="S60" value="4.173292711280562" />
+      <entry key="M2" value="7.0288603911630965" />
+      <entry key="M5" value="14.223221730930257" />
+      <entry key="M10" value="24.603288306910372" />
+      <entry key="M15" value="31.695659555960457" />
+      <entry key="M30" value="42.44649277920724" />
+      <entry key="H1" value="49.82052314771646" />
+      <entry key="H2" value="54.157527540638746" />
+      <entry key="H4" value="56.51183602784634" />
+      <entry key="D1" value="58.575674204083796" />
+      <entry key="W1" value="58.93914163294477" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.095927315355231E-176" />
-      <entry key="MS500" value="8.738656028962088E-36" />
-      <entry key="S2" value="1.719337601690708E-9" />
-      <entry key="S5" value="3.1199272297114327E-4" />
-      <entry key="S10" value="0.017663315741138278" />
-      <entry key="S30" value="0.26042983997556424" />
-      <entry key="S60" value="0.5103232700706134" />
-      <entry key="M2" value="0.7143691413202374" />
-      <entry key="M5" value="0.8741160094265712" />
-      <entry key="M10" value="0.9349417144542065" />
-      <entry key="M15" value="0.956143385116527" />
-      <entry key="M30" value="0.9778258460055794" />
-      <entry key="H1" value="0.9888507703418041" />
-      <entry key="H2" value="0.9944097597780323" />
-      <entry key="H4" value="0.9972009625837874" />
-      <entry key="D1" value="0.9995329487613005" />
-      <entry key="W1" value="0.9999332650352908" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.5733225845268783E-172" />
+      <entry key="S2" value="1.2665535539841938E-43" />
+      <entry key="S5" value="6.93504723073353E-18" />
+      <entry key="S10" value="2.6334477839390567E-9" />
+      <entry key="S30" value="0.0013809403001238155" />
+      <entry key="S60" value="0.03716100510109779" />
+      <entry key="M2" value="0.19277189914792509" />
+      <entry key="M5" value="0.5176276780030415" />
+      <entry key="M10" value="0.719463465370578" />
+      <entry key="M15" value="0.8029204083394894" />
+      <entry key="M30" value="0.8960582616880947" />
+      <entry key="H1" value="0.9466035398666616" />
+      <entry key="H2" value="0.9729355270862822" />
+      <entry key="H4" value="0.9863749424464726" />
+      <entry key="D1" value="0.9977161568657633" />
+      <entry key="W1" value="0.9996734168996487" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6328784301761459" />
-      <entry key="MS500" value="0.9547249427415675" />
-      <entry key="S2" value="1.4305167356934696" />
-      <entry key="S5" value="1.7196108600375224" />
-      <entry key="S10" value="1.8611665820164989" />
-      <entry key="S30" value="2.452135013193441" />
-      <entry key="S60" value="3.907855904768236" />
-      <entry key="M2" value="6.4277805364353675" />
-      <entry key="M5" value="13.321485806381022" />
-      <entry key="M10" value="23.28961548348855" />
-      <entry key="M15" value="29.656015353253597" />
-      <entry key="M30" value="38.79154849298684" />
-      <entry key="H1" value="44.78366798261309" />
-      <entry key="H2" value="48.22361477736659" />
-      <entry key="H4" value="50.06768621878425" />
-      <entry key="D1" value="51.671635984885796" />
-      <entry key="W1" value="51.95293382716324" />
+      <entry key="MS100" value="3.814697265625001E-6" />
+      <entry key="MS500" value="0.0824692444233059" />
+      <entry key="S2" value="0.5358868037078596" />
+      <entry key="S5" value="0.7815756953913809" />
+      <entry key="S10" value="0.9708971092384369" />
+      <entry key="S30" value="2.2875691656769566" />
+      <entry key="S60" value="4.181998900520433" />
+      <entry key="M2" value="7.196634623174956" />
+      <entry key="M5" value="14.721062063043961" />
+      <entry key="M10" value="25.309041934967148" />
+      <entry key="M15" value="32.48816722291316" />
+      <entry key="M30" value="43.33652492448838" />
+      <entry key="H1" value="50.76386166084948" />
+      <entry key="H2" value="55.12876018453893" />
+      <entry key="H4" value="57.49734089867375" />
+      <entry key="D1" value="59.57324266744951" />
+      <entry key="W1" value="59.93879388383277" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,7 +115,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/02-requirements",
+    "git-widget-placeholder": "feature/03-specification",
     "git.auto.fetch.suggestion.counter": "1",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
@@ -140,11 +134,11 @@
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\1_1_2-Perfiles-de-integrantes-del-equipo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\3_2-Impact-mapping" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_4-Empathy-mapping" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_3-User-journey-mapping" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_2-User-task-matrix" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_1-User-personas" />
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -164,9 +158,22 @@
       <workItem from="1794403492640" duration="1390000" />
       <workItem from="1794492266308" duration="1149000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: correct and organize chapter 2 URLs">
+      <option name="closed" value="true" />
+      <created>1794494877025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794494877025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: correct and organize chapter 2 URLs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correct and organize chapter 2 URLs" />
   </component>
 </project>
