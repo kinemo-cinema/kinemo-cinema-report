@@ -1673,7 +1673,7 @@ El sistema visual de la marca combina fondos oscuros con acentos morados, genera
 
 **Logotipo Principal**
 
-![Logotipo de Kinemo](../assets/img/4_1_1-General-Style/01-logo-kinemo.png)
+![Logotipo de Kinemo](Kinemo-report/assets/img/4_1_1-General-Style/01-logo-kinemo.png)
 
 El logotipo de Kinemo está compuesto por un símbolo gráfico acompañado del nombre de la marca. Su diseño mantiene una composición simple y reconocible que facilita su integración dentro de la interfaz de la landing page.
 
@@ -1687,7 +1687,7 @@ Kinemo utiliza **Inter** como familia tipográfica principal en su interfaz. Est
 
 La jerarquía tipográfica utiliza diferentes pesos y tamaños de Inter dependiendo de la importancia del contenido. Los títulos principales emplean pesos elevados para generar mayor impacto visual, mientras que los textos descriptivos utilizan pesos regulares que facilitan la lectura.
 
-![Sistema tipográfico de Kinemo](../assets/img/4_1_1-General-Style/02-typography.png)
+![Sistema tipográfico de Kinemo](Kinemo-report/assets/img/4_1_1-General-Style/02-typography.png)
 
 | Uso | Familia | Peso | Aplicación |
 | --- | --- | --- | --- |
@@ -1708,7 +1708,7 @@ Esta jerarquía permite diferenciar visualmente los distintos niveles de informa
 
 La identidad visual de Kinemo utiliza una paleta predominantemente oscura con tonos morados como colores de acento. Los fondos oscuros permiten crear una apariencia asociada con el ambiente cinematográfico, mientras que los tonos morados destacan botones, etiquetas y otros elementos relevantes de la interfaz.
 
-![Paleta de colores de Kinemo](../assets/img/4_1_1-General-Style/03-color-palette.png)
+![Paleta de colores de Kinemo](Kinemo-report/assets/img/4_1_1-General-Style/03-color-palette.png)
 
 **Paleta Principal**
 
@@ -1991,7 +1991,7 @@ El hero section ocupa aproximadamente el 60% del viewport inicial, dividido en d
 
 El diseño es limpio, escaneable y enfocado en la conversión, guiando al usuario de manera natural desde el primer contacto hacia la acción principal.
 
-![Landing Wireframe - Home](../assets/img/landing-page/wireframe-home.png)
+![Landing Wireframe - Home](Kinemo-report/assets/img/landing-page/wireframe-home.png)
 
 ---
 
@@ -2006,7 +2006,7 @@ Inmediatamente debajo del hero, la sección de plataforma presenta el título pr
 
 La columna derecha reserva espacio para dos contenedores de imagen superpuestos en vertical (placeholders indicados con diagonales cruzadas) que ilustrarán el software y los dashboards de la plataforma.
 
-![Landing Wireframe - Platform](../assets/img/landing-page/wireframe-plataform.png)
+![Landing Wireframe - Platform](Kinemo-report/assets/img/landing-page/wireframe-plataform.png)
 
 ---
 
@@ -2016,7 +2016,7 @@ La sección de "Pricing" adopta un layout centrado que facilita la comparación 
 
 Debajo se presenta una grilla de tres columnas equitativas, cada una representada por una tarjeta de plan con un placeholder de imagen cuadrada (indicado con diagonales cruzadas) de aproximadamente 200×200px. Esta estructura permite al usuario escanear rápidamente las opciones disponibles y comparar las alternativas de suscripción para su cadena de cines con un espaciado generoso que facilita la legibilidad.
 
-![Landing Wireframe - Pricing](../assets/img/landing-page/wireframe-pricing.png)
+![Landing Wireframe - Pricing](Kinemo-report/assets/img/landing-page/wireframe-pricing.png)
 
 ---
 
@@ -2028,7 +2028,7 @@ Incluye un bloque contenedor central destacado titulado "Inicia tu Suscripción"
 
 El footer de la página incluye a la izquierda el logotipo "Kinemo" acompañado del texto de derechos de autor "© 2026 Kinemo - Todos los derechos reservados", y hacia la derecha los enlaces de navegación "Privacidad", "Términos" y "Contacto", estableciendo el cierre visual de la landing page sobre una franja horizontal de fondo sólido.
 
-![Landing Wireframe - Contact](../assets/img/landing-page/wireframe-contact.png)
+![Landing Wireframe - Contact](Kinemo-report/assets/img/landing-page/wireframe-contact.png)
 
 
 ##### 4.3.2. Landing Page Mock-up
@@ -2066,7 +2066,7 @@ El mockup de la sección **Home** presenta la propuesta principal de Kinemo medi
 
 La sección busca comunicar desde el primer momento la propuesta de valor de Kinemo, destacando la posibilidad de incorporar y gestionar experiencias 4D sin necesidad de reemplazar completamente la infraestructura existente.
 
-![Landing Mock-up - Home](../assets/img/4_3_2-landing-mock-up/landing-page-1.png)
+![Landing Mock-up - Home](Kinemo-report/assets/img/4_3_2-landing-mock-up/landing-page-1.png)
 
 ---
 
@@ -2102,7 +2102,7 @@ Los estados utilizan diferentes colores acompañados por etiquetas textuales par
 
 Esta organización permite representar cómo Kinemo centraliza diferentes funciones de supervisión y gestión dentro de una misma plataforma.
 
-![Landing Mock-up - Platform](../assets/img/4_3_2-landing-mock-up/landing-page-2.png)
+![Landing Mock-up - Platform](Kinemo-report/assets/img/4_3_2-landing-mock-up/landing-page-2.png)
 
 ---
 
@@ -2139,7 +2139,7 @@ El video permite complementar la información presentada en la Landing Page medi
 
 El recurso se integra dentro de un contenedor de gran tamaño alineado con las tarjetas superiores, manteniendo la organización visual de la sección.
 
-![Landing Mock-up - About Us](../assets/img/4_3_2-landing-mock-up/landing-page-3.png)
+![Landing Mock-up - About Us](Kinemo-report/assets/img/4_3_2-landing-mock-up/landing-page-3.png)
 
 ---
 
@@ -2199,7 +2199,7 @@ Incluye:
 
 Las tres tarjetas utilizan fondos oscuros, bordes sutiles, esquinas redondeadas y una jerarquía tipográfica que permite diferenciar el nombre del plan, precio, descripción y características incluidas.
 
-![Landing Mock-up - Pricing](../assets/img/4_3_2-landing-mock-up/landing-page-4.png)
+![Landing Mock-up - Pricing](Kinemo-report/assets/img/4_3_2-landing-mock-up/landing-page-4.png)
 
 ---
 
@@ -2234,7 +2234,7 @@ Incluye:
 
 De esta manera, la sección final cierra el recorrido de la Landing Page mediante una llamada a la acción clara y mantiene disponible el acceso a la información legal correspondiente.
 
-![Landing Mock-up - Contact](../assets/img/4_3_2-landing-mock-up/landing-page-5.png)
+![Landing Mock-up - Contact](Kinemo-report/assets/img/4_3_2-landing-mock-up/landing-page-5.png)
 
 ---
 
