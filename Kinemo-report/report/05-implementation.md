@@ -159,11 +159,11 @@ Durante el Sprint 1 se implementó la primera versión del Landing Page de Kinem
 
 **Gráfico de commits por semana (Landing Page):**
 
-![Commits over last year - Landing Page](./assets/img/landing-commits-over-year.png)
+![Commits over last year - Landing Page](../assets/img/5_2_1_4-Development-Evidence/landing-commits-over-year.png)
 
 **Gráfico de frecuencia de código (Landing Page):**
 
-[Code frequency - Landing Page](./assets/img/landing-code-frequency.png)!
+![Code frequency - Landing Page](../assets/img/5_2_1_4-Development-Evidence/landing-code-frequency.png)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
