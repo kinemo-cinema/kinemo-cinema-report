@@ -819,7 +819,7 @@ En la ejecución de una función, el BC06 puede generar eventos relacionados con
 
 La siguiente imagen evidencia el resultado del Design-Level EventStorming realizado por el equipo:
 
-![Design-Level EventStorming de Kinemo 4D](../assets/img/eventstorming.jpg)
+![Design-Level EventStorming de Kinemo 4D](../assets/img/4_6_1-Design-level-eventstorming/eventstorming.jpg)
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -839,7 +839,7 @@ Asimismo, Kinemo 4D mantiene integración con los siguientes sistemas externos:
 - **Almacenamiento de Archivos:** permite almacenar los archivos multimedia y contenido sensorial utilizados por las películas 4D.
 - **Servicio de Notificaciones:** permite enviar alertas y notificaciones relacionadas con la operación, mantenimiento y suscripciones.
 
-![Software Architecture Context Diagram - Kinemo 4D](../assets/img/diagram-context.png)
+![Software Architecture Context Diagram - Kinemo 4D](../assets/img/4_6_2-Software-architecture-context-diagram/diagram-context.png)
 
 Como se observa en el diagrama, **Kinemo 4D centraliza la interacción entre el Gerente y el Técnico y los servicios externos necesarios para soportar la operación de la plataforma**. Esta vista permite identificar claramente el límite del sistema y sus principales dependencias externas, sin entrar todavía en el detalle de los Containers o Bounded Contexts que conforman la solución.
 
@@ -861,7 +861,7 @@ La solución está compuesta por:
 
 - **Sistemas externos:** Kinemo 4D se integra con el **Sistema Externo de Boletería**, **Hardware 4D**, **Pasarela de Pagos**, **Servicio de Facturación Electrónica**, **Almacenamiento de Archivos** y **Servicio de Notificaciones**, según las necesidades de cada Bounded Context.
 
-![Software Architecture Container Diagram - Kinemo 4D](../assets/img/diagram-container.png)
+![Software Architecture Container Diagram - Kinemo 4D](../assets/img/4_6_3-Software-architecture-container-diagrams/diagram-container.png)
 
 La interacción principal con la solución se realiza mediante la **Web Application**, mientras que la **Landing Page B2B** funciona como la interfaz pública destinada a presentar la propuesta de valor, características y planes de Kinemo.
 
@@ -885,19 +885,19 @@ A continuación se presenta el detalle de los componentes definidos para cada Bo
 
 El **MovieSensoryController** expone las operaciones relacionadas con la gestión de películas y contenido sensorial. El **MovieCommandService** gestiona las operaciones de registro, actualización y desactivación de películas, mientras que el **MovieQueryService** permite realizar consultas y búsquedas sobre el catálogo. El **SensoryContentService** gestiona la carga, vinculación, validación y habilitación del contenido sensorial. El **MovieSensoryDomainService** aplica las reglas de negocio relacionadas con las películas y el contenido sensorial, y el **MovieSensoryRepository** gestiona la persistencia y recuperación de la información.
 
-![Component Diagram - BC01 Movie & Sensory Content Management](../assets/img/Component_1.png)
+![Component Diagram - BC01 Movie & Sensory Content Management](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_1.png)
 
 ##### BC02 — Scheduling & Calendar
 
 El **SchedulingController** expone las operaciones relacionadas con la programación de funciones 4D. El **SchedulingCommandService** gestiona las operaciones de programación, reprogramación y cancelación de funciones, mientras que el **AvailabilityService** permite consultar la disponibilidad necesaria para la programación. El **SchedulingDomainService** aplica las reglas de negocio relacionadas con horarios y disponibilidad, y el **SchedulingRepository** gestiona la persistencia de las funciones programadas.
 
-![Component Diagram - BC02 Scheduling & Calendar](../assets/img/Component_2.png)
+![Component Diagram - BC02 Scheduling & Calendar](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_2.png)
 
 ##### BC03 — Room & Resource Readiness
 
 El **RoomReadinessController** expone las operaciones relacionadas con la preparación y disponibilidad de las salas. El **RoomPreparationService** gestiona las actividades necesarias para verificar la preparación de una sala, mientras que el **RoomBlockingService** permite bloquear una sala cuando no se encuentra disponible. El **RoomReleaseService** gestiona la liberación de las salas una vez finalizadas las restricciones correspondientes. El **RoomReadinessRepository** gestiona la persistencia de la información relacionada con el estado y preparación de las salas.
 
-![Component Diagram - BC03 Room & Resource Readiness](../assets/img/Component_3.png)
+![Component Diagram - BC03 Room & Resource Readiness](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_3.png)
 
 ##### BC04 — Ticketing Integration
 
@@ -905,13 +905,13 @@ El **TicketingController** expone las operaciones relacionadas con la integraci�
 
 Como dependencia externa, el **Sistema Externo de Boletería** proporciona la información necesaria para mantener actualizada la ocupación de las funciones.
 
-![Component Diagram - BC04 Ticketing Integration](../assets/img/Component_4.png)
+![Component Diagram - BC04 Ticketing Integration](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_4.png)
 
 ##### BC05 — Seat Allocation & Control
 
 El **SeatController** expone las operaciones relacionadas con la asignación y control de las butacas. El **SeatAllocationService** gestiona la asignación de butacas para las funciones, mientras que el **SeatActivationService** permite activar las butacas que corresponden a los boletos vendidos. El **SeatControlService** gestiona el estado operativo de las butacas y el **SeatRepository** administra la persistencia de la información relacionada con su asignación y estado.
 
-![Component Diagram - BC05 Seat Allocation & Control](../assets/img/Component_5.png)
+![Component Diagram - BC05 Seat Allocation & Control](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_5.png)
 
 ##### BC06 — 4D Execution & Synchronization
 
@@ -919,7 +919,7 @@ El **ExecutionController** expone las operaciones relacionadas con la ejecución
 
 Como sistema externo, el **Hardware 4D** recibe las instrucciones necesarias para ejecutar los efectos sensoriales durante una función.
 
-![Component Diagram - BC06 4D Execution & Synchronization](../assets/img/Component_6.png)
+![Component Diagram - BC06 4D Execution & Synchronization](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_6.png)
 
 ##### BC07 — Resource Testing & Maintenance
 
@@ -927,13 +927,13 @@ El **MaintenanceController** expone las operaciones relacionadas con las pruebas
 
 Como dependencia externa, el **Hardware 4D** permite realizar las pruebas y actividades técnicas necesarias sobre los recursos físicos.
 
-![Component Diagram - BC07 Resource Testing & Maintenance](../assets/img/Component_7.png)
+![Component Diagram - BC07 Resource Testing & Maintenance](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_7.png)
 
 ##### BC08 — Operational Analytics & Reporting
 
 El **AnalyticsController** expone las operaciones relacionadas con la consulta de información operativa y generación de reportes. El **OperationalMetricsService** gestiona el cálculo y consolidación de métricas relacionadas con la operación de las funciones y el mantenimiento. El **DashboardService** permite obtener la información necesaria para los dashboards, mientras que el **IncidentReportService** gestiona la información relacionada con las incidencias. El **DashboardExportService** permite generar y exportar reportes operativos y el **AnalyticsRepository** gestiona la persistencia y consulta de la información utilizada para los análisis.
 
-![Component Diagram - BC08 Operational Analytics & Reporting](../assets/img/Component_8.png)
+![Component Diagram - BC08 Operational Analytics & Reporting](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_8.png)
 
 ##### BC09 — Subscription & Service Management
 
@@ -941,7 +941,7 @@ El **SubscriptionController** expone las operaciones relacionadas con la gestió
 
 Como dependencias externas, el **Payment Gateway Adapter** encapsula la comunicación con la **Pasarela de Pagos**, permitiendo procesar los pagos de las suscripciones. Asimismo, el contexto puede interactuar con el **Servicio de Facturación Electrónica** para gestionar los comprobantes correspondientes.
 
-![Component Diagram - BC09 Subscription & Service Management](../assets/img/Component_9.png)
+![Component Diagram - BC09 Subscription & Service Management](../assets/img/4_6_4-Software-architecture-components-diagrams/Component_9.png)
 
 En conjunto, los Component Diagrams permiten visualizar cómo cada Bounded Context se descompone internamente en componentes con responsabilidades específicas, manteniendo una separación clara entre la exposición de operaciones, la lógica de aplicación, las reglas del dominio, la persistencia y las integraciones externas. Esta descomposición contribuye a mantener la autonomía de cada contexto y facilita su evolución.
 ### 4.7 Software Object-Oriented Design
@@ -1062,4 +1062,4 @@ El diagrama de base de datos del **BC01 — Movie & Sensory Content Management**
 
 Este modelo permite organizar los datos necesarios para administrar las películas y los recursos sensoriales utilizados posteriormente durante las experiencias cinematográficas 4D.
 
-![Database Diagram - BC01 Movie & Sensory Content Management](../assets/img/BC01-Movie%20Catalog%20Managment.png)
+![Database Diagram - BC01 Movie & Sensory Content Management](../assets/img/4_8_1-Database-diagrams/BC01-Movie%20Catalog%20Managment.png)
