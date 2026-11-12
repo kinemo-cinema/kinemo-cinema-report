@@ -655,11 +655,11 @@ A partir de la información recopilada de los segmentos objetivo y de los result
 
 **User persona 1 (Personal operativo/técnico de las salas de cine):** La ficha de Carlos Torres representa al personal encargado de las actividades técnicas y operativas de las salas de cine. El arquetipo refleja un perfil orientado a la resolución de problemas, mantenimiento preventivo y atención de incidencias. Sus principales objetivos son mantener los equipos operativos, detectar fallas con rapidez y mejorar el seguimiento del mantenimiento. Entre sus principales dificultades se encuentran las fallas durante las funciones, la demora del soporte técnico, la falta de repuestos y la necesidad de contar con mejores herramientas de diagnóstico y registro.
 
-<img src="Kinemo-report/assets/img/Carlos%20Torres.png" alt="Carlos Torres">
+<img src="Kinemo-report/assets/img/2_3_1-User-personas/Carlos%20Torres.png" alt="Carlos Torres">
 
 **User persona 2 (Gerentes/Propietarios de cadenas de cine pequeñas y medianas):** La ficha de Pepe Castillo representa al responsable de la toma de decisiones dentro de una cadena de cine pequeña o mediana. El arquetipo refleja un perfil organizado y analítico, orientado a evaluar inversiones, comparar proveedores y modernizar las salas sin asumir riesgos económicos excesivos. Entre sus principales objetivos se encuentran mejorar la experiencia del cliente, atraer mayor público y diferenciar la oferta de sus salas. Sus principales frustraciones están relacionadas con los altos costos de implementación, el mantenimiento, la disponibilidad de soporte técnico y la incertidumbre sobre el retorno de inversión.
 
-<img src="Kinemo-report/assets/img/Pepe%20Castillo.png" alt="Pepe Castillo">
+<img src="Kinemo-report/assets/img/2_3_1-User-personas/Pepe%20Castillo.png" alt="Pepe Castillo">
 
 Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 
@@ -667,7 +667,7 @@ Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 
 La siguiente User Task Matrix presenta las principales tareas realizadas por los dos User Personas identificados: Pepe Castillo, representante del segmento de Gerentes/Propietarios de cadenas de cine pequeñas y medianas, y Carlos Torres, representante del Personal operativo/técnico de las salas de cine. Las tareas se definieron a partir de los hallazgos obtenidos en las entrevistas y representan actividades que actualmente realizan los usuarios para cumplir sus objetivos, independientemente de la existencia de Kinemo. Cada tarea se evalúa según su frecuencia de realización y su nivel de importancia para cada User Persona.
 
-<img src="Kinemo-report/assets/img/User%20Task%20Matrix.png" alt="User Task Matrix">
+<img src="Kinemo-report/assets/img/2_3_2-User-task-matrix/User%20Task%20Matrix.png" alt="User Task Matrix">
 
 Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
 
@@ -679,13 +679,13 @@ En esta sección se presentan los User Journey Maps correspondientes a los dos U
 
 El User Journey Map de Pepe Castillo representa el proceso actual de evaluación y adopción de nuevas tecnologías por parte de un gerente o propietario de una cadena de cine pequeña o mediana. El recorrido abarca desde la identificación de una necesidad de modernización hasta el seguimiento posterior de la inversión.
 
-<img src="Kinemo-report/assets/img/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
+<img src="Kinemo-report/assets/img/2_3_3-User-journey-mapping/User%20Journey%20Map%20-%20Pepe%20Castillo.png" alt="User Journey Map - Pepe Castillo">
 
 **Segmento objetivo 2: Personal operativo/técnico de las salas de cine:**
 
 El User Journey Map de Carlos Torres representa el recorrido cotidiano del personal técnico, desde la preparación de la jornada y revisión preventiva de los equipos hasta la atención, resolución y registro de incidencias técnicas.
 
-<img src="Kinemo-report/assets/img/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
+<img src="Kinemo-report/assets/img/2_3_3-User-journey-mapping/User%20Journey%20Map%20-%20Carlos%20Torres.png" alt="User Journey Map - Carlos Torres">
 
 Link del User Journey Mapping - Pepe Castillo: https://uxpressia.com/w/v8FzI/m/52UwW?tagId=9BZKW  
 Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9xtmS?tagId=9BZKW
@@ -694,11 +694,11 @@ Link del User Journey Mapping - Carlos Torres: https://uxpressia.com/w/v8FzI/m/9
 
 El Empathy Map de Pepe Castillo evidencia un perfil orientado a la planificación, evaluación económica y reducción del riesgo antes de adoptar nuevas tecnologías. Sus principales preocupaciones se relacionan con el costo, mantenimiento, soporte y retorno esperado de la inversión.
 
-<img src="Kinemo-report/assets/img/Empathy%20map-Pepe%20Castillo.png" alt="Empathy Map - Pepe Castillo">
+<img src="Kinemo-report/assets/img/2_3_4-Empathy-mapping/Empathy%20map-Pepe%20Castillo.png" alt="Empathy Map - Pepe Castillo">
 
 El Empathy Map de Carlos Torres refleja un perfil técnico enfocado en la prevención y resolución de incidencias. Sus principales dificultades aparecen ante fallas inesperadas, limitaciones de diagnóstico, falta de repuestos y demoras del soporte, mientras que sus objetivos se centran en mantener la continuidad operativa de las salas.
 
-<img src="Kinemo-report/assets/img/Empathy%20map-Carlos%20Torres.png" alt="Empathy Map - Carlos Torres">
+<img src="Kinemo-report/assets/img/2_3_4-Empathy-mapping/Empathy%20map-Carlos%20Torres.png" alt="Empathy Map - Carlos Torres">
 
 ### 2.4 Big Picture EventStorming
 
@@ -706,7 +706,38 @@ El Empathy Map de Carlos Torres refleja un perfil técnico enfocado en la preven
 
 ### 2.5 Ubiquitous Language
 
-> _Pendiente — completar en `feature/ubiquitous-language`._
+**Usuarios del sistema:**
+
+- **Cinema Manager (Administrador de Cine):** Responsable de la cadena o sala de cine encargado de afiliar el establecimiento, programar funciones y monitorear el rendimiento comercial.
+- **Maintenance Technician (Técnico de Mantenimiento):** Especialista asignado a la calibración física, diagnóstico de actuadores y resolución de incidencias en las butacas sensoriales.
+- **Moviegoer (Espectador / Espectador de Cine):** Cliente final que adquiere entradas, experimenta las sensaciones físicas durante la película y califica el nivel de inmersión sensorial.
+- **Content Synchronizer (Sincronizador de Contenido):** Ingeniero o diseñador multimedia responsable de mapear y marcar los efectos en la línea de tiempo de la película.
+
+**Infraestructura y hardware sensorial:**
+
+- **Haptic Actuator (Actuador Háptico):** Dispositivo electromecánico embebido en la butaca que convierte datos digitales en vibraciones, inclinaciones e impactos físicos.
+- **Kinemo Controller (Controlador Kinemo):** Módulo de hardware local en sala que recibe la señal del proyector (DCP) y comanda en milisegundos a la red de asientos sensoriales.
+- **Sensory Room (Sala Sensorial):** Sala de exhibición comercial equipada y homologada con la infraestructura de hardware y red Kinemo.
+- **Telemetry Data (Datos de Telemetría):** Flujo de métricas periódicas (temperatura, voltaje, latencia de respuesta) transmitidas por los sensores de cada butaca al panel de control.
+
+**Procesamiento y sincronización multimedia:**
+
+- **Sensory Track (Pista Sensorial):** Archivo digital estructurado con metadatos que contiene los eventos de vibración, viento y movimiento alineados al código de tiempo (timecode) de la película.
+- **Cue Event (Disparo Sensorial):** Marcador individual en la línea de tiempo que activa un efecto físico determinado con duración e intensidad específicas.
+- **Sync Drift (Desfase de Sincronización):** Desviación temporal en milisegundos entre la proyección audiovisual principal y la ejecución mecánica en la butaca.
+- **Sync Pulse (Pulso de Sincronización):** Señal de sincronía periódica emitida por el proyector de cine que mantiene alineados los actuadores con el audio y video.
+
+**Gestión comercial y reservas:**
+
+- **Sensory Screening (Función Sensorial):** Proyección pública programada que cuenta con la pista háptica activa habilitada para los asistentes.
+- **Seat Allocation (Asignación de Butacas):** Proceso de reservación y bloqueo de asientos motorizados operativos en el mapa de la sala.
+- **Showtime Schedule (Cartelera / Programación):** Calendario de horarios y películas disponibles con experiencia inmersiva habilitada.
+
+**Mantenimiento e incidencias:**
+
+- **Hardware Incident (Incidente de Hardware):** Falla electromecánica o pérdida de enlace en una butaca durante o fuera de una función.
+- **Calibration Profile (Perfil de Calibración):** Parámetros predefinidos de intensidad y sensibilidad del asiento adaptados al tipo de sala o público.
+- **Preventive Maintenance Order (Orden de Mantenimiento Preventivo):** Solicitud generada automáticamente cuando la telemetría reporta desgaste o ciclos de uso elevados en los actuadores.
 
 ## Capítulo III: Requirements Specification
 
