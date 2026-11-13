@@ -195,7 +195,7 @@ Por lo tanto, no se cuenta con Endpoints documentados con OpenAPI para este Spri
 
 ##### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
-![Pulse - Landing Page (1 month)](./assets/img/landing-pulse-overview-month.png)
+**[Captura pendiente: Pulse - Landing Page (1 month)]**
 
 
 Durante el Sprint 1 se realizó el despliegue del Landing Page utilizando **GitHub Pages**. El proceso consistió en:
@@ -220,7 +220,7 @@ Resumen general del período:
 
 **Top committers (Landing Page):**
 
-![Contributors - Landing Page](./assets/img/landing-contributors-over-time.png)
+![Contributors - Landing Page](../assets/img/5_2_1_4-Development-Evidence/landing-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
@@ -239,7 +239,7 @@ Resumen general del período:
 
 **Top committers (Project Report):**
 
-![Contributors - Project Report](./assets/img/report-contributors-detail.png)
+![Contributors - Project Report](../assets/img/5_2_1_4-Development-Evidence/report-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
@@ -251,11 +251,11 @@ Resumen general del período:
 
 **Contribuidores (Project Report):**
 
-![Commits over time - Project Report](./assets/img/report-contributors-over-time.png)
+![Commits over time - Project Report](../assets/img/5_2_1_4-Development-Evidence/report-contributors.png)
 
 **Actividad semanal de commits (Project Report):**
 
-![Commits over last year - Project Report](./assets/img/report-commits-over-year.png)
+![Commits over last year - Project Report](../assets/img/5_2_1_4-Development-Evidence/report-commits.png)
 
 **Repositorio del Frontend (`kinemo-cinema-frontend`)**
 
@@ -268,7 +268,7 @@ Resumen general del período:
 
 **Top committers (Frontend):**
 
-![Contributors - Frontend](./assets/img/frontend-contributors-over-time.png)
+![Contributors - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
@@ -280,11 +280,11 @@ Resumen general del período:
 
 **Código agregado (Code Frequency - Frontend):**
 
-![Code frequency - Frontend](./assets/img/frontend-code-frequency.png)
+![Code frequency - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-frequency.png)
 
 **Pulse - Frontend:**
 
-![Pulse - Frontend](./assets/img/frontend-pulse-overview.png)
+**[Captura pendiente: Pulse - Frontend]**
 
 - **Semana del 27 de septiembre de 2026:** 1,727 adiciones (primera implementación de la Web Application).
 
@@ -357,11 +357,11 @@ Durante el Sprint 2 se implementó la primera versión funcional de la Web Appli
 
 **Gráfico de commits por semana (Frontend):**
 
-![Commits over last year - Frontend](./assets/img/frontend-commits-over-year.png)
+![Commits over last year - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-commits.png)
 
 **Gráfico de frecuencia de código (Frontend):**
 
-![Code frequency - Frontend](./assets/img/frontend-code-frequency.png)
+![Code frequency - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-frequency.png)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
@@ -445,11 +445,11 @@ Resumen general del período:
 
 **Pulse - Frontend:**
 
-![Pulse - Frontend](./assets/img/frontend-pulse-overview.png)
+**[Captura pendiente: Pulse - Frontend]**
 
 **Top committers (Frontend):**
 
-![Contributors - Frontend](./assets/img/frontend-contributors-over-time.png)
+![Contributors - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
@@ -461,7 +461,7 @@ Resumen general del período:
 
 **Commits por semana (Frontend):**
 
-![Commits over last year - Frontend](./assets/img/frontend-commits-over-year.png)
+![Commits - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-commits.png)
 
 | Semana | Commits |
 |---|---|
@@ -469,7 +469,7 @@ Resumen general del período:
 
 **Frecuencia de código (Frontend):**
 
-![Code frequency - Frontend](./assets/img/frontend-code-frequency.png)
+![Code frequency - Frontend](../assets/img/5_2_1_4-Development-Evidence/frontend-frequency.png)
 
 - **Semana del 27 de septiembre de 2026:** 1,727 adiciones (primera implementación de la Web Application).
 
@@ -481,6 +481,7 @@ Resumen general del período:
 La colaboración del equipo durante el Sprint 2 se evidencia a través de la distribución del trabajo en el repositorio del frontend. `DiegoLlamozas` lideró la implementación de la Web Application y la integración con el RESTful API (93 commits), seguido de `Ferdwar` (23 commits) y `Crzzz30` (12 commits), quienes se enfocaron en los módulos de programación de funciones, mapa de butacas y control de efectos. Los demás integrantes (`Daiko-07` y `Elmiau2341`) colaboraron en el diseño y validación de las vistas, así como en la redacción del informe.
 
 El Sprint 2 cumplió con los objetivos planteados en el Sprint Planning 2: se desplegó la primera versión funcional de la Web Application, se implementó el RESTful API con sus endpoints principales, y se integró el frontend con el backend. Como deuda técnica, la rama `main` del frontend aún no ha sido fusionada con `develop`, lo cual se resolverá antes de la entrega TB1.
+
 #### 5.2.3 Sprint 3 (AV2)
 
 Durante el Sprint 3 se continúa el desarrollo de Kinemo a partir de la versión trabajada en TB1. El enfoque técnico comprende la evolución de la Web Application desarrollada con Vue 3 y Vite y del RESTful API desarrollado con ASP.NET Core. La documentación del sprint debe diferenciar funcionalidades implementadas, funcionalidades en proceso y actividades pendientes de integración o despliegue.
