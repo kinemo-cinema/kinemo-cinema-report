@@ -413,7 +413,7 @@ Para el análisis de competencia se identificaron tres competidores indirectos c
 
 Buscamos comprender cómo los proveedores actuales de tecnología de entretenimiento inmersivo para salas de cine abordan las necesidades del mercado y compararlos con la propuesta de Kinemo, con el objetivo de identificar oportunidades de diferenciación para cadenas de cine pequeñas y medianas.
 
-| Aspecto | Kinemo | 4DX (CJ 4DPLEX) | Lumma (4D E-Motion) | MediaMation (MX4D) |
+| Aspecto | Kinemo ![Kinemo](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Kinemo.png) | 4DX (CJ 4DPLEX) ![4DPLEX](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/4DPLEX.jpg)| Lumma (4D E-Motion) ![Lumma](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Lumma.png) | MediaMation (MX4D) ![MX4D](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/MX4D.jpg) |
 |---|---|---|---|---|
 | **Overview** | Startup orientada a cadenas de cine pequeñas y medianas que propone una solución integral de entretenimiento inmersivo basada en butacas con movimiento, efectos físicos sincronizados, mantenimiento especializado y una plataforma web para la programación, configuración, supervisión y gestión de las salas. | Proveedor internacional de tecnología cinematográfica inmersiva. Su formato 4DX combina butacas con movimiento y efectos ambientales sincronizados con el contenido audiovisual. | Empresa dedicada al desarrollo de tecnologías para entretenimiento. Su solución 4D E-Motion integra butacas con movimiento y efectos como viento, agua, vibración, aromas y aire sincronizados con la película. | Empresa especializada en tecnología 4D/5D para cines y atracciones. MX4D integra butacas con movimiento, efectos físicos y sistemas de control para experiencias inmersivas. |
 | **Ventaja competitiva** | Enfoque específico en cadenas pequeñas y medianas, combinando una propuesta de entretenimiento inmersivo con mantenimiento especializado y una solución digital centralizada para la gestión operativa. | Amplia presencia internacional, reconocimiento de marca y experiencia trabajando con operadores cinematográficos de diferentes mercados. | Desarrollo de tecnología propia de movimiento y efectos, junto con capacidad para realizar proyectos personalizados. | Experiencia en integración de sistemas completos y disponibilidad de soluciones que incluyen butacas, efectos, software, instalación y soporte. |
@@ -428,10 +428,10 @@ Buscamos comprender cómo los proveedores actuales de tecnología de entretenimi
 
 | Empresa | Fortalezas | Debilidades | Oportunidades | Amenazas |
 |---|---|---|---|---|
-| **Kinemo** | Enfoque específico en cadenas pequeñas y medianas; solución digital centralizada; integración de programación, efectos, mantenimiento y supervisión. | Startup nueva sin trayectoria comprobada; capacidad operativa y soporte todavía en desarrollo; recursos inferiores a empresas internacionales consolidadas. | Atender cadenas pequeñas y medianas que busquen diferenciarse; crecimiento en el mercado peruano y posterior expansión regional. | Entrada de proveedores internacionales al mismo segmento; resistencia de potenciales clientes frente a la inversión en nuevas tecnologías; dificultades asociadas a infraestructura y equipamiento. |
-| **4DX (CJ 4DPLEX)** | Reconocimiento internacional; tecnología multisensorial consolidada; amplia variedad de efectos; presencia junto a operadores cinematográficos internacionales. | Su escala y características pueden implicar una solución más compleja para operadores pequeños; menor enfoque específico en cadenas pequeñas y medianas del mercado peruano. | Continuar expandiendo sus formatos inmersivos hacia nuevos exhibidores y mercados. | Aparición de proveedores con soluciones más simples, flexibles o adaptadas a mercados locales. |
-| **Lumma (4D E-Motion)** | Tecnología propia de movimiento y efectos; variedad de efectos físicos; capacidad de desarrollar proyectos personalizados. | Menor reconocimiento global frente a marcas como 4DX; información pública limitada sobre precios y herramientas de gestión operativa para cadenas de cine. | Expansión de 4D E-Motion hacia nuevos mercados y desarrollo de proyectos personalizados para diferentes tipos de operadores. | Competencia de proveedores internacionales de formatos inmersivos y aparición de soluciones regionales con servicios digitales complementarios. |
-| **MediaMation (MX4D)** | Oferta integral de hardware, efectos, software, instalación, mantenimiento y soporte; experiencia internacional en tecnología 4D/5D. | Su propuesta incluye una infraestructura amplia que puede resultar más compleja para organizaciones de menor escala; no está orientada exclusivamente al segmento peruano de cadenas pequeñas y medianas. | Expansión hacia nuevos mercados y adaptación de sus soluciones a distintos tamaños y tipos de recintos. | Competencia de proveedores globales y regionales que desarrollen soluciones de menor complejidad o más adaptadas a necesidades locales. |
+| **Kinemo** ![Kinemo](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Kinemo.png)| Enfoque específico en cadenas pequeñas y medianas; solución digital centralizada; integración de programación, efectos, mantenimiento y supervisión. | Startup nueva sin trayectoria comprobada; capacidad operativa y soporte todavía en desarrollo; recursos inferiores a empresas internacionales consolidadas. | Atender cadenas pequeñas y medianas que busquen diferenciarse; crecimiento en el mercado peruano y posterior expansión regional. | Entrada de proveedores internacionales al mismo segmento; resistencia de potenciales clientes frente a la inversión en nuevas tecnologías; dificultades asociadas a infraestructura y equipamiento. |
+| **4DX (CJ 4DPLEX)** ![4DPLEX](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/4DPLEX.jpg)| Reconocimiento internacional; tecnología multisensorial consolidada; amplia variedad de efectos; presencia junto a operadores cinematográficos internacionales. | Su escala y características pueden implicar una solución más compleja para operadores pequeños; menor enfoque específico en cadenas pequeñas y medianas del mercado peruano. | Continuar expandiendo sus formatos inmersivos hacia nuevos exhibidores y mercados. | Aparición de proveedores con soluciones más simples, flexibles o adaptadas a mercados locales. |
+| **Lumma (4D E-Motion)** ![Lumma](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Lumma.png)| Tecnología propia de movimiento y efectos; variedad de efectos físicos; capacidad de desarrollar proyectos personalizados. | Menor reconocimiento global frente a marcas como 4DX; información pública limitada sobre precios y herramientas de gestión operativa para cadenas de cine. | Expansión de 4D E-Motion hacia nuevos mercados y desarrollo de proyectos personalizados para diferentes tipos de operadores. | Competencia de proveedores internacionales de formatos inmersivos y aparición de soluciones regionales con servicios digitales complementarios. |
+| **MediaMation (MX4D)** ![MX4D](Kinemo-report/assets/img/2_1_1-Analisis-competitivo/MX4D.jpg)| Oferta integral de hardware, efectos, software, instalación, mantenimiento y soporte; experiencia internacional en tecnología 4D/5D. | Su propuesta incluye una infraestructura amplia que puede resultar más compleja para organizaciones de menor escala; no está orientada exclusivamente al segmento peruano de cadenas pequeñas y medianas. | Expansión hacia nuevos mercados y adaptación de sus soluciones a distintos tamaños y tipos de recintos. | Competencia de proveedores globales y regionales que desarrollen soluciones de menor complejidad o más adaptadas a necesidades locales. |
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -503,7 +503,8 @@ Se diseñaron dos guías de entrevista, una por cada segmento objetivo identific
 - **Apellido:** Contreras Granados
 - **Edad:** 38
 - **Distrito:** San Isidro
-- **URL:** (Inicio: || Fin:)
+![Johan](Kinemo-report/assets/img/2_2_2-Registro-de-entrevistas/Johan.png)
+- **URL:** (Inicio:00:22|| Fin:04:40)
 
 **Resumen:**
 
@@ -521,6 +522,7 @@ Considera atractivas las experiencias de cine inmersivo, pero identifica como pr
 - **Apellido:**
 - **Edad:** 36
 - **Distrito:**
+  ![Alexis](Kinemo-report/assets/img/2_2_2-Registro-de-entrevistas/Alexis.png)
 - **URL:** (Inicio: || Fin:)
 
 **Resumen:**
@@ -565,7 +567,8 @@ Ve las experiencias inmersivas como una oportunidad para atraer nuevos públicos
 - **Apellido:** Málaga Gómez
 - **Edad:** 23
 - **Distrito:** Miraflores
-- **URL:** (Inicio: || Fin:)
+  ![Miguel](Kinemo-report/assets/img/2_2_2-Registro-de-entrevistas/Miguel.png)
+- **URL:** (Inicio:00:15|| Fin:04:24)
 
 **Resumen:**
 
@@ -647,10 +650,6 @@ También se identifican necesidades relacionadas con mejorar los registros, la p
 
 A partir de la información recopilada de los segmentos objetivo y de los resultados obtenidos en las entrevistas, se realizó el proceso de Needfinding mediante la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps. Estos artefactos permiten representar las características, actividades, objetivos, necesidades y dificultades identificadas en cada segmento y sirven como base para la definición de los requisitos de Kinemo.
 
-## 2.3. Needfinding
-
-A partir de la información recopilada de los segmentos objetivo y de los resultados obtenidos en las entrevistas, se realizó el proceso de Needfinding mediante la elaboración de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps. Estos artefactos permiten representar las características, actividades, objetivos, necesidades y dificultades identificadas en cada segmento y sirven como base para la definición de los requisitos de Kinemo.
-
 ### 2.3.1. User Personas
 
 **User persona 1 (Personal operativo/técnico de las salas de cine):** La ficha de Carlos Torres representa al personal encargado de las actividades técnicas y operativas de las salas de cine. El arquetipo refleja un perfil orientado a la resolución de problemas, mantenimiento preventivo y atención de incidencias. Sus principales objetivos son mantener los equipos operativos, detectar fallas con rapidez y mejorar el seguimiento del mantenimiento. Entre sus principales dificultades se encuentran las fallas durante las funciones, la demora del soporte técnico, la falta de repuestos y la necesidad de contar con mejores herramientas de diagnóstico y registro.
@@ -668,6 +667,10 @@ Link de UXPressia: https://uxpressia.com/w/v8FzI/p/CvSDi?tagId=9BZKW
 La siguiente User Task Matrix presenta las principales tareas realizadas por los dos User Personas identificados: Pepe Castillo, representante del segmento de Gerentes/Propietarios de cadenas de cine pequeñas y medianas, y Carlos Torres, representante del Personal operativo/técnico de las salas de cine. Las tareas se definieron a partir de los hallazgos obtenidos en las entrevistas y representan actividades que actualmente realizan los usuarios para cumplir sus objetivos, independientemente de la existencia de Kinemo. Cada tarea se evalúa según su frecuencia de realización y su nivel de importancia para cada User Persona.
 
 <img src="Kinemo-report/assets/img/2_3_2-User-task-matrix/User%20Task%20Matrix.png" alt="User Task Matrix">
+
+La matriz evidencia diferencias claras entre ambos User Personas. En el caso de Pepe Castillo, las tareas de mayor importancia se relacionan con la supervisión general de las salas, la evaluación de costos e inversiones, la comparación de proveedores y el análisis de nuevas tecnologías. Estas actividades reflejan su responsabilidad como tomador de decisiones y su interés por reducir el riesgo económico antes de realizar una inversión.
+Por otro lado, Carlos Torres presenta mayor frecuencia e importancia en tareas operativas y técnicas, como revisar equipos, realizar mantenimiento preventivo, diagnosticar fallas, atender incidencias y registrar intervenciones. Estas actividades forman parte de su trabajo cotidiano y tienen impacto directo en la continuidad de las funciones.
+Ambos User Personas coinciden en la importancia de mantener las salas operativas, coordinar con proveedores o soporte y reducir las interrupciones causadas por fallas técnicas. Sin embargo, Pepe se concentra principalmente en decisiones estratégicas y económicas, mientras que Carlos se enfoca en la ejecución operativa, mantenimiento y resolución de problemas técnicos.
 
 Link del Task Matrix: https://uxpressia.com/w/v8FzI/p/HWL53
 
@@ -702,8 +705,11 @@ El Empathy Map de Carlos Torres refleja un perfil técnico enfocado en la preven
 
 ### 2.4 Big Picture EventStorming
 
-> _Pendiente — completar en `feature/event-storming-big-picture`._
+![Step1](Kinemo-report/assets/img/2_4-Big-picture-event-storming/step1.png)
 
+![Step2](Kinemo-report/assets/img/2_4-Big-picture-event-storming/step2.png)
+
+https://miro.com/app/board/uXjVHm4VBp8=/?share_link_id=361075470277
 ### 2.5 Ubiquitous Language
 
 **Usuarios del sistema:**
