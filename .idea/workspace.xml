@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="">
+    <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="fix: correct chapter 4 URLs">
       <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/4DPLEX.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Kinemo.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Lumma.png" afterDir="false" />
@@ -17,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/Kinemo-report/report/02-requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/02-requirements.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Impact mapPING.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/3_2-Impact-mapping/Impact-mapping.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Kinemo-report/report/03-specification.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/03-specification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/01-version-record" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,61 +52,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000738827803" />
-      <entry key="S5" value="1.0024315004979876" />
-      <entry key="S10" value="1.0886156485785288" />
-      <entry key="S30" value="2.3301939401823613" />
-      <entry key="S60" value="4.173292711280562" />
-      <entry key="M2" value="7.0288603911630965" />
-      <entry key="M5" value="14.223221730930257" />
-      <entry key="M10" value="24.603288306910372" />
-      <entry key="M15" value="31.695659555960457" />
-      <entry key="M30" value="42.44649277920724" />
-      <entry key="H1" value="49.82052314771646" />
-      <entry key="H2" value="54.157527540638746" />
-      <entry key="H4" value="56.51183602784634" />
-      <entry key="D1" value="58.575674204083796" />
-      <entry key="W1" value="58.93914163294477" />
+      <entry key="MS100" value="1.000000009562268" />
+      <entry key="MS500" value="1.024922311102209" />
+      <entry key="S2" value="1.5112014113044197" />
+      <entry key="S5" value="2.357506943561186" />
+      <entry key="S10" value="3.2269816153283415" />
+      <entry key="S30" value="5.232913538997265" />
+      <entry key="S60" value="8.468422534815343" />
+      <entry key="M2" value="15.203557278128839" />
+      <entry key="M5" value="28.71903645165734" />
+      <entry key="M10" value="42.8355187478803" />
+      <entry key="M15" value="51.965725398789225" />
+      <entry key="M30" value="65.90062166351534" />
+      <entry key="H1" value="75.6383181823659" />
+      <entry key="H2" value="81.44514715664639" />
+      <entry key="H4" value="84.62258383829321" />
+      <entry key="D1" value="87.42262114459638" />
+      <entry key="W1" value="87.91715484035859" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.5733225845268783E-172" />
-      <entry key="S2" value="1.2665535539841938E-43" />
-      <entry key="S5" value="6.93504723073353E-18" />
-      <entry key="S10" value="2.6334477839390567E-9" />
-      <entry key="S30" value="0.0013809403001238155" />
-      <entry key="S60" value="0.03716100510109779" />
-      <entry key="M2" value="0.19277189914792509" />
-      <entry key="M5" value="0.5176276780030415" />
-      <entry key="M10" value="0.719463465370578" />
-      <entry key="M15" value="0.8029204083394894" />
-      <entry key="M30" value="0.8960582616880947" />
-      <entry key="H1" value="0.9466035398666616" />
-      <entry key="H2" value="0.9729355270862822" />
-      <entry key="H4" value="0.9863749424464726" />
-      <entry key="D1" value="0.9977161568657633" />
-      <entry key="W1" value="0.9996734168996487" />
+      <entry key="MS500" value="1.4919655597763609E-150" />
+      <entry key="S2" value="3.4949398004543717E-38" />
+      <entry key="S5" value="1.04082060139253E-15" />
+      <entry key="S10" value="3.226175144649562E-8" />
+      <entry key="S30" value="0.0031876991307465317" />
+      <entry key="S60" value="0.05848692604974542" />
+      <entry key="M2" value="0.28297517550482426" />
+      <entry key="M5" value="0.8531077054628619" />
+      <entry key="M10" value="1.2890239204220812" />
+      <entry key="M15" value="1.4877958198207364" />
+      <entry key="M30" value="1.722380278108638" />
+      <entry key="H1" value="1.8553022780147572" />
+      <entry key="H2" value="1.926110056877142" />
+      <entry key="H4" value="1.9626607440673447" />
+      <entry key="D1" value="1.9937212458091953" />
+      <entry key="W1" value="1.9991016644967678" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.814697265625001E-6" />
-      <entry key="MS500" value="0.0824692444233059" />
-      <entry key="S2" value="0.5358868037078596" />
-      <entry key="S5" value="0.7815756953913809" />
-      <entry key="S10" value="0.9708971092384369" />
-      <entry key="S30" value="2.2875691656769566" />
-      <entry key="S60" value="4.181998900520433" />
-      <entry key="M2" value="7.196634623174956" />
-      <entry key="M5" value="14.721062063043961" />
-      <entry key="M10" value="25.309041934967148" />
-      <entry key="M15" value="32.48816722291316" />
-      <entry key="M30" value="43.33652492448838" />
-      <entry key="H1" value="50.76386166084948" />
-      <entry key="H2" value="55.12876018453893" />
-      <entry key="H4" value="57.49734089867375" />
-      <entry key="D1" value="59.57324266744951" />
-      <entry key="W1" value="59.93879388383277" />
+      <entry key="MS100" value="0.3660214290052425" />
+      <entry key="MS500" value="0.8398029873439441" />
+      <entry key="S2" value="1.4322924298817048" />
+      <entry key="S5" value="2.2826447611530134" />
+      <entry key="S10" value="3.161035548112195" />
+      <entry key="S30" value="5.189159986295193" />
+      <entry key="S60" value="8.484505914697747" />
+      <entry key="M2" value="15.445907254847203" />
+      <entry key="M5" value="29.539520037827725" />
+      <entry key="M10" value="44.101568972840184" />
+      <entry key="M15" value="53.435962362435305" />
+      <entry key="M30" value="67.61277360209823" />
+      <entry key="H1" value="77.48805963362453" />
+      <entry key="H2" value="83.36835178625086" />
+      <entry key="H4" value="86.58375872695625" />
+      <entry key="D1" value="89.41608997299413" />
+      <entry key="W1" value="89.91622032596688" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -125,7 +126,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/03-specification",
+    "git-widget-placeholder": "feature/04-product-design",
     "git.auto.fetch.suggestion.counter": "1",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
@@ -167,6 +168,7 @@
       <updated>1794403490872</updated>
       <workItem from="1794403492640" duration="1390000" />
       <workItem from="1794492266308" duration="1149000" />
+      <workItem from="1794526753413" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="fix: correct and organize chapter 2 URLs">
       <option name="closed" value="true" />
@@ -176,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794494877025</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: correct chapter 4 URLs">
+      <option name="closed" value="true" />
+      <created>1794526895389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794526895389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +194,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: correct and organize chapter 2 URLs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct and organize chapter 2 URLs" />
+    <MESSAGE value="fix: correct chapter 4 URLs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: correct chapter 4 URLs" />
   </component>
 </project>
