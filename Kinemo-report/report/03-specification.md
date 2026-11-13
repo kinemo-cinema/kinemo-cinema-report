@@ -852,7 +852,7 @@
 
 ### 3.2 Impact Mapping
 
-![Impact-Mapping](../assets/img/impact%20mapping.png)
+![Impact-Mapping](../assets/img/3_2-Impact-mapping/Impact-mapping.png)
 
 ### 3.3 Product Backlog
 
