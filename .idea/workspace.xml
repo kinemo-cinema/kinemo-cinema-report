@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Andrea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Cristian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Diego.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Fabricio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Felipe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_8_34_PM_[Changes]/logo-upc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_8_34_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_8_34_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_9_15_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_9_15_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/01-introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/01-introduction.md" afterDir="false" />
+    <list default="true" id="0636fa27-f43f-4624-92b6-5e91490fcc57" name="Changes" comment="fix: correct chapter 4 URLs">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +16,17 @@
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/01-version-record" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Ferdwar&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kinemo-cinema/kinemo-cinema-report.git",
+    "accountId": "98c9c47f-e9ad-44fb-be5f-8a3e01076c79"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kinemo-cinema/kinemo-cinema-report.git&quot;,
-    &quot;accountId&quot;: &quot;98c9c47f-e9ad-44fb-be5f-8a3e01076c79&quot;
-  }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -52,121 +35,68 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000022" />
-      <entry key="S5" value="1.0000021019495517" />
-      <entry key="S10" value="1.0020503220781432" />
-      <entry key="S30" value="1.2043393598221155" />
-      <entry key="S60" value="1.8320131107493962" />
-      <entry key="M2" value="4.570393110748976" />
-      <entry key="M5" value="14.834083183421338" />
-      <entry key="M10" value="24.009710815487203" />
-      <entry key="M15" value="28.38374381016064" />
-      <entry key="M30" value="33.651392270545024" />
-      <entry key="H1" value="36.6774038329827" />
-      <entry key="H2" value="38.29984010109654" />
-      <entry key="H4" value="39.13997145662115" />
-      <entry key="D1" value="39.85525991129453" />
-      <entry key="W1" value="39.97928824261669" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000000002" />
+      <entry key="S30" value="1.000012292305292" />
+      <entry key="S60" value="1.0096678659955205" />
+      <entry key="M2" value="1.3991290174546454" />
+      <entry key="M5" value="7.7413444789066075" />
+      <entry key="M10" value="23.0519361955342" />
+      <entry key="M15" value="34.72320069469599" />
+      <entry key="M30" value="53.26743719148456" />
+      <entry key="H1" value="66.3730150804618" />
+      <entry key="H2" value="74.19051419143842" />
+      <entry key="H4" value="78.46349008635298" />
+      <entry key="D1" value="82.22491409535398" />
+      <entry key="W1" value="82.8887986995244" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="1.5058749884902048E-89" />
+      <entry key="S5" value="2.9714138877814524E-36" />
+      <entry key="S10" value="1.8529829534735715E-18" />
+      <entry key="S30" value="2.2247593550440075E-6" />
+      <entry key="S60" value="0.003680602597716959" />
+      <entry key="M2" value="0.20483527846428454" />
+      <entry key="M5" value="3.1112894606328023" />
+      <entry key="M10" value="8.627438408665482" />
+      <entry key="M15" value="12.338252205903366" />
+      <entry key="M30" value="17.819219163128892" />
+      <entry key="H1" value="21.496366294138646" />
+      <entry key="H2" value="23.633425768819453" />
+      <entry key="H4" value="24.786446357309668" />
+      <entry key="D1" value="25.793396058186808" />
+      <entry key="W1" value="25.97037684770925" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7071067811865476" />
-      <entry key="MS500" value="0.9330329915368074" />
-      <entry key="S2" value="0.9828205985452533" />
-      <entry key="S5" value="0.9930945876243802" />
-      <entry key="S10" value="0.9985858238137705" />
-      <entry key="S30" value="1.2030236256233526" />
-      <entry key="S60" value="1.8309986614572975" />
-      <entry key="M2" value="4.568620247323681" />
-      <entry key="M5" value="14.831196431524887" />
-      <entry key="M10" value="24.00725747993045" />
-      <entry key="M15" value="28.3817837630353" />
-      <entry key="M30" value="33.65021581168636" />
-      <entry key="H1" value="36.67675896922252" />
-      <entry key="H2" value="38.29950245855472" />
-      <entry key="H4" value="39.139798693553686" />
-      <entry key="D1" value="39.855230557797704" />
-      <entry key="W1" value="39.97928403539282" />
+      <entry key="MS100" value="5.474691280834308E-17" />
+      <entry key="MS500" value="5.593349111229281E-4" />
+      <entry key="S2" value="0.15378641809389304" />
+      <entry key="S5" value="0.47289769010447263" />
+      <entry key="S10" value="0.6876755703851002" />
+      <entry key="S30" value="0.882676586262529" />
+      <entry key="S60" value="0.9527792666130833" />
+      <entry key="M2" value="1.5715920631307967" />
+      <entry key="M5" value="10.831063538991671" />
+      <entry key="M10" value="31.660843520203358" />
+      <entry key="M15" value="47.045690025960475" />
+      <entry key="M30" value="71.0762825839287" />
+      <entry key="H1" value="87.86336425103491" />
+      <entry key="H2" value="97.82069096728688" />
+      <entry key="H4" value="103.24824719640112" />
+      <entry key="D1" value="108.01801919742228" />
+      <entry key="W1" value="108.85913374580849" />
     </decayedShown>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="3LxlEnfda3cwPnXvGVFMGjPlKJf" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "feature/01-introduction",
-    "git.auto.fetch.suggestion.counter": "1",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/felip/WebstormProjects/kinemo-cinema-report/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+    "git.auto.fetch.suggestion.counter": "1"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\1_1_2-Perfiles-de-integrantes-del-equipo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img" />
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_1-User-personas" />
-    </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="" />
-      <created>1794403490872</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1794403490872</updated>
-      <workItem from="1794403492640" duration="1390000" />
-      <workItem from="1794492266308" duration="1149000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
