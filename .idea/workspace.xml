@@ -5,6 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="fix: correct chapter 4 URLs">
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC01-Movie Catalog Managment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC02-Sensory Content and Experience Managment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/4_8_1-Database-diagrams/BC03-Scheduling and Calendar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,61 +52,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000009562268" />
-      <entry key="MS500" value="1.024922311102209" />
-      <entry key="S2" value="1.5112014113044197" />
-      <entry key="S5" value="2.357506943561186" />
-      <entry key="S10" value="3.2269816153283415" />
-      <entry key="S30" value="5.232913538997265" />
-      <entry key="S60" value="8.468422534815343" />
-      <entry key="M2" value="15.203557278128839" />
-      <entry key="M5" value="28.71903645165734" />
-      <entry key="M10" value="42.8355187478803" />
-      <entry key="M15" value="51.965725398789225" />
-      <entry key="M30" value="65.90062166351534" />
-      <entry key="H1" value="75.6383181823659" />
-      <entry key="H2" value="81.44514715664639" />
-      <entry key="H4" value="84.62258383829321" />
-      <entry key="D1" value="87.42262114459638" />
-      <entry key="W1" value="87.91715484035859" />
+      <entry key="MS100" value="1.0000026787660137" />
+      <entry key="MS500" value="1.0768399292034112" />
+      <entry key="S2" value="1.526498016046448" />
+      <entry key="S5" value="1.773680907818214" />
+      <entry key="S10" value="1.8823833226120579" />
+      <entry key="S30" value="2.2474698598909315" />
+      <entry key="S60" value="3.0334989960010232" />
+      <entry key="M2" value="4.259515014983914" />
+      <entry key="M5" value="9.761858511923027" />
+      <entry key="M10" value="22.902198114635528" />
+      <entry key="M15" value="34.53068583651042" />
+      <entry key="M30" value="56.17152329446165" />
+      <entry key="H1" value="73.82305152889224" />
+      <entry key="H2" value="85.2751534757786" />
+      <entry key="H4" value="91.82422979346289" />
+      <entry key="D1" value="97.75777160021687" />
+      <entry key="W1" value="98.82136799604167" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.4919655597763609E-150" />
-      <entry key="S2" value="3.4949398004543717E-38" />
-      <entry key="S5" value="1.04082060139253E-15" />
-      <entry key="S10" value="3.226175144649562E-8" />
-      <entry key="S30" value="0.0031876991307465317" />
-      <entry key="S60" value="0.05848692604974542" />
-      <entry key="M2" value="0.28297517550482426" />
-      <entry key="M5" value="0.8531077054628619" />
-      <entry key="M10" value="1.2890239204220812" />
-      <entry key="M15" value="1.4877958198207364" />
-      <entry key="M30" value="1.722380278108638" />
-      <entry key="H1" value="1.8553022780147572" />
-      <entry key="H2" value="1.926110056877142" />
-      <entry key="H4" value="1.9626607440673447" />
-      <entry key="D1" value="1.9937212458091953" />
-      <entry key="W1" value="1.9991016644967678" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.494089602646135E-175" />
+      <entry key="S5" value="1.6494289588087628E-70" />
+      <entry key="S10" value="1.284300964235839E-35" />
+      <entry key="S30" value="2.3449681401777428E-12" />
+      <entry key="S60" value="1.5863119929655537E-6" />
+      <entry key="M2" value="0.0014737141165053079" />
+      <entry key="M5" value="0.10415253069261332" />
+      <entry key="M10" value="0.4503954118763854" />
+      <entry key="M15" value="0.7380718724759157" />
+      <entry key="M30" value="1.2131282169490571" />
+      <entry key="H1" value="1.5570534029333833" />
+      <entry key="H2" value="1.7645156473370316" />
+      <entry key="H4" value="1.8785270089636261" />
+      <entry key="D1" value="1.9792157493826208" />
+      <entry key="W1" value="1.9970173503169266" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.3660214290052425" />
-      <entry key="MS500" value="0.8398029873439441" />
-      <entry key="S2" value="1.4322924298817048" />
-      <entry key="S5" value="2.2826447611530134" />
-      <entry key="S10" value="3.161035548112195" />
-      <entry key="S30" value="5.189159986295193" />
-      <entry key="S60" value="8.484505914697747" />
-      <entry key="M2" value="15.445907254847203" />
-      <entry key="M5" value="29.539520037827725" />
-      <entry key="M10" value="44.101568972840184" />
-      <entry key="M15" value="53.435962362435305" />
-      <entry key="M30" value="67.61277360209823" />
-      <entry key="H1" value="77.48805963362453" />
-      <entry key="H2" value="83.36835178625086" />
-      <entry key="H4" value="86.58375872695625" />
-      <entry key="D1" value="89.41608997299413" />
-      <entry key="W1" value="89.91622032596688" />
+      <entry key="MS100" value="0.39502107392986957" />
+      <entry key="MS500" value="0.8834650218804659" />
+      <entry key="S2" value="1.4344193304157467" />
+      <entry key="S5" value="1.7270586950921938" />
+      <entry key="S10" value="1.8567893358853396" />
+      <entry key="S30" value="2.2330965685315194" />
+      <entry key="S60" value="3.0193212685661432" />
+      <entry key="M2" value="4.249182615351275" />
+      <entry key="M5" value="9.855480595727236" />
+      <entry key="M10" value="23.340844708689673" />
+      <entry key="M15" value="35.257451262330214" />
+      <entry key="M30" value="57.37608731097074" />
+      <entry key="H1" value="75.37474143745528" />
+      <entry key="H2" value="87.03665486736348" />
+      <entry key="H4" value="93.70115725908391" />
+      <entry key="D1" value="99.73670705189767" />
+      <entry key="W1" value="100.81834495616768" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -117,7 +130,7 @@
     "git.auto.fetch.suggestion.counter": "1",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/felip/WebstormProjects/kinemo-cinema-report/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo",
+    "last_opened_file_path": "C:/Users/felip/WebstormProjects/kinemo-cinema-report/Kinemo-report/assets/img/4_8_1-Database-diagrams",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,6 +142,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\4_8_1-Database-diagrams" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\1_1_2-Perfiles-de-integrantes-del-equipo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
