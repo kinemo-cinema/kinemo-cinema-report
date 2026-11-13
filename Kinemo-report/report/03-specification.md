@@ -912,3 +912,7 @@
 | 52 | US52 | Realizar pago de suscripción | Como administrador de cine, deseo realizar el pago de mi suscripción para activar el servicio contratado y enlazar mis salas. | 8 |
 | 53 | US53 | Consultar estado y límites de suscripción | Como administrador de cine, deseo consultar el estado y los límites de mi suscripción para conocer los recursos y cantidad de pantallas que tengo disponibles. | 3 |
 | 54 | US54 | Renovar o cambiar plan de suscripción | Como administrador de cine, deseo renovar o cambiar mi plan de suscripción para mantener o ampliar el servicio según el crecimiento de mi cadena. | 5 |
+
+<img src="Kinemo-report/assets/img/product.png" alt="Product Backlog">
+
+Link de Trello: https://trello.com/invite/b/6ac2a2ced29ee515d72506f0/ATTIe716a1812addf4f49367eec67a7e7640A7DDBD9C/kinemo-product-backlog

@@ -806,7 +806,6 @@ El Product Backlog de Kinemo organiza y prioriza las User Stories identificadas 
 
 Link de Trello: https://trello.com/invite/b/6ac2a2ced29ee515d72506f0/ATTIe716a1812addf4f49367eec67a7e7640A7DDBD9C/kinemo-product-backlog
 
-
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines
