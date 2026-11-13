@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="fix: correct chapter 4 URLs">
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/4DPLEX.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Kinemo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/Lumma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_1_1-Analisis-competitivo/MX4D.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_2_2-Registro-de-entrevistas/Alexis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_2_2-Registro-de-entrevistas/Johan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_2_2-Registro-de-entrevistas/Miguel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_4-Big-picture-event-storming/step1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/2_4-Big-picture-event-storming/step2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/02-requirements.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/02-requirements.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/assets/img/Impact mapPING.png" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/3_2-Impact-mapping/Impact-mapping.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/03-specification.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/03-specification.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/04-product-design.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="6ddaeae4-69a5-4baa-ae47-a69f52e2add4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Andrea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Cristian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Diego.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Fabricio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Felipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_8_34_PM_[Changes]/logo-upc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_8_34_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_8_34_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_9_15_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_6_2026_9_15_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kinemo-report/report/01-introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/Kinemo-report/report/01-introduction.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +27,7 @@
     <option name="INCOMING_COMMITS_CHECK_STRATEGY" value="FETCH" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feature/01-version-record" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,61 +50,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000009562268" />
-      <entry key="MS500" value="1.024922311102209" />
-      <entry key="S2" value="1.5112014113044197" />
-      <entry key="S5" value="2.357506943561186" />
-      <entry key="S10" value="3.2269816153283415" />
-      <entry key="S30" value="5.232913538997265" />
-      <entry key="S60" value="8.468422534815343" />
-      <entry key="M2" value="15.203557278128839" />
-      <entry key="M5" value="28.71903645165734" />
-      <entry key="M10" value="42.8355187478803" />
-      <entry key="M15" value="51.965725398789225" />
-      <entry key="M30" value="65.90062166351534" />
-      <entry key="H1" value="75.6383181823659" />
-      <entry key="H2" value="81.44514715664639" />
-      <entry key="H4" value="84.62258383829321" />
-      <entry key="D1" value="87.42262114459638" />
-      <entry key="W1" value="87.91715484035859" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000022" />
+      <entry key="S5" value="1.0000021019495517" />
+      <entry key="S10" value="1.0020503220781432" />
+      <entry key="S30" value="1.2043393598221155" />
+      <entry key="S60" value="1.8320131107493962" />
+      <entry key="M2" value="4.570393110748976" />
+      <entry key="M5" value="14.834083183421338" />
+      <entry key="M10" value="24.009710815487203" />
+      <entry key="M15" value="28.38374381016064" />
+      <entry key="M30" value="33.651392270545024" />
+      <entry key="H1" value="36.6774038329827" />
+      <entry key="H2" value="38.29984010109654" />
+      <entry key="H4" value="39.13997145662115" />
+      <entry key="D1" value="39.85525991129453" />
+      <entry key="W1" value="39.97928824261669" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.4919655597763609E-150" />
-      <entry key="S2" value="3.4949398004543717E-38" />
-      <entry key="S5" value="1.04082060139253E-15" />
-      <entry key="S10" value="3.226175144649562E-8" />
-      <entry key="S30" value="0.0031876991307465317" />
-      <entry key="S60" value="0.05848692604974542" />
-      <entry key="M2" value="0.28297517550482426" />
-      <entry key="M5" value="0.8531077054628619" />
-      <entry key="M10" value="1.2890239204220812" />
-      <entry key="M15" value="1.4877958198207364" />
-      <entry key="M30" value="1.722380278108638" />
-      <entry key="H1" value="1.8553022780147572" />
-      <entry key="H2" value="1.926110056877142" />
-      <entry key="H4" value="1.9626607440673447" />
-      <entry key="D1" value="1.9937212458091953" />
-      <entry key="W1" value="1.9991016644967678" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.3660214290052425" />
-      <entry key="MS500" value="0.8398029873439441" />
-      <entry key="S2" value="1.4322924298817048" />
-      <entry key="S5" value="2.2826447611530134" />
-      <entry key="S10" value="3.161035548112195" />
-      <entry key="S30" value="5.189159986295193" />
-      <entry key="S60" value="8.484505914697747" />
-      <entry key="M2" value="15.445907254847203" />
-      <entry key="M5" value="29.539520037827725" />
-      <entry key="M10" value="44.101568972840184" />
-      <entry key="M15" value="53.435962362435305" />
-      <entry key="M30" value="67.61277360209823" />
-      <entry key="H1" value="77.48805963362453" />
-      <entry key="H2" value="83.36835178625086" />
-      <entry key="H4" value="86.58375872695625" />
-      <entry key="D1" value="89.41608997299413" />
-      <entry key="W1" value="89.91622032596688" />
+      <entry key="MS100" value="0.7071067811865476" />
+      <entry key="MS500" value="0.9330329915368074" />
+      <entry key="S2" value="0.9828205985452533" />
+      <entry key="S5" value="0.9930945876243802" />
+      <entry key="S10" value="0.9985858238137705" />
+      <entry key="S30" value="1.2030236256233526" />
+      <entry key="S60" value="1.8309986614572975" />
+      <entry key="M2" value="4.568620247323681" />
+      <entry key="M5" value="14.831196431524887" />
+      <entry key="M10" value="24.00725747993045" />
+      <entry key="M15" value="28.3817837630353" />
+      <entry key="M30" value="33.65021581168636" />
+      <entry key="H1" value="36.67675896922252" />
+      <entry key="H2" value="38.29950245855472" />
+      <entry key="H4" value="39.139798693553686" />
+      <entry key="D1" value="39.855230557797704" />
+      <entry key="W1" value="39.97928403539282" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -126,7 +124,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/04-product-design",
+    "git-widget-placeholder": "feature/01-introduction",
     "git.auto.fetch.suggestion.counter": "1",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
@@ -145,10 +143,7 @@
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\1_1_2-Perfiles-de-integrantes-del-equipo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\3_2-Impact-mapping" />
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_4-Empathy-mapping" />
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_3-User-journey-mapping" />
-      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_2-User-task-matrix" />
+      <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img" />
       <recent name="C:\Users\felip\WebstormProjects\kinemo-cinema-report\Kinemo-report\assets\img\2_3_1-User-personas" />
     </key>
   </component>
@@ -168,33 +163,10 @@
       <updated>1794403490872</updated>
       <workItem from="1794403492640" duration="1390000" />
       <workItem from="1794492266308" duration="1149000" />
-      <workItem from="1794526753413" duration="471000" />
     </task>
-    <task id="LOCAL-00001" summary="fix: correct and organize chapter 2 URLs">
-      <option name="closed" value="true" />
-      <created>1794494877025</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1794494877025</updated>
-    </task>
-    <task id="LOCAL-00002" summary="fix: correct chapter 4 URLs">
-      <option name="closed" value="true" />
-      <created>1794526895389</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1794526895389</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: correct and organize chapter 2 URLs" />
-    <MESSAGE value="fix: correct chapter 4 URLs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: correct chapter 4 URLs" />
   </component>
 </project>
