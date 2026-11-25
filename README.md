@@ -21,7 +21,6 @@ _# Informe de Trabajo Final — Kinemo
 | u202319398 | Llamozas Diaz, Edson Diego |
 | u202212327 | Flores Chavez, Fabricio |
 | u20241b932 | Huamanchumo Chicchon, Felipe Marcelo |
-| u202318865 | Trigoso Garrido, Cristian Joseph |
 | u202412041 | Correa Rodriguez, Andrea Khristina |
 
 ## Registro de Versiones del Informe
@@ -150,11 +149,6 @@ Kinemo nace para cerrar la brecha entre las grandes cadenas de cine que ya cuent
 **Misión:** Democratizar el acceso a experiencias cinematográficas inmersivas, permitiendo que cadenas de cine de cualquier tamaño ofrezcan a sus espectadores sensaciones físicas sincronizadas con el contenido, a través de una solución accesible de hardware, mantenimiento y software de gestión.
 
 #### 1.1.2. Perfiles de integrantes del equipo
-
-| Carrera | Integrante | Foto |
-|---|---|---|
-| Ingeniería de Software | **Cristian Joseph Trigoso Garrido**  U202318865 | ![Cristian Joseph Trigoso Garrido](Kinemo-report/assets/img/1_1_2-Perfiles-de-integrantes-del-equipo/Cristian.png) |
-| **Descripción** | Me gusta la superación personal y el aprendizaje continuo en el ámbito del desarrollo de software. Me motiva explorar y dominar nuevas herramientas tecnológicas para aportar soluciones creativas y de impacto en proyectos colaborativos. | |
 
 | Carrera | Integrante | Foto |
 |---|---|---|
@@ -2886,7 +2880,6 @@ La siguiente tabla muestra la asignación de líderes (L) y colaboradores (C) po
 | Llamozas Diaz, Edson Diego | DiegoLlamozas | C | C | C | C | C | C                 |
 | Huamanchumo Chicchon, Felipe Marcelo | Daiko-07 | L | L | L | L | L | C                 |
 | Correa Rodriguez, Andrea Khristina | Elmiau2341 | C | C | C | C | C | C                 |
-| Trigoso Garrido, Cristian Joseph | Crzzz30 | C | C | C | C | C | C                 |
 | Flores Chavez, Fabricio | Ferdwar | C | C | C | C | C | C                 |
 
 
@@ -2917,11 +2910,11 @@ Durante el Sprint 1 se implementó la primera versión del Landing Page de Kinem
 
 **Gráfico de commits por semana (Landing Page):**
 
-![Commits over last year - Landing Page](./assets/img/landing-commits-over-year.png)
+![Commits over last year - Landing Page](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/landing-commits-over-year.png)
 
 **Gráfico de frecuencia de código (Landing Page):**
 
-![Code frequency - Landing Page](./assets/img/landing-code-frequency.png)
+![Code frequency - Landing Page](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/landing-code-frequency.png)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
@@ -2953,8 +2946,7 @@ Por lo tanto, no se cuenta con Endpoints documentados con OpenAPI para este Spri
 
 ##### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
-![Pulse - Landing Page (1 month)](./assets/img/landing-pulse-overview-month.png)
-
+**[Captura pendiente: Pulse - Landing Page (1 month)]**
 
 Durante el Sprint 1 se realizó el despliegue del Landing Page utilizando **GitHub Pages**. El proceso consistió en:
 
@@ -2978,7 +2970,7 @@ Resumen general del período:
 
 **Top committers (Landing Page):**
 
-![Contributors - Landing Page](./assets/img/landing-contributors-over-time.png)
+![Contributors - Landing Page](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/landing-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
@@ -2997,23 +2989,22 @@ Resumen general del período:
 
 **Top committers (Project Report):**
 
-![Contributors - Project Report](./assets/img/report-contributors-detail.png)
+![Contributors - Project Report](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/report-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
 | 1 | DiegoLlamozas | 25 |
 | 2 | Elmiau2341 | 24 |
 | 3 | Daiko-07 | 24 |
-| 4 | Crzzz30 | 15 |
-| 5 | Ferdwar | 6 |
+| 4 | Ferdwar | 6 |
 
 **Contribuidores (Project Report):**
 
-![Commits over time - Project Report](./assets/img/report-contributors-over-time.png)
+![Commits over time - Project Report](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/report-contributors.png)
 
 **Actividad semanal de commits (Project Report):**
 
-![Commits over last year - Project Report](./assets/img/report-commits-over-year.png)
+![Commits over last year - Project Report](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/report-commits.png)
 
 **Repositorio del Frontend (`kinemo-cinema-frontend`)**
 
@@ -3026,23 +3017,22 @@ Resumen general del período:
 
 **Top committers (Frontend):**
 
-![Contributors - Frontend](./assets/img/frontend-contributors-over-time.png)
+![Contributors - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
 | 1 | DiegoLlamozas | 93 |
 | 2 | Ferdwar | 23 |
-| 3 | Crzzz30 | 12 |
-| 4 | Daiko-07 | 2 |
-| 5 | Elmiau2341 | 1 |
+| 3 | Daiko-07 | 2 |
+| 4 | Elmiau2341 | 1 |
 
 **Código agregado (Code Frequency - Frontend):**
 
-![Code frequency - Frontend](./assets/img/frontend-code-frequency.png)
+![Code frequency - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-frequency.png)
 
 **Pulse - Frontend:**
 
-![Pulse - Frontend](./assets/img/frontend-pulse-overview.png)
+**[Captura pendiente: Pulse - Frontend]**
 
 - **Semana del 27 de septiembre de 2026:** 1,727 adiciones (primera implementación de la Web Application).
 
@@ -3117,11 +3107,11 @@ Durante el Sprint 2 se implementó la primera versión funcional de la Web Appli
 
 **Gráfico de commits por semana (Frontend):**
 
-![Commits over last year - Frontend](./assets/img/frontend-commits-over-year.png)
+![Commits over last year - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-commits.png)
 
 **Gráfico de frecuencia de código (Frontend):**
 
-![Code frequency - Frontend](./assets/img/frontend-code-frequency.png)
+![Code frequency - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-frequency.png)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |---|---|---|---|---|---|
@@ -3205,31 +3195,29 @@ Resumen general del período:
 
 **Pulse - Frontend:**
 
-![Pulse - Frontend](./assets/img/frontend-pulse-overview.png)
+**[Captura pendiente: Pulse - Frontend]**
 
 **Top committers (Frontend):**
 
-![Contributors - Frontend](./assets/img/frontend-contributors-over-time.png)
+![Contributors - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-contributors.png)
 
 | # | GitHub Username | Commits |
 |---|---|---|
 | 1 | DiegoLlamozas | 93 |
 | 2 | Ferdwar | 23 |
-| 3 | Crzzz30 | 12 |
-| 4 | Daiko-07 | 2 |
-| 5 | Elmiau2341 | 1 |
+| 3 | Daiko-07 | 2 |
+| 4 | Elmiau2341 | 1 |
 
 **Commits por semana (Frontend):**
 
-![Commits over last year - Frontend](./assets/img/frontend-commits-over-year.png)
-
+![Commits over last year - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-commits.png)
 | Semana | Commits |
 |---|---|
 | 2026-09-27 | 1 |
 
 **Frecuencia de código (Frontend):**
 
-![Code frequency - Frontend](./assets/img/frontend-code-frequency.png)
+![Code frequency - Frontend](Kinemo-report/assets/img/5_2_1_4-Development-Evidence/frontend-frequency.png)
 
 - **Semana del 27 de septiembre de 2026:** 1,727 adiciones (primera implementación de la Web Application).
 

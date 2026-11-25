@@ -246,8 +246,7 @@ Resumen general del período:
 | 1 | DiegoLlamozas | 25 |
 | 2 | Elmiau2341 | 24 |
 | 3 | Daiko-07 | 24 |
-| 4 | Crzzz30 | 15 |
-| 5 | Ferdwar | 6 |
+| 4 | Ferdwar | 6 |
 
 **Contribuidores (Project Report):**
 
@@ -274,9 +273,8 @@ Resumen general del período:
 |---|---|---|
 | 1 | DiegoLlamozas | 93 |
 | 2 | Ferdwar | 23 |
-| 3 | Crzzz30 | 12 |
-| 4 | Daiko-07 | 2 |
-| 5 | Elmiau2341 | 1 |
+| 3 | Daiko-07 | 2 |
+| 4 | Elmiau2341 | 1 |
 
 **Código agregado (Code Frequency - Frontend):**
 
@@ -317,7 +315,6 @@ La siguiente tabla muestra la asignación de líderes (L) y colaboradores (C) po
 |---|---|---|---|---|---|---|---|---|
 | Llamozas Diaz, Edson Diego | DiegoLlamozas | L | L | L | C | C | C | L |
 | Flores Chavez, Fabricio | Ferdwar | C | C | L | L | C | C | C |
-| Trigoso Garrido, Cristian Joseph | Crzzz30 | C | C | C | C | L | L | C |
 | Huamanchumo Chicchon, Felipe Marcelo | Daiko-07 | C | C | C | C | C | C | C |
 | Correa Rodriguez, Andrea Khristina | Elmiau2341 | C | C | C | C | C | C | C |
 
@@ -455,9 +452,8 @@ Resumen general del período:
 |---|---|---|
 | 1 | DiegoLlamozas | 93 |
 | 2 | Ferdwar | 23 |
-| 3 | Crzzz30 | 12 |
-| 4 | Daiko-07 | 2 |
-| 5 | Elmiau2341 | 1 |
+| 3 | Daiko-07 | 2 |
+| 4 | Elmiau2341 | 1 |
 
 **Commits por semana (Frontend):**
 
